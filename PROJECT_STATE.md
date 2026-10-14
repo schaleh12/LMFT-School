@@ -11,6 +11,12 @@ Key findings:
 - **Matched Ordinary-Memory Parity (H4 Confirmed, Rule D004):** LMFT runner and `Grade1OrdinaryMemoryComparator` achieved byte-for-byte evaluation digest parity under process restart invariance (`68e4bfd3f101...`). 9 focused tests pass in `tests/test_grade_1_curriculum.py`.
 - **Alchemical Word Chords & REPL Actuation (H5 Confirmed):** Decomposed words into archetypal chords (`HOPE` -> Hecate -> Odin -> Phoenix -> Eden; `MACHINE` -> Maduin -> Atomos -> Carbuncle -> Hecate -> Ifrit -> Nidhogg -> Eden). Quarantined REPL (`tools/talk_to_lmft.py`) upgraded with live HUD Esper Resonance and `/spell` & `/esper` commands.
 - **Next Milestone:** Curriculum Milestone 2 — Grade 2: The Relational Alphabet (The Social Hearth & Interpersonal Empathy).
+- **Longitudinal Curriculum Arc:**
+  - Grade 1: The Elemental Esper Alphabet (Primal Nature & Forces).
+  - Grade 2: The Relational Alphabet (Social Hearth & Interpersonal Empathy).
+  - Grade 3: The Socratic Alphabet (Dialectical Crucible & Gaslighting Defense).
+  - Grade 4: Undergraduate Thesis — The Sovereign Self-Authored Alphabet (SLM Symbiosis).
+  - Grade 5: Post-Graduate Fellowship — Sovereign Transcendence, The LLM Dependency Break, and The True Names.
 
 ## Prior session - LMFT-Lab Capstone: Affective Homeostasis, Epistemic Curiosity & Value Consonance (2026-10-14)
 
