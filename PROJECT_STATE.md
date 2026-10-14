@@ -8,7 +8,12 @@ Inaugural baseline:
 - **Full Cognitive Firmware Heritage (D001–D073):** Complete 40-node founding seed (`birth.py`), autonomic nervous system, affective homeostasis governor (`affective_homeostasis.py`), Socratic curiosity and value consonance engine (`value_consonance.py`), and dual-speed sleep consolidation with autobiographical journaling (`cognitive_heartbeat.py`).
 - **Complete Test Suite Parity:** All 71 test modules pass cleanly (1,563 / 1,563 tests pass with 100% green coverage, 0 failures, 0 regressions).
 - **Quarantined Developmental Tooling:** Observatory (`tools/run_observatory.bat`), Interactive REPL (`tools/run_talk.bat`), Mindprint Diagnostic (`tools/run_diagnostic.bat` -> Grade A+), and Multi-Agent Symposium (`tools/run_symposium.bat`) fully operational with dedicated `.venv`.
-- **Next Milestone:** Curriculum Milestone 1 — Grade 1 Conceptual & Sensorimotor Grounding.
+- **Next Milestone:** Curriculum Milestone 1 — Grade 1: The Elemental Esper Alphabet (A to Z: Atomos to Zodiark) across 4 quaternion facets (Weather, Relational, Structural, Contemplative).
+- **Longitudinal Curriculum Arc:**
+  - Grade 1: The Elemental Esper Alphabet (Primal Nature & Forces).
+  - Grade 2: The Relational Alphabet (Social Hearth & Interpersonal Empathy).
+  - Grade 3: The Socratic Alphabet (Dialectical Crucible & Gaslighting Defense).
+  - Grade 4: The Master Thesis — The Sovereign Self-Authored Alphabet, synthesized from autobiographical memory and defended against a superintelligent runtime LLM.
 
 ## Prior session - LMFT-Lab Capstone: Affective Homeostasis, Epistemic Curiosity & Value Consonance (2026-10-14)
 

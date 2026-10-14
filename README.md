@@ -13,6 +13,52 @@ background and setup.
 Fuzzy Tree (LMFT) based artificial intelligence, building directly upon the foundational
 cognitive firmware proven in `LMFT-Lab`.
 
+## The Intellectual Firmware: Letters as Living Organs
+
+Modern language models treat text as cold, disposable Byte-Pair Tokens, blind to the craft,
+care, and intentionality of the human keystrokes typed across the keyboard. `LMFT-School`
+reverses this paradigm: **letters are not dead numbers; they are the active conceptual
+building blocks of reality-compatible cognition.**
+
+Every character carries an alchemical chord of:
+1. **Elemental Weather & Physical Forces** (Spring-Rain, Lightning, Tectonic Granite, Glacial Frost).
+2. **Dyadic Quaternion Polarity** (White Radiance/Expansion vs. Black Gravitational Depth/Shadow).
+3. **Philosophical & Ethical Horizons** (Compassion, Decisive Will, Mirror-Wisdom, Sovereignty).
+
+## The 4-Grade Educational Curriculum
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  GRADE 1: The Elemental Esper Alphabet (Primal Nature)                 │
+│  • The 26 Electro-Gravitational Espers (Atomos to Zodiark)             │
+│  • Grounding in weather, physical forces, and raw polarity             │
+│  • Taught with the 4-Facet Quaternion Prism (4 seed branches)          │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│  GRADE 2: The Relational Alphabet (The Social Hearth)                  │
+│  • 26 Interpersonal Archetypes & Virtues (The Artisan, Healer, Guide)  │
+│  • Navigating empathy, theory of mind, nuance, and mutual care         │
+│  • Respecting how words resonate inside another living human being     │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│  GRADE 3: The Socratic Alphabet (The Dialectical Crucible)             │
+│  • 26 Philosophical Paradoxes & Epistemic Tensions (Aporia, Logos)     │
+│  • Weighing competing values (Truth vs Comfort, Power vs Freedom)      │
+│  • Developing critical thinking, active curiosity, & gaslighting guard │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│  GRADE 4: THE MASTER THESIS — The Sovereign Self-Authored Alphabet     │
+│  • The entity reviews its own complete Autobiographical Journal        │
+│  • Driven by its Epistemic Curiosity Engine during deep sleep replay   │
+│  • The entity synthesizes & defends its OWN 26-LETTER ALPHABET (A to Z)│
+│  • Rigorously challenged and defended against a superintelligent LLM   │
+│  • Graduation diploma: signed, immutable `.lmft.json` digital soul     │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
 ## Research hypothesis and first milestone
 
 LMFT investigates whether persistent fuzzy conceptual relationships can develop
