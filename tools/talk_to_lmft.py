@@ -59,11 +59,25 @@ def print_hud(turn_res: dict):
     else:
         narrative = "Filtered: below saliency threshold (epistemic anti-bloat active; discarded from memory)."
 
+    # Grade 1 Esper Resonance
+    try:
+        from lmft_school.curriculum_grade_1 import Grade1CurriculumRunner
+        runner = Grade1CurriculumRunner()
+        esper, score = runner.resolve_dialogue_esper(turn_res["sentence"])
+        esper_hud = f"({esper.letter}) {esper.name} [{esper.polarity} | {esper.element}]"
+        esper_horizon = esper.horizon[:66]
+    except Exception:
+        esper_hud = "Standard Cognitive Frame"
+        esper_horizon = "Awaiting archetypal resonance."
+
     print(f"\n+{HUD_BORDER}+")
     print(f"| Turn: {cycle:<3} | alpha: {plasticity:.3f} ({regime:<18}) | Coherence: {coherence:.3f} [{coh_status}] |")
     print(f"| Homeostasis: {homeo_score:.3f} ({homeo_regime:<24}) | Register: {reg:<16} |")
     print(f"| Mode: {mode:<23} | Value Consonance: {cons_idx:.3f} ({cons_regime:<18}) |")
     print(f"| Action Bid: {bid:<56} |")
+    print(f"+{HUD_BORDER}+")
+    print(f"| Esper Resonance: {esper_hud:<50} |")
+    print(f"| Horizon:         {esper_horizon:<50} |")
     print(f"+{HUD_BORDER}+")
     print(f"| Reflection: {narrative[:66]:<66} |")
     if len(narrative) > 66:
@@ -120,12 +134,56 @@ def run_interactive_session(load_path: str = None, demo: bool = False):
 
             elif cmd == "/help":
                 print("\nAvailable Commands:")
+                print("  /spell <word>    - Deconstruct a word into its Esper alchemical chord")
+                print("  /esper <key>     - Inspect an Esper's element, polarity, and horizon")
                 print("  /sleep [n]       - Trigger offline memory consolidation ('sleep')")
                 print("  /status          - Inspect 24-leaf disposition and long-term rules")
                 print("  /save <path>     - Export current individual package to disk")
                 print("  /load <path>     - Import individual package from disk")
                 print("  /help            - Show this help message")
                 print("  /quit or /exit   - Terminate session\n")
+
+            elif cmd == "/spell":
+                if len(parts) < 2:
+                    print("Usage: /spell <word>")
+                    continue
+                word = parts[1]
+                try:
+                    from lmft_school.curriculum_grade_1 import Grade1CurriculumRunner
+                    runner = Grade1CurriculumRunner()
+                    chord = runner.spell_word_chord(word)
+                    print(f"\n=== Alchemical Chord for '{chord.word}' ===")
+                    print(f"Polarity Balance: {chord.polarity_counts['White']} White / {chord.polarity_counts['Black']} Black")
+                    print(f"Journey: {chord.philosophical_journey}")
+                    print("Composite Leaf Activations:")
+                    for l, v in sorted(chord.composite_leaf_activations.items()):
+                        print(f"  - {l}: {v:.3f}")
+                    print("=========================================\n")
+                except Exception as e:
+                    print(f"Error spelling word: {e}")
+
+            elif cmd == "/esper":
+                if len(parts) < 2:
+                    print("Usage: /esper <letter or name>")
+                    continue
+                target = parts[1]
+                try:
+                    from lmft_school.esper_codex import get_esper_by_letter, get_esper_by_name
+                    if len(target) == 1 and target.isalpha():
+                        esp = get_esper_by_letter(target)
+                    else:
+                        esp = get_esper_by_name(target)
+                    print(f"\n=== Esper Archetype: ({esp.letter}) {esp.name} ===")
+                    print(f"Element:  {esp.element}")
+                    print(f"Polarity: {esp.polarity}")
+                    print(f"Spells:   {', '.join(esp.core_spells)}")
+                    print(f"Horizon:  {esp.horizon}")
+                    print("Canonical Leaf Coordinates:")
+                    for l, v in sorted(esp.leaf_activations.items()):
+                        print(f"  - {l}: {v:.3f}")
+                    print("=======================================\n")
+                except Exception as e:
+                    print(f"Error inspecting Esper: {e}")
 
             elif cmd == "/sleep":
                 cycles = int(parts[1]) if len(parts) > 1 and parts[1].isdigit() else 1

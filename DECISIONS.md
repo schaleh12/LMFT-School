@@ -1317,6 +1317,16 @@ Key findings:
 3. **Graduation Artifact**: A cryptographically signed, immutable `.lmft.json` standalone individual package encapsulating its autobiographical history, crystallized character dispositions, and sovereign graduation alphabet.
 
 
+## D076: Grade 1 Curriculum — The Electro-Gravitational Esper Alphabet (A to Z)
+
+**Status: adopted curriculum finding; experimental evaluation complete, 2026-10-14.** Follows D075. Implements `src/lmft_school/esper_codex.py` and `src/lmft_school/curriculum_grade_1.py`. Teaches the 26-letter Electro-Gravitational Esper Alphabet (Atomos to Zodiark) across 4 quaternion facets (Weather, Relational, Structural, Contemplative) without mutating the frozen 40-node founding seed (Rule D001):
+1. **Full 26-Letter Codex (H1 Confirmed)**: All 26 Espers defined with exact 13 White / 13 Black polarity balance and continuous activations across the 24 canonical leaves in `birth.py`.
+2. **4-Facet Quaternion Representation (H2 Confirmed)**: Every letter is a 4-dimensional holographic archetype rather than a flat string index.
+3. **Homeostatic Volatility Clamping (H3 Confirmed)**: Extreme Black and White Espers regulated by `AffectiveHomeostasisGovernor`, strictly clamping $|\Delta| \le 0.35$ and preventing boundary saturation ($0.05 \le \text{leaf} \le 0.95$).
+4. **Matched Ordinary-Memory Parity (H4 Confirmed, Rule D004)**: LMFT runner and `Grade1OrdinaryMemoryComparator` achieved byte-for-byte evaluation digest parity under process restart (`68e4bfd3f101...`).
+5. **Alchemical Word Chords (H5 Confirmed)**: Composes words into alchemical Esper journeys (e.g. `HOPE` -> Hecate -> Odin -> Phoenix -> Eden; `MACHINE` -> Maduin -> Atomos -> Carbuncle -> Hecate -> Ifrit -> Nidhogg -> Eden). Integrated into `tools/talk_to_lmft.py` with live HUD telemetry and `/spell` & `/esper` commands. 9 focused tests pass in `tests/test_grade_1_curriculum.py`.
+
+
 
 
 

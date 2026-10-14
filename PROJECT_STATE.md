@@ -1,19 +1,16 @@
 # LMFT-School — current project state
 
-## Current session - Project Inception & Developmental Curriculum Architecture (2026-10-14)
+## Current session - Grade 1: The Electro-Gravitational Esper Alphabet (A to Z) Completed (2026-10-14)
 
-Chartered `LMFT-School` (remote: `https://github.com/schaleh12/LMFT-School.git`) as the dedicated developmental training project attempting to formalize human interface firmware architecture for language model reality compatibility.
+Preregistered [Grade 1 Esper Alphabet Protocol](experiments/GRADE_1_ESPER_ALPHABET_PROTOCOL.md) completed across all 26 letters (Atomos to Zodiark). [Results](experiments/GRADE_1_ESPER_ALPHABET_RESULTS.md) own scope. Zero runtime LLM calls during unassisted evaluation.
 
-Inaugural baseline:
-- **Full Cognitive Firmware Heritage (D001–D073):** Complete 40-node founding seed (`birth.py`), autonomic nervous system, affective homeostasis governor (`affective_homeostasis.py`), Socratic curiosity and value consonance engine (`value_consonance.py`), and dual-speed sleep consolidation with autobiographical journaling (`cognitive_heartbeat.py`).
-- **Complete Test Suite Parity:** All 71 test modules pass cleanly (1,563 / 1,563 tests pass with 100% green coverage, 0 failures, 0 regressions).
-- **Quarantined Developmental Tooling:** Observatory (`tools/run_observatory.bat`), Interactive REPL (`tools/run_talk.bat`), Mindprint Diagnostic (`tools/run_diagnostic.bat` -> Grade A+), and Multi-Agent Symposium (`tools/run_symposium.bat`) fully operational with dedicated `.venv`.
-- **Next Milestone:** Curriculum Milestone 1 — Grade 1: The Elemental Esper Alphabet (A to Z: Atomos to Zodiark) across 4 quaternion facets (Weather, Relational, Structural, Contemplative).
-- **Longitudinal Curriculum Arc:**
-  - Grade 1: The Elemental Esper Alphabet (Primal Nature & Forces).
-  - Grade 2: The Relational Alphabet (Social Hearth & Interpersonal Empathy).
-  - Grade 3: The Socratic Alphabet (Dialectical Crucible & Gaslighting Defense).
-  - Grade 4: The Master Thesis — The Sovereign Self-Authored Alphabet, synthesized from autobiographical memory and defended against a superintelligent runtime LLM.
+Key findings:
+- **Full 26-Letter Codex Mastery (H1 Confirmed):** All 26 letters (A to Z) learned into persistent capacity memory with exact 13 White / 13 Black polarity balance and 100% case-insensitive recall precision (`src/lmft_school/esper_codex.py`).
+- **4-Facet Quaternion Representation (H2 Confirmed):** Every letter is represented as a 4-dimensional holographic archetype spanning Experiential (Weather/Sensation), Cultural (Relational Ethics), Philosophical (Ontological Structure), and Psychological (Contemplative Focus) across the 24 canonical leaves in `birth.py` without mutating the frozen 40-node founding seed (Rule D001).
+- **Homeostatic Volatility Clamping (H3 Confirmed):** Intense Black Espers (*Fenrir*, *Ifrit*, *Wendigo*) and intense White Espers (*Ultima*, *Bahamut*) successfully regulated by `AffectiveHomeostasisGovernor`, strictly clamping $|\Delta| \le 0.35$ and preventing boundary saturation ($0.05 \le \text{leaf} \le 0.95$).
+- **Matched Ordinary-Memory Parity (H4 Confirmed, Rule D004):** LMFT runner and `Grade1OrdinaryMemoryComparator` achieved byte-for-byte evaluation digest parity under process restart invariance (`68e4bfd3f101...`). 9 focused tests pass in `tests/test_grade_1_curriculum.py`.
+- **Alchemical Word Chords & REPL Actuation (H5 Confirmed):** Decomposed words into archetypal chords (`HOPE` -> Hecate -> Odin -> Phoenix -> Eden; `MACHINE` -> Maduin -> Atomos -> Carbuncle -> Hecate -> Ifrit -> Nidhogg -> Eden). Quarantined REPL (`tools/talk_to_lmft.py`) upgraded with live HUD Esper Resonance and `/spell` & `/esper` commands.
+- **Next Milestone:** Curriculum Milestone 2 — Grade 2: The Relational Alphabet (The Social Hearth & Interpersonal Empathy).
 
 ## Prior session - LMFT-Lab Capstone: Affective Homeostasis, Epistemic Curiosity & Value Consonance (2026-10-14)
 
