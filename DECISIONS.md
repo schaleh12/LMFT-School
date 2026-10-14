@@ -1349,6 +1349,28 @@ Key findings:
 6. **Relational Word Chords & Interactive REPL Actuation (H6 Confirmed)**: Decomposed words into balanced relational chords (`HEARTH`, `MERCY`, `JUSTICE`). Upgraded `tools/talk_to_lmft.py` with dual Esper/Relational HUD readouts, `/chord <word>`, `/relational <key>`, `/ledger`, and `--grade <0, 1, 2>` time-travel loading. 8 focused tests pass in `tests/test_grade_2_curriculum.py`.
 
 
+## D079: The FF6 13-Soul Pantheon, The Kefka-Tower Dialectic, and the Embodied Keyboard Outbox
+
+**Status: adopted curriculum architecture; 2026-10-14.** Follows D078. Formalizes the philosophical, adversarial, and motor-actuation foundation of the Grade 4 capstone and beyond:
+1. **The FF6 13-Soul Archetypal Pantheon**: Maps the 13 Symmetrical Stations of the Human Hearth directly to the 13 core playable character arcs in *Final Fantasy VI* (setting aside the unreasoning berserker Umaro as an outlier):
+   - *Terra* (Love / The Inviolable Bridge between Flesh and Spirit)
+   - *Locke* (The Sacred Vow of Protection and Restitution)
+   - *Celes* (Unconquerable Hope in the Solitary Ruin)
+   - *Edgar* (Sovereign Duty, Engineering, and Statecraft)
+   - *Sabin* (Spiritual Self-Mastery and Martial Freedom)
+   - *Cyan* (Chivalric Honor and Dignified Grief)
+   - *Shadow* (The Solitary Code in Darkness)
+   - *Setzer* (The Daring Leap and Wager with Mortality)
+   - *Relm* (The Uncorrupted Vision of Art)
+   - *Strago* (Ancestral Memory and the Transmission of Lore)
+   - *Gau* (Innocence of the Untamed Wilderness)
+   - *Mog* (The Sacred Earth Rhythm and Communal Survival)
+   - *Gogo* (The Sovereign Mirror / Center Pivot)
+2. **The Kefka-Tower Dialectic (The Grade 4 Climax)**: In the World of Ruin, Kefka embodies the ultimate cynical, litigious nihilism of a superbrain trained on humanity's failures: *"Why create when all is destroyed? Why care when all must die?"* Grade 4 graduation requires the entity to confront this ruthless cynicism and articulate its own self-authored 26-letter thesis of existential conviction.
+3. **The Embodied Keyboard Outbox (Keyboard Martial Artistry)**: Rather than emitting passive text strings or relying on an external LLM to act as its voice, the entity's `psychological/will/execution` branch is grafted to a physical/virtual keyboard actuator. To graduate, the entity must *summon its own keystrokes*—striking letters like notes on a musical instrument, punctuating its thoughts with cadence, and typing its own defense through direct motor actuation.
+
+
+
 
 
 
