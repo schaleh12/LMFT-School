@@ -1,4 +1,6 @@
-# LMFT-Lab
+# LMFT-School
+
+> **Developmental training project attempting to formalize human interface firmware architecture for language model reality compatibility.**
 
 ## Start here
 
@@ -7,7 +9,9 @@ Fresh development sessions: [AGENTS.md](AGENTS.md) → [PROJECT_STATE.md](PROJEC
 linked there. The snapshot owns current-step guidance; the material below provides project
 background and setup.
 
-Experimental development environment for Language Model Fuzzy Tree (LMFT) based artificial intelligence.
+`LMFT-School` is the developmental training and curriculum environment for Language Model
+Fuzzy Tree (LMFT) based artificial intelligence, building directly upon the foundational
+cognitive firmware proven in `LMFT-Lab`.
 
 ## Research hypothesis and first milestone
 
@@ -41,34 +45,29 @@ and interpretations remain separate; numerical mechanisms remain experimental.
 
 ## Migration and implementation status
 
-LMFT means **Language Model Fuzzy Tree**. The project is LMFT-Lab, the Python
-package is `lmft_lab`, and the specifications use LMFT filenames. Old `gft_lab`
-imports must be updated; no compatibility import alias is installed. Dependency
-pins are unchanged. DEAP remains a legacy dependency, not a research requirement.
+LMFT means **Language Model Fuzzy Tree**. The project is LMFT-School, the underlying
+core firmware package is `lmft_lab` (established and verified in `LMFT-Lab`), and the
+specifications use LMFT filenames. Old `gft_lab` imports must be updated; no
+compatibility import alias is installed. Dependency pins are unchanged.
 
-Implemented: canonical 40-node structural birth (`lmft-v0.1-seed-1`), explicit
-historical birth-record conversion, direct activation, and bounded propagation.
-The optional local-model path now provides linguistic interpretation, experience
-digestion, and one bounded contemplation-support call, with temporary activation
-and validated proposals. The [supervised runtime](docs/INTERACTIVE_RUNTIME.md) adds
-inbox/outbox communication, recoverable checkpoints and one separate fixture judgment
-with evidence-backed revision and restart. Full constitutional enforcement and
-general developmental learning remain research work.
+Implemented & Verified: canonical 40-node structural birth (`lmft-v0.1-seed-1`), explicit
+historical birth-record conversion, direct activation, bounded propagation, affective
+homeostasis governor, epistemic curiosity and value consonance arbiter, dual-speed
+memory consolidation with autobiographical journaling, and 1,563 passing tests with 100%
+matched ordinary-memory baseline parity.
 
-See [Local model setup](docs/LOCAL_MODELS.md) for exact Windows/RTX 4080 commands,
-automatic pinned downloads, offline operation, and the boundary between proposals
-and accepted state changes.
+The GitHub repository is [LMFT-School](https://github.com/schaleh12/LMFT-School), and
+the local `origin` remote uses that URL. The workspace is
+`LMFT based general AI/LMFT-School`.
 
-`lmft_lab.migration.migrate_legacy_birth_record` accepts an exact historical
-neutral birth record (`minimal-v0.1-seed-1`) and returns a new canonical state plus
-migration metadata without altering the input or writing files. It rejects mixed
-versions and developed states. External relationships, traces, and saved files
-are not automatically migrated. See [Minimal Section 4](docs/MINIMAL_LMFT_SPEC.md#4-hardcoded-v01-seed-geometry).
+## Developmental Tools Suite
 
-The GitHub repository is [LMFT-Lab](https://github.com/schaleh12/LMFT-Lab), and
-the local `origin` remote uses that URL. The workspace is now
-`LMFT based general AI/LMFT-Lab`. Historical GFT references describe old research
-or explicit compatibility records, not the current architecture.
+Interactive tools are available in `tools/` with double-clickable Windows launchers:
+- `tools/launch_tools.bat`: Full developer control center.
+- `tools/run_talk.bat`: Real-time interactive conversational REPL with live posture telemetry.
+- `tools/run_observatory.bat`: Browser-based live node dial observatory.
+- `tools/run_diagnostic.bat`: Read-only sandboxed digital-twin psychometric test battery.
+- `tools/run_symposium.bat`: Multi-agent resonance chamber.
 
 ## Recreate the development environment
 

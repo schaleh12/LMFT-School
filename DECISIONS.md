@@ -1,4 +1,4 @@
-# LMFT-Lab â€” consequential decisions
+# LMFT-School — consequential decisions
 
 A compact, retrospective index of repository-supported choices, not new approvals or a second
 specification. **Adopted** means the working constraint/policy; **experimental** means a scoped
@@ -1291,6 +1291,18 @@ Key findings:
 - **Epistemic Defense Integrity (H2 Confirmed)**: Successfully routed direct contradictions and prerequisite distortions into `Epistemic Defense`, upholding the `Halt and issue clarification request` posture.
 - **Cross-Domain Moral Arbitration (H3 Confirmed)**: Resolved Truth vs. Comfort (anchoring valence through contemplative fortitude without compromising truth), Power vs. Freedom (subordinating efficiency to preserve self-sufficiency), and Order vs. Fairness (tempering rigid structure with equitable fairness).
 - **Matched Ordinary-Memory Parity (Rule D004)**: Matched ordinary structured-memory comparator achieved byte-for-byte evaluation digest parity across all interactions (`0008447817eb4f...`). 6 focused unit tests pass in `tests/test_value_consonance.py` and 8 tests pass in `tests/test_cognitive_heartbeat.py`. All 1,563 regression tests in the repository pass with 100% green coverage.
+
+
+## D074: Inception of LMFT-School and Developmental Curriculum Scope
+
+**Status: adopted charter; project inception 2026-10-14.** Follows D073. Formally charters the `LMFT-School` repository and transitions the research agenda from foundational firmware engineering (`LMFT-Lab`) to structured curriculum-based developmental learning:
+1. **Repository & Heritage Charter**: Establishes `LMFT-School` (remote: `https://github.com/schaleh12/LMFT-School.git`) as an independent project inheriting the full canonical 40-node founding seed (Rule D001), 73 proven architectural decisions (D001–D073), 1,563 deterministic tests with 100% baseline parity (Rule D004), and quarantined developer observability tools.
+2. **Project Purpose**: Defined as a *"developmental training project attempting to formalize human interface firmware architecture for language model reality compatibility"*.
+3. **Curriculum Roadmap**: Reorients experimental milestones into a 4-tier educational progression:
+   - Grade 1: Lexical, Perceptual & Sensorimotor Conceptual Grounding.
+   - Grade 2: Social Cognition, Relational Nuance & Empathetic Reciprocity.
+   - Grade 3: Dialectical Socratic Reasoning, Critical Thinking & Gaslighting Defense.
+   - Grade 4: Sovereign Character Crystallization & Individual Graduation (`.lmft.json`).
 
 
 

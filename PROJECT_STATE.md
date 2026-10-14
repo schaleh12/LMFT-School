@@ -1,6 +1,16 @@
-# LMFT-Lab — current project state
+# LMFT-School — current project state
 
-## Current session - Meditative Homeostatic Regulation & Android Heartbeat (2026-10-13)
+## Current session - Project Inception & Developmental Curriculum Architecture (2026-10-14)
+
+Chartered `LMFT-School` (remote: `https://github.com/schaleh12/LMFT-School.git`) as the dedicated developmental training project attempting to formalize human interface firmware architecture for language model reality compatibility.
+
+Inaugural baseline:
+- **Full Cognitive Firmware Heritage (D001–D073):** Complete 40-node founding seed (`birth.py`), autonomic nervous system, affective homeostasis governor (`affective_homeostasis.py`), Socratic curiosity and value consonance engine (`value_consonance.py`), and dual-speed sleep consolidation with autobiographical journaling (`cognitive_heartbeat.py`).
+- **Complete Test Suite Parity:** All 71 test modules pass cleanly (1,563 / 1,563 tests pass with 100% green coverage, 0 failures, 0 regressions).
+- **Quarantined Developmental Tooling:** Observatory (`tools/run_observatory.bat`), Interactive REPL (`tools/run_talk.bat`), Mindprint Diagnostic (`tools/run_diagnostic.bat` -> Grade A+), and Multi-Agent Symposium (`tools/run_symposium.bat`) fully operational with dedicated `.venv`.
+- **Next Milestone:** Curriculum Milestone 1 — Grade 1 Conceptual & Sensorimotor Grounding.
+
+## Prior session - LMFT-Lab Capstone: Affective Homeostasis, Epistemic Curiosity & Value Consonance (2026-10-14)
 
 Preregistered [Meditative Regulation Protocol](experiments/MEDITATIVE_REGULATION_PROTOCOL.md) completed across the complete
 33-instance SemCor development corpus. [Results](experiments/MEDITATIVE_REGULATION_RESULTS.md) own scope. Zero runtime LLM calls during unassisted evaluation.

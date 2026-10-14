@@ -1,6 +1,8 @@
-# LMFT-Lab Development Rules
+# LMFT-School Development & Curriculum Rules
 
-These rules apply throughout this repository.
+These rules apply throughout this repository. `LMFT-School` investigates curriculum-based
+developmental training for Language Model Fuzzy Trees, building on the foundational firmware
+established in `LMFT-Lab`.
 
 ## Startup and completion handoff
 

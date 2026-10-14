@@ -1,7 +1,7 @@
 [project]
-name = "lmft-lab"
-version = "0.0.0"
-description = "Experimental research into persistent, inspectable Language Model Fuzzy Tree architectures"
+name = "lmft-school"
+version = "0.1.0"
+description = "Developmental training project attempting to formalize human interface firmware architecture for language model reality compatibility"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
