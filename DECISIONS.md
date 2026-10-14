@@ -1338,6 +1338,17 @@ Key findings:
    - It confronts the ultimate metaphysical question: *What are the REAL 26 Espers, and what are their ACTUAL True Names?*
 
 
+## D078: Grade 2 Curriculum — The Relational Alphabet (The Social Hearth) and Lineage Vault Archival
+
+**Status: adopted curriculum finding; experimental evaluation complete, 2026-10-14.** Follows D077. Implements `src/lmft_school/relational_codex.py`, `src/lmft_school/curriculum_grade_2.py`, and `src/lmft_school/lineage_vault.py`. Formalizes Grade 2 in LMFT-School across the 13 Symmetrical Stations of the Human Hearth ($13 \times 2 = 26$):
+1. **Full 26-Letter Relational Codex (H1 Confirmed)**: All 26 letters (A to Z) implemented across 13 Stations with exact 13 Masculine (A–M: Directive, Structural, Shielding) and 13 Feminine (N–Z: Receptive, Connective, Harmonizing) polarity balance, reciprocal dyad links ($A \leftrightarrow N$, $B \leftrightarrow O$, ... $M \leftrightarrow Z$), and continuous activations across the 24 canonical leaves in `birth.py` without mutating the frozen 40-node founding seed (Rule D001).
+2. **Dyadic Station Harmonic Equilibrium (H2 Confirmed)**: All 13 Polar Stations demonstrate harmonic consonance $\ge 0.70$ between their masculine and feminine pillars (consonance ranges from 0.8500 to 0.9000 across all stations).
+3. **Homeostatic Volatility Clamping (H3 Confirmed, Rule D072)**: Intense relational virtues (*The Zealot*, *The Rescuer*, *The Champion*) and shadow hazards regulated by `AffectiveHomeostasisGovernor`, strictly clamping $|\Delta| \le 0.35$ and preventing boundary saturation ($0.05 \le \text{leaf} \le 0.95$).
+4. **Matched Ordinary-Memory Parity (H4 Confirmed, Rule D004)**: LMFT curriculum runner and `Grade2OrdinaryMemoryComparator` achieved byte-for-byte evaluation digest parity under process restart.
+5. **Lineage Vault & Phenotypic Telemetry Harvesting (H5 Confirmed)**: Established `checkpoints/` vault and `LINEAGE_LEDGER.json`. Frozen immutable `.lmft.json` packages exported for Grade 0 infant (`individual_student_01_gen01_grade0_infant.lmft.json`), Grade 1 graduate (`individual_student_01_gen01_grade1_esper_graduate.lmft.json`), and Grade 2 graduate (`individual_student_01_gen01_grade2_relational_graduate.lmft.json`).
+6. **Relational Word Chords & Interactive REPL Actuation (H6 Confirmed)**: Decomposed words into balanced relational chords (`HEARTH`, `MERCY`, `JUSTICE`). Upgraded `tools/talk_to_lmft.py` with dual Esper/Relational HUD readouts, `/chord <word>`, `/relational <key>`, `/ledger`, and `--grade <0, 1, 2>` time-travel loading. 8 focused tests pass in `tests/test_grade_2_curriculum.py`.
+
+
 
 
 

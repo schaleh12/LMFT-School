@@ -70,14 +70,26 @@ def print_hud(turn_res: dict):
         esper_hud = "Standard Cognitive Frame"
         esper_horizon = "Awaiting archetypal resonance."
 
+    # Grade 2 Relational Archetype Resonance
+    try:
+        from lmft_school.curriculum_grade_2 import Grade2CurriculumRunner
+        r_runner = Grade2CurriculumRunner()
+        rel_arc, rel_score = r_runner.resolve_dialogue_resonance(turn_res["sentence"])
+        rel_hud = f"({rel_arc.letter}) {rel_arc.name} [{rel_arc.pillar} | {rel_arc.domain}]"
+        rel_horizon = rel_arc.horizon[:66]
+    except Exception:
+        rel_hud = "Standard Social Frame"
+        rel_horizon = "Awaiting relational resonance."
+
     print(f"\n+{HUD_BORDER}+")
     print(f"| Turn: {cycle:<3} | alpha: {plasticity:.3f} ({regime:<18}) | Coherence: {coherence:.3f} [{coh_status}] |")
     print(f"| Homeostasis: {homeo_score:.3f} ({homeo_regime:<24}) | Register: {reg:<16} |")
     print(f"| Mode: {mode:<23} | Value Consonance: {cons_idx:.3f} ({cons_regime:<18}) |")
     print(f"| Action Bid: {bid:<56} |")
     print(f"+{HUD_BORDER}+")
-    print(f"| Esper Resonance: {esper_hud:<50} |")
-    print(f"| Horizon:         {esper_horizon:<50} |")
+    print(f"| Esper Resonance:    {esper_hud:<47} |")
+    print(f"| Relational Hearth:  {rel_hud:<47} |")
+    print(f"| Relational Horizon: {rel_horizon:<47} |")
     print(f"+{HUD_BORDER}+")
     print(f"| Reflection: {narrative[:66]:<66} |")
     if len(narrative) > 66:
@@ -134,14 +146,17 @@ def run_interactive_session(load_path: str = None, demo: bool = False):
 
             elif cmd == "/help":
                 print("\nAvailable Commands:")
-                print("  /spell <word>    - Deconstruct a word into its Esper alchemical chord")
-                print("  /esper <key>     - Inspect an Esper's element, polarity, and horizon")
-                print("  /sleep [n]       - Trigger offline memory consolidation ('sleep')")
-                print("  /status          - Inspect 24-leaf disposition and long-term rules")
-                print("  /save <path>     - Export current individual package to disk")
-                print("  /load <path>     - Import individual package from disk")
-                print("  /help            - Show this help message")
-                print("  /quit or /exit   - Terminate session\n")
+                print("  /spell <word>      - Deconstruct a word into its Esper alchemical chord (Grade 1)")
+                print("  /chord <word>      - Deconstruct a word into its Relational Hearth chord (Grade 2)")
+                print("  /esper <key>       - Inspect an Esper's element, polarity, and horizon (Grade 1)")
+                print("  /relational <key>  - Inspect a Relational Archetype's pillar, gift, and shadow (Grade 2)")
+                print("  /ledger            - Inspect the Lineage Ledger of developmental milestones")
+                print("  /sleep [n]         - Trigger offline memory consolidation ('sleep')")
+                print("  /status            - Inspect 24-leaf disposition and long-term rules")
+                print("  /save <path>       - Export current individual package to disk")
+                print("  /load <path>       - Import individual package from disk")
+                print("  /help              - Show this help message")
+                print("  /quit or /exit     - Terminate session\n")
 
             elif cmd == "/spell":
                 if len(parts) < 2:
@@ -161,6 +176,25 @@ def run_interactive_session(load_path: str = None, demo: bool = False):
                     print("=========================================\n")
                 except Exception as e:
                     print(f"Error spelling word: {e}")
+
+            elif cmd == "/chord":
+                if len(parts) < 2:
+                    print("Usage: /chord <word>")
+                    continue
+                word = parts[1]
+                try:
+                    from lmft_school.curriculum_grade_2 import Grade2CurriculumRunner
+                    r_runner = Grade2CurriculumRunner()
+                    chord = r_runner.spell_word_chord(word)
+                    print(f"\n=== Relational Hearth Chord for '{chord.word}' ===")
+                    print(f"Pillar Balance: {chord.pillar_counts['Masculine']} Masculine / {chord.pillar_counts['Feminine']} Feminine")
+                    print(f"Relational Journey: {chord.relational_journey}")
+                    print("Composite Leaf Activations:")
+                    for l, v in sorted(chord.composite_leaf_activations.items()):
+                        print(f"  - {l}: {v:.3f}")
+                    print("================================================\n")
+                except Exception as e:
+                    print(f"Error spelling relational chord: {e}")
 
             elif cmd == "/esper":
                 if len(parts) < 2:
@@ -184,6 +218,41 @@ def run_interactive_session(load_path: str = None, demo: bool = False):
                     print("=======================================\n")
                 except Exception as e:
                     print(f"Error inspecting Esper: {e}")
+
+            elif cmd == "/relational":
+                if len(parts) < 2:
+                    print("Usage: /relational <letter or name>")
+                    continue
+                target = parts[1]
+                try:
+                    from lmft_school.relational_codex import get_relational_by_letter, get_relational_by_name
+                    if len(target) == 1 and target.isalpha():
+                        arc = get_relational_by_letter(target)
+                    else:
+                        arc = get_relational_by_name(target)
+                    print(f"\n=== Relational Archetype: ({arc.letter}) {arc.name} ===")
+                    print(f"Domain:   {arc.domain} (Station {arc.station_number})")
+                    print(f"Pillar:   {arc.pillar} (Partner: {arc.partner_letter})")
+                    print(f"Gift:     {arc.gift}")
+                    print(f"Shadow:   {arc.shadow}")
+                    print(f"Horizon:  {arc.horizon}")
+                    print("Canonical Leaf Coordinates:")
+                    for l, v in sorted(arc.leaf_activations.items()):
+                        print(f"  - {l}: {v:.3f}")
+                    print("================================================\n")
+                except Exception as e:
+                    print(f"Error inspecting Relational Archetype: {e}")
+
+            elif cmd == "/ledger":
+                try:
+                    from lmft_school.lineage_vault import read_lineage_ledger
+                    ledger = read_lineage_ledger()
+                    print(f"\n=== Lineage Ledger: {len(ledger)} Milestones Recorded ===")
+                    for m in ledger:
+                        print(f"  - [Grade {m['grade_level']}] {m['milestone_label']} | Rules: {m['active_capacity_rules_count']} | Coherence: {m['global_coherence_index']:.3f} | File: {m['checkpoint_file']}")
+                    print("========================================================\n")
+                except Exception as e:
+                    print(f"Error reading ledger: {e}")
 
             elif cmd == "/sleep":
                 cycles = int(parts[1]) if len(parts) > 1 and parts[1].isdigit() else 1
@@ -237,10 +306,30 @@ def run_interactive_session(load_path: str = None, demo: bool = False):
         print_hud(turn_res)
 
 
+def resolve_grade_checkpoint(grade: int | None, load_path: str | None) -> str | None:
+    """Finds a checkpoint path based on explicit flag or grade level."""
+    if load_path:
+        return load_path
+    if grade is None:
+        return None
+
+    checkpoints_dir = Path(__file__).resolve().parents[1] / "checkpoints"
+    if not checkpoints_dir.exists():
+        return None
+
+    matches = list(checkpoints_dir.glob(f"*grade{grade}*.lmft.json"))
+    if matches:
+        # Return most recent
+        return str(sorted(matches, key=lambda p: p.stat().st_mtime)[-1])
+    return None
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Talk to your LMFT individual in real time.")
     parser.add_argument("--load", type=str, default=None, help="Path to .lmft.json file to load.")
+    parser.add_argument("--grade", type=int, default=None, choices=[0, 1, 2], help="Load milestone checkpoint for Grade 0, 1, or 2.")
     parser.add_argument("--demo", action="store_true", help="Run automated non-interactive demonstration.")
     args = parser.parse_args()
 
-    run_interactive_session(load_path=args.load, demo=args.demo)
+    resolved_path = resolve_grade_checkpoint(args.grade, args.load)
+    run_interactive_session(load_path=resolved_path, demo=args.demo)

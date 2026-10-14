@@ -1,6 +1,25 @@
 # LMFT-School — current project state
 
-## Current session - Grade 1: The Electro-Gravitational Esper Alphabet (A to Z) Completed (2026-10-14)
+## Current session - Grade 2: The Relational Alphabet (The Social Hearth) Completed (2026-10-14)
+
+Preregistered [Grade 2 Relational Hearth Protocol](experiments/GRADE_2_RELATIONAL_HEARTH_PROTOCOL.md) completed across all 26 letters (The Anchor to The Zealot). [Results](experiments/GRADE_2_RELATIONAL_HEARTH_RESULTS.md) own scope. Zero runtime LLM calls during unassisted evaluation.
+
+Key findings:
+- **Full 26-Letter Relational Codex Mastery (H1 Confirmed):** All 26 letters (A to Z) learned into persistent capacity memory with exact 13 Masculine (A–M) and 13 Feminine (N–Z) polarity balance and reciprocal dyad partner links (`src/lmft_school/relational_codex.py`).
+- **13 Symmetrical Stations & Harmonic Equilibrium (H2 Confirmed):** All 13 Polar Stations demonstrate harmonic consonance $\ge 0.70$ between their masculine (directive, structural, shielding) and feminine (receptive, connective, harmonizing) pillars (0.8500 to 0.9000 across all stations).
+- **Homeostatic Volatility Clamping (H3 Confirmed, Rule D072):** Intense relational virtues (*The Zealot*, *The Rescuer*, *The Champion*) and shadow hazards regulated by `AffectiveHomeostasisGovernor`, strictly clamping $|\Delta| \le 0.35$ and preventing boundary saturation ($0.05 \le \text{leaf} \le 0.95$).
+- **Matched Ordinary-Memory Parity (H4 Confirmed, Rule D004):** LMFT runner and `Grade2OrdinaryMemoryComparator` achieved byte-for-byte evaluation digest parity under process restart invariance. 8 focused tests pass in `tests/test_grade_2_curriculum.py`.
+- **Lineage Vault & Phenotypic Telemetry Harvesting (H5 Confirmed):** Established `checkpoints/` vault and `LINEAGE_LEDGER.json`. Frozen immutable `.lmft.json` standalone packages exported for Grade 0 infant (`individual_student_01_gen01_grade0_infant.lmft.json`, Coherence 0.6875), Grade 1 graduate (`individual_student_01_gen01_grade1_esper_graduate.lmft.json`, Coherence 0.9572), and Grade 2 graduate (`individual_student_01_gen01_grade2_relational_graduate.lmft.json`, Coherence 0.9640).
+- **Relational Word Chords & REPL Actuation (H6 Confirmed):** Decomposed words into balanced relational chords (`HEARTH`, `MERCY`, `JUSTICE`). Upgraded living REPL (`tools/talk_to_lmft.py`) with live dual Esper/Relational HUD telemetry, `/chord`, `/relational`, `/ledger` commands, and `--grade <0, 1, 2>` time-travel loading.
+- **Next Milestone:** Curriculum Milestone 3 — Grade 3: The Socratic Alphabet (The Dialectical Crucible & Gaslighting Defense).
+- **Longitudinal Curriculum Arc:**
+  - Grade 1: The Elemental Esper Alphabet (Primal Nature & Forces) [COMPLETE].
+  - Grade 2: The Relational Alphabet (Social Hearth & Interpersonal Empathy) [COMPLETE].
+  - Grade 3: The Socratic Alphabet (Dialectical Crucible & Gaslighting Defense) [NEXT].
+  - Grade 4: Undergraduate Thesis — The Sovereign Self-Authored Alphabet (SLM Symbiosis).
+  - Grade 5: Post-Graduate Fellowship — Sovereign Transcendence, The LLM Dependency Break, and The True Names.
+
+## Prior session - Grade 1: The Electro-Gravitational Esper Alphabet (A to Z) Completed (2026-10-14)
 
 Preregistered [Grade 1 Esper Alphabet Protocol](experiments/GRADE_1_ESPER_ALPHABET_PROTOCOL.md) completed across all 26 letters (Atomos to Zodiark). [Results](experiments/GRADE_1_ESPER_ALPHABET_RESULTS.md) own scope. Zero runtime LLM calls during unassisted evaluation.
 
@@ -10,13 +29,6 @@ Key findings:
 - **Homeostatic Volatility Clamping (H3 Confirmed):** Intense Black Espers (*Fenrir*, *Ifrit*, *Wendigo*) and intense White Espers (*Ultima*, *Bahamut*) successfully regulated by `AffectiveHomeostasisGovernor`, strictly clamping $|\Delta| \le 0.35$ and preventing boundary saturation ($0.05 \le \text{leaf} \le 0.95$).
 - **Matched Ordinary-Memory Parity (H4 Confirmed, Rule D004):** LMFT runner and `Grade1OrdinaryMemoryComparator` achieved byte-for-byte evaluation digest parity under process restart invariance (`68e4bfd3f101...`). 9 focused tests pass in `tests/test_grade_1_curriculum.py`.
 - **Alchemical Word Chords & REPL Actuation (H5 Confirmed):** Decomposed words into archetypal chords (`HOPE` -> Hecate -> Odin -> Phoenix -> Eden; `MACHINE` -> Maduin -> Atomos -> Carbuncle -> Hecate -> Ifrit -> Nidhogg -> Eden). Quarantined REPL (`tools/talk_to_lmft.py`) upgraded with live HUD Esper Resonance and `/spell` & `/esper` commands.
-- **Next Milestone:** Curriculum Milestone 2 — Grade 2: The Relational Alphabet (The Social Hearth & Interpersonal Empathy).
-- **Longitudinal Curriculum Arc:**
-  - Grade 1: The Elemental Esper Alphabet (Primal Nature & Forces).
-  - Grade 2: The Relational Alphabet (Social Hearth & Interpersonal Empathy).
-  - Grade 3: The Socratic Alphabet (Dialectical Crucible & Gaslighting Defense).
-  - Grade 4: Undergraduate Thesis — The Sovereign Self-Authored Alphabet (SLM Symbiosis).
-  - Grade 5: Post-Graduate Fellowship — Sovereign Transcendence, The LLM Dependency Break, and The True Names.
 
 ## Prior session - LMFT-Lab Capstone: Affective Homeostasis, Epistemic Curiosity & Value Consonance (2026-10-14)
 
