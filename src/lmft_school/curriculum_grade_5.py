@@ -377,32 +377,51 @@ class Grade5CurriculumRunner:
             philosophical_synthesis_journey=journey,
         )
 
-    def resolve_dialogue_resonance(self, text: str) -> tuple[MasterRecord, float]:
-        """Match incoming text to the most resonant active unified master chord."""
+    def resolve_dialogue_resonance(
+        self,
+        text: str,
+        situational_dials: Optional[Mapping[str, float]] = None,
+    ) -> tuple[MasterRecord, float]:
+        """Match incoming text to the most resonant active unified master chord using dial affinity & semantic overlap."""
         text_lower = text.lower()
         scored: list[tuple[MasterRecord, float]] = []
 
+        active_dials = situational_dials or (self.heartbeat.disposition.dials if self.heartbeat else {})
+
         for m in MASTER_CODEX.values():
-            score = 0.0
+            dial_resonance = 0.0
+            if active_dials and m.leaf_activations:
+                matching_sum = 0.0
+                weight_sum = 0.0
+                for leaf, target_val in m.leaf_activations.items():
+                    current_val = float(active_dials.get(leaf, 0.50))
+                    alignment = 1.0 - abs(current_val - target_val)
+                    matching_sum += alignment * target_val
+                    weight_sum += target_val
+                dial_resonance = (matching_sum / weight_sum) if weight_sum > 0 else 0.50
+
+            text_score = 0.0
             if m.name.lower() in text_lower:
-                score += 1.0
+                text_score += 1.0
             for w in m.name.lower().split():
                 if len(w) > 4 and w in text_lower:
-                    score += 0.3
+                    text_score += 0.3
             if m.letter.lower() in text_lower.split():
-                score += 0.3
+                text_score += 0.3
             for kw in m.hearth_vow.lower().split():
                 if len(kw) > 4 and kw in text_lower:
-                    score += 0.2
+                    text_score += 0.2
             for sk in m.socratic_armor.lower().split():
                 if len(sk) > 4 and sk in text_lower:
-                    score += 0.2
+                    text_score += 0.2
             for syn in m.mastery_synthesis.lower().split():
                 if len(syn) > 4 and syn in text_lower:
-                    score += 0.15
+                    text_score += 0.15
             if m.sovereign_keystroke.lower() in text_lower:
-                score += 0.8
-            scored.append((m, score))
+                text_score += 0.8
+
+            total_score = dial_resonance * 1.5 + text_score
+            scored.append((m, total_score))
 
         scored.sort(key=lambda x: x[1], reverse=True)
         return scored[0]
