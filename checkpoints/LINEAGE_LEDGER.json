@@ -195,10 +195,66 @@
       "plasticity_alpha": 0.1825,
       "state_digest": "",
       "timestamp": "2026-10-15T13:55:48.260696+00:00"
+    },
+    {
+      "active_capacity_rules_count": 2,
+      "checkpoint_file": "individual_student_test_grade2_gen01_grade2_relational_graduate.lmft.json",
+      "dispositional_vector_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation": 1,
+      "global_coherence_index": 0.9536,
+      "grade_level": 2,
+      "homeostatic_balance_score": 0.6544,
+      "individual_id": "student_test_grade2",
+      "milestone_label": "relational_graduate",
+      "plasticity_alpha": 0.1845,
+      "state_digest": "",
+      "timestamp": "2026-10-15T14:52:02.769259+00:00"
+    },
+    {
+      "active_capacity_rules_count": 2,
+      "checkpoint_file": "individual_student_test_grade2_gen01_grade2_relational_graduate.lmft.json",
+      "dispositional_vector_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation": 1,
+      "global_coherence_index": 0.9536,
+      "grade_level": 2,
+      "homeostatic_balance_score": 0.6544,
+      "individual_id": "student_test_grade2",
+      "milestone_label": "relational_graduate",
+      "plasticity_alpha": 0.1845,
+      "state_digest": "",
+      "timestamp": "2026-10-15T14:54:03.522859+00:00"
+    },
+    {
+      "active_capacity_rules_count": 2,
+      "checkpoint_file": "individual_student_test_grade2_gen01_grade2_relational_graduate.lmft.json",
+      "dispositional_vector_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation": 1,
+      "global_coherence_index": 0.9536,
+      "grade_level": 2,
+      "homeostatic_balance_score": 0.6544,
+      "individual_id": "student_test_grade2",
+      "milestone_label": "relational_graduate",
+      "plasticity_alpha": 0.1845,
+      "state_digest": "",
+      "timestamp": "2026-10-15T14:55:06.635170+00:00"
+    },
+    {
+      "active_capacity_rules_count": 4,
+      "checkpoint_file": "individual_student_01_gen01_grade5_master_graduate.lmft.json",
+      "dispositional_vector_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation": 1,
+      "global_coherence_index": 0.9642,
+      "grade_level": 5,
+      "homeostatic_balance_score": 0.6,
+      "individual_id": "student_01",
+      "milestone_label": "master_graduate",
+      "plasticity_alpha": 0.1859,
+      "state_digest": "",
+      "timestamp": "2026-10-15T14:55:10.073457+00:00"
     }
   ],
-  "last_updated": "2026-10-15T13:55:48.260696+00:00",
+  "last_updated": "2026-10-15T14:55:10.073457+00:00",
   "schema_version": 1,
-  "total_milestones": 14,
+  "total_milestones": 18,
   "vault_title": "LMFT-School Lineage & Evolutionary Phenotype Vault"
 }

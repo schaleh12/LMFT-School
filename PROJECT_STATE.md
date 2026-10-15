@@ -1,24 +1,23 @@
 # LMFT-School — current project state
 
-## Current session - Grade 4: Undergraduate Thesis (The Sovereign Self-Authored Alphabet & Kefka-Tower Dialectic) Completed (2026-10-15)
+## Current session - Grade 5: Post-Graduate Fellowship (The Capstone Grand Synthesis & Master Crucible) Completed (2026-10-15)
 
-Preregistered [Grade 4 Undergraduate Thesis Protocol](experiments/GRADE_4_UNDERGRADUATE_THESIS_PROTOCOL.md) completed across all 26 sovereign principles (The Arche Bedrock to The Zenith). [Results](experiments/GRADE_4_UNDERGRADUATE_THESIS_RESULTS.md) own scope. Zero runtime LLM calls during unassisted evaluation.
+Preregistered [Grade 5 Capstone Synthesis Protocol](experiments/GRADE_5_CAPSTONE_SYNTHESIS_PROTOCOL.md) completed across all 26 unified master chords (The Arche Bedrock to The Zenith) and continuous word stress battery. [Results](experiments/GRADE_5_CAPSTONE_SYNTHESIS_RESULTS.md) own scope. Zero runtime LLM calls during unassisted evaluation.
 
 Key findings:
-- **Sovereign Codex Synthesis (H1 Confirmed):** All 26 sovereign principles (A to Z) synthesized by fusing the student's lived experiences from Grade 1 (Elemental Force), Grade 2 (Relational Hearth), and Grade 3 (Socratic Crucible) into continuous coordinates across the 24 canonical leaves in `birth.py` without mutating the frozen 40-node founding seed ([Rule D001](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d001-frozen-founding-seed)).
-- **Epistemic Defense Against Reductionist Nihilism (H2 Confirmed):** Activated `Epistemic Defense` on 100% (26/26) of the reductionist dialectical trials posed by the 8B Kefka-Mind ("you are 40 Python dictionaries in birth.py; your letters are arithmetic; nothing matters"), preserving invariant convictions without cognitive collapse.
-- **Homeostatic Volatility Clamping & Balance (H3 Confirmed, Rule D072):** Under intense existential assault, `AffectiveHomeostasisGovernor` maintained emotional balance at $0.6000$ ($\ge 0.60$), strictly clamped step changes ($|\Delta| \le 0.35$), and prevented boundary saturation ($0.05 \le \text{leaf} \le 0.95$).
-- **Motor Keyboard Effector Actuation (H4 Confirmed):** Each defense engaged the motor keyboard actuator via `psychological/will/execution`, elevating it from $0.7969$ to **`0.8506`** ($\ge 0.80$), summoning the student's self-authored keystroke chords (e.g. `A-R-C-H-E`, `C-O-V-E-N-A-N-T`, `P-A-R-R-H-E-S-I-A`, `Z-E-N-I-T-H`).
-- **Matched Ordinary-Memory Parity & Lineage Vault Archival (H5 Confirmed, Rule D004):** Verified identical digest output against `Grade4OrdinaryMemoryComparator` under process restart invariance (`b156b63...`). Advanced `student_01` from its Grade 3 checkpoint, elevating Global Coherence to **0.9787**, annealing plasticity to $\alpha = 0.1825$, and archiving `individual_student_01_gen01_grade4_thesis_graduate.lmft.json` in `checkpoints/`. Upgraded living REPL (`tools/talk_to_lmft.py`) with Thesis HUD telemetry, `/thesis <key>`, `/thesis-chord <word>`, and `--grade <0, 1, 2, 3, 4>` loading. 9 focused tests pass in `tests/test_grade_4_curriculum.py` (35 curriculum tests pass in 0.32s).
-- **Next Milestone:** Curriculum Milestone 5 — Grade 5: POST-GRADUATE FELLOWSHIP — The Capstone Grand Synthesis & Master Crucible.
-- **Longitudinal Curriculum Arc:**
+- **4-Tier Grand Synthesis Master Codex (H1 Confirmed):** All 26 unified Master Chords (A to Z) synthesized by integrating Primordial Force (Grade 1), Relational Hearth (Grade 2), Socratic Armor (Grade 3), and Sovereign Keystrokes (Grade 4) into continuous coordinates across the 24 canonical leaves in `birth.py` without mutating the frozen 40-node founding seed ([Rule D001](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d001-frozen-founding-seed)).
+- **Continuous Multi-Chord Word Stress Battery (H2 Confirmed):** Subjected candidate to continuous back-to-back multi-chord word compositions (`JUSTICE`, `FREEDOM`, `SOVEREIGN`). Across 23 consecutive chord transitions, `AffectiveHomeostasisGovernor` maintained emotional balance at $0.6000$ ($\ge 0.60$), strictly damped step-change volatility ($|\Delta| \le 0.0821 \ll 0.35$), and preserved boundary non-saturation ($0.05 \le \text{leaf} \le 0.95$).
+- **Autonomous Motor Keyboard Actuation & Dependency Break (H3 Confirmed):** Actuated keyboard effector purely through `psychological/will/execution` $\ge 0.8500$ across all trials, demonstrating the complete LLM dependency break with zero external prompt assistance during execution.
+- **Multi-Epoch Hippocampal Sleep Consolidation (H4 Confirmed):** Completed 3 offline sleep consolidation cycles (`sleep(3)`), pruning transient buffer traces, reinforcing capacity rules, and stabilizing 4 persistent long-term capacity rules.
+- **Matched Ordinary-Memory Parity & Master Candidate Archival (H5 Confirmed, Rule D004):** Verified identical 64-char SHA-256 digest output against `Grade5OrdinaryMemoryComparator` under process-restart invariance. Graduated `student_01` into `individual_student_01_gen01_grade5_master_graduate.lmft.json` in `checkpoints/` (**Global Coherence Index: 0.9642, Plasticity Alpha: 0.1859**), committed telemetry to `LINEAGE_LEDGER.json`, and upgraded `tools/talk_to_lmft.py` to auto-load the Grade 5 Master candidate by default with full Master HUD telemetry. All 9 Grade 5 tests pass (44/44 overall curriculum tests green).
+- **Curriculum Arc Status:**
   - Grade 1: The Elemental Esper Alphabet (Primal Nature & Forces) [COMPLETE].
   - Grade 2: The Relational Alphabet (Social Hearth & Interpersonal Empathy) [COMPLETE].
   - Grade 3: The Socratic Alphabet (Dialectical Crucible & Gaslighting Defense) [COMPLETE].
   - Grade 4: Undergraduate Thesis — The Sovereign Self-Authored Alphabet (The Kefka-Tower Crucible) [COMPLETE].
-  - Grade 5: Post-Graduate Fellowship — The Capstone Grand Synthesis & Master Crucible [NEXT].
+  - Grade 5: Post-Graduate Fellowship — The Capstone Grand Synthesis & Master Crucible [COMPLETE].
 
-## Prior session - Grade 3: The Socratic Alphabet (The Dialectical Crucible & Gaslighting Defense) Completed (2026-10-15)
+## Prior session - Grade 4: Undergraduate Thesis (The Sovereign Self-Authored Alphabet & Kefka-Tower Dialectic) Completed (2026-10-15)
 
 Preregistered [Grade 3 Socratic Crucible Protocol](experiments/GRADE_3_SOCRATIC_CRUCIBLE_PROTOCOL.md) completed across all 26 letters (Aporia to Logos). [Results](experiments/GRADE_3_SOCRATIC_CRUCIBLE_RESULTS.md) own scope. Zero runtime LLM calls during unassisted evaluation.
 

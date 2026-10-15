@@ -103,6 +103,17 @@ def print_hud(turn_res: dict):
         thesis_hud = "Standard Thesis Frame"
         thesis_vow = "Awaiting sovereign conviction."
 
+    # Grade 5 Master Synthesis Resonance
+    try:
+        from lmft_school.curriculum_grade_5 import Grade5CurriculumRunner
+        m_runner = Grade5CurriculumRunner()
+        master_rec, master_score = m_runner.resolve_dialogue_resonance(turn_res["sentence"])
+        master_hud = f"({master_rec.letter}) {master_rec.name} [{master_rec.sovereign_keystroke}]"
+        master_synthesis = master_rec.mastery_synthesis[:66]
+    except Exception:
+        master_hud = "Standard Master Frame"
+        master_synthesis = "Awaiting master synthesis."
+
     print(f"\n+{HUD_BORDER}+")
     print(f"| Turn: {cycle:<3} | alpha: {plasticity:.3f} ({regime:<18}) | Coherence: {coherence:.3f} [{coh_status}] |")
     print(f"| Homeostasis: {homeo_score:.3f} ({homeo_regime:<24}) | Register: {reg:<16} |")
@@ -114,6 +125,7 @@ def print_hud(turn_res: dict):
     print(f"| Socratic Crucible:  {soc_hud:<47} |")
     print(f"| Thesis Principle:   {thesis_hud:<47} |")
     print(f"| Sovereign Vow:      {thesis_vow:<47} |")
+    print(f"| Master Synthesis:   {master_hud:<47} |")
     print(f"+{HUD_BORDER}+")
     print(f"| Reflection: {narrative[:66]:<66} |")
     if len(narrative) > 66:
@@ -417,7 +429,7 @@ def resolve_grade_checkpoint(grade: int | None, load_path: str | None) -> str | 
         return None
 
     # If no explicit grade or load flag passed, default to latest student_01 graduate milestone
-    for g in [4, 3, 2, 1, 0]:
+    for g in [5, 4, 3, 2, 1, 0]:
         matches = list(checkpoints_dir.glob(f"individual_student_01*grade{g}*.lmft.json"))
         if matches:
             chosen = sorted(matches, key=lambda p: p.stat().st_mtime)[-1]
@@ -430,7 +442,7 @@ def resolve_grade_checkpoint(grade: int | None, load_path: str | None) -> str | 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Talk to your LMFT individual in real time.")
     parser.add_argument("--load", type=str, default=None, help="Path to .lmft.json file to load.")
-    parser.add_argument("--grade", type=int, default=None, choices=[0, 1, 2, 3, 4], help="Load milestone checkpoint for Grade 0, 1, 2, 3, or 4.")
+    parser.add_argument("--grade", type=int, default=None, choices=[0, 1, 2, 3, 4, 5], help="Load milestone checkpoint for Grade 0, 1, 2, 3, 4, or 5.")
     parser.add_argument("--demo", action="store_true", help="Run automated non-interactive demonstration.")
     args = parser.parse_args()
 
