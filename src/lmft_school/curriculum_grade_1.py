@@ -60,8 +60,14 @@ class Grade1GraduationReport:
 class Grade1CurriculumRunner:
     """Drives the educational progression for Grade 1 in LMFT-School."""
 
-    def __init__(self, heartbeat: CognitiveHeartbeat | None = None, individual_id: str = "lmft-student-1") -> None:
+    def __init__(
+        self,
+        heartbeat: CognitiveHeartbeat | None = None,
+        individual_id: str = "lmft-student-1",
+        codex: Mapping[str, EsperRecord] | None = None,
+    ) -> None:
         self.individual_id: Final[str] = individual_id
+        self.codex = codex
         if heartbeat is None:
             self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
         else:
@@ -75,7 +81,13 @@ class Grade1CurriculumRunner:
 
     def teach_letter(self, char_or_name: str) -> Grade1LessonResult:
         """Deliver a structured lesson for a single Esper character or name."""
-        if len(char_or_name) == 1 and char_or_name.isalpha():
+        if self.codex is not None:
+            char_key = char_or_name.strip().upper()
+            if char_key in self.codex:
+                esper = self.codex[char_key]
+            else:
+                esper = get_esper_by_name(char_or_name)
+        elif len(char_or_name) == 1 and char_or_name.isalpha():
             esper = get_esper_by_letter(char_or_name)
         else:
             esper = get_esper_by_name(char_or_name)

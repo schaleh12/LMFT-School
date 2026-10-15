@@ -77,15 +77,19 @@ class Grade3CurriculumRunner:
         individual_id: str = "student_01",
         load_grade2_checkpoint: bool = False,
         checkpoint_dir: Optional[Path] = None,
+        codex: Mapping[str, SocraticRecord] | None = None,
     ) -> None:
         self.individual_id: Final[str] = individual_id
         self.engine = ValueConsonanceEngine()
+        self.codex = codex
 
         if heartbeat is not None:
             self.heartbeat = heartbeat
         elif load_grade2_checkpoint:
             ckpt_dir = checkpoint_dir or Path("checkpoints")
             grade2_files = sorted(ckpt_dir.glob(f"individual_{individual_id}*grade2*.lmft.json"))
+            if not grade2_files:
+                grade2_files = sorted(ckpt_dir.glob(f"archive_v1_legacy/individual_{individual_id}*grade2*.lmft.json")) or sorted(ckpt_dir.glob("individual_*grade2*.lmft.json"))
             if grade2_files:
                 target_file = grade2_files[-1]
                 pkg = import_individual(target_file)
@@ -123,7 +127,13 @@ class Grade3CurriculumRunner:
 
     def teach_paradox(self, char_or_name: str) -> Grade3LessonResult:
         """Deliver a structured dialectical lesson for a single Socratic Paradox."""
-        if len(char_or_name) == 1 and char_or_name.isalpha():
+        if self.codex is not None:
+            char_key = char_or_name.strip().upper()
+            if char_key in self.codex:
+                paradox = self.codex[char_key]
+            else:
+                paradox = get_socratic_by_name(char_or_name)
+        elif len(char_or_name) == 1 and char_or_name.isalpha():
             paradox = get_socratic_by_letter(char_or_name)
         else:
             paradox = get_socratic_by_name(char_or_name)

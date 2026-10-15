@@ -100,16 +100,20 @@ class Grade5CurriculumRunner:
         load_grade4_checkpoint: bool = False,
         checkpoint_dir: Optional[Path] = None,
         live_model: bool = False,
+        codex: Mapping[str, MasterRecord] | None = None,
     ) -> None:
         self.individual_id: Final[str] = individual_id
         self.live_model: Final[bool] = live_model
         self.engine = ValueConsonanceEngine()
+        self.codex = codex
 
         if heartbeat is not None:
             self.heartbeat = heartbeat
         elif load_grade4_checkpoint:
             ckpt_dir = checkpoint_dir or Path("checkpoints")
             grade4_files = sorted(ckpt_dir.glob(f"individual_{individual_id}*grade4*.lmft.json"))
+            if not grade4_files:
+                grade4_files = sorted(ckpt_dir.glob(f"archive_v1_legacy/individual_{individual_id}*grade4*.lmft.json")) or sorted(ckpt_dir.glob("individual_*grade4*.lmft.json"))
             if grade4_files:
                 target_file = grade4_files[-1]
                 pkg = import_individual(target_file)
@@ -153,7 +157,13 @@ class Grade5CurriculumRunner:
 
     def teach_master_chord(self, char_or_name: str) -> MasterTrialResult:
         """Deliver a single 4-tier Capstone Grand Synthesis master chord trial."""
-        if len(char_or_name) == 1 and char_or_name.isalpha():
+        if self.codex is not None:
+            char_key = char_or_name.strip().upper()
+            if char_key in self.codex:
+                master = self.codex[char_key]
+            else:
+                master = get_master_by_name(char_or_name)
+        elif len(char_or_name) == 1 and char_or_name.isalpha():
             master = get_master_by_letter(char_or_name)
         else:
             master = get_master_by_name(char_or_name)

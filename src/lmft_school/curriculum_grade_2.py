@@ -77,8 +77,14 @@ class Grade2GraduationReport:
 class Grade2CurriculumRunner:
     """Drives the educational progression for Grade 2 in LMFT-School."""
 
-    def __init__(self, heartbeat: CognitiveHeartbeat | None = None, individual_id: str = "student_01") -> None:
+    def __init__(
+        self,
+        heartbeat: CognitiveHeartbeat | None = None,
+        individual_id: str = "student_01",
+        codex: Mapping[str, RelationalRecord] | None = None,
+    ) -> None:
         self.individual_id: Final[str] = individual_id
+        self.codex = codex
         if heartbeat is None:
             self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
         else:
@@ -92,7 +98,13 @@ class Grade2CurriculumRunner:
 
     def teach_archetype(self, char_or_name: str) -> Grade2LessonResult:
         """Deliver a structured lesson for a single Relational Archetype."""
-        if len(char_or_name) == 1 and char_or_name.isalpha():
+        if self.codex is not None:
+            char_key = char_or_name.strip().upper()
+            if char_key in self.codex:
+                archetype = self.codex[char_key]
+            else:
+                archetype = get_relational_by_name(char_or_name)
+        elif len(char_or_name) == 1 and char_or_name.isalpha():
             archetype = get_relational_by_letter(char_or_name)
         else:
             archetype = get_relational_by_name(char_or_name)

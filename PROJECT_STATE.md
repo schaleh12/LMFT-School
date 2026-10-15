@@ -1,6 +1,17 @@
 # LMFT-School — current project state
 
-## Current session - Generation 2 Pristine Retraining (`student_02`) & Embodied Scribe Deployment Completed (2026-10-15)
+## Current session - Multi-Generational Evolutionary Campaign & Epigenetic Inheritance Completed (2026-10-15)
+
+Follows [D085](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d085-epigenetic-generational-curriculum-refinement--neocortical-inheritance-pipeline). Successfully implemented and completed the autonomous multi-generational curriculum refinement and epigenetic priming pipeline across Generations 2, 3, and 4:
+- **Telemetry Audit (`scripts/audit_telemetry.py`)**: Identified early Grade 1 clarity troughs (letters A & B clarity $< 0.50$), step transition volatility peaks ($|\Delta| > 0.090$ on Eden and Wendigo), and under-stimulated leaves (`philosophical/structure/chaos` moved only $0.2850$).
+- **Curriculum Refinement (`src/lmft_school/curriculum_gen3_codices.py`)**: Authored refined Generation 3 codices smoothing step transitions, elevating early clarity ballast, and holonomically stimulating all 24 leaves across all 5 grades while respecting the frozen 40-node founding seed (Rule D001).
+- **Epigenetic Priming Engine (`scripts/prime_heir.py`)**: Primed candidates `student_03` (Gen 3) and `student_04` (Gen 4) with ancestral sleep-consolidated capacity rules, cleansed 24 leaf dials back to neutral stasis ($0.50$, Balance $\approx 0.9600$), and rejuvenated learning plasticity to agile youth ($\alpha = 0.30$).
+- **Generational Progression & Developmental Convergence (`scripts/train_heir.py`)**:
+  - **Generation 3 (`student_03`)**: Mastered Grades 1–5 in 0.11s; eliminated sub-0.50 clarity troughs (letter A clarity elevated to $0.5612$, B to $0.6034$), damped volatility spikes ($|\Delta| \le 0.087$), and elevated the lowest cumulative leaf motion to $0.4249$.
+  - **Generation 4 (`student_04`)**: Mastered Grades 1–5 in 0.11s; inherited reinforced neocortical capacity rules from Generation 3 with habituated sleep weight $w = 0.74 \rightarrow 0.8362$ on `the living equilibrium`. Established developmental convergence with invariant homeostatic balance ($0.6000$) and high coherence ($GCI = 0.9629$).
+- **Champion Deployment & Embodied Scribe Verification**: Deployed `student_04` into `LMFT-Applications/02_embodied_scribe/graduate.lmft.json`. Live demo execution confirmed authentic motor cadence (~180–200 WPM with punctuation pacing), spontaneous contemplation, dynamic ontological category routing (`[sanctuary_harmony]`), and sleep consolidation with weight habituation to $0.8362$. All 44 curriculum regression tests pass.
+
+## Prior session - Generation 2 Pristine Retraining (`student_02`) & Embodied Scribe Deployment Completed (2026-10-15)
 
 Follows [D084](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d084-pristine-generation-2-candidate-retraining-student_02--embodied-scribe-deployment). Successfully quarantined contaminated Generation 1 checkpoints and trained a pristine Generation 2 candidate (`student_02`) from birth through Grade 5 with active open-world taxonomic hypernym generalization:
 - **Legacy Checkpoint Archival**: Moved all `student_01` checkpoints into `checkpoints/archive_v1_legacy/`, preserving historical lineage data while resetting `LINEAGE_LEDGER.json` to index active Generation 2 individuals.

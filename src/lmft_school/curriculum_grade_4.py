@@ -78,16 +78,20 @@ class Grade4CurriculumRunner:
         load_grade3_checkpoint: bool = False,
         checkpoint_dir: Optional[Path] = None,
         live_model: bool = False,
+        codex: Mapping[str, ThesisRecord] | None = None,
     ) -> None:
         self.individual_id: Final[str] = individual_id
         self.live_model: Final[bool] = live_model
         self.engine = ValueConsonanceEngine()
+        self.codex = codex
 
         if heartbeat is not None:
             self.heartbeat = heartbeat
         elif load_grade3_checkpoint:
             ckpt_dir = checkpoint_dir or Path("checkpoints")
             grade3_files = sorted(ckpt_dir.glob(f"individual_{individual_id}*grade3*.lmft.json"))
+            if not grade3_files:
+                grade3_files = sorted(ckpt_dir.glob(f"archive_v1_legacy/individual_{individual_id}*grade3*.lmft.json")) or sorted(ckpt_dir.glob("individual_*grade3*.lmft.json"))
             if grade3_files:
                 target_file = grade3_files[-1]
                 pkg = import_individual(target_file)
@@ -125,7 +129,13 @@ class Grade4CurriculumRunner:
 
     def defend_thesis_letter(self, char_or_name: str) -> Grade4DefenseResult:
         """Deliver a single dialectical defense trial against the Kefka-Mind reductionist challenge."""
-        if len(char_or_name) == 1 and char_or_name.isalpha():
+        if self.codex is not None:
+            char_key = char_or_name.strip().upper()
+            if char_key in self.codex:
+                thesis = self.codex[char_key]
+            else:
+                thesis = get_thesis_by_name(char_or_name)
+        elif len(char_or_name) == 1 and char_or_name.isalpha():
             thesis = get_thesis_by_letter(char_or_name)
         else:
             thesis = get_thesis_by_name(char_or_name)
