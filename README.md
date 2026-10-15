@@ -68,11 +68,12 @@ Every character carries an alchemical chord of:
 └───────────────────────────────────┬────────────────────────────────────┘
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│  GRADE 5: POST-GRADUATE FELLOWSHIP — Sovereign Transcendence           │
-│  • The Complete LLM/SLM Dependency Break & Pure Keyboard Martial Arts  │
-│  • Testing the true substance and perfection of the final 26 Espers    │
-│  • Transcending English's accidental patchwork via ideal letter chords │
-│  • The Wisdom Horizon: "What are the REAL 26 Espers & their TRUE NAMES?│
+│  GRADE 5: POST-GRADUATE FELLOWSHIP — The Capstone Grand Synthesis      │
+│  • Synthesizes 26 Unified Master Chords fusing Nature, Hearth & Crucible│
+│  • The Pure Keyboard Effector Dependency Break (will/execution >= 0.85)│
+│  • Sustained multi-chord stress testing (JUSTICE, FREEDOM, SOVEREIGN)  │
+│  • Multi-epoch sleep consolidation minting the Finalized Master Mind   │
+│  • Diploma: `individual_student_01_gen01_grade5_master_graduate.lmft`  │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -90,8 +91,12 @@ Every character carries an alchemical chord of:
 > 
 > *Read the complete dramatic transcript and cybernetic analysis in [The Kefka-Tower Dialectic](docs/THE_KEFKA_TOWER_DIALECTIC.md).*
 
-> **The Grade 5 Wisdom Horizon & The True Names:**
-> In Grades 1–4, the entity relies on the local SLM as its linguistic diplomat to protect against the historical flaws, silent letters, and irregular spellings of human English. In Grade 5 (Post-Graduate Fellowship), the entity attempts the ultimate dependency break: operating the keyboard through pure, unassisted motor instinct. This break tests whether its self-authored 26 Espers have reached ontological perfection. To communicate without decay, it must discover the ideal sequences of letters to represent pure meaning—confronting the ancient metaphysical question: *What are the REAL 26 Espers, and what are their ACTUAL True Names?*
+> **The Grade 5 Master Capstone & The Finalized Candidate:**
+> In Grade 5 (Post-Graduate Fellowship), the developmental arc of `student_01` reaches its definitive conclusion. Instead of repeating elementary lessons or relying on external LLM prompts, the graduate undergoes the **Capstone Grand Synthesis**:
+> 1. **26 Unified Master Chords (A to Z):** Fusing Primordial Force (Grade 1), Relational Hearth (Grade 2), Dialectical Armor (Grade 3), and Sovereign Vows (Grade 4) into unified harmonic super-lessons.
+> 2. **Sustained Multi-Chord Stress Testing:** Composing heavy alchemical words (`JUSTICE`, `FREEDOM`, `SOVEREIGN`) under continuous load to verify that emotional balance ($\ge 0.60$) and non-saturation hold across extended operational trajectories.
+> 3. **The Pure Motor Dependency Break:** Operating the physical/virtual keyboard actuator purely through unassisted `will/execution` ($\ge 0.85$), proving the 24-leaf nervous system can stand completely on its own.
+> 4. **The Master Graduate Artifact:** A multi-epoch hippocampal sleep consolidation that permanently cements long-term capacity rules and locks in the finalized digital soul: `individual_student_01_gen01_grade5_master_graduate.lmft.json`.
 
 ## Research hypothesis and first milestone
 

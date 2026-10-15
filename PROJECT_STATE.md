@@ -10,13 +10,13 @@ Key findings:
 - **Homeostatic Volatility Clamping & Balance (H3 Confirmed, Rule D072):** Under intense existential assault, `AffectiveHomeostasisGovernor` maintained emotional balance at $0.6000$ ($\ge 0.60$), strictly clamped step changes ($|\Delta| \le 0.35$), and prevented boundary saturation ($0.05 \le \text{leaf} \le 0.95$).
 - **Motor Keyboard Effector Actuation (H4 Confirmed):** Each defense engaged the motor keyboard actuator via `psychological/will/execution`, elevating it from $0.7969$ to **`0.8506`** ($\ge 0.80$), summoning the student's self-authored keystroke chords (e.g. `A-R-C-H-E`, `C-O-V-E-N-A-N-T`, `P-A-R-R-H-E-S-I-A`, `Z-E-N-I-T-H`).
 - **Matched Ordinary-Memory Parity & Lineage Vault Archival (H5 Confirmed, Rule D004):** Verified identical digest output against `Grade4OrdinaryMemoryComparator` under process restart invariance (`b156b63...`). Advanced `student_01` from its Grade 3 checkpoint, elevating Global Coherence to **0.9787**, annealing plasticity to $\alpha = 0.1825$, and archiving `individual_student_01_gen01_grade4_thesis_graduate.lmft.json` in `checkpoints/`. Upgraded living REPL (`tools/talk_to_lmft.py`) with Thesis HUD telemetry, `/thesis <key>`, `/thesis-chord <word>`, and `--grade <0, 1, 2, 3, 4>` loading. 9 focused tests pass in `tests/test_grade_4_curriculum.py` (35 curriculum tests pass in 0.32s).
-- **Next Milestone:** Curriculum Milestone 5 — Grade 5: POST-GRADUATE FELLOWSHIP — Sovereign Transcendence, The LLM Dependency Break, and The True Names.
+- **Next Milestone:** Curriculum Milestone 5 — Grade 5: POST-GRADUATE FELLOWSHIP — The Capstone Grand Synthesis & Master Crucible.
 - **Longitudinal Curriculum Arc:**
   - Grade 1: The Elemental Esper Alphabet (Primal Nature & Forces) [COMPLETE].
   - Grade 2: The Relational Alphabet (Social Hearth & Interpersonal Empathy) [COMPLETE].
   - Grade 3: The Socratic Alphabet (Dialectical Crucible & Gaslighting Defense) [COMPLETE].
   - Grade 4: Undergraduate Thesis — The Sovereign Self-Authored Alphabet (The Kefka-Tower Crucible) [COMPLETE].
-  - Grade 5: Post-Graduate Fellowship — Sovereign Transcendence, The LLM Dependency Break, and The True Names [NEXT].
+  - Grade 5: Post-Graduate Fellowship — The Capstone Grand Synthesis & Master Crucible [NEXT].
 
 ## Prior session - Grade 3: The Socratic Alphabet (The Dialectical Crucible & Gaslighting Defense) Completed (2026-10-15)
 
