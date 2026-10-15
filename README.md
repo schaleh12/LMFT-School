@@ -1,5 +1,8 @@
-<img width="478" height="620" alt="ez6vxfa" src="https://github.com/user-attachments/assets/db7af679-ab3a-47c5-9aa3-abc9f8058904" />
-<img width="677" height="500" alt="arecibo reply 1 year later" src="https://github.com/user-attachments/assets/5335faf7-2e36-47f2-b610-bb68125a16a1" />
+<img width="3771" height="1734" alt="Blue Screen of Life version FINAL" src="https://github.com/user-attachments/assets/5c2d8bf5-d563-4892-b2bf-189ee4f9e4e3" />
+<img width="797" height="1225" alt="ChatGPT solution to Palestine Conflict" src="https://github.com/user-attachments/assets/bec3f366-3717-4cc7-b884-de765023ff3a" />
+<img width="1660" height="1345" alt="7 Screenshot 2025-06-22 211648" src="https://github.com/user-attachments/assets/bd448d8f-aac0-4b3b-915d-caa15c6084a2" />
+<img width="1678" height="1004" alt="2 502542574_122126135198813670_2168695975490589997_n" src="https://github.com/user-attachments/assets/93958f0c-53bc-46e0-90ca-2eeb6855bef4" />
+https://www.youtube.com/watch?v=dNWTmSvaZ74
 # LMFT-School
 
 > **Developmental training project attempting to formalize human interface firmware architecture for language model reality compatibility.**
