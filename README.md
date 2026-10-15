@@ -1,3 +1,4 @@
+<img width="677" height="500" alt="arecibo reply 1 year later" src="https://github.com/user-attachments/assets/5335faf7-2e36-47f2-b610-bb68125a16a1" />
 # LMFT-School
 
 > **Developmental training project attempting to formalize human interface firmware architecture for language model reality compatibility.**
