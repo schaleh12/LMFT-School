@@ -1,3 +1,4 @@
+<img width="478" height="620" alt="ez6vxfa" src="https://github.com/user-attachments/assets/db7af679-ab3a-47c5-9aa3-abc9f8058904" />
 <img width="677" height="500" alt="arecibo reply 1 year later" src="https://github.com/user-attachments/assets/5335faf7-2e36-47f2-b610-bb68125a16a1" />
 # LMFT-School
 
