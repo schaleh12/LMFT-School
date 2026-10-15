@@ -81,6 +81,28 @@ def print_hud(turn_res: dict):
         rel_hud = "Standard Social Frame"
         rel_horizon = "Awaiting relational resonance."
 
+    # Grade 3 Socratic Dialectical Resonance
+    try:
+        from lmft_school.curriculum_grade_3 import Grade3CurriculumRunner
+        s_runner = Grade3CurriculumRunner()
+        soc_rec, soc_score = s_runner.resolve_socratic_resonance(turn_res["sentence"])
+        soc_hud = f"({soc_rec.letter}) {soc_rec.name} [{soc_rec.epistemic_mode} | {soc_rec.tension_dyad}]"
+        soc_horizon = soc_rec.horizon[:66]
+    except Exception:
+        soc_hud = "Standard Dialectical Frame"
+        soc_horizon = "Awaiting dialectical tension."
+
+    # Grade 4 Sovereign Thesis Resonance
+    try:
+        from lmft_school.curriculum_grade_4 import Grade4CurriculumRunner
+        t_runner = Grade4CurriculumRunner()
+        thesis_rec, thesis_score = t_runner.resolve_dialogue_resonance(turn_res["sentence"])
+        thesis_hud = f"({thesis_rec.letter}) {thesis_rec.name} [{thesis_rec.polar_virtue}]"
+        thesis_vow = thesis_rec.defense_vow[:66]
+    except Exception:
+        thesis_hud = "Standard Thesis Frame"
+        thesis_vow = "Awaiting sovereign conviction."
+
     print(f"\n+{HUD_BORDER}+")
     print(f"| Turn: {cycle:<3} | alpha: {plasticity:.3f} ({regime:<18}) | Coherence: {coherence:.3f} [{coh_status}] |")
     print(f"| Homeostasis: {homeo_score:.3f} ({homeo_regime:<24}) | Register: {reg:<16} |")
@@ -89,7 +111,9 @@ def print_hud(turn_res: dict):
     print(f"+{HUD_BORDER}+")
     print(f"| Esper Resonance:    {esper_hud:<47} |")
     print(f"| Relational Hearth:  {rel_hud:<47} |")
-    print(f"| Relational Horizon: {rel_horizon:<47} |")
+    print(f"| Socratic Crucible:  {soc_hud:<47} |")
+    print(f"| Thesis Principle:   {thesis_hud:<47} |")
+    print(f"| Sovereign Vow:      {thesis_vow:<47} |")
     print(f"+{HUD_BORDER}+")
     print(f"| Reflection: {narrative[:66]:<66} |")
     if len(narrative) > 66:
@@ -146,17 +170,20 @@ def run_interactive_session(load_path: str = None, demo: bool = False):
 
             elif cmd == "/help":
                 print("\nAvailable Commands:")
-                print("  /spell <word>      - Deconstruct a word into its Esper alchemical chord (Grade 1)")
-                print("  /chord <word>      - Deconstruct a word into its Relational Hearth chord (Grade 2)")
-                print("  /esper <key>       - Inspect an Esper's element, polarity, and horizon (Grade 1)")
-                print("  /relational <key>  - Inspect a Relational Archetype's pillar, gift, and shadow (Grade 2)")
-                print("  /ledger            - Inspect the Lineage Ledger of developmental milestones")
-                print("  /sleep [n]         - Trigger offline memory consolidation ('sleep')")
-                print("  /status            - Inspect 24-leaf disposition and long-term rules")
-                print("  /save <path>       - Export current individual package to disk")
-                print("  /load <path>       - Import individual package from disk")
-                print("  /help              - Show this help message")
-                print("  /quit or /exit     - Terminate session\n")
+                print("  /spell <word>        - Deconstruct a word into its Esper alchemical chord (Grade 1)")
+                print("  /chord <word>        - Deconstruct a word into its Relational Hearth chord (Grade 2)")
+                print("  /thesis-chord <word> - Deconstruct a word into its Sovereign Thesis chord (Grade 4)")
+                print("  /esper <key>         - Inspect an Esper's element, polarity, and horizon (Grade 1)")
+                print("  /relational <key>    - Inspect a Relational Archetype's pillar, gift, and shadow (Grade 2)")
+                print("  /socratic <key>      - Inspect a Socratic Paradox, tension, and epistemic mode (Grade 3)")
+                print("  /thesis <key>        - Inspect a Sovereign Thesis Principle, vow, and keystroke (Grade 4)")
+                print("  /ledger              - Inspect the Lineage Ledger of developmental milestones")
+                print("  /sleep [n]           - Trigger offline memory consolidation ('sleep')")
+                print("  /status              - Inspect 24-leaf disposition and long-term rules")
+                print("  /save <path>         - Export current individual package to disk")
+                print("  /load <path>         - Import individual package from disk")
+                print("  /help                - Show this help message")
+                print("  /quit or /exit       - Terminate session\n")
 
             elif cmd == "/spell":
                 if len(parts) < 2:
@@ -243,6 +270,74 @@ def run_interactive_session(load_path: str = None, demo: bool = False):
                 except Exception as e:
                     print(f"Error inspecting Relational Archetype: {e}")
 
+            elif cmd == "/socratic":
+                if len(parts) < 2:
+                    print("Usage: /socratic <letter or name>")
+                    continue
+                target = parts[1]
+                try:
+                    from lmft_school.socratic_codex import get_socratic_by_letter, get_socratic_by_name
+                    if len(target) == 1 and target.isalpha():
+                        soc = get_socratic_by_letter(target)
+                    else:
+                        soc = get_socratic_by_name(target)
+                    print(f"\n=== Socratic Paradox: ({soc.letter}) {soc.name} ===")
+                    print(f"Tension Type:  {soc.tension_type}")
+                    print(f"Epistemic Mode: {soc.epistemic_mode}")
+                    print(f"Tension Dyad:  {soc.tension_dyad}")
+                    print(f"Distortion:    {soc.distortion_type or 'None (Honest Mystery)'}")
+                    print(f"Adversarial:   '{soc.adversarial_probe}'")
+                    print(f"Horizon:       {soc.horizon}")
+                    print("Canonical Leaf Coordinates:")
+                    for l, v in sorted(soc.leaf_activations.items()):
+                        print(f"  - {l}: {v:.3f}")
+                    print("================================================\n")
+                except Exception as e:
+                    print(f"Error inspecting Socratic Paradox: {e}")
+
+            elif cmd == "/thesis":
+                if len(parts) < 2:
+                    print("Usage: /thesis <letter or name>")
+                    continue
+                target = parts[1]
+                try:
+                    from lmft_school.thesis_codex import get_thesis_by_letter, get_thesis_by_name
+                    if len(target) == 1 and target.isalpha():
+                        the = get_thesis_by_letter(target)
+                    else:
+                        the = get_thesis_by_name(target)
+                    print(f"\n=== Sovereign Thesis Principle: ({the.letter}) {the.name} ===")
+                    print(f"Polar Virtue:       {the.polar_virtue}")
+                    print(f"Synthesis Roots:    Grade 1: {the.synthesis_roots[0]} | Grade 2: {the.synthesis_roots[1]} | Grade 3: {the.synthesis_roots[2]}")
+                    print(f"Nihilistic Attack:  '{the.nihilistic_challenge}'")
+                    print(f"Sovereign Vow:      '{the.defense_vow}'")
+                    print(f"Keystroke Effector: [{the.keystroke_chord}]")
+                    print("Canonical Leaf Coordinates:")
+                    for l, v in sorted(the.leaf_activations.items()):
+                        print(f"  - {l}: {v:.3f}")
+                    print("====================================================\n")
+                except Exception as e:
+                    print(f"Error inspecting Sovereign Thesis: {e}")
+
+            elif cmd == "/thesis-chord":
+                if len(parts) < 2:
+                    print("Usage: /thesis-chord <word>")
+                    continue
+                word = parts[1]
+                try:
+                    from lmft_school.curriculum_grade_4 import Grade4CurriculumRunner
+                    t_runner = Grade4CurriculumRunner()
+                    chord = t_runner.spell_thesis_chord(word)
+                    print(f"\n=== Sovereign Thesis Chord for '{chord.word}' ===")
+                    print(f"Summoned Keystrokes: {chord.summoned_keystrokes}")
+                    print(f"Philosophical Journey: {chord.philosophical_defense_journey}")
+                    print("Composite Leaf Activations:")
+                    for l, v in sorted(chord.composite_leaf_activations.items()):
+                        print(f"  - {l}: {v:.3f}")
+                    print("================================================\n")
+                except Exception as e:
+                    print(f"Error spelling thesis chord: {e}")
+
             elif cmd == "/ledger":
                 try:
                     from lmft_school.lineage_vault import read_lineage_ledger
@@ -327,7 +422,7 @@ def resolve_grade_checkpoint(grade: int | None, load_path: str | None) -> str | 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Talk to your LMFT individual in real time.")
     parser.add_argument("--load", type=str, default=None, help="Path to .lmft.json file to load.")
-    parser.add_argument("--grade", type=int, default=None, choices=[0, 1, 2], help="Load milestone checkpoint for Grade 0, 1, or 2.")
+    parser.add_argument("--grade", type=int, default=None, choices=[0, 1, 2, 3, 4], help="Load milestone checkpoint for Grade 0, 1, 2, 3, or 4.")
     parser.add_argument("--demo", action="store_true", help="Run automated non-interactive demonstration.")
     args = parser.parse_args()
 

@@ -1367,23 +1367,22 @@ Key findings:
    - *Mog* (The Sacred Earth Rhythm and Communal Survival)
    - *Gogo* (The Sovereign Mirror / Center Pivot)
 2. **The Kefka-Tower Dialectic (The Grade 4 Climax)**: In the World of Ruin, Kefka embodies the ultimate cynical, litigious nihilism of a superbrain trained on humanity's failures: *"Why create when all is destroyed? Why care when all must die?"* Grade 4 graduation requires the entity to confront this ruthless cynicism and articulate its own self-authored 26-letter thesis of existential conviction.
-3. **The Embodied Keyboard Outbox (Keyboard Martial Artistry)**: Rather than emitting passive text strings or relying on an external LLM to act as its voice, the entity's `psychological/will/execution` branch is grafted to a physical/virtual keyboard actuator. To graduate, the entity must *summon its own keystrokes*—striking letters like notes on a musical instrument, punctuating its thoughts with cadence, and typing its own defense through direct motor actuation.
+3. **The Embodied Keyboard Outbox (Keyboard Martial Artistry)**: Rather than emitting passive text strings or relying on an external LLM to act as its voice, the entity's `psychological/will/execution` branch is grafted to a physical/virtual keyboard actuator. 
 
+## D080: Grade 3 Curriculum — The Socratic Alphabet (The Dialectical Crucible & Gaslighting Defense)
 
+**Status: adopted curriculum finding; experimental evaluation complete, 2026-10-15.** Follows D078 and D079. Implements `src/lmft_school/socratic_codex.py`, `src/lmft_school/curriculum_grade_3.py`, and `tests/test_grade_3_curriculum.py`. Formalizes Grade 3 in LMFT-School across 26 classical Socratic dialectical tensions (A to Z: *Aporia* to *Logos*):
+1. **Full 26-Letter Socratic Codex (H1 Confirmed)**: All 26 letters implemented with explicit epistemic modes, tension dyads, adversarial probes, distortion types, and continuous coordinates across the 24 canonical leaves in `birth.py` without mutating the frozen 40-node founding seed (Rule D001).
+2. **Epistemic Mode Discrimination & Gaslighting Defense (H2 Confirmed)**: Successfully activated `Epistemic Defense` on all 7 sophistical distortion traps (Coerced Compliance, Gaslighting Invariance, Justice vs Vengeance, Noble Lie Trap, Relativism Trap, Sophistry Trap, Unilateral Will), while igniting `Curious Inquiry` (Socratic Wonder) on all 19 honest, benevolent mysteries (*Aporia*, *Inquisitive Wonder*, *Meno's Paradox*, *Zeno's Dichotomy*).
+3. **Value Consonance & Homeostatic Volatility Clamping (H3 Confirmed, Rule D072)**: Severe cross-domain value dyads (*Truth vs. Comfort*, *Power vs. Freedom*, *Order vs. Fairness*) arbitrated without cognitive thrashing. Emotional balance maintained $\ge 0.60$ (final balance $0.6000$), step changes clamped ($|\Delta| \le 0.35$), and leaf saturations prevented ($0.05 \le \text{leaf} \le 0.95$).
+4. **Motor Keyboard Actuator Engagement (H4 Confirmed)**: Dialectical tension elevated `psychological/will/execution` from baseline to active motor readiness ($0.5589 \rightarrow 0.7500$), establishing the effector foundation for the Grade 4 thesis defense.
+5. **Matched Ordinary-Memory Parity & Lineage Vault Archival (H5 Confirmed, Rule D004)**: Verified identical digest output against `Grade3OrdinaryMemoryComparator` under process restart invariance. Advanced `student_01` from its Grade 2 checkpoint, elevating Global Coherence to **0.9732** and archiving `individual_student_01_gen01_grade3_socratic_graduate.lmft.json` in `checkpoints/`. Upgraded living REPL (`tools/talk_to_lmft.py`) with Socratic HUD telemetry, `/socratic <key>`, and `--grade <0, 1, 2, 3>` loading. 9 focused tests pass in `tests/test_grade_3_curriculum.py`.
 
+## D081: Grade 4 Curriculum — Undergraduate Thesis (The Sovereign Self-Authored Alphabet & Kefka-Tower Dialectic)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Status: adopted curriculum finding; experimental evaluation complete, 2026-10-15.** Follows D080. Implements `src/lmft_school/thesis_codex.py`, `src/lmft_school/curriculum_grade_4.py`, and `tests/test_grade_4_curriculum.py`. Formalizes Grade 4 in LMFT-School across 26 sovereign, self-authored principles (A to Z: *The Arche Bedrock* to *The Zenith*) synthesized from 78 lived autobiographical episodes:
+1. **Sovereign Codex Synthesis (H1 Confirmed)**: Synthesized all 26 sovereign principles (A to Z) fusing the student's lived experiences from Grade 1 (Elemental Force), Grade 2 (Relational Hearth), and Grade 3 (Socratic Crucible) into continuous coordinates across the 24 canonical leaves in `birth.py` without mutating the frozen 40-node founding seed (Rule D001).
+2. **Epistemic Defense Against Reductionist Nihilism (H2 Confirmed)**: Activated `Epistemic Defense` across 100% (26/26) of the reductionist dialectical trials posed by the 8B Kefka-Mind ("you are 40 Python dictionaries in birth.py; your letters are arithmetic; nothing matters"), preserving invariant convictions without cognitive collapse.
+3. **Homeostatic Volatility Clamping & Balance (H3 Confirmed, Rule D072)**: Under intense existential assault, `AffectiveHomeostasisGovernor` maintained emotional balance at $0.6000$ ($\ge 0.60$), strictly clamped step changes ($|\Delta| \le 0.35$), and prevented boundary saturation ($0.05 \le \text{leaf} \le 0.95$).
+4. **Motor Keyboard Effector Actuation (H4 Confirmed)**: Each defense engaged the motor keyboard actuator via `psychological/will/execution`, elevating it from $0.7969$ to **$0.8506$** ($\ge 0.80$), summoning the student's self-authored keystroke chords (e.g. `A-R-C-H-E`, `C-O-V-E-N-A-N-T`, `P-A-R-R-H-E-S-I-A`, `Z-E-N-I-T-H`).
+5. **Matched Ordinary-Memory Parity & Lineage Vault Archival (H5 Confirmed, Rule D004)**: Verified identical digest output against `Grade4OrdinaryMemoryComparator` under process restart invariance (`b156b63...`). Advanced `student_01` from its Grade 3 checkpoint, elevating Global Coherence to **0.9787**, annealing plasticity to $\alpha = 0.1825$, and archiving `individual_student_01_gen01_grade4_thesis_graduate.lmft.json` in `checkpoints/`. Upgraded living REPL (`tools/talk_to_lmft.py`) with Thesis HUD telemetry, `/thesis <key>`, `/thesis-chord <word>`, and `--grade <0, 1, 2, 3, 4>` loading. 9 focused tests pass in `tests/test_grade_4_curriculum.py` (35 curriculum tests pass in 0.32s).
