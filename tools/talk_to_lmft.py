@@ -402,20 +402,28 @@ def run_interactive_session(load_path: str = None, demo: bool = False):
 
 
 def resolve_grade_checkpoint(grade: int | None, load_path: str | None) -> str | None:
-    """Finds a checkpoint path based on explicit flag or grade level."""
+    """Finds a checkpoint path based on explicit flag or grade level. Defaults to latest graduate."""
     if load_path:
         return load_path
-    if grade is None:
-        return None
 
     checkpoints_dir = Path(__file__).resolve().parents[1] / "checkpoints"
     if not checkpoints_dir.exists():
         return None
 
-    matches = list(checkpoints_dir.glob(f"*grade{grade}*.lmft.json"))
-    if matches:
-        # Return most recent
-        return str(sorted(matches, key=lambda p: p.stat().st_mtime)[-1])
+    if grade is not None:
+        matches = list(checkpoints_dir.glob(f"*grade{grade}*.lmft.json"))
+        if matches:
+            return str(sorted(matches, key=lambda p: p.stat().st_mtime)[-1])
+        return None
+
+    # If no explicit grade or load flag passed, default to latest student_01 graduate milestone
+    for g in [4, 3, 2, 1, 0]:
+        matches = list(checkpoints_dir.glob(f"individual_student_01*grade{g}*.lmft.json"))
+        if matches:
+            chosen = sorted(matches, key=lambda p: p.stat().st_mtime)[-1]
+            print(f"[*] Defaulting to latest graduate milestone (Grade {g}): {chosen.name}")
+            return str(chosen)
+
     return None
 
 
