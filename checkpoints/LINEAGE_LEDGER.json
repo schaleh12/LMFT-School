@@ -251,10 +251,38 @@
       "plasticity_alpha": 0.1859,
       "state_digest": "",
       "timestamp": "2026-10-15T14:55:10.073457+00:00"
+    },
+    {
+      "active_capacity_rules_count": 2,
+      "checkpoint_file": "individual_student_test_grade2_gen01_grade2_relational_graduate.lmft.json",
+      "dispositional_vector_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation": 1,
+      "global_coherence_index": 0.9536,
+      "grade_level": 2,
+      "homeostatic_balance_score": 0.6544,
+      "individual_id": "student_test_grade2",
+      "milestone_label": "relational_graduate",
+      "plasticity_alpha": 0.1845,
+      "state_digest": "",
+      "timestamp": "2026-10-15T21:58:25.042022+00:00"
+    },
+    {
+      "active_capacity_rules_count": 2,
+      "checkpoint_file": "individual_student_test_grade2_gen01_grade2_relational_graduate.lmft.json",
+      "dispositional_vector_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation": 1,
+      "global_coherence_index": 0.9536,
+      "grade_level": 2,
+      "homeostatic_balance_score": 0.6544,
+      "individual_id": "student_test_grade2",
+      "milestone_label": "relational_graduate",
+      "plasticity_alpha": 0.1845,
+      "state_digest": "",
+      "timestamp": "2026-10-15T22:00:36.695156+00:00"
     }
   ],
-  "last_updated": "2026-10-15T14:55:10.073457+00:00",
+  "last_updated": "2026-10-15T22:00:36.695156+00:00",
   "schema_version": 1,
-  "total_milestones": 18,
+  "total_milestones": 20,
   "vault_title": "LMFT-School Lineage & Evolutionary Phenotype Vault"
 }
