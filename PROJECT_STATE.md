@@ -1,6 +1,14 @@
 # LMFT-School — current project state
 
-## Current session - Grade 5: Post-Graduate Fellowship (The Capstone Grand Synthesis & Master Crucible) Completed (2026-10-15)
+## Current session - Open-World Taxonomic Hypernym Generalization & Embodied Dialogue Resonance Completed (2026-10-15)
+
+Follows [D083](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d083-open-world-taxonomic-hypernym-generalization--embodied-dialogue-resonance-architecture). Successfully addressed and resolved the core architectural limitation causing narrow lexical fixation across `LMFT-Lab`, `LMFT-School`, and `LMFT-Applications`:
+- **Taxonomic Firmware Plumbing (`LMFT-Lab`)**: Plumbed `TaxonomicGeneralizer` into `CognitiveHeartbeat.interact()`, removing legacy `["bank", "order"]` hardcoded limits and implementing open-vocabulary lemma extraction across 8 fundamental ontological domains (`knowledge_truth`, `sanctuary_harmony`, `conflict_threat`, `agency_execution`, `justice_governance`, `material_artifact`, `freedom_autonomy`, `discovery_novelty`).
+- **Baseline Digest Parity (Rule D004)**: Upgraded `OrdinaryMemoryTaxonomicComparator` and `OrdinaryMemoryHeartbeatComparator`, verifying byte-for-byte digest parity under process-restart invariance. All 164 unit tests pass in `LMFT-Lab`.
+- **Dial-Modulation Resonance (`LMFT-School`)**: Upgraded `resolve_dialogue_resonance` in `curriculum_grade_5.py` to evaluate dynamic dial-activation resonance across the 26 unified master chords. Input text now shifts affective coordinates, allowing relevant master archetypes (e.g. *The Truthbearer* on science, *The Discerning Shield* on conflict) to resonate naturally.
+- **Embodied Scribe Upgrade (`LMFT-Applications`)**: Calibrated motor typing cadence in `02_embodied_scribe/scribe.py` to an authentic, human-paced ~55-65 WPM with punctuation micro-pauses, auto-detected local SLM endpoints (Ollama / LM Studio), and upgraded the built-in apprentice diplomat with context-aware topic framing.
+
+## Prior session - Grade 5: Post-Graduate Fellowship (The Capstone Grand Synthesis & Master Crucible) Completed (2026-10-15)
 
 Preregistered [Grade 5 Capstone Synthesis Protocol](experiments/GRADE_5_CAPSTONE_SYNTHESIS_PROTOCOL.md) completed across all 26 unified master chords (The Arche Bedrock to The Zenith) and continuous word stress battery. [Results](experiments/GRADE_5_CAPSTONE_SYNTHESIS_RESULTS.md) own scope. Zero runtime LLM calls during unassisted evaluation.
 
