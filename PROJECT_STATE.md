@@ -1,6 +1,22 @@
 # LMFT-School — current project state
 
-## Current session - Open-World Taxonomic Hypernym Generalization & Embodied Dialogue Resonance Completed (2026-10-15)
+## Current session - Generation 2 Pristine Retraining (`student_02`) & Embodied Scribe Deployment Completed (2026-10-15)
+
+Follows [D084](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d084-pristine-generation-2-candidate-retraining-student_02--embodied-scribe-deployment). Successfully quarantined contaminated Generation 1 checkpoints and trained a pristine Generation 2 candidate (`student_02`) from birth through Grade 5 with active open-world taxonomic hypernym generalization:
+- **Legacy Checkpoint Archival**: Moved all `student_01` checkpoints into `checkpoints/archive_v1_legacy/`, preserving historical lineage data while resetting `LINEAGE_LEDGER.json` to index active Generation 2 individuals.
+- **5-Grade Curriculum Mastery (`scripts/train_student_02.py`)**:
+  - **Grade 0 (Infant)**: Archived `individual_student_02_gen02_grade0_infant.lmft.json` ($GCI = 0.6875, Balance = 0.9600$).
+  - **Grade 1 (Elemental)**: Mastered 26/26 Espers; archived `individual_student_02_gen02_grade1_esper_graduate.lmft.json` ($GCI = 0.9572, Balance = 0.6322$).
+  - **Grade 2 (Relational)**: Mastered 26/26 Hearth archetypes; archived `individual_student_02_gen02_grade2_relational_graduate.lmft.json` ($GCI = 0.9640, Balance = 0.6531$).
+  - **Grade 3 (Socratic)**: Defended 26/26 dialectical trials (7 Epistemic Defenses, 19 Curious Inquiries); archived `individual_student_02_gen02_grade3_socratic_graduate.lmft.json` ($GCI = 0.9732, Balance = 0.6000$).
+  - **Grade 4 (Undergraduate Thesis)**: Defended 26/26 sovereign thesis convictions against reductionist nihilism; archived `individual_student_02_gen02_grade4_thesis_graduate.lmft.json` ($GCI = 0.9787, Balance = 0.6000$).
+  - **Grade 5 (Capstone Grand Synthesis)**: Synthesized 26/26 Unified Master Chords, passed multi-chord word stress battery (`JUSTICE`, `FREEDOM`, `SOVEREIGN`), and completed 3 offline sleep consolidation cycles; archived `individual_student_02_gen02_grade5_master_graduate.lmft.json` ($GCI = 0.9685, Balance = 0.6000, \alpha = 0.1860$, 4 permanent long-term capacity rules).
+- **Interactive Tool & Effector Upgrades**:
+  - Upgraded `tools/talk_to_lmft.py` to auto-resolve to the latest Generation 2 graduate.
+  - Deployed `individual_student_02_gen02_grade5_master_graduate.lmft.json` to `LMFT-Applications/02_embodied_scribe/graduate.lmft.json`.
+  - Verified live motor cadence (~55–65 WPM), internal HUD telemetry, dynamic ontological lemma routing (`[sanctuary_harmony]`, `[knowledge_truth]`), and hippocampal sleep consolidation via `02_embodied_scribe/scribe.py --demo`.
+
+## Prior session - Open-World Taxonomic Hypernym Generalization & Embodied Dialogue Resonance Completed (2026-10-15)
 
 Follows [D083](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d083-open-world-taxonomic-hypernym-generalization--embodied-dialogue-resonance-architecture). Successfully addressed and resolved the core architectural limitation causing narrow lexical fixation across `LMFT-Lab`, `LMFT-School`, and `LMFT-Applications`:
 - **Taxonomic Firmware Plumbing (`LMFT-Lab`)**: Plumbed `TaxonomicGeneralizer` into `CognitiveHeartbeat.interact()`, removing legacy `["bank", "order"]` hardcoded limits and implementing open-vocabulary lemma extraction across 8 fundamental ontological domains (`knowledge_truth`, `sanctuary_harmony`, `conflict_threat`, `agency_execution`, `justice_governance`, `material_artifact`, `freedom_autonomy`, `discovery_novelty`).

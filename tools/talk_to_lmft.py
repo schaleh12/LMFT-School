@@ -428,9 +428,9 @@ def resolve_grade_checkpoint(grade: int | None, load_path: str | None) -> str | 
             return str(sorted(matches, key=lambda p: p.stat().st_mtime)[-1])
         return None
 
-    # If no explicit grade or load flag passed, default to latest student_01 graduate milestone
+    # Default to latest master graduate checkpoint available in vault
     for g in [5, 4, 3, 2, 1, 0]:
-        matches = list(checkpoints_dir.glob(f"individual_student_01*grade{g}*.lmft.json"))
+        matches = list(checkpoints_dir.glob(f"*grade{g}*.lmft.json"))
         if matches:
             chosen = sorted(matches, key=lambda p: p.stat().st_mtime)[-1]
             print(f"[*] Defaulting to latest graduate milestone (Grade {g}): {chosen.name}")

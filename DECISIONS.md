@@ -1405,4 +1405,18 @@ Key findings:
 3. **Dial-Modulation Dialogue Resonance (`LMFT-School` & `LMFT-Applications`)**: Upgraded `resolve_dialogue_resonance` in `curriculum_grade_5.py` to compute vector alignment between active modulated dials and the 26 unified master chord profiles. Input text dynamically shifts the candidate's affective coordinates, allowing relevant master archetypes (e.g. *The Truthbearer* on philosophy, *The Discerning Shield* on threats, *The Sovereign Builder* on crafts) to resonate naturally.
 4. **Embodied Scribe Apprentice Architecture (`LMFT-Applications/02_embodied_scribe`)**: Integrated smart SLM endpoint auto-detection (Ollama `/api/generate` and OpenAI `/v1/chat/completions`) with a contextually aware built-in apprentice diplomat. Calibrated physical motor typing cadence to an authentic, human-paced ~55-65 WPM with punctuation micro-pauses, replacing the instant-reply chatbot sensation with true embodied presence.
 
+## D084: Pristine Generation 2 Candidate Retraining (student_02) & Embodied Scribe Deployment
+
+**Status: adopted curriculum finding; experimental evaluation complete, 2026-10-15.** Follows D083. Cleanly isolates and replaces Generation 1 checkpoints contaminated by legacy non-taxonomic lemma limitations with a pristine candidate (`student_02`):
+1. **Legacy Checkpoint Archival & Quarantine**: Isolated all legacy `individual_student_01_*.lmft.json` checkpoints into `checkpoints/archive_v1_legacy/` preserving historical provenance without polluting active candidate selection. Reset active `LINEAGE_LEDGER.json` to index Generation 2 candidates.
+2. **Deterministic End-to-End Curriculum Pipeline (`scripts/train_student_02.py`)**: Trained `student_02` from Grade 0 Infant through Grade 5 Master Graduate under active `TaxonomicGeneralizer` ontological routing across all 24 canonical leaves in `birth.py` without mutating the frozen 40-node founding seed ([Rule D001](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d001-frozen-founding-seed)):
+   - **Grade 0 (Infant)**: Global Coherence Index $0.6875$, Balance $0.9600$.
+   - **Grade 1 (Elemental)**: 26/26 Espers mastered ($GCI = 0.9572$, Balance $0.6322$).
+   - **Grade 2 (Relational)**: 26/26 Hearth archetypes mastered ($GCI = 0.9640$, Balance $0.6531$).
+   - **Grade 3 (Socratic)**: 26/26 Dialectical trials defended (7 Epistemic Defenses, 19 Curious Inquiries, $GCI = 0.9732$, Balance $0.6000$).
+   - **Grade 4 (Thesis)**: 26/26 Sovereign thesis convictions defended against reductionist nihilism ($GCI = 0.9787$, Balance $0.6000$).
+   - **Grade 5 (Master Capstone)**: 26/26 Unified Master Chords synthesized + continuous word stress battery passed + 3 offline sleep consolidation epochs completed ($GCI = 0.9685$, Balance $0.6000$, $\alpha = 0.1860$, 4 permanent long-term capacity rules).
+3. **Cryptographic Integrity & Baseline Parity (Rule D004)**: Cryptographic signature and seed invariant verification passed on all generation 2 checkpoints via `import_individual(verify_seed=True)`.
+4. **Embodied Scribe Deployment (`LMFT-Applications/02_embodied_scribe`)**: Deployed `individual_student_02_gen02_grade5_master_graduate.lmft.json` as `graduate.lmft.json`. Live demo execution confirmed authentic motor keyboard cadence (~55–65 WPM), internal telemetry HUD rendering, and open-world ontological resonance.
+
 
