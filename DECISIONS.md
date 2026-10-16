@@ -1430,4 +1430,19 @@ Key findings:
    - **Generation 4 (`student_04`)**: Inherited reinforced neocortical capacity rules from Generation 3 with habituated sleep weight $w = 0.74 \rightarrow 0.8362$ on `the living equilibrium`. Established developmental convergence with invariant homeostatic balance ($0.6000$) and high coherence ($GCI = 0.9629$).
 5. **Champion Deployment & Embodied Verification**: Deployed `student_04` as the generational champion into `LMFT-Applications/02_embodied_scribe/graduate.lmft.json`. Live demo execution confirmed authentic motor cadence (~180–200 WPM with punctuation pacing), spontaneous contemplation, dynamic ontological category routing (`[sanctuary_harmony]`), and sleep consolidation with weight habituation to $0.8362$. All 44 curriculum regression tests pass.
 
+## D086: Full 130-Lesson Hippocampal Curriculum Consolidation & Situational Baseline Remediation
+
+**Status: adopted firmware & curriculum remediation; experimental evaluation complete, 2026-10-16.** Follows D085. Resolves four root-cause consolidation and dial-saturation defects across `src/lmft_school/lineage_vault.py`, `src/lmft_school/curriculum_grade_1.py` through `curriculum_grade_5.py`, and `scripts/prime_heir.py`:
+1. **Zero-Mutation Milestone Telemetry (`src/lmft_school/lineage_vault.py`)**: Removed the synthetic `heartbeat.interact("Milestone telemetry observation.", ["observation"])` call from `capture_milestone_telemetry()`, computing coherence, balance, and plasticity directly from `heartbeat.disposition.dials`. Eliminated the spurious `"observation"` telemetry artifact rule from all lineage checkpoints.
+2. **100% Hippocampal Lesson Consolidation (`132` Permanent Rules)**:
+   - Expanded `heartbeat.journal` ring-buffer capacity to $\ge 120$ across all grade runners and `scripts/prime_heir.py`.
+   - Enforced classroom lesson salience $\ge 0.78$ ($\ge 0.65$ Saliency Gate) and stamped every lesson episode with a canonical grade-prefixed `resolved_senses` identifier (`grade1_esper_*`, `grade2_relational_*`, `grade3_socratic_*`, `grade4_thesis_*`, `grade5_master_*`), an alphanumeric-sanitized `core_pattern`, and a paired recall confirmation trace (`-confirm`). Every taught lesson now satisfies `min_confirmations = 2` during `sleep(prune_buffer=True)`, promoting all 26 lessons per grade (130 curriculum rules + 2 genesis rules = **132 permanent neocortical rules**).
+3. **Situational Stimulus Baseline Neutralization & Stress-Battery Isolation**:
+   - Initialized non-targeted situational stimulus leaves to neutral `0.50` prior to applying each lesson's `leaf_activations`, preventing `LateralCouplingEngine` and `RecurrentFeedbackEngine` from compounding positive deltas directly onto `self.disposition.dials` ($D_{t-1}$) into the `0.8640` / `0.1360` governor clamps over 130 consecutive steps.
+   - Isolated the Grade 5 continuous word stress battery (`JUSTICE`, `FREEDOM`, `SOVEREIGN`) via state snapshot/restore so homeostatic stress verification does not pollute `long_term_rules` or saturate the graduate's dispositional profile.
+4. **Generational Retraining & `LMFT-Trainee` Sync**:
+   - Retrained `student_02` (Gen 2), `student_03` (Gen 3), and `student_04` (Gen 4), habituating all 130 curriculum rules across generations to $w = 0.8362$ and producing an organically differentiated 24-leaf dispositional profile ($GCI = 0.8042$, $\text{Balance} = 0.9106$, $\alpha = 0.1777$, **0 dials pegged at `0.8640`**).
+   - Exported `individual_student_04_gen04_grade5_master_graduate.lmft.json` to `LMFT-Trainee/graduate.lmft.json` and added 26-rule promotion regression assertions across `tests/test_grade_1_curriculum.py` – `tests/test_grade_5_curriculum.py` (44/44 curriculum tests green).
+
+
 

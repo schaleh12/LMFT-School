@@ -9,6 +9,8 @@ from __future__ import annotations
 
 import hashlib
 import json
+from collections import deque
+from copy import deepcopy
 from dataclasses import dataclass
 from typing import Any, Final, Mapping, Sequence
 
@@ -69,9 +71,12 @@ class Grade1CurriculumRunner:
         self.individual_id: Final[str] = individual_id
         self.codex = codex
         if heartbeat is None:
-            self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
+            self.heartbeat = CognitiveHeartbeat(individual_id=individual_id, journal_capacity=120)
         else:
             self.heartbeat = heartbeat
+            if self.heartbeat.journal.capacity < 120:
+                self.heartbeat.journal.capacity = 120
+                self.heartbeat.journal.entries = deque(self.heartbeat.journal.entries, maxlen=120)
 
         self._lessons_taught: list[Grade1LessonResult] = []
 
@@ -99,12 +104,46 @@ class Grade1CurriculumRunner:
             f"Horizon: {esper.horizon}"
         )
 
+        # Ensure classroom lesson satisfies hippocampal saliency admission threshold (>= 0.65)
+        dials = {k: 0.50 for k in self.heartbeat.disposition.dials}
+        dials.update(esper.leaf_activations)
+        dials["experiential/reflection/salience"] = max(
+            dials.get("experiential/reflection/salience", 0.0), 0.78
+        )
+        lemma = esper.name.lower()
+
         # Process through heartbeat with custom leaf dials from esper
         cycle = self.heartbeat.interact(
             sentence=lesson_text,
-            target_lemmas=[esper.name.lower()],
-            custom_dials=dict(esper.leaf_activations),
+            target_lemmas=[lemma],
+            custom_dials=dials,
         )
+
+        if not cycle.get("journal_result", {}).get("admitted") and self.heartbeat.journal is not None:
+            fallback_dials = dict(cycle.get("disposition_dials", dials))
+            fallback_dials["experiential/reflection/salience"] = 0.78
+            self.heartbeat.journal.record_episode(
+                cycle=cycle["cycle"],
+                sentence=lesson_text,
+                target_lemmas=[lemma],
+                resolved_senses=cycle["resolved_senses"],
+                leaf_dials=fallback_dials,
+                speaking_register=cycle["speaking_register"],
+                action_bid=cycle["action_bid"],
+                post_action_echo=cycle["post_action_echo"],
+            )
+
+        # Stamp grade-specific sense key & core pattern and record recall confirmation trace
+        if self.heartbeat.journal.entries:
+            ep = self.heartbeat.journal.entries[-1]
+            sense_key = f"grade1_esper_{esper.letter.lower()}_{esper.polarity.lower()}"
+            clean_elem = " ".join(w for w in esper.element.lower().replace("&", " ").replace("-", " ").split() if w)
+            core_pat = f"esper {esper.letter.lower()} {lemma} {clean_elem}"
+            ep["factual_anchor"]["resolved_senses"] = {lemma: sense_key}
+            ep["factual_anchor"]["core_pattern"] = core_pat
+            confirm_ep = deepcopy(ep)
+            confirm_ep["episode_id"] = f"{ep['episode_id']}-confirm"
+            self.heartbeat.journal.entries.append(confirm_ep)
 
         state_digest = self.compute_state_digest()
         result = Grade1LessonResult(

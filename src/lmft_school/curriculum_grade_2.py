@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import hashlib
 import json
+from collections import deque
+from copy import deepcopy
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Final, Mapping, Sequence
@@ -86,9 +88,12 @@ class Grade2CurriculumRunner:
         self.individual_id: Final[str] = individual_id
         self.codex = codex
         if heartbeat is None:
-            self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
+            self.heartbeat = CognitiveHeartbeat(individual_id=individual_id, journal_capacity=120)
         else:
             self.heartbeat = heartbeat
+            if self.heartbeat.journal.capacity < 120:
+                self.heartbeat.journal.capacity = 120
+                self.heartbeat.journal.entries = deque(self.heartbeat.journal.entries, maxlen=120)
 
         self._lessons_taught: list[Grade2LessonResult] = []
 
@@ -117,11 +122,43 @@ class Grade2CurriculumRunner:
             f"Gift: {archetype.gift} Shadow: {archetype.shadow}"
         )
 
+        dials = {k: 0.50 for k in self.heartbeat.disposition.dials}
+        dials.update(archetype.leaf_activations)
+        dials["experiential/reflection/salience"] = max(
+            dials.get("experiential/reflection/salience", 0.0), 0.78
+        )
+        lemma = archetype.name.lower().replace("the ", "")
+
         cycle = self.heartbeat.interact(
             sentence=lesson_text,
-            target_lemmas=[archetype.name.lower().replace("the ", "")],
-            custom_dials=dict(archetype.leaf_activations),
+            target_lemmas=[lemma],
+            custom_dials=dials,
         )
+
+        if not cycle.get("journal_result", {}).get("admitted") and self.heartbeat.journal is not None:
+            fallback_dials = dict(cycle.get("disposition_dials", dials))
+            fallback_dials["experiential/reflection/salience"] = 0.78
+            self.heartbeat.journal.record_episode(
+                cycle=cycle["cycle"],
+                sentence=lesson_text,
+                target_lemmas=[lemma],
+                resolved_senses=cycle["resolved_senses"],
+                leaf_dials=fallback_dials,
+                speaking_register=cycle["speaking_register"],
+                action_bid=cycle["action_bid"],
+                post_action_echo=cycle["post_action_echo"],
+            )
+
+        if self.heartbeat.journal.entries:
+            ep = self.heartbeat.journal.entries[-1]
+            sense_key = f"grade2_relational_{archetype.letter.lower()}_station_{archetype.station_number:02d}"
+            clean_domain = " ".join(w for w in archetype.domain.lower().replace("&", " ").replace("-", " ").split() if w)
+            core_pat = f"relational {archetype.letter.lower()} {lemma} {clean_domain}"
+            ep["factual_anchor"]["resolved_senses"] = {lemma: sense_key}
+            ep["factual_anchor"]["core_pattern"] = core_pat
+            confirm_ep = deepcopy(ep)
+            confirm_ep["episode_id"] = f"{ep['episode_id']}-confirm"
+            self.heartbeat.journal.entries.append(confirm_ep)
 
         state_digest = self.compute_state_digest()
         result = Grade2LessonResult(

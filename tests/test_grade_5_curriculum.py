@@ -116,6 +116,7 @@ def test_multi_epoch_sleep_consolidation():
     for _ in range(3):
         res = runner.heartbeat.sleep(prune_buffer=True)
         assert "consolidation_summary" in res
+    assert len(runner.heartbeat.consolidator.long_term_rules) == 4
 
 
 def test_spell_master_chord():

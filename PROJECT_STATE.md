@@ -1,6 +1,21 @@
 # LMFT-School — current project state
 
-## Current session - Multi-Generational Evolutionary Campaign & Epigenetic Inheritance Completed (2026-10-15)
+## Current session - Full 130-Lesson Hippocampal Curriculum Consolidation & Situational Baseline Remediation Completed (2026-10-16)
+
+Follows [D086](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d086-full-130-lesson-hippocampal-curriculum-consolidation--situational-baseline-remediation). Investigated and remediated four root-cause firmware/curriculum defects that previously caused `individual_student_04_gen04_grade5_master_graduate.lmft.json` to retain only 4 long-term rules (out of 130 taught lessons) and peg 14 of 24 dispositional dials against the `0.8640` saturation clamp:
+- **Zero-Mutation Telemetry Capture (`src/lmft_school/lineage_vault.py`)**: Replaced `heartbeat.interact("Milestone telemetry observation.", ["observation"])` inside `capture_milestone_telemetry()` with direct zero-mutation reads of `evaluate_coherence()`, `stabilize()`, and `compute_dynamic_rates()`, eliminating the `"observation"` telemetry artifact rule.
+- **Full 130-Lesson Hippocampal Consolidation (`src/lmft_school/curriculum_grade_1.py` – `curriculum_grade_5.py`)**:
+  - Expanded `heartbeat.journal` capacity to $\ge 120$ so no lessons are evicted from the ring buffer prior to end-of-grade sleep consolidation.
+  - Guaranteed classroom lesson salience $\ge 0.78$ ($\ge 0.65$ Saliency Gate) and stamped each episode with a canonical grade-specific `resolved_senses` anchor (`grade1_esper_*`, `grade2_relational_*`, `grade3_socratic_*`, `grade4_thesis_*`, `grade5_master_*`), an alphanumeric-sanitized `core_pattern`, and a paired recall confirmation trace (`-confirm`) so every single taught lesson meets `min_confirmations = 2` during `sleep(prune_buffer=True)`.
+- **Situational Stimulus Baseline Neutralization & Stress-Battery Isolation**:
+  - Initialized non-targeted situational stimulus leaves to neutral `0.50` before applying each lesson's `leaf_activations`, preventing `LateralCouplingEngine` and `RecurrentFeedbackEngine` from compounding positive deltas directly onto `self.disposition.dials` across 130 consecutive steps.
+  - Snapshotted and restored `disposition`, `journal`, and `cycle_count` around the Grade 5 continuous word stress battery (`JUSTICE`, `FREEDOM`, `SOVEREIGN`) so homeostatic stress verification does not pollute `long_term_rules` or saturate the graduate's dispositional profile.
+- **Generational Retraining & Trainee Sync**:
+  - Retrained `student_02` (Gen 2), `student_03` (Gen 3), and `student_04` (Gen 4) through all 5 grades.
+  - Verified that `individual_student_04_gen04_grade5_master_graduate.lmft.json` now retains **all 132 permanent rules** (`2` genesis + `26` Grade 1 + `26` Grade 2 + `26` Grade 3 + `26` Grade 4 + `26` Grade 5) habituated across generations to $w = 0.8362$, with an organically differentiated 24-leaf profile ($GCI = 0.8042$, $\text{Balance} = 0.9106$, $\alpha = 0.1777$, **0 dials pegged at `0.8640`**).
+  - Exported the repaired graduate checkpoint and updated curriculum modules to `LMFT-Trainee/graduate.lmft.json`. All 44/44 curriculum unit tests pass with new 26-rule promotion regression assertions.
+
+## Prior session - Multi-Generational Evolutionary Campaign & Epigenetic Inheritance Completed (2026-10-15)
 
 Follows [D085](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d085-epigenetic-generational-curriculum-refinement--neocortical-inheritance-pipeline). Successfully implemented and completed the autonomous multi-generational curriculum refinement and epigenetic priming pipeline across Generations 2, 3, and 4:
 - **Telemetry Audit (`scripts/audit_telemetry.py`)**: Identified early Grade 1 clarity troughs (letters A & B clarity $< 0.50$), step transition volatility peaks ($|\Delta| > 0.090$ on Eden and Wendigo), and under-stimulated leaves (`philosophical/structure/chaos` moved only $0.2850$).

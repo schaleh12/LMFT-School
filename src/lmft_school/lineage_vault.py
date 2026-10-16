@@ -82,16 +82,24 @@ def capture_milestone_telemetry(
     generation: int = 1,
     checkpoint_rel_path: str = "",
 ) -> MilestoneTelemetry:
-    """Extracts rich phenotype telemetry from an active CognitiveHeartbeat."""
+    """Extracts rich phenotype telemetry from an active CognitiveHeartbeat without mutating state."""
     pkg = heartbeat.export_individual_package()
     disposition = pkg.get("disposition", {}).get("disposition_vector", {})
     disp_digest = digest(disposition)
     rules = pkg.get("capacity", {}).get("rules", [])
-    
-    # Run a zero-mutation diagnostic step to sample homeostasis and coherence
-    diag = heartbeat.interact(
-        sentence="Milestone telemetry observation.",
-        target_lemmas=["observation"],
+
+    # Zero-mutation diagnostic read directly from current dispositional dials
+    dials = dict(heartbeat.disposition.dials)
+    coherence_res = heartbeat.prerequisite_gate.evaluate_coherence(dials)
+    homeo_res = heartbeat.homeostasis_governor.stabilize(
+        candidate_dials=dials,
+        previous_dials=dials,
+    )
+    exp_dials = {k: v for k, v in dials.items() if k.startswith("experiential/")}
+    psy_dials = {k: v for k, v in dials.items() if k.startswith("psychological/")}
+    plasticity_res = heartbeat.plasticity_engine.compute_dynamic_rates(
+        experiential_dials=exp_dials,
+        psychological_dials=psy_dials,
     )
 
     return MilestoneTelemetry(
@@ -102,10 +110,10 @@ def capture_milestone_telemetry(
         timestamp=datetime.now(timezone.utc).isoformat(),
         active_capacity_rules_count=len(rules),
         dispositional_vector_digest=disp_digest,
-        homeostatic_balance_score=round(float(diag["homeostasis"]["emotional_balance_score"]), 4),
-        plasticity_alpha=round(float(diag["plasticity"]["dynamic_alpha"]), 4),
-        global_coherence_index=round(float(diag["coherence"]["global_coherence_index"]), 4),
-        state_digest=diag.get("state_digest", ""),
+        homeostatic_balance_score=round(float(homeo_res["emotional_balance_score"]), 4),
+        plasticity_alpha=round(float(plasticity_res["dynamic_alpha"]), 4),
+        global_coherence_index=round(float(coherence_res["global_coherence_index"]), 4),
+        state_digest=disp_digest,
         checkpoint_file=checkpoint_rel_path,
     )
 

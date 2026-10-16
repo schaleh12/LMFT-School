@@ -172,7 +172,8 @@ def test_grade_2_full_curriculum_and_checkpoint_archival(tmp_path):
     latest = ledger[-1]
     assert latest["grade_level"] == 2
     assert latest["milestone_label"] == "relational_graduate"
-    assert latest["active_capacity_rules_count"] >= 1
+    assert latest["active_capacity_rules_count"] == 28
+    assert report.consolidation["consolidation_summary"]["promoted_rules_count"] == 26
 
 
 def test_matched_ordinary_memory_parity_rule_d004():

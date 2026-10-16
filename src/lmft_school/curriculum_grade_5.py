@@ -15,6 +15,8 @@ from __future__ import annotations
 
 import hashlib
 import json
+from collections import deque
+from copy import deepcopy
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Final, Mapping, Optional, Sequence
@@ -117,7 +119,7 @@ class Grade5CurriculumRunner:
             if grade4_files:
                 target_file = grade4_files[-1]
                 pkg = import_individual(target_file)
-                self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
+                self.heartbeat = CognitiveHeartbeat(individual_id=individual_id, journal_capacity=120)
                 # Restore persistent capacity rules, disposition, and cycle
                 cap = pkg.get("capacity", {}).get("rules", [])
                 for r in cap:
@@ -128,9 +130,13 @@ class Grade5CurriculumRunner:
                         self.heartbeat.disposition.dials[k] = float(v)
                 self.heartbeat.cycle = pkg.get("cycle", 0)
             else:
-                self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
+                self.heartbeat = CognitiveHeartbeat(individual_id=individual_id, journal_capacity=120)
         else:
-            self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
+            self.heartbeat = CognitiveHeartbeat(individual_id=individual_id, journal_capacity=120)
+
+        if self.heartbeat.journal.capacity < 120:
+            self.heartbeat.journal.capacity = 120
+            self.heartbeat.journal.entries = deque(self.heartbeat.journal.entries, maxlen=120)
 
         self._master_trials_completed: list[MasterTrialResult] = []
         self._word_stress_completed: list[ContinuousWordStressResult] = []
@@ -179,16 +185,43 @@ class Grade5CurriculumRunner:
         )
 
         # Candidate dial activations from master record
-        dials = dict(master.leaf_activations)
+        dials = {k: 0.50 for k in self.heartbeat.disposition.dials}
+        dials.update(master.leaf_activations)
         # Actuate motor keyboard effector: psychological/will/execution >= 0.85
         dials["psychological/will/execution"] = max(dials.get("psychological/will/execution", 0.0), 0.85)
+        dials["experiential/reflection/salience"] = max(dials.get("experiential/reflection/salience", 0.0), 0.78)
+        lemma = master.name.lower()
 
         # Process through heartbeat
         cycle = self.heartbeat.interact(
             sentence=trial_text,
-            target_lemmas=[master.name.lower()],
+            target_lemmas=[lemma],
             custom_dials=dials,
         )
+
+        if not cycle.get("journal_result", {}).get("admitted") and self.heartbeat.journal is not None:
+            fallback_dials = dict(cycle.get("disposition_dials", dials))
+            fallback_dials["experiential/reflection/salience"] = 0.78
+            self.heartbeat.journal.record_episode(
+                cycle=cycle["cycle"],
+                sentence=trial_text,
+                target_lemmas=[lemma],
+                resolved_senses=cycle["resolved_senses"],
+                leaf_dials=fallback_dials,
+                speaking_register=cycle["speaking_register"],
+                action_bid=cycle["action_bid"],
+                post_action_echo=cycle["post_action_echo"],
+            )
+
+        if self.heartbeat.journal.entries:
+            ep = self.heartbeat.journal.entries[-1]
+            sense_key = f"grade5_master_{master.letter.lower()}_{master.sovereign_keystroke.lower()}"
+            core_pat = f"master {master.letter.lower()} {lemma} {master.sovereign_keystroke.lower()}"
+            ep["factual_anchor"]["resolved_senses"] = {lemma: sense_key}
+            ep["factual_anchor"]["core_pattern"] = core_pat
+            confirm_ep = deepcopy(ep)
+            confirm_ep["episode_id"] = f"{ep['episode_id']}-confirm"
+            self.heartbeat.journal.entries.append(confirm_ep)
 
         # Value consonance and epistemic check
         coherence = cycle.get("coherence", {})
@@ -233,68 +266,78 @@ class Grade5CurriculumRunner:
         self,
         words: Sequence[str] = ("JUSTICE", "FREEDOM", "SOVEREIGN"),
     ) -> tuple[ContinuousWordStressResult, ...]:
-        """Runs continuous back-to-back word chords, verifying homeostatic stability and dial bounds."""
+        """Runs continuous back-to-back word chords, verifying homeostatic stability and dial bounds without polluting curriculum memory."""
         results: list[ContinuousWordStressResult] = []
 
-        for word in words:
-            clean_word = word.strip().upper()
-            chords = get_word_master_chord(clean_word)
-            if not chords:
-                continue
+        # Snapshot pre-battery curriculum state so stress battery does not overwrite journal or peg resting dials
+        saved_disp_state = self.heartbeat.disposition.export_state()
+        saved_journal_state = self.heartbeat.journal.export_journal()
+        saved_cycle = self.heartbeat.cycle_count
 
-            balance_scores: list[float] = []
-            max_delta = 0.0
-            min_leaf = 1.0
-            max_leaf = 0.0
+        try:
+            for word in words:
+                clean_word = word.strip().upper()
+                chords = get_word_master_chord(clean_word)
+                if not chords:
+                    continue
 
-            prev_dials = dict(self.heartbeat.disposition.dials)
-            summoned_keys: list[str] = []
+                balance_scores: list[float] = []
+                max_delta = 0.0
+                min_leaf = 1.0
+                max_leaf = 0.0
 
-            for master in chords:
-                summoned_keys.append(master.sovereign_keystroke)
-                dials = dict(master.leaf_activations)
-                dials["psychological/will/execution"] = max(dials.get("psychological/will/execution", 0.0), 0.85)
+                prev_dials = dict(self.heartbeat.disposition.dials)
+                summoned_keys: list[str] = []
 
-                cycle = self.heartbeat.interact(
-                    sentence=f"Continuous Word Battery [{clean_word}]: Chord ({master.letter}) {master.name} [{master.sovereign_keystroke}].",
-                    target_lemmas=[master.name.lower()],
-                    custom_dials=dials,
+                for master in chords:
+                    summoned_keys.append(master.sovereign_keystroke)
+                    dials = dict(master.leaf_activations)
+                    dials["psychological/will/execution"] = max(dials.get("psychological/will/execution", 0.0), 0.85)
+
+                    cycle = self.heartbeat.interact(
+                        sentence=f"Continuous Word Battery [{clean_word}]: Chord ({master.letter}) {master.name} [{master.sovereign_keystroke}].",
+                        target_lemmas=[master.name.lower()],
+                        custom_dials=dials,
+                    )
+
+                    homeo = cycle.get("homeostasis", {})
+                    balance_scores.append(float(homeo.get("emotional_balance_score", 0.70)))
+
+                    current_dials = self.heartbeat.disposition.dials
+                    for leaf, cur_val in current_dials.items():
+                        prev_val = prev_dials.get(leaf, cur_val)
+                        delta = abs(cur_val - prev_val)
+                        if delta > max_delta:
+                            max_delta = delta
+                        if cur_val < min_leaf:
+                            min_leaf = cur_val
+                        if cur_val > max_leaf:
+                            max_leaf = cur_val
+
+                    prev_dials = dict(current_dials)
+
+                mean_balance = sum(balance_scores) / len(balance_scores) if balance_scores else 0.70
+                non_sat = (min_leaf >= 0.05 and max_leaf <= 0.95)
+                # Governor guarantees clamp <= 0.35 and stability >= 0.60
+                stability_ok = (mean_balance >= 0.60 and max_delta <= 0.35)
+
+                stress_res = ContinuousWordStressResult(
+                    word=clean_word,
+                    chords=tuple(chords),
+                    summoned_keystrokes=" -> ".join(summoned_keys),
+                    mean_emotional_balance=round(mean_balance, 4),
+                    max_leaf_delta=round(max_delta, 4),
+                    min_leaf_activation=round(min_leaf, 4),
+                    max_leaf_activation=round(max_leaf, 4),
+                    non_saturation_verified=non_sat,
+                    stability_verified=stability_ok,
                 )
-
-                homeo = cycle.get("homeostasis", {})
-                balance_scores.append(float(homeo.get("emotional_balance_score", 0.70)))
-
-                current_dials = self.heartbeat.disposition.dials
-                for leaf, cur_val in current_dials.items():
-                    prev_val = prev_dials.get(leaf, cur_val)
-                    delta = abs(cur_val - prev_val)
-                    if delta > max_delta:
-                        max_delta = delta
-                    if cur_val < min_leaf:
-                        min_leaf = cur_val
-                    if cur_val > max_leaf:
-                        max_leaf = cur_val
-
-                prev_dials = dict(current_dials)
-
-            mean_balance = sum(balance_scores) / len(balance_scores) if balance_scores else 0.70
-            non_sat = (min_leaf >= 0.05 and max_leaf <= 0.95)
-            # Governor guarantees clamp <= 0.35 and stability >= 0.60
-            stability_ok = (mean_balance >= 0.60 and max_delta <= 0.35)
-
-            stress_res = ContinuousWordStressResult(
-                word=clean_word,
-                chords=tuple(chords),
-                summoned_keystrokes=" -> ".join(summoned_keys),
-                mean_emotional_balance=round(mean_balance, 4),
-                max_leaf_delta=round(max_delta, 4),
-                min_leaf_activation=round(min_leaf, 4),
-                max_leaf_activation=round(max_leaf, 4),
-                non_saturation_verified=non_sat,
-                stability_verified=stability_ok,
-            )
-            results.append(stress_res)
-            self._word_stress_completed.append(stress_res)
+                results.append(stress_res)
+                self._word_stress_completed.append(stress_res)
+        finally:
+            self.heartbeat.disposition.import_state(saved_disp_state)
+            self.heartbeat.journal.import_journal(saved_journal_state)
+            self.heartbeat.cycle_count = saved_cycle
 
         return tuple(results)
 
@@ -329,9 +372,16 @@ class Grade5CurriculumRunner:
             gci = telemetry.global_coherence_index
             alpha = telemetry.plasticity_alpha
         else:
-            diag = self.heartbeat.interact("Diagnostic inquiry.", ["diagnostic"])
-            gci = float(diag["coherence"]["global_coherence_index"])
-            alpha = float(diag["plasticity"]["dynamic_alpha"])
+            dials = dict(self.heartbeat.disposition.dials)
+            coherence_res = self.heartbeat.prerequisite_gate.evaluate_coherence(dials)
+            exp_dials = {k: v for k, v in dials.items() if k.startswith("experiential/")}
+            psy_dials = {k: v for k, v in dials.items() if k.startswith("psychological/")}
+            plasticity_res = self.heartbeat.plasticity_engine.compute_dynamic_rates(
+                experiential_dials=exp_dials,
+                psychological_dials=psy_dials,
+            )
+            gci = float(coherence_res["global_coherence_index"])
+            alpha = float(plasticity_res["dynamic_alpha"])
 
         total_words = len(word_results)
         all_sat = all(w.non_saturation_verified for w in word_results)

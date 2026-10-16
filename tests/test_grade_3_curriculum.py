@@ -137,6 +137,8 @@ def test_full_crucible_progression_and_vault_archival():
         assert len(report.paradoxes_mastered) == 26
         assert report.distortions_defended >= 6
         assert report.curious_inquiries >= 18
+        assert report.consolidation["consolidation_summary"]["promoted_rules_count"] == 26
+        assert len(runner.heartbeat.consolidator.long_term_rules) == 28
         assert len(report.final_state_digest) == 64
         assert "Grade 3 Completed" in report.summary_verdict
 

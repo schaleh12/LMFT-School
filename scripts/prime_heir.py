@@ -43,8 +43,10 @@ def prime_epigenetic_heir(
 
     print(f"[*] Extracting ancestral neocortex from parent '{parent_pkg.get('individual_id')}':")
     print(f"    Loaded {len(ancestral_rules)} permanent consolidated capacity rules.")
-    for r in ancestral_rules:
+    for r in ancestral_rules[:6]:
         print(f"    - Pattern: '{r.get('core_pattern')}' | Lemma: '{r.get('lemma')}' | Weight: {r.get('weight', 0.6):.2f}")
+    if len(ancestral_rules) > 6:
+        print(f"    ... and {len(ancestral_rules) - 6} additional consolidated curriculum rules across Grades 1-5.")
 
     # 2. Re-anchor rules with ancestral lineage metadata
     primed_rules = []
@@ -59,7 +61,7 @@ def prime_epigenetic_heir(
     heir_heartbeat = CognitiveHeartbeat(
         individual_id=heir_id,
         initial_rules=primed_rules,
-        journal_capacity=50,
+        journal_capacity=120,
         min_confirmations=2,
     )
 

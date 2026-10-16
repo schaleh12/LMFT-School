@@ -103,6 +103,8 @@ def test_full_alphabet_curriculum_and_sleep_consolidation() -> None:
     assert report.letters_mastered[0] == "A"
     assert report.consolidation is not None
     assert "consolidation_summary" in report.consolidation
+    assert report.consolidation["consolidation_summary"]["promoted_rules_count"] == 26
+    assert len(runner.heartbeat.consolidator.long_term_rules) == 28
     assert "Grade 1 Completed: 26/26 Espers mastered" in report.summary_verdict
     assert len(report.final_state_digest) == 64
 

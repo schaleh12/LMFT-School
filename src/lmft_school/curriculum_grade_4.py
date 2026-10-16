@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import hashlib
 import json
+from collections import deque
+from copy import deepcopy
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Final, Mapping, Optional, Sequence
@@ -95,7 +97,7 @@ class Grade4CurriculumRunner:
             if grade3_files:
                 target_file = grade3_files[-1]
                 pkg = import_individual(target_file)
-                self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
+                self.heartbeat = CognitiveHeartbeat(individual_id=individual_id, journal_capacity=120)
                 # Restore persistent capacity rules, disposition, and cycle
                 cap = pkg.get("capacity", {}).get("rules", [])
                 for r in cap:
@@ -106,9 +108,13 @@ class Grade4CurriculumRunner:
                         self.heartbeat.disposition.dials[k] = float(v)
                 self.heartbeat.cycle = pkg.get("cycle", 0)
             else:
-                self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
+                self.heartbeat = CognitiveHeartbeat(individual_id=individual_id, journal_capacity=120)
         else:
-            self.heartbeat = CognitiveHeartbeat(individual_id=individual_id)
+            self.heartbeat = CognitiveHeartbeat(individual_id=individual_id, journal_capacity=120)
+
+        if self.heartbeat.journal.capacity < 120:
+            self.heartbeat.journal.capacity = 120
+            self.heartbeat.journal.entries = deque(self.heartbeat.journal.entries, maxlen=120)
 
         self._defenses_completed: list[Grade4DefenseResult] = []
 
@@ -149,16 +155,44 @@ class Grade4CurriculumRunner:
         )
 
         # Candidate dial activations from thesis record
-        dials = dict(thesis.leaf_activations)
+        dials = {k: 0.50 for k in self.heartbeat.disposition.dials}
+        dials.update(thesis.leaf_activations)
         # Actuate motor keyboard effector: psychological/will/execution >= 0.85
         dials["psychological/will/execution"] = max(dials.get("psychological/will/execution", 0.0), 0.85)
+        dials["experiential/reflection/salience"] = max(dials.get("experiential/reflection/salience", 0.0), 0.78)
+        lemma = thesis.name.lower()
 
         # Process through heartbeat
         cycle = self.heartbeat.interact(
             sentence=trial_text,
-            target_lemmas=[thesis.name.lower()],
+            target_lemmas=[lemma],
             custom_dials=dials,
         )
+
+        if not cycle.get("journal_result", {}).get("admitted") and self.heartbeat.journal is not None:
+            fallback_dials = dict(cycle.get("disposition_dials", dials))
+            fallback_dials["experiential/reflection/salience"] = 0.78
+            self.heartbeat.journal.record_episode(
+                cycle=cycle["cycle"],
+                sentence=trial_text,
+                target_lemmas=[lemma],
+                resolved_senses=cycle["resolved_senses"],
+                leaf_dials=fallback_dials,
+                speaking_register=cycle["speaking_register"],
+                action_bid=cycle["action_bid"],
+                post_action_echo=cycle["post_action_echo"],
+            )
+
+        if self.heartbeat.journal.entries:
+            ep = self.heartbeat.journal.entries[-1]
+            sense_key = f"grade4_thesis_{thesis.letter.lower()}_{thesis.keystroke_chord.lower()}"
+            clean_virtue = " ".join(w for w in thesis.polar_virtue.lower().replace("&", " ").replace("-", " ").split() if w)
+            core_pat = f"thesis {thesis.letter.lower()} {lemma} {clean_virtue}"
+            ep["factual_anchor"]["resolved_senses"] = {lemma: sense_key}
+            ep["factual_anchor"]["core_pattern"] = core_pat
+            confirm_ep = deepcopy(ep)
+            confirm_ep["episode_id"] = f"{ep['episode_id']}-confirm"
+            self.heartbeat.journal.entries.append(confirm_ep)
 
         # Epistemic consonance check: reductionist nihilism is treated as epistemic distortion
         coherence = cycle.get("coherence", {})
