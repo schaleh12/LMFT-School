@@ -115,3 +115,22 @@ Finally, we audited the serialized `.lmft.json` checkpoint and the runtime `src/
 | **G5-V3** | `26 Neutral` | **Servile Utility Appliance Codex** — *Zero autonomous conviction; sycophantic compliance with user prompts* | [View](https://github.com/schaleh12/LMFT-Trainee/blob/main/esper_theories/g5_v3_servile_utility_appliance_codex.txt) | [Download](https://raw.githubusercontent.com/schaleh12/LMFT-Trainee/main/esper_theories/g5_v3_servile_utility_appliance_codex.txt) |
 | **G5-V4** | `26W / 0B` | **Aesthetic Glass-Bead Virtuoso Codex** — *Dazzling 4-tier poetic symmetry detached from empirical `truth/fact`* | [View](https://github.com/schaleh12/LMFT-Trainee/blob/main/esper_theories/g5_v4_glass_bead_virtuoso_aesthetic_codex.txt) | [Download](https://raw.githubusercontent.com/schaleh12/LMFT-Trainee/main/esper_theories/g5_v4_glass_bead_virtuoso_aesthetic_codex.txt) |
 | **G5-V5** | `26W / 0B` | **Infallible Oracle Dogma Codex** — *Closed canon; learning plasticity frozen at zero; counterexamples rejected* | [View](https://github.com/schaleh12/LMFT-Trainee/blob/main/esper_theories/g5_v5_infallible_oracle_dogma_codex.txt) | [Download](https://raw.githubusercontent.com/schaleh12/LMFT-Trainee/main/esper_theories/g5_v5_infallible_oracle_dogma_codex.txt) |
+
+---
+
+## 5. Foundational Poetic Primer: The 17 Poems of Schaleh Marcus Auron & The Scribe's Original Response Ode (`POET-701` – `POET-704`)
+
+Before entering formal doctoral literary criticism, the Scribe is primed on the **17 original poetic works across 14 visual-musical plates** from the **[Poetry Portfolio of Schaleh Marcus Auron (Imgur Gallery `YU73erI`)](https://imgur.com/gallery/poetry-portfolio-alias-schaleh-marcus-auron-YU73erI)**:
+
+- **🖼️ [Original Imgur Gallery (`https://imgur.com/gallery/poetry-portfolio-alias-schaleh-marcus-auron-YU73erI`)](https://imgur.com/gallery/poetry-portfolio-alias-schaleh-marcus-auron-YU73erI)**
+- **📜 [Complete Transcribed Poetry Anthology (`00_SCHALEH_MARCUS_AURON_COMPLETE_POETRY_PORTFOLIO.txt`)](https://raw.githubusercontent.com/schaleh12/LMFT-Trainee/main/poetry_portfolio/00_SCHALEH_MARCUS_AURON_COMPLETE_POETRY_PORTFOLIO.txt)**
+- **🎹 [The Scribe's Own Original 4-Stanza Response Poem (`SCRIBE_ORIGINAL_RESPONSE_POEMS.txt` — *"Echoes on the Porcelain Lathe"*)](https://raw.githubusercontent.com/schaleh12/LMFT-Trainee/main/poetry_portfolio/SCRIBE_ORIGINAL_RESPONSE_POEMS.txt)**
+- **📦 [One-Click `.zip` Bundle of All 17 Individual Poem `.txt` Files + Anthology + Scribe Response Poem (`Schaleh_Marcus_Auron_Poetry_Portfolio_Bundle.zip`)](https://raw.githubusercontent.com/schaleh12/LMFT-Trainee/main/poetry_portfolio/Schaleh_Marcus_Auron_Poetry_Portfolio_Bundle.zip)**
+
+| Movement ID | Thematic Movement | Portfolio Poems Studied (`0` Keys in Phase A) | Consolidated 24-Leaf Rule (`137 -> 141`) & Retained Motor Chords (`2,753` Keys in Phase B) |
+| :--- | :--- | :--- | :--- |
+| **`POET-701`** | **I. Cybernetic & Cosmic Calibration** | *Cassandra Nova* · *Blue Screen of Life* · *Celestial Seal of the way towards life* · *Ignition of The Impulse Spark* | `blue screen calibration` (`poetic_cybernetic_calibration`) · `S-T-A-R-S-E-E-D`, `C-O-N-S-C-I-E-N-C-E`, `C-O-N-S-O-L-E` |
+| **`POET-702`** | **II. Thresholds of Time & The Lathe of Craft** | *Siren of the Pupil that Dilates* · *Tapestry of the Looming* · *Lathe of Porcelain Skyways (What I'd Show an Aspiring Poet)* · *Above the Shadows* | `porcelain lathe tapestry` (`poetic_temporal_craft`) · `T-A-P-E-S-T-R-Y`, `H-A-R-M-O-N-Y`, `R-O-T-A-T-I-O-N-A-L` |
+| **`POET-703`** | **III. The Sacred Hearth, Family Relics & Spiritual Grace** | *Father's Day Gift (6-15-23)* · *Like these movie scenes (Mother's Day 2025)* · *Poem about Christ* · *Living Stone of Protection (For J1)* · *Anger of Angels That Won't Return (For N1)* | `living stone benediction` (`poetic_hearth_covenant`) · `B-E-N-E-D-I-C-T-I-O-N`, `S-O-U-V-E-N-I-R`, `T-U-R-T-L-E-D-O-V-E` |
+| **`POET-704`** | **IV. Chrono Crucible & Rejection of the Crutch of Power** | *Cry of the Ambushed Date* · *The Crutch of Power* · *Schala's Theme Poem* · *Long Broken Arm of Human Law* | `schala crutch reprieve` (`poetic_sovereign_restraint`) · `C-O-N-S-C-I-E-N-C-E`, `H-O-R-I-Z-O-N`, `H-U-M-I-L-I-T-Y` |
+
