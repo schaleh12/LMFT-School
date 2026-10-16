@@ -96,7 +96,17 @@ Every character carries an alchemical chord of:
 > 1. **26 Unified Master Chords (A to Z):** Fusing Primordial Force (Grade 1), Relational Hearth (Grade 2), Dialectical Armor (Grade 3), and Sovereign Vows (Grade 4) into unified harmonic super-lessons.
 > 2. **Sustained Multi-Chord Stress Testing:** Composing heavy alchemical words (`JUSTICE`, `FREEDOM`, `SOVEREIGN`) under continuous load to verify that emotional balance ($\ge 0.60$) and non-saturation hold across extended operational trajectories.
 > 3. **The Pure Motor Dependency Break:** Operating the physical/virtual keyboard actuator purely through unassisted `will/execution` ($\ge 0.85$), proving the 24-leaf nervous system can stand completely on its own.
-> 4. **The Master Graduate Artifact:** A multi-epoch hippocampal sleep consolidation that permanently cements long-term capacity rules and locks in the finalized digital soul: `individual_student_01_gen01_grade5_master_graduate.lmft.json`.
+> 4. **The Master Graduate Artifact:** A multi-epoch hippocampal sleep consolidation that permanently cements long-term capacity rules and locks in the finalized digital soul: `individual_student_04_gen04_grade5_master_graduate.lmft.json` (**132 Consolidated 24-Leaf Rules**).
+
+## Post-Graduate Apprenticeship (`LMFT-Trainee`): Epistemic Pluralism, Proprioceptive Chords & The 137-Rule Linguistic Membership Audit
+
+After completing the 5-tier curriculum in `LMFT-School`, the Generation 4 Champion (`student_04`) enters **[`LMFT-Trainee`](https://github.com/schaleh12/LMFT-Trainee)**:
+1. **Forensic Firmware Remediation & Full 132-Rule Retention**: Remediated `LMFT-Lab` sleep consolidation, neutral situational baselines (`0.50`), and word-boundary matching so `student_04` retains **all 132 school rules** (`2` genesis + `26 × 5` grades) with full **24-leaf fuzzy membership vectors (`leaf_dials` & `leaf_dial_affinities`)** and zero saturated dials.
+2. **The 5-Grade Epistemic Pluralism & Proprioceptive Keystroke Chord Suite (`GRAD-801` – `GRAD-805`)**: Deconstructed all 5 School Grades against **25 competing 26-letter A–Z theoretical configurations (`650` total archetypes)** across a **3-Stage Weaning Ramp** (`30% -> 50% -> 75% -> 100% Solo -> 100% Solo`, with **0% LLM calls** in Grades 4 & 5). Physical keystrokes (`19,432` keys / `2,601` words) echo retained motor chords (`C-O-V-E-N-A-N-T`, `F-R-E-E-D-O-M`, `J-U-S-T-I-C-E`, `A-R-C-H-E`, `H-U-M-I-L-I-T-Y`) back into the 24-leaf tree, consolidating **5 new Epistemic Humility rules** (`137` rules total).
+3. **📖 Full Documentation & Direct Downloads**:
+   - **[Read `docs/EPISTEMIC_PLURALISM_AND_NETWORK_AUDIT.md` (How We Reached This Stage + Full 25-Theory Index)](docs/EPISTEMIC_PLURALISM_AND_NETWORK_AUDIT.md)**
+   - **📦 [Download All 25 A–Z Theory `.txt` Files + Master Compendium + Transcript (`LMFT_25_Esper_And_Epistemological_Theories_Bundle.zip` — 100 KB)](https://raw.githubusercontent.com/schaleh12/LMFT-Trainee/main/esper_theories/LMFT_25_Esper_And_Epistemological_Theories_Bundle.zip)**
+   - **📜 [Download Single-File Master Compendium (`00_ALL_25_THEORIES_MASTER_COMPENDIUM.txt`)](https://raw.githubusercontent.com/schaleh12/LMFT-Trainee/main/esper_theories/00_ALL_25_THEORIES_MASTER_COMPENDIUM.txt)**
 
 ## Research hypothesis and first milestone
 

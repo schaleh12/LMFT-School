@@ -1455,3 +1455,17 @@ Key findings:
    - Re-ran `scripts/train_student_02.py`, `scripts/train_student_03.py`, and `scripts/train_heir.py --heir student_04 --gen 4` on top of the repaired `LMFT-Lab` engine.
    - Verified `checkpoints/individual_student_04_gen04_grade5_master_graduate.lmft.json` (`132` permanent rules, habituated weight $w = 0.8362$, $GCI = 0.8042$, $\text{Balance} = 0.9106$, $\alpha = 0.1777$, `0` saturated dials, valid SHA-256 package signature) and synced it directly to `LMFT-Trainee/graduate.lmft.json`.
    - Verified 129/129 passing tests in `LMFT-School` (`1.14s`).
+
+## D088: 24-Leaf Linguistic Membership Network Audit & 5-Grade Epistemic Pluralism Compendium
+
+**Status: adopted firmware & post-graduate curriculum architecture; experimental evaluation complete, 2026-10-16.** Follows D087. Audits and upgrades the serialized linguistic membership network across `LMFT-Lab`, `LMFT-School`, and `LMFT-Trainee` (`src/lmft_lab/episodic_journal.py`, `src/lmft_lab/memory_consolidation.py`, `src/lmft_lab/cognitive_heartbeat.py`), enriches all 132 school rules and 5 post-graduate epistemic humility rules (`137` rules total) with complete 24-leaf fuzzy membership vectors, and publishes all 25 competing A–Z theoretical configurations (`650` total archetypes) in `LMFT-Trainee/esper_theories/` and `docs/EPISTEMIC_PLURALISM_AND_NETWORK_AUDIT.md`:
+1. **24-Leaf Fuzzy Membership Preservation (`episodic_journal.py` & `memory_consolidation.py`)**:
+   - `EpisodicSaliencyJournal.record_episode()` now records the full 24-leaf `leaf_dials` snapshot alongside the 6 summary scalars.
+   - `MemoryConsolidationEngine.consolidate_sleep_cycle()` now computes the multi-witness 24-leaf centroid (`leaf_dials`) and signed `leaf_dial_affinities` ($\text{val} - 0.50$ where $|\text{val} - 0.50| \ge 0.02$) on every promoted rule.
+   - Backfilled all 132 rules in `checkpoints/individual_student_04_gen04_grade5_master_graduate.lmft.json` (and all 137 rules in `LMFT-Trainee/graduate.lmft.json`) with complete 24-leaf vectors (`0` rules missing `leaf_dials` or `leaf_dial_affinities`).
+2. **Consolidated Rule Modulation & Natural-Language Contextual Overlap (`cognitive_heartbeat.py`)**:
+   - Wired rule-level `leaf_dial_affinities` directly into `CognitiveHeartbeat.interact()` and `OrdinaryMemoryHeartbeatComparator.interact()` so resolved consolidated concepts modulate `candidate_dials` (`0.55 * rule_weight`) prior to lateral coupling, prerequisite gating, and recurrent echo.
+   - Added `_lemma_matches()` (normalizing optional leading `"the "` articles) and contextual token-overlap resolution across `core_pattern` tokens so natural English sentences resolve learned archetypes across all 5 Grades without requiring contiguous 5-word synthetic curriculum strings.
+3. **5-Grade Epistemic Pluralism & Proprioceptive Chord Suite (`LMFT-Trainee/esper_pluralism_course.py`)**:
+   - Generated all **25 standalone 26-letter `.txt` theory files** (`g1_v1_...` through `g5_v5_...`), `00_ALL_25_THEORIES_MASTER_COMPENDIUM.txt`, and `LMFT_25_Esper_And_Epistemological_Theories_Bundle.zip` (`650` total A–Z definitions across Grades 1–5).
+   - Verified 3-Stage Weaning Ramp progression (`30% -> 50% -> 75% -> 100% Solo -> 100% Solo`, with `0%` LLM calls in Grades 4 and 5), physical keystroke actuation (`19,432` keys / `2,601` words), retained proprioceptive keystroke chord echoes (`C-O-V-E-N-A-N-T`, `F-R-E-E-D-O-M`, `J-U-S-T-I-C-E`, `A-R-C-H-E`, `H-U-M-I-L-I-T-Y`), and 100% native `PrerequisiteCoherenceGate` distortion detection.
