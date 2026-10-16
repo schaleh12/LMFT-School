@@ -6,11 +6,11 @@ Candidate                : student_04
 Conferred Title          : Summa Cum Laude — Regius Doctor, Poet Laureate & Maestro of the Unheard Score
 Consolidated 24-Leaf Rules: 159 -> 169 (+10 rules)
 Composition Score Avg    : 89.62% (First Sketch v1) -> 99.70% (Final v2, 4.00 GPA)
-Physical Keystrokes Typed: 10533 keys (1653 words)
-Synthesized Chamber Audio: 4 Polyphonic .wav Files (80.29 seconds total, 44.1 kHz 16-bit PCM)
+Physical Keystrokes Typed: 10155 keys (1592 words)
+Synthesized Chamber Audio: 4 Polyphonic .wav Files (52.77 seconds total, 44.1 kHz 16-bit PCM)
 Final Health Gate        : GCI = 0.7596 | Balance = 0.9699 | Pegged Dials = 0/24
 Pre-Flight Backup        : graduate_159_pre_music_conservatory_backup.lmft.json (75e96fa1941af9d3...)
-Post-Flight Checkpoint   : graduate_169_maestro_of_the_unheard_score.lmft.json (f119481ca1380611...)
+Post-Flight Checkpoint   : graduate_169_maestro_of_the_unheard_score.lmft.json (aeceec3e0007c05a...)
 
 ==============================================================================
   ACT I — THE 6 FOUNDATIONAL CONSERVATORY CHAIRS OF MUSIC THEORY (MUS-1101..1106)
@@ -137,7 +137,7 @@ Harmonic & 24-Leaf Analysis: Driven by `philosophical/structure/order = 0.80` an
 
 [OPUS-1202] Opus 2 in F Lydian: 'Nocturne for the Blue Screen Horizon'
 Dedication & Inspiration : After Chopin, Debussy's Clair de Lune, Mitsuda's Schala's Theme & 'Blue Screen of Life'
-Key / Mode / Meter / BPM : F Lydian (F - G - A - B♮ - C - D - E) | 3/4 | 78 BPM
+Key / Mode / Meter / BPM : F Lydian (F - G - A - B♮ - C - D - E) | 3/4 | 64 BPM
 Consolidated Rule Lemma  : 'nocturne blue screen horizon' (opus_1202_nocturne_blue_screen_horizon) | Chord: N-O-C-T-U-R-N-E
 Synthesized Audio File   : 02_opus_1202_nocturne_blue_screen_horizon.wav
 
@@ -146,7 +146,7 @@ X:2
 T:Nocturne for the Blue Screen Horizon (First Sketch v1 — Flattened 4th & Static Block Bass)
 M:3/4
 L:1/4
-Q:1/4=78
+Q:1/4=64
 K:F
 V:1 clef=treble
 | A G F | _B A G | A2 G | F3 |
@@ -162,7 +162,7 @@ T:Opus 2 in F Lydian — Nocturne for the Blue Screen Horizon (Final Conservator
 C:Student_04 (Regius Doctor & Maestro of the Unheard Score)
 M:3/4
 L:1/4
-Q:1/4=78
+Q:1/4=64
 K:Flyd
 V:1 clef=treble name="Soprano (Cantabile Bell-Piano)"
 | c2 e | d B c | A2 c | B G A |
@@ -178,12 +178,12 @@ V:3 clef=bass name="Bass (Cello Barcarolle)"
 | F,3 ||
 
 --- Harmonic & 24-Leaf Dial Analysis ---
-Harmonic & 24-Leaf Analysis: Guided by `experiential/wave/resonance = 0.81` and `experiential/phase/valence = 0.80`, this 9-bar 3/4 Nocturne alternates `Fmaj7` (`F–A–C–E`) with the Lydian `G/F` triad (`G–B♮–D` over an `F` horizon), spotlighting the raised fourth (`B4`) on the second measure of each phrase. The Alto and Cello voices rock in gentle quarter-note waves (`1–5–1`), creating the exact luminous acoustic suspension found in Debussy's *Clair de Lune* and Mitsuda's *Schala's Theme*.
+Harmonic & 24-Leaf Analysis: Guided by `experiential/wave/resonance = 0.81` and `experiential/phase/valence = 0.80`, this 9-bar 3/4 Nocturne alternates `Fmaj7` (`F–A–C–E`) with the Lydian `G/F` triad (`G–B♮–D` over an `F` horizon), spotlighting the raised fourth (`B4`) on the second measure of each phrase. The Alto and Cello voices rock in gentle eighth-note waves (`1–5–8–10`), creating the exact luminous acoustic suspension found in Debussy's *Clair de Lune* and Mitsuda's *At the Bottom of Night*.
 ------------------------------------------------------------------------------
 
 [OPUS-1203] Opus 3 in C Minor -> C Major: 'Sonata of the Unheard Star (After Beethoven & Celes)'
 Dedication & Inspiration : After Beethoven's Sonata Op. 111 / Ninth Symphony & Uematsu's Aria di Mezzo Carattere
-Key / Mode / Meter / BPM : C Minor (Tragic Maestoso) modulating to C Major (Transcendent Arietta) | 4/4 | 96 BPM
+Key / Mode / Meter / BPM : C Minor (Tragic Maestoso) modulating to C Major (Transcendent Arietta) | 4/4 | 116 BPM
 Consolidated Rule Lemma  : 'sonata of the unheard star' (opus_1203_sonata_unheard_star) | Chord: S-O-N-A-T-A
 Synthesized Audio File   : 03_opus_1203_sonata_of_the_unheard_star.wav
 
@@ -192,7 +192,7 @@ X:3
 T:Sonata of the Unheard Star (First Sketch v1 — Abrupt Unprepared Modulation)
 M:4/4
 L:1/4
-Q:1/4=96
+Q:1/4=116
 K:Cm
 | c G _e d | c _B _A G | =e f g e | c4 |
 
@@ -205,7 +205,7 @@ T:Opus 3 in C Minor to C Major — Sonata of the Unheard Star (Final Conservator
 C:Student_04 (Regius Doctor & Maestro of the Unheard Score)
 M:4/4
 L:1/4
-Q:1/4=96
+Q:1/4=116
 K:Cm
 V:1 clef=treble name="Soprano (Heroic Piano Lead)"
 "^Part I: C Minor Crucible" c G _e d | c =B c G | _A c f _e | d2 =B2 |
@@ -223,12 +223,12 @@ K:C
 | C,2 E,2 | F,2 C,2 | G,,2 G,2 | C,4 ||
 
 --- Harmonic & 24-Leaf Dial Analysis ---
-Harmonic & 24-Leaf Analysis: Powered by `psychological/will/intention = 0.81` and `cultural/justice/honor = 0.80`, Part I (Measures 1–4) establishes tragic gravitas in C harmonic minor (`Cm -> G7 -> Ab -> Fm6 -> G7`), culminating on a blazing half-cadence on `G Major` (`D5/B4` over `G2–G3`). Having earned the dominant threshold, Part II (Measures 5–8) blossoms into pure C Major (`C -> Em -> F -> C -> Dm7 -> G7 -> C`), soaring to high `C6` (`c'`) before descending stepwise like Beethoven's *Ode to Joy* and Celes's *Aria* into an unshakeable `C–E–C` tonic triad.
+Harmonic & 24-Leaf Analysis: Powered by `psychological/will/intention = 0.81` and `cultural/justice/honor = 0.80`, Part I (Measures 1–4) establishes tragic gravitas in C harmonic minor (`Cm -> G7 -> Ab -> Fm6 -> G7`) with Beethovenian dotted-eighth + sixteenth (`0.75 + 0.25`) fate rhythms and thunderous 4-note minor chords. Having earned the dominant threshold, Part II (Measures 5–8) blossoms into a radiant C-Major *Arietta* with shimmering 16th-note variations soaring to high `C6` (`c'`).
 ------------------------------------------------------------------------------
 
 [OPUS-1204] Opus 4 in E Aeolian / G Major: 'Four-Voice Fughetta of the Twenty-Four Leaves'
 Dedication & Inspiration : The Grand Conservatory Finale — 4 Voices Representing the 4 Canonical LMFT Domains
-Key / Mode / Meter / BPM : E Aeolian -> G Major Relative Illumination -> E Major Picardy Citadel | 4/4 | 102 BPM
+Key / Mode / Meter / BPM : E Aeolian -> G Major Relative Illumination -> E Major Picardy Citadel | 4/4 | 126 BPM
 Consolidated Rule Lemma  : 'fughetta of the twenty four leaves' (opus_1204_fughetta_twenty_four_leaves) | Chord: S-Y-M-P-H-O-N-Y
 Synthesized Audio File   : 04_opus_1204_fughetta_of_the_24_leaves.wav
 
@@ -237,7 +237,7 @@ X:4
 T:Fughetta of the Twenty-Four Leaves (First Sketch v1 — Simultaneous Homophonic Entry)
 M:4/4
 L:1/4
-Q:1/4=102
+Q:1/4=126
 K:Em
 V:1
 | E G B e | d B G E |
@@ -249,7 +249,7 @@ V:4
 | E, E, E, E, | B,, B,, E,2 |
 
 --- Maestro Critique ---
-Maestro Critique (Preliminary Grade: A- / 90.0%): A true fughetta cannot begin with all four voices playing block chords simultaneously on Beat 1! Let each of the 4 canonical LMFT macro-domains enter one by one in a staggered Fugal Exposition: Measure 1: Voice I (*Experiential Domain*) states the Subject alone (`E5–B4–C5–D5`); Measure 2: Voice II (*Cultural Domain*) enters with the Tonal Answer while Voice I weaves the Countersubject; Measure 3: Voice III (*Philosophical Domain*) enters in the Tenor; Measure 4: Voice IV (*Psychological Domain*) enters in the Cello Bass, uniting all 4 domains into a four-part contrapuntal stretto culminating in a radiant E-Major Picardy chord (`E–G#–B–E`).
+Maestro Critique (Preliminary Grade: A- / 90.0%): A true fughetta cannot begin with all four voices playing block chords simultaneously on Beat 1! Let each of the 4 canonical LMFT macro-domains enter one by one in a staggered Fugal Exposition: Measure 1: Voice I (*Experiential Domain*) states the Subject alone (`E5–B4–C5–D5`); Measure 2: Voice II (*Cultural Domain*) enters with the Tonal Answer while Voice I weaves a brisk 8th/16th-note Countersubject; Measure 3: Voice III (*Philosophical Domain*) enters in the Tenor; Measure 4: Voice IV (*Psychological Domain*) enters in the Cello Bass, uniting all 4 domains into a four-part contrapuntal stretto culminating in a radiant 6-note E-Major Picardy chord (`E2–B2–E3–G#4–B4–E5`).
 
 --- Final Conservatory Score (v2) [Final Grade: A+ / 100.0%] ---
 X:4
@@ -257,7 +257,7 @@ T:Opus 4 — Four-Voice Fughetta of the Twenty-Four Leaves (Final Conservatory S
 C:Student_04 (Regius Doctor & Maestro of the Unheard Score)
 M:4/4
 L:1/4
-Q:1/4=102
+Q:1/4=126
 K:Em
 V:1 clef=treble name="Voice I: Experiential (Soprano)"
 | e B c d | e d c B | g f e d | c B A B | e d c B | e4 ||
@@ -269,5 +269,5 @@ V:4 clef=bass name="Voice IV: Psychological (Cello Bass)"
 | z4 | z4 | z4 | A,, B,, C, B,, | E, B,, C, B,, | E,4 ||
 
 --- Harmonic & 24-Leaf Dial Analysis ---
-Harmonic & 24-Leaf Analysis: This 4-voice Fughetta is the architectural signature of the entire 40-node / 24-leaf Fuzzy Tree in sound. In Bar 1, *Experiential* sings the Subject (`E5–B4–C5–D5`) solo; in Bar 2, *Cultural* answers a fourth below (`B4–F#4–G4–A4`) while *Experiential* arches in contrary motion; in Bar 3, *Philosophical* enters an octave below (`E4–B3–C4–D4`) as the texture thickens to 3-part harmony; and in Bar 4, *Psychological* enters in the deep Cello (`A2–B2–C3–B2`), uniting all four domains in a 4-voice stretto that resolves onto a glorious E-Major Picardy triad (`E3–B3–G#4–E5`).
+Harmonic & 24-Leaf Analysis: This brisk 126 BPM 4-voice Fughetta is the architectural signature of the entire 40-node / 24-leaf Fuzzy Tree in sound. Each domain enters in staggered fugal imitation with dancing 8th and 16th-note countersubjects, culminating in a 6-note simultaneous E-Major Picardy triad (`E2+B2+E3+G#4+B4+E5`).
 ------------------------------------------------------------------------------

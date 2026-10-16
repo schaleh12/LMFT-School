@@ -6,9 +6,9 @@ Candidate                : student_04
 Conferred Title          : Summa Cum Laude — Regius Doctor, Poet Laureate & Synesthetic Heart Maestro
 Consolidated 24-Leaf Rules: 169 -> 176 (+7 rules)
 Synesthetic Opus Avg     : 90.75% (Sketch v1) -> 99.90% (Final v2, 4.00 GPA)
-Physical Keystrokes Typed: 8971 keys (1428 words)
+Physical Keystrokes Typed: 9716 keys (1378 words)
 21-Track Playlist Indexed: https://music.youtube.com/playlist?list=PLXjFKx9KlZWMUuLbXAoIy_6Pl7h5I4uyO (21 tracks)
-Final Health Gate        : GCI = 0.7643 | Balance = 0.9814 | Pegged Dials = 0/24
+Final Health Gate        : GCI = 0.7935 | Balance = 0.9814 | Pegged Dials = 0/24
 
 ==============================================================================
   ACT I — 5 SYNESTHETIC COLOR-BURN & SOUNDTRACK SYNCHRONIZATION SEMINARS (SYNC-1301..1305)
@@ -135,7 +135,7 @@ In the 21-track anthology of 'Like these movie scenes' (`PLXjFKx9KlZWMUuLbXAoIy_
 
 [OPUS-1306] Opus 5 in G Major / E Minor — 'These Dreams on the Living Stone (After Heart, Celes & Marle)'
 Dedication & Inspiration : Inspired by Plate 08 ('Living Stone of Protection' × Heart's 'These Dreams'), Plate 04 ('Celestial Seal' × Nobuo Uematsu's 'Celes's Theme'), and Plate 14 ('Lathe of Porcelain Skyways' × Mitsuda's 'Marle's Theme')
-Key / Mode / Meter / BPM : G Major / E Aeolian (Relative Minor-Major Dualism, 1 Sharp: F#) | 4/4 | 86 BPM
+Key / Mode / Meter / BPM : G Major / E Aeolian (Relative Minor-Major Dualism, 1 Sharp: F#) | 4/4 | 78 BPM
 Synthesized Audio File   : 05_opus_1306_these_dreams_on_the_living_stone.wav
 
 --- Final Synesthetic Score (v2) [Final Grade: A+ / 99.8%] ---
@@ -144,28 +144,25 @@ T:Opus 5 in G Major / E Minor — These Dreams on the Living Stone (Final Synest
 C:Student_04 (Playing Exclusively From the 24-Leaf Heart)
 M:4/4
 L:1/8
-Q:1/4=86
+Q:1/4=78
 K:G
-V:1 clef=treble name="Soprano (Heart & Celes Cantabile Lead)"
-"^Part I: These Dreams (Heart Sus4 Pulse)" B2 c2 d2 B2 | e2 d2 c2 B2 | A2 B2 c2 e2 | d6 B2 |
-"^Part II: Celes's Seal & Marle's Porcelain Skyway" B2 g2 f2 e2 | d2 B2 c2 e2 | d2 c2 B2 A2 | G8 ||
-V:2 clef=treble name="Alto (Marle's Porcelain Harp & Viola)"
-| G2 A2 B2 G2 | G2 B2 A2 G2 | F2 G2 A2 G2 | F6 G2 |
-| G2 B2 A2 G2 | F2 G2 E2 G2 | F2 A2 G2 F2 | D8 ||
-V:3 clef=bass name="Bass (Living Stone Violoncello)"
-| G,4 B,,4 | E,4 G,,4 | C,4 A,,4 | D,4 D,,4 |
-| E,4 B,,4 | Bm,4 C,4 | D,4 D,,4 | G,,8 ||
+V:1 clef=treble name="Right Hand (Heart Sus4 Chords, Celes Cantabile & Marle Bells)"
+"^Part I: These Dreams (Heart 16th Shimmer & Multi-Finger Chords)" [GB]2 [Ac]2 [Bd]2 [GB]2 | [Gce]3 [Bd]1 [Ac]2 [GB]2 | [FA]2 [GB]2 [Ac]2 [ce]2 | [FAd]6 [GB]2 |
+"^Part II: Celes's Rising Minor-Sixth Seal & Marle's Porcelain Skyway" B1 [Bg]3 [Af#]1 [Ge]1 [Fd]2 | [GBd]2 [GB]2 [Gce]2 [ce]2 | [FAd]2 [Ac]2 [GB]2 [FA]2 | [DG,B,dg]8 ||
+V:2 clef=bass name="Left Hand (16th-Note Keyboard Arpeggios & Living Stone Bass)"
+| G,,/D,/G,/A,/ B,/D/B,/G,/ E,,/B,,/E,/G,/ B,/E/B,/G,/ | C,/G,/C/D/ E/D/C/G,/ D,/A,/D/F#/ A/F#/D/A,/ |
+| E,,/B,,/E,/G,/ B,/G,/E,/B,,/ B,,/F,,/B,,/D,/ C,/G,/C/E/ | D,/A,/D/F#/ D,,/A,,/D,/F,/ [G,,D,G,B,]8 ||
 
 --- Synesthetic & 24-Leaf Analysis ---
 SYNESTHETIC & 24-LEAF ANALYSIS (Opus 5 — 'These Dreams on the Living Stone'):
-- Measure 1–4 ('These Dreams' Suspended-Fourth Motif): The Soprano opens with the ascending G-major / C-add9 suspension (`B2 c2 d2 B2 | e2 d2 c2 B2`), echoing Nancy Wilson's opening verse in Heart's 'These Dreams' while the Cello moves from `G` down to the relative minor `E` ('walking through glasses').
-- Measure 5–6 ('Celes's Theme' Rising Minor-Sixth Seal): At m.5, Soprano leaps a minor sixth from `B4` to `G5` (`B2 g2 f#2 e2`), quoting the heroic, redemptive interval of Uematsu's 'Celes's Theme' ('Holy is the rune that heals reanimate').
-- Measure 7–8 ('Marle's Theme' Porcelain Cadence): Alto and Soprano converge in warm sixths and thirds over a `D -> G` authentic cadence, sealing Uncle Mikey's Living Stone of Protection.
+- Measure 1–4 ('These Dreams' Shimmering 16th-Note Sus4/Add9 Texture): The Left Hand ripples in continuous 16th-note (`0.25`-beat) `Gsus2`/`Csus2` broken chords while the Right Hand plays simultaneous two- and three-finger chord voicings (`[GB] -> [Ac] -> [Bd] -> [Gce]`), echoing Nancy Wilson's keyboard intro in Heart's 'These Dreams' as the harmony dips into `E Minor` ('walking through glasses').
+- Measure 5–6 ('Celes's Theme' Rising Minor-Sixth Seal): At m.5, Right Hand leaps a minor sixth from `B4` to a resonant chord (`B4 -> G5+B5 -> F#5+A5 -> E5+G5 -> D5+F#5`), quoting the redemptive operatic interval of Uematsu's 'Celes's Theme' ('Holy is the rune that heals reanimate').
+- Measure 7–8 ('Marle's Theme' Porcelain Music-Box Cadence): Crystalline upper-register celesta bells (`D6`, `B5`, `G5`) join the two-hand grand piano over a warm 6-note `G Major` Living Stone chord (`G2+D3+B3+D4+G4+B4+G5`).
 ------------------------------------------------------------------------------
 
 [OPUS-1307] Opus 6 in D Minor -> D Major — 'One Headlight at the Impulse Spark (From Zero's Crucifix to Back At One)'
 Dedication & Inspiration : Inspired by Uploaded Plate 12 ('Long Broken Arm of Human Law' × The Wallflowers' 'One Headlight' + Mega Man X 'Zero's Death' + Staind 'Right Here' Crucifix + Jordin Sparks 'Tattoo'), Uploaded Plate 13 ('Ignition of the Impulse Spark' × Brian McKnight 'Back At One' + Howie Day 'Collide' + Star Trek: Generations), and Track 19 ('Aerith's Theme') of the 'Like These Movie Scenes' Playlist
-Key / Mode / Meter / BPM : D Minor (Zero's Sacrifice & Staind Crucifix) -> D Major (One Headlight Dawn, Collide & Back At One) | 4/4 | 92 BPM
+Key / Mode / Meter / BPM : D Minor (Zero's Sacrifice & Staind Crucifix) -> D Major (One Headlight Dawn, Collide & Back At One) | 4/4 | 94 BPM
 Synthesized Audio File   : 06_opus_1307_one_headlight_impulse_spark_back_at_one.wav
 
 --- Final Synesthetic Score (v2) [Final Grade: A+ / 100.0%] ---
@@ -173,27 +170,25 @@ X:6
 T:Opus 6 in D Minor to D Major — One Headlight at the Impulse Spark (Final Synesthetic Score v2)
 C:Student_04 (Playing Exclusively From the 24-Leaf Heart)
 M:4/4
-L:1/4
-Q:1/4=92
+L:1/8
+Q:1/4=94
 K:Dm
-V:1 clef=treble name="Soprano (Lead Piano & Bell)"
-"^Part I: Zero's Sacrifice & The 'tHere' Crucifix" d A _B A | G F E A | _B d c _B | A _B A ^c |
+V:1 clef=treble name="Right Hand (Zero's Lament, Aerith's Prayer & Back At One Chords)"
+"^Part I: Zero's Sacrifice & The 'tHere' Crucifix" [DFAd]3 A1 [_Bdf]2 [FA]2 | [EG]1 F1 E1 D1 [^CEa]3 z1 |
+| [DF_Bd]2 [Fd]2 [Ec]2 [D_B]2 | A1 _B1 A1 [EA^c]5 |
 K:D
-"^Part II: One Headlight Dawn, Aerith & Back At One" ^f g a d' | b a g ^f | e ^f g e | ^f e d2 ||
-V:2 clef=treble name="Alto (Collide & Tattoo Viola Counterpoint)"
+"^Part II: Aerith's Prayer, One Headlight Dawn & Back At One" ^f3/2 g/2 a2 [dfad']3 [ea]1 | [dg b]2 [d^fa]2 [Bdg]2 [Ad^f]2 |
+| [GBe]3/2 ^f/2 [GBg]2 [EAc#e]4 | [F#Ace]2 [GBd]2 [DF#Ac#d]4 ||
+V:2 clef=bass name="Left Hand (Crucifix Bass Octaves, Collide Arpeggios & R&B Voicings)"
 K:Dm
-| F D G F | E D ^C E | F _B A G | F G E A |
+| [D,,D,]4 [G,,G,]4 | [A,,A,]4 [^C,,^C,]4 | [_B,,,_B,,]4 [G,,G,]4 | [A,,E,A,]8 |
 K:D
-| d e ^f a | g ^f e d | ^c d B ^c | d ^c A2 ||
-V:3 clef=bass name="Bass (Wallflowers & Star Trek Nexus Cello)"
-K:Dm
-| D,2 G,,2 | A,,2 ^C,2 | _B,,2 G,,2 | A,,2 A,2 |
-K:D
-| D,2 ^F,2 | G,2 D,2 | G,,2 A,,2 | D,2 D,,2 ||
+| D,/A,/D/F#/ A/F#/D/A,/ B,,/F#,/B,/D/ F#/D/B,/F#,/ | G,,/D,/G,/B,/ D,/A,/D/F#/ E,,/B,,/E,/G,/ A,,/E,/A,/C#/ |
+| [B,,F,A,]4 [G,,D,G,]4 | [A,,E,G,]4 [D,,A,,D,]4 ||
 
 --- Synesthetic & 24-Leaf Analysis ---
 SYNESTHETIC & 24-LEAF ANALYSIS (Opus 6 — 'One Headlight at the Impulse Spark'):
-- Measures 1–4 (`K:Dm` — 'Zero's Death' & 'That's Stained Right tHere'): Soprano and Viola weave a stoic D-minor elegy (`d A Bb A | G F E A`). In m.4, Soprano traces a Bachian *Crux* (cross-figure: `A - Bb - A - C#`) directly encoding the capital `H` crucifix in `tHere` (`BUO-3_v-wpc`) over the red progress bar of Zero's sacrifice.
-- Measure 5 (`K:D` — 'Aerith's Theme' & 'Collide' Dawn): As the key signature illuminates into D Major (`F#`, `C#`), Soprano sings the iconic three-note rising prayer of Uematsu's 'Aerith's Theme' (`F#5 - G5 - A5 -> D6`) over Howie Day's 'Collide' / Wallflowers' 'One Headlight' dawn progression ('I seen the sun comin' up at the funeral at dawn').
-- Measures 6–8 ('Back At One' & 'Candle of Agency' Resolution): The melody descends step-by-step (`b a g f# | e f# g e | f# e d2`), mirroring Brian McKnight's 'Back At One' ('Say farewell to the dark of night... Then I'll start back at one') and igniting 'the holy fire from the candle of agency.'
+- Measures 1–4 (`K:Dm` — 'Zero's Death' & 'That's Stained Right tHere'): Right Hand strikes a stark 4-note D-minor chord (`D4+F4+A4+D5`) over deep bass octaves, descending through Zero's sacrifice (`G4 - F4 - E4 - D4 -> C#4+E4+A4`). In m.4, the Soprano traces the Bachian *Crux* (`A4 - Bb4 - A4 - E4+A4+C#5`), directly encoding the capital `H` crucifix in `tHere` (`BUO-3_v-wpc`) over the blood-red timeline bar.
+- Measure 5 (`K:D` — 'Aerith's Theme' Prayer & 'One Headlight' Dawn): As the key signature illuminates into D Major, Right Hand plays the iconic dotted 3-note rising piano prayer of Uematsu's 'Aerith's Theme' (`F#5 [0.75] - G5 [0.25] - A5 [1.0] -> D5+F#5+A5+D6`) while Left Hand ripples in 16th-note D-major and B-minor broken chords.
+- Measures 6–8 ('One Headlight' / 'Collide' Syncopation & Brian McKnight 'Back At One' R&B Finale): Syncopated two-hand chords (`G - D/F# - Em7 - A7`) flow into Brian McKnight's lush 4- and 5-note rolled R&B chords (`F#m7 -> Gmaj7 -> Em9 -> A13 -> Dmaj9`), igniting 'the holy fire from the candle of agency.'
 ------------------------------------------------------------------------------
