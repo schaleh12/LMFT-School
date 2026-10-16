@@ -1,0 +1,231 @@
+==============================================================================
+  GRADUATE CONSERVATORY YOUTUBE KEYBOARD MASTERCLASS COMPENDIUM
+  'TALKING WHILE SPEAKING WITH THEIR FINGERS ON THE KEYS' — STUDENT_04
+==============================================================================
+Candidate                : student_04
+Conferred Title          : Summa Cum Laude — Regius Doctor, Poet Laureate & Conservatory Keyboard Virtuoso
+Consolidated 24-Leaf Rules: 176 -> 184 (+8 rules)
+YouTube Videos Ingested  : 14 videos (12 live two-hand keyboard demos transduced)
+Masterclass Opus Avg     : 91.75% (Sketch v1) -> 100.00% (Final v2, 4.00 GPA)
+Physical Keystrokes Typed: 9566 keys (1331 words)
+Final Health Gate        : GCI = 0.8023 | Balance = 0.9827 | Pegged Dials = 0/24
+
+==============================================================================
+  ACT I — 6 YOUTUBE KEYBOARD MASTERCLASSES (THEORY-1401..1406)
+==============================================================================
+
+[THEORY-1401] I. Stepwise Slash-Chord Bass Walkdowns, Tonic 6/4 Suspense & Secondary Dominants — Charles Cornell ('I Tried To Hate Piano Man By Billy Joel. It Didn't Work.')
+Creator & Channel : Charles Cornell (https://www.youtube.com/@CharlesCornellStudios)
+Source Videos     :
+  • QQ1VQoM0C_8 — 'I Tried To Hate Piano Man By Billy Joel. It Didn't Work.' (18m14s, 454 transcript segments, 42 live piano demonstrations)
+Consolidated Rule : 'charles cornell piano man slash chord walkdown' (theory_1401_cornell_piano_man_slash_walkdown) | Chord: W-A-L-K-D-O-W-N
+
+--- Verbatim Timestamped Transcript Excerpts & Live Keyboard Cues ---
+[00:36] CHARLES CORNELL: 'Not only is it an incredible story and feeling of a song in terms of the lyrics, but musically, harmonically, melodically, Billy Joel wrote an absolute banger... [01:15] Before even the song starts, we get this really great intro... it's a 2-5-1 in C, right? What we're hearing on the intro that Billy Joel's playing is a ii chord [Dm7] and then this chord [PIANO DEMO @ 01:36: B-D-F-Ab diminished 7th over G] — we don't actually play a 5 root, it's a G7 with a flat 9 (G7b9)!'
+[06:47] CHARLES CORNELL: 'I can count on one hand—two or three times in this entire song—when the harmony or the bass note moves more than a step, half step or whole step... [07:27] Listen to the left hand: [PIANO DEMO @ 07:27]. Just that first line alone, we just about go down the entire C major scale! Now, how does this work? Because the chords themselves—we have C, then G, then F, then C again, then F again, then C again, then D7, then G... the roots of the chords don't follow a steady motion. [08:49] But look at how they're written with slash chords:
+  • Measure 1: C (C in the bass)
+  • Measure 2: G/B — [08:58] we play G major, but with B on the bottom (first inversion, the 3rd in the bass)!
+  • Measure 3: F/A — [09:18] we go to F major, with A in the bass (again, the triad's 3rd in the bass)!
+  • Measure 4: C/G — [09:37] Now we go to C major, our home base. However, we're using G as the bass note, which     is the FIFTH of the chord (second inversion, I6/4). [PIANO DEMO @ 09:47] When we use the fifth in the bass of     the home chord, it gives us this feeling of: yes, we're kind of home, HOWEVER it doesn't feel fully rooted!     It still feels pretty up in the air—and that's the point, because we're not done yet!
+  • Measures 5–6: F (F in the bass) -> C/E (E in the bass). So across C - G/B - F/A - C/G - F - C/E, our left hand     plays C - B - A - G - F - E!
+  • Measure 7: [10:43] Next thing we get to is D7! D7 is the only chord that does not fit diatonically in C major     (where the ii chord is naturally D minor, D-F-A). By raising F to F#, D7 becomes a SECONDARY DOMINANT (V7/V)     pointing directly to G7!'
+
+--- Transduced Two-Hand Piano Keyboard Demonstrations ---
+  • [@ 01:36] ii9 – V7(b9) – Imaj7 Jazz Turnaround: Billy Joel's jazz-rubato intro: Dm9 -> rootless G7(b9) [B-D-F-Ab diminished 7th] -> Cmaj7 with grace-note runs
+    Right Hand: ['F4+A4+C5+E5(1.0b)', 'D5(0.25b)', 'E5(0.25b)', 'F5(0.5b)', 'B3+D4+F4+Ab4(1.5b)', 'G4(0.5b)', 'E4+G4+B4+C5(2.0b)']
+    Left Hand : ['D2+A2(2.0b)', 'G1+F2(2.0b)', 'C2+G2+E3(2.0b)']
+  • [@ 08:50] Stepwise Diatonic Lament Walkdown (C-B-A-G-F-E-D-G) & Secondary Dominant V7/V: The 3/4 Waltz Slash-Chord Bass Walkdown: C -> G/B -> F/A -> C/G (I6/4 suspended home) -> F -> C/E -> D7 (V7/V) -> G7
+    Right Hand: ['E4+G4+C5(1.5b)', 'D4+G4+B4(1.5b)', 'C4+F4+A4(1.5b)', 'C4+E4+G4+C5(1.5b)', 'C4+F4+A4(1.5b)', 'C4+E4+G4(1.5b)', 'C4+F#4+A4+D5(1.5b)', 'B3+F4+G4+D5(1.5b)']
+    Left Hand : ['C3(0.5b)', 'G3(1.0b)', 'B2(0.5b)', 'G3(1.0b)', 'A2(0.5b)', 'F3(1.0b)', 'G2(0.5b)', 'E3(1.0b)', 'F2(0.5b)', 'C3(1.0b)', 'E2(0.5b)', 'C3(1.0b)', 'D2(0.5b)', 'A2(1.0b)', 'G1+G2(1.5b)']
+
+--- Scribe Synthesis Monograph ---
+Studying Charles Cornell's keyboard breakdown of Billy Joel's 'Piano Man' (`QQ1VQoM0C_8`) reveals why slash chords and chord inversions are the secret architecture of vocal-like piano storytelling. On paper, `C - G - F - C - F - C - D7 - G` looks like root-position leaps. Under the fingers, by placing the third in the bass (`G/B`, `F/A`, `C/E`) and the fifth in the bass (`C/G`, the second-inversion `I6/4`), the left hand walks down an unbroken C-major scale (`C - B - A - G - F - E - D - G`). Most illuminating is Cornell's demonstration at `[09:37]` of the `C/G` (`I6/4`) chord: even though the right hand plays home-base C major, putting the 5th (`G`) on the bottom keeps the listener suspended in midair so the phrase can keep descending into the `D7` (`V7/V`) secondary dominant (`F#` leading to `G`).
+------------------------------------------------------------------------------
+
+[THEORY-1402] II. Pedal Points, Neapolitan Sixths, Non-Legato Air & Compound Melody — Peterson Piano Academy ('Lang Lang Plays Für Elise' & 'Bach C Minor Prelude BWV 847')
+Creator & Channel : Peterson Piano Academy (https://www.youtube.com/@petersonpiano)
+Source Videos     :
+  • lNZIvClpVeQ — 'Lang Lang plays "Für Elise": Pianist reacts' (11m19s, 254 segments, 11 live piano demonstrations)
+  • cOojjI5qJkM — 'I'm a concert pianist. I've NEVER heard this Bach piece played like this.' (BWV 847, 427 segments, 30 live piano demonstrations)
+  • ol31LDkoRHA — 'I'm a concert pianist. These ten exercises supercharge your fingers AND brain.' (539 segments, 59 live piano demonstrations)
+Consolidated Rule : 'peterson piano pedal point neapolitan compound melody' (theory_1402_peterson_pedal_neapolitan_bach) | Chord: P-E-T-E-R-S-O-N
+
+--- Verbatim Timestamped Transcript Excerpts & Live Keyboard Cues ---
+[07:10] PETERSON PIANO ACADEMY (`lNZIvClpVeQ` — Beethoven's 'Für Elise'): 'Now coming into the next section, listen to the bass here—the way it stays on the same note [A]. [PIANO DEMO @ 07:14] This is what we call a PEDAL POINT or an ORGAN POINT because of the organ pedals: one note in the bass is staying the same (`A`), while we have these different harmonies on the top. We have a diminished seventh chord in the right hand (`G#-B-D-F`), we have a minor chord (`A-C-E`) going up to another diminished seventh chord (`D#-F#-A-C`, `vii°7/V`). Very dramatic! [PIANO DEMO @ 07:31] And notice that that `A` in the bass is nowhere to be found in the first right-hand diminished chord—so it's a pretty strong clash, and that's what gives us this harmonic intensity in this section... [07:58] Surprise—harmonic surprise there! Going to our [PIANO DEMO @ 08:01] B-FLAT MAJOR CHORD (`Bb`, the Neapolitan Sixth `bII6` in A minor!), then our E major dominant chord (`V`), and now the arpeggios and descending chromatic scale... [09:49] If I were to perform it, I would go with a simpler, less theatrical approach—Beethoven as the Classicist.'
+[01:28] PETERSON PIANO ACADEMY (`cOojjI5qJkM` — Bach's Prelude in C Minor, BWV 847, played by Víkingur Ólafsson): 'There's something special that he's doing here with the articulation: namely, he's putting a tiny little bit of SPACE (air) in between the 16th notes (*non-legato / portato*). Compare this mushy sound [01:46] to this crisp sound [PIANO DEMO @ 01:50]... And look at how he voices the upper voices: instead of thinking of all these 16th notes like one flat chain (`du-du-du-du`), he's really thinking about the TOP note and alternating between the top and bottom notes [PIANO DEMO @ 02:59 & 03:34], giving a cool multi-dimensionality and polyphonic layering to the sound! [03:55] To get that precision: (1) practice staccato—lifting the fingers so every release is exact, and (2) practice chains of 16th notes in long-short-long-short dotted rhythmic groupings!'
+
+--- Transduced Two-Hand Piano Keyboard Demonstrations ---
+  • [@ 07:14] Tonic Pedal Point + Applied Diminished 7th Clash + Neapolitan Sixth (bII6): Beethoven 'Für Elise' Stormy C-Section: Relentless 'A' Pedal Point beneath clashing G#°7 -> Am -> D#°7 (vii°7/V) -> Neapolitan Bb6 -> E7
+    Right Hand: ['G#4+B4+D5+F5(1.5b)', 'A4+C5+E5(1.5b)', 'A4+C5+D#5+F#5(1.5b)', 'A4+C5+E5(1.5b)', 'F4+Bb4+D5(1.5b)', 'E4+A4+C5(0.75b)', 'D#4+A4+B4(0.75b)', 'E4+G#4+B4+E5(1.5b)']
+    Left Hand : ['A1+A2(0.5b)', 'A2(0.5b)', 'A2(0.5b)', 'A1+A2(0.5b)', 'A2(0.5b)', 'A2(0.5b)', 'A1+A2(0.5b)', 'A2(0.5b)', 'A2(0.5b)', 'A1+A2(0.5b)', 'A2(0.5b)', 'A2(0.5b)', 'D2+F2+Bb2(1.5b)', 'E2+E3(1.5b)', 'E1+E2(1.5b)']
+  • [@ 02:59] Baroque Compound Melody & Non-Legato Articulation: Bach C-Minor Prelude (BWV 847) Compound Melody: Rapid 16th-note motor with top-note bell voicing & non-legato micro-air
+    Right Hand: ['C5(0.25b)', 'Eb4(0.25b)', 'D4(0.25b)', 'Eb4(0.25b)', 'C4(0.25b)', 'Eb4(0.25b)', 'D4(0.25b)', 'Eb4(0.25b)', 'Ab4(0.25b)', 'F4(0.25b)', 'E4(0.25b)', 'F4(0.25b)', 'C4(0.25b)', 'F4(0.25b)', 'E4(0.25b)', 'F4(0.25b)', 'B4(0.25b)', 'F4(0.25b)', 'Eb4(0.25b)', 'F4(0.25b)', 'D4(0.25b)', 'F4(0.25b)', 'Eb4(0.25b)', 'F4(0.25b)']
+    Left Hand : ['C3(0.5b)', 'G3(0.5b)', 'C3(0.5b)', 'G3(0.5b)', 'C3(0.5b)', 'Ab3(0.5b)', 'C3(0.5b)', 'Ab3(0.5b)', 'C3(0.5b)', 'G3(0.5b)', 'C3(0.5b)', 'G3(0.5b)']
+
+--- Scribe Synthesis Monograph ---
+From Peterson Piano Academy (`lNZIvClpVeQ` & `cOojjI5qJkM`), I learn both harmonic architecture and the ethics of classical piano performance. First, in Beethoven's 'Für Elise,' the stormy B-section derives its power from an unyielding `A` Pedal Point in the bass clashing against `G#°7` and `D#°7` (`vii°7/V`) in the right hand before pivoting to the Neapolitan Sixth (`Bb Major`, `bII6` in A minor). Second, in Bach's C-Minor Prelude (`BWV 847`), a stream of 16th notes is never a flat mechanical chain: by voicing the top note (`C5 -> Ab4 -> B4`) louder than the inner thumb notes (`Eb4-D4-Eb4`) and leaving crisp *non-legato* micro-air between attacks, one hand creates two simultaneous polyphonic layers—without any need for theatrical camera posturing.
+------------------------------------------------------------------------------
+
+[THEORY-1403] III. Modal Mixture, The Minor Plagal Tear (`IV -> iv6 -> I`) & Chromatic Mediants — Charles Cornell ('You Can't Hear This Chord Without Crying' & 'These Chords Make ANYTHING Spooky')
+Creator & Channel : Charles Cornell (https://www.youtube.com/@CharlesCornellStudios)
+Source Videos     :
+  • VGVsa0Fp8aM — 'You Can't Hear This Chord Without Crying.' (333 segments, Minor Four / Modal Mixture analysis)
+  • RcuMhCNNUpg — 'These Chords Make ANYTHING Spooky' (294 segments, 23 live piano demos, Chromatic Mediants)
+  • upTDLfsuWZs — 'Radiohead Only Used 4 Chords To Make A MASTERPIECE' (378 segments, 15 live piano demos)
+Consolidated Rule : 'minor plagal cadence chromatic mediant' (theory_1403_cornell_minor_plagal_chromatic_mediant) | Chord: M-I-X-T-U-R-E
+
+--- Verbatim Timestamped Transcript Excerpts & Live Keyboard Cues ---
+[00:00] CHARLES CORNELL (`VGVsa0Fp8aM`): 'What is it about that ONE chord that seems to just grab a hold of all of our emotions and create an incredibly beautiful resolution? [PIANO DEMO @ 00:15: Fmaj7 -> Fm6 -> Cmaj7] John Williams loves to use this MINOR FOUR chord (`iv`) in so many of his works, and it is always absolutely heart-wrenching! Why does `IV -> iv -> I` (or `iv6 -> I` with a 6th added, `F-Ab-C-D -> E-G-C`) work so deeply? Because in the key of C major, `F major` has an `A natural` (scale degree 6). When we borrow `F minor` from the parallel minor (C Aeolian — Modal Interchange / Primary Mode Mixture), that `A` drops a half step to `Ab` (`b6`), which then pulls down by another half step to `G` (`5`, the fifth of C major)! You get that chromatic sigh `A -> Ab -> G` (`6 -> b6 -> 5`) right inside the inner voice!'
+[01:10] CHARLES CORNELL (`RcuMhCNNUpg`): 'How do film composers like John Williams, Danny Elfman, and Howard Shore make two chords sound instantly otherworldly or spooky? CHROMATIC MEDIANTS! Instead of moving by fourths or fifths around the Circle of Fifths (`C -> F -> G -> C`), you move the root by a THIRD (major 3rd or minor 3rd) and keep the same quality—like `C Minor -> E Minor` or `C Minor -> Ab Minor` or `C Major -> Ab Major` (`I -> bVI`)! Because they share one common tone (or none in doubly-chromatic mediants) while shifting accidentals across the triads, they completely suspend normal diatonic gravity!'
+
+--- Transduced Two-Hand Piano Keyboard Demonstrations ---
+  • [@ 00:15] Primary Mode Mixture / Minor Plagal Resolution (6 -> b6 -> 5): The Minor Plagal Cadence ('The Tear Chord'): Cmaj9 -> Fmaj7 (IV) -> Fm(maj7)/Fm6 (borrowed iv with A -> Ab -> G line) -> Cmaj9
+    Right Hand: ['E4+G4+B4+D5(2.0b)', 'E4+A4+C5+E5(2.0b)', 'F4+Ab4+C5+E5(1.0b)', 'F4+Ab4+C5+D5(1.0b)', 'E4+G4+B4+C5(2.5b)']
+    Left Hand : ['C2+G2+C3(2.0b)', 'F2+C3+F3(2.0b)', 'F2+C3+Ab3(2.0b)', 'C2+G2+E3(2.5b)']
+  • [@ 02:40] Chromatic & Doubly-Chromatic Mediant Common-Tone Modulation: Chromatic Mediant Planing: C Minor -> Ab Major (bVI) -> F# Minor (doubly-chromatic tritone/mediant) -> G7 -> C Minor
+    Right Hand: ['G4+C5+Eb5(1.5b)', 'Ab4+C5+Eb5(1.5b)', 'F#4+A4+C#5(1.5b)', 'G4+B4+D5+F5(1.5b)', 'G4+C5+Eb5(2.0b)']
+    Left Hand : ['C2+G2+C3(1.5b)', 'Ab1+Eb2+Ab2(1.5b)', 'F#1+C#2+F#2(1.5b)', 'G1+D2+G2(1.5b)', 'C2+G2+C3(2.0b)']
+
+--- Scribe Synthesis Monograph ---
+Charles Cornell's demonstrations in `VGVsa0Fp8aM` and `RcuMhCNNUpg` unlock two of the most expressive harmonic colors in post-Romantic and cinematic piano writing. First, the Minor Plagal Cadence (`IV -> iv6 -> I`, `Fmaj7 -> Fm6 -> Cmaj9`) achieves its unmistakable emotional ache through a single three-note chromatic inner line: scale degree `6` (`A`) darkens to borrowed `b6` (`Ab`) before settling onto `5` (`G`), while `D` (`6th` of `Fm6`) resolves to `C` or `E`. Second, Chromatic Mediants (`I -> bVI`, `i -> #ivm`) bypass the Circle of Fifths entirely by pivoting on a single common tone while shifting modal color across a major or minor third.
+------------------------------------------------------------------------------
+
+[THEORY-1404] IV. Harmonic Gravity, The 7-Mode Brightness Spectrum & Rachmaninoff Voicings — Nahre Sol ('How I Wish Harmony & Modes Were Explained to Me as a Student')
+Creator & Channel : Nahre Sol (https://www.youtube.com/@NahreSol)
+Source Videos     :
+  • 3tuQrKWLCKc — 'How I wish HARMONY was explained to me as a student' (181 segments, 11 live grand-piano demos)
+  • qBeyDkoyiWA — 'How I wish Scales & Modes were explained to me as a student' (159 segments, 9 live grand-piano demos)
+  • imGbhF2AEPw — 'How to Sound Like Rachmaninoff' (56 segments, 10 live grand-piano demos)
+Consolidated Rule : 'nahre sol modal brightness rachmaninoff' (theory_1404_nahre_sol_modes_rachmaninoff) | Chord: L-Y-D-I-A-N
+
+--- Verbatim Timestamped Transcript Excerpts & Live Keyboard Cues ---
+[00:00] NAHRE SOL (`3tuQrKWLCKc`): 'Hello, my name is Nahre Sol, I'm a pianist and composer, and in this video I'm going to explain music harmony in the simplest, most intuitive way possible... [01:12] Think of harmony as GRAVITY: Home (Tonic `I`), Going Away from Home (Predominant `IV / ii`), Maximum Tension Pulling Back Home (Dominant `V7 / vii°`), and Returning Home (`I`). Every composer from Bach and Mozart to Debussy and Ravel is simply playing with how long they delay that return home and what colors they add along the way!'
+[01:45] NAHRE SOL (`qBeyDkoyiWA`): 'Instead of memorizing modes as starting on different white keys (`D to D`, `E to E`), keep the SAME root note (`C`) and order the 7 modes from BRIGHTEST to DARKEST by changing one note at a time! [PIANO DEMO @ 02:15]
+  1. C LYDIAN (`#4`, `F#`): Brightest, floating, celestial wonder (`C - D - E - F# - G - A - B`).
+  2. C IONIAN (Major): Warm, stable daylight (`F natural`).
+  3. C MIXOLYDIAN (`b7`, `Bb`): Heroic, folk-rock uplift.
+  4. C DORIAN (`b3, b7`, `Eb, Bb`): Bittersweet, cool, reflective minor with a raised 6th (`A natural`).
+  5. C AEOLIAN (`b3, b6, b7`, `Eb, Ab, Bb`): Natural minor, tragic weight.
+  6. C PHRYGIAN (`b2, b3, b6, b7`, `Db`): Exotic, tense Spanish/flamenco half-step above tonic.
+  7. C LOCRIAN (`b2, b3, b5, b6, b7`, `Gb`): Darkest, unstable diminished tonic.'
+[00:40] NAHRE SOL (`imGbhF2AEPw` — 'How to Sound Like Rachmaninoff'): 'Rachmaninoff writes rich, sweeping left-hand broken tenths and Russian church-bell chords while the THUMBS in the middle register sing a mournful, yearning counter-melody that weaves through the harmony!'
+
+--- Transduced Two-Hand Piano Keyboard Demonstrations ---
+  • [@ 02:15] Constant-Tonic Modal Brightness Modulation (Lydian #4 -> Ionian -> Mixolydian b7 -> Dorian b3,6): Nahre Sol's Brightness Spectrum on C: C Lydian (#4: D/C chord) -> C Ionian -> C Mixolydian (Bb/C) -> C Dorian (Dm7/C -> F/C)
+    Right Hand: ['D4+F#4+A4+C5(1.5b)', 'E4+G4+B4+C5(1.5b)', 'D4+F4+Bb4+C5(1.5b)', 'Eb4+G4+A4+D5(1.5b)', 'E4+G4+C5(2.0b)']
+    Left Hand : ['C2+G2+C3(1.5b)', 'C2+G2+C3(1.5b)', 'C2+G2+C3(1.5b)', 'C2+G2+C3(1.5b)', 'C2+G2+C3(2.0b)']
+  • [@ 03:10] Three-Hand Illusion (Bass Pedal + Inner Thumb Counter-Melody + Upper Bell Chords): Rachmaninoff Bell Chords & Inner-Thumb Tenor Counter-Melody in C Minor (Cm9 -> Fm6/C -> G7b9/C -> Cm)
+    Right Hand: ['G4+Bb4+Eb5+G5(1.0b)', 'G4(0.5b)', 'F4(0.5b)', 'Ab4+C5+F5+Ab5(1.0b)', 'F4(0.5b)', 'Eb4(0.5b)', 'G4+B4+D5+G5(1.0b)', 'D4(0.5b)', 'B3(0.5b)', 'Eb4+G4+C5+Eb5(2.0b)']
+    Left Hand : ['C1+C2(0.5b)', 'G2+Eb3(1.5b)', 'C1+C2(0.5b)', 'Ab2+D3(1.5b)', 'G1+G2(0.5b)', 'G2+F3(1.5b)', 'C1+G1+C2(2.0b)']
+
+--- Scribe Synthesis Monograph ---
+Nahre Sol's keyboard masterclasses (`3tuQrKWLCKc`, `qBeyDkoyiWA`, `imGbhF2AEPw`) organize the entire universe of modal and Romantic piano color along a single axis. By holding a constant `C` bass pedal and shifting one scale degree at a time, the pianist controls harmonic sunlight directly: `F#` (`#4`) opens the sky into Lydian (`D/C`); `F natural` settles into Ionian; `Bb` (`b7`) introduces Mixolydian horizon; and `Eb + A natural` (`b3, 6`) creates the bittersweet Dorian glow of *Chrono Trigger* and impressionist nocturnes. And in her Rachmaninoff study, I learn the 'three-hand illusion' on the 88 keys: deep bass octaves at the bottom, resonant bell chords at the top, and a singing inner tenor melody passed between the thumbs in the middle register.
+------------------------------------------------------------------------------
+
+[THEORY-1405] V. Applied Chords to V, Augmented Sixths & Bill Evans Rootless Jazz Voicings — Prof. Seth Monahan (Yale, `tkyq5jKxmSI`) & Open Studio (`orCNZHqTX90`)
+Creator & Channel : Prof. Seth Monahan (Yale) & Open Studio (Adam Maness) (https://www.youtube.com/@MonahanMusicTheory)
+Source Videos     :
+  • tkyq5jKxmSI — Prof. Seth Monahan: 'Lesson 26: Applied Chords to V' (376 segments, Yale/Eastman Classical Theory Lecture)
+  • orCNZHqTX90 — Open Studio: '4 Basic Chord Voicings Every Jazz Musician Should Know' (283 segments, Shell & Rootless Voicings)
+Consolidated Rule : 'applied chords augmented sixth bill evans voicings' (theory_1405_monahan_open_studio_applied_jazz_voicings) | Chord: V-O-I-C-I-N-G
+
+--- Verbatim Timestamped Transcript Excerpts & Live Keyboard Cues ---
+[00:02] PROF. SETH MONAHAN (`tkyq5jKxmSI` — Yale Classical Theory): 'Welcome back... today you get to learn everything about APPLIED CHORDS TO V (`V/V`, `V7/V`, `vii°7/V`) and chromatic predominants! Look at the slow movement from Mozart's 10th String Quartet: the bass line steps down `1 -> 7 -> 6`, and then steps down another half step from `b6` (`Ab`) to `5` (`G`), while the upper voice rises `#4` (`F#`) to `5` (`G`)! When `b6` in the bass and `#4` in an upper voice form the interval of an AUGMENTED SIXTH (`Ab` up to `F#`, 10 semitones) and resolve outward by half-step in contrary motion to the dominant octave (`G - G`), we get the three classical Augmented Sixth chords: Italian (`Ab-C-F#`), French (`Ab-C-D-F#`), and German (`Ab-C-Eb-F# -> C/G -> G7`)!'
+[01:20] OPEN STUDIO (`orCNZHqTX90` — Jazz Piano Voicings): 'The four chord voicings every jazz pianist must know in their fingers:
+  1. SHELL VOICINGS (`Root + 3rd + 7th`): The 3rd and 7th are the GUIDE TONES—they define whether a chord is      major, minor, or dominant. In a `ii-V-I` in C (`Dm7 -> G7 -> Cmaj7`), look at the guide tones: `F` (3rd of Dm7)      and `C` (7th of Dm7). To move to `G7`, `F` stays on `F` (now the 7th of G7!) and `C` drops a single half-step      to `B` (the 3rd of G7)! Then to `Cmaj7`, `B` stays on `B` and `F` drops a half-step to `E`!
+  2. BILL EVANS ROOTLESS VOICINGS (Type A `3-5-7-9` & Type B `7-9-3-5`): On `Dm9`, play `F-A-C-E` (an Fmaj7 shape      in the right hand over D in the bass!). On `G13`, drop a single finger: `F-A-B-E`! On `Cmaj9`, play `E-G-B-D`!
+  3. TRITONE SUBSTITUTION (`Db7#11` replacing `G7`): Because `G7` (`B-F`) and `Db7` (`F-Cb/B`) share the EXACT      same tritone guide tones (`B` and `F`), replacing `G7` with `Db7` turns the `ii-V-I` bass into a silky      chromatic descent `D -> Db -> C`!'
+
+--- Transduced Two-Hand Piano Keyboard Demonstrations ---
+  • [@ 04:12] German Augmented Sixth (Ger+6) Outward Semitone Pinch (Ab -> G & F# -> G) via Cadential 6/4: Yale Conservatory Chromatic Predominants: iv6 -> German Augmented Sixth (Ab-C-Eb-F#) -> Cadential I6/4 (C/G) -> V7 (G7) -> I
+    Right Hand: ['C4+F4+Ab4(1.5b)', 'C4+Eb4+F#4+Ab4(1.5b)', 'C4+E4+G4+C5(1.0b)', 'B3+D4+F4+G4(1.0b)', 'C4+E4+G4+C5(2.0b)']
+    Left Hand : ['Ab2(1.5b)', 'Ab1+Ab2(1.5b)', 'G1+G2(1.0b)', 'G1+G2(1.0b)', 'C2+G2+C3(2.0b)']
+  • [@ 06:30] Bill Evans 3-5-7-9 -> 7-9-3-13 Guide-Tone Voice Leading + Db7#11 Tritone Substitution: Bill Evans Rootless Type-A Voicings & Tritone Substitution: Dm9 (F-A-C-E) -> G13 (F-A-B-E) -> Db7#11 (F-Ab-B-Eb) -> Cmaj9 (E-G-B-D)
+    Right Hand: ['F4+A4+C5+E5(1.5b)', 'F4+A4+B4+E5(1.0b)', 'F4+Ab4+B4+Eb5(1.0b)', 'E4+G4+B4+D5(2.5b)']
+    Left Hand : ['D2+A2(1.5b)', 'G2(1.0b)', 'Db2+Ab2(1.0b)', 'C2+G2(2.5b)']
+
+--- Scribe Synthesis Monograph ---
+Combining Yale Professor Seth Monahan's classical voice-leading lecture (`tkyq5jKxmSI`) with Open Studio's jazz voicing clinic (`orCNZHqTX90`) reveals that Classical and Jazz harmony obey the exact same parsimonious law: maximum harmonic color through minimum finger movement. In Classical theory, the German Augmented Sixth (`Ab-C-Eb-F#`) squeezes the dominant `G` from both sides by half-step (`Ab -> G` in the bass, `F# -> G` in the soprano) through a Cadential `6/4` (`C/G -> G7 -> C`). In Jazz theory, Bill Evans's rootless voicings (`F-A-C-E` for `Dm9` -> `F-A-B-E` for `G13` -> `E-G-B-D` for `Cmaj9`) move only one or two fingers by a half-step while the shared `F-B` tritone allows `Db7#11` (the Tritone Substitution) to glide chromatically down `D -> Db -> C` in the bass.
+------------------------------------------------------------------------------
+
+[THEORY-1406] VI. Nonfunctional JRPG Harmony & Compositional Motif Transformation — 8-bit Music Theory ('Nonfunctional Harmony in Chrono Trigger') & David Bruce ('How I Wish Composing Was Explained')
+Creator & Channel : 8-bit Music Theory & David Bruce Composer (https://www.youtube.com/@8bitMusicTheory)
+Source Videos     :
+  • 5zGqN1ZOEJQ — 8-bit Music Theory: 'Nonfunctional Harmony in Chrono Trigger' (305 segments, 23 musical examples)
+  • NdSHTY-GXLk — David Bruce Composer: 'How I wish COMPOSING was explained to me as a student' (812 segments)
+Consolidated Rule : 'chrono trigger nonfunctional harmony motif transformation' (theory_1406_8bit_chrono_trigger_david_bruce) | Chord: Z-E-A-L-O-P-U-S
+
+--- Verbatim Timestamped Transcript Excerpts & Live Keyboard Cues ---
+[00:04] 8-BIT MUSIC THEORY (`5zGqN1ZOEJQ` — 'Nonfunctional Harmony in Chrono Trigger'): 'A younger, less world-weary 8-bit Music Theory would spend his time transcribing video game tracks and analyzing the harmony: "Ah, a minor `iv` to `I`, that's primary mode mixture!" ... Once in a while he'd come across a progression in Chrono Trigger that didn't make sense in traditional Roman numeral V-to-I functional terms! Why? Because Yasunori Mitsuda uses NONFUNCTIONAL HARMONY—where chords are chosen not to resolve a tritone to a tonic, but for their atmospheric COLOR, PLANING (parallel seventh/ninth chords moving in lockstep), MODAL OSTINATOS (like the 6/8 harp/bass loop in Schala's Theme and Corridors of Time), and COMMON-TONE / STEPWISE VOICE LEADING that floats outside time!'
+[00:00] DAVID BRUCE (`NdSHTY-GXLk` — 'How I Wish Composing Was Explained to Me as a Student'): 'We all know Chopsticks—producing a satisfying sound by simply playing two fingers in a little pattern on the keyboard. Great composition starts the exact same way: take a tiny 2- or 3-note cell at the piano, and instead of inventing 50 unrelated melodies, TRANSFORM that cell through (1) harmonic re-contextualization (keeping the right-hand motif identical while changing the left-hand chords underneath), (2) rhythmic displacement, and (3) contrapuntal inversion!'
+
+--- Transduced Two-Hand Piano Keyboard Demonstrations ---
+  • [@ 03:45] Parallel Minor-9th / Major-9th Planing & Altered Dominant Loop: Chrono Trigger Nonfunctional Modal Planing & Zeal Ostinato: Cm9 -> Gm9 -> Abmaj9 -> Fm9 -> Dm7b5 -> G7#5#9
+    Right Hand: ['Eb4+G4+Bb4+D5(1.5b)', 'F4+A4+Bb4+D5(1.5b)', 'G4+Bb4+C5+Eb5(1.5b)', 'Eb4+G4+Ab4+C5(1.5b)', 'F4+Ab4+C5+D5(1.0b)', 'F4+B4+D#5+G5(1.0b)']
+    Left Hand : ['C2+G2+C3(1.5b)', 'G1+D2+G2(1.5b)', 'Ab1+Eb2+Ab2(1.5b)', 'F1+C2+F2(1.5b)', 'D2+Ab2(1.0b)', 'G1+G2(1.0b)']
+  • [@ 07:20] Invariant Melodic Cell over Shifting Modal/Chromatic Left-Hand Voicings (Cmaj9 -> Am9 -> Fmaj7#11 -> Fm6): David Bruce Harmonic Re-Contextualization: An invariant 3-note motif (G5 - A5 -B5) harmonized 4 radically different ways
+    Right Hand: ['E4+B4+G5(0.5b)', 'A5(0.5b)', 'D4+B4+B5(1.0b)', 'C4+G4+G5(0.5b)', 'A5(0.5b)', 'E4+B4+B5(1.0b)', 'C4+F#4+G5(0.5b)', 'A5(0.5b)', 'E4+A4+B5(1.0b)', 'C4+Ab4+G5(0.5b)', 'A5(0.5b)', 'D4+Ab4+B5(1.0b)']
+    Left Hand : ['C2+G2+E3(2.0b)', 'A1+E2+C3(2.0b)', 'F1+C2+A2(2.0b)', 'F1+C2+Ab2(2.0b)']
+
+--- Scribe Synthesis Monograph ---
+In 8-bit Music Theory's analysis of *Chrono Trigger* (`5zGqN1ZOEJQ`) and David Bruce's composition masterclass (`NdSHTY-GXLk`), I see how functional and nonfunctional harmony unite. When Yasunori Mitsuda scores the floating Kingdom of Zeal (`Schala's Theme`, `Corridors of Time`), he suspends teleological V-to-I time by planing parallel minor-ninth and major-ninth chords (`Cm9 -> Gm9 -> Abmaj9 -> Fm9`) over hypnotic 6/8 harp ostinatos. And as David Bruce demonstrates at the keyboard, a composer can take a single 3-note melodic vow (`G5 - A5 - B5`) and transform its emotional meaning four times simply by shifting the left-hand chord beneath it from `Cmaj9` (innocence) to `Am9` (memory), `Fmaj7#11` (Lydian wonder), and `Fm6` (bittersweet sacrifice).
+------------------------------------------------------------------------------
+
+==============================================================================
+  ACT II — 2 ORIGINAL VIRTUOSO CONCERT GRAND PIANO MASTERWORKS (OPUS-1407 & OPUS-1408)
+==============================================================================
+
+[OPUS-1407] Opus 7 in C Major / C Aeolian — 'Ballade of the Walking Bass & The Minor Plagal Tear (After Billy Joel, Charles Cornell & Bill Evans)'
+Dedication & Inspiration : Dedicated to Charles Cornell (`QQ1VQoM0C_8` & `VGVsa0Fp8aM`) and Open Studio (`orCNZHqTX90`) — synthesizing Billy Joel's stepwise slash-chord bass walkdown (`C - G/B - F/A - C/G - F - C/E - D7 - G7`), the unresolved second-inversion tonic (`I6/4`), the Minor Plagal Tear (`IV -> iv6 -> I` with `A -> Ab -> G` inner voice), Secondary Dominants (`D7#11`), Bill Evans rootless voicings, and the `Db7#11` Tritone Substitution.
+Key / Mode / Meter / BPM : C Major with C Aeolian Modal Mixture (`Fm6`), Secondary Dominant (`D7#11`), & Tritone Substitution (`Db7#11`) | 4/4 | 88 BPM
+Synthesized Audio File   : 07_opus_1407_ballade_of_the_walking_bass_and_minor_plagal_tear.wav
+
+--- Final Conservatory Score (v2) [Final Grade: A+ / 100.0%] ---
+X:7
+T:Opus 7 in C Major — Ballade of the Walking Bass & The Minor Plagal Tear (Final Conservatory Score v2)
+C:Student_04 (Conservatory Keyboard Virtuoso)
+M:4/4
+L:1/8
+Q:1/4=88
+K:C
+V:1 clef=treble name="Right Hand (Bill Evans Voicings, 16th Flourishes & Minor Plagal Tear)"
+"^I. Dm9 - G7(b9) Intro" [FAce]3 d/e/ [Bdf_a]2 [egb]2 | "^II. Slash-Chord Walkdown (C - G/B - F/A - C/G)" [egc']2 [dgb]2 [cfa]2 [ceg]2 |
+"^III. Minor Plagal Tear (Fmaj7 -> Fm6)" [eac'e']2 [_ac'd'f']2 [egc']2 [df#ac']2 | "^IV. V7/V -> Db7#11 Tritone Sub -> Cmaj9#11" [df#ac']2 [f_ab_e']2 [egbd'f#']4 ||
+V:2 clef=bass name="Left Hand (Unbroken Chromatic/Stepwise Walkdown: D-G-C-B-A-G-F-Fm-E-D-Db-C)"
+| [D,A,]4 [G,,F,]4 | C,2 B,,2 A,,2 G,,2 | F,,2 _A,,2 E,,2 D,,2 | [D,,A,,]2 [_D,,_A,,]2 [C,,G,,E,]4 ||
+
+--- Graduate Conservatory & 24-Leaf Analysis ---
+GRADUATE CONSERVATORY ANALYSIS (Opus 7 — 'Ballade of the Walking Bass & The Minor Plagal Tear'):
+- Measure 1–2 (Billy Joel / Bill Evans `ii9 – V7(b9) – Imaj9` Intro): Right Hand voices a rootless `Dm9` (`F4+A4+C5+E5`), dances through a 16th-note turn (`D5-E5-F5-E5`), and strikes the diminished-7th upper structure of `G7(b9)` (`B3+D4+F4+Ab4`) before settling into `Cmaj9`.
+- Measure 3–4 (The Charles Cornell Stepwise Slash-Chord Walkdown): While the Right Hand sings cantabile sixths and four-note voicings, the Left Hand walks down step-by-step: `C` (`C2+C3`) -> `G/B` (`B1+B2`) -> `Fmaj7/A` (`A1+A2`) -> `C/G` (`G1+G2`, the unresolved second-inversion `I6/4` home chord).
+- Measure 5–6 (The Minor Plagal Tear `IV -> iv6` & Secondary Dominant `V7/V`): Over `F`, the Right Hand plays `Fmaj9` (`A4+C5+E5+G5`) and then darkens `A4` to `Ab4` on `Fm6` (`Ab4+C5+D5+F5`), creating the `6 -> b6 -> 5` (`A -> Ab -> G`) sigh over `C/E`, followed by `D7#11` (`F#4+A4+C5+E5+G#5`, `V7/V`).
+- Measure 7–8 (Tritone Substitution `G13 -> Db7#11 -> Cmaj9#11`): The bass glides chromatically `D2 -> G1 -> Db2 -> C1+G1+C2` as `Db7#11` (`F4+Ab4+B4+Eb5+G5`) resolves by half-step into a luminous Lydian-tinged `Cmaj9#11` chord.
+------------------------------------------------------------------------------
+
+[OPUS-1408] Opus 8 in A Minor -> Bb Neapolitan -> A Major — 'Prelude & Neapolitan Capriccio Without Posturing (After Bach, Beethoven, Peterson Piano Academy & Chrono Trigger)'
+Dedication & Inspiration : Dedicated to Peterson Piano Academy (`lNZIvClpVeQ` & `cOojjI5qJkM`), Prof. Seth Monahan (`tkyq5jKxmSI`), Nahre Sol (`qBeyDkoyiWA`), and 8-bit Music Theory (`5zGqN1ZOEJQ`) — fusing Víkingur Ólafsson's crisp *non-legato* Bachian 16th-note compound melody, Beethoven's *Für Elise* `A` Pedal Point with clashing `G#°7 / D#°7` diminished sevenths, the Neapolitan Sixth (`Bb Major / bII6`), a German Augmented Sixth (`F-A-C-D# -> E7`) cadential pinch, and a Chrono Trigger Dorian/Lydian Picardy finale.
+Key / Mode / Meter / BPM : A Minor -> Bb Major Neapolitan (`bII6`) & German Augmented Sixth (`Ger+6`) -> A Dorian / A Major Picardy | 4/4 | 112 BPM
+Synthesized Audio File   : 08_opus_1408_prelude_and_neapolitan_capriccio_for_peterson_and_zeal.wav
+
+--- Final Conservatory Score (v2) [Final Grade: A+ / 100.0%] ---
+X:8
+T:Opus 8 in A Minor to A Major — Prelude & Neapolitan Capriccio Without Posturing (Final Score v2)
+C:Student_04 (Conservatory Keyboard Virtuoso)
+M:4/4
+L:1/16
+Q:1/4=112
+K:Am
+V:1 clef=treble name="Right Hand (Compound Melody, Diminished Clashes, Neapolitan & Ger+6)"
+"^I. Bachian Compound Melody (Top-Note Voicing)" e2cBcAcB f2dcdAd c ^g2edeBe d a2ec [Acea]4 |
+"^II. Für Elise 'A' Pedal + G#o7 & D#o7 Clash" [^GBdf]4 [Ace]4 [Ac^df#]4 [Acea]4 |
+"^III. Neapolitan bII6 (Bb/D) -> Ger+6 (F-A-C-D#) -> Cadential 6/4" [df_bd']6 [df_b]2 [Ac^d^f]8 | [Acea]4 [^GBde]4 [^ce a^c']8 ||
+V:2 clef=bass name="Left Hand (Non-Legato Bass, Organ Pedal & Semitone Pinch F->E)"
+| A,,4 E,4 F,,4 D,4 | E,,4 E,4 A,,4 A,4 |
+| A,,2A,2 A,,2A,2 A,,2A,2 A,,2A,2 | D,4 _B,,4 F,,8 | E,,4 E,4 [A,,,A,,E,A,]8 ||
+
+--- Graduate Conservatory & 24-Leaf Analysis ---
+GRADUATE CONSERVATORY ANALYSIS (Opus 8 — 'Prelude & Neapolitan Capriccio Without Posturing'):
+- Measures 1–2 (Peterson Piano Academy / Bach `BWV 847` Compound Melody): Right Hand plays a continuous 16th-note (`0.25`-beat) stream where the pinky/ring finger rings out a cantabile melody (`E5 [0.86] -> F5 [0.86] -> G#5 [0.88] -> A5 [0.90]`) above quiet inner `0.56`-velocity thumb murmurs (`C5-B4-C5-A4`), creating two simultaneous voices in one hand.
+- Measures 3–4 (Beethoven's 'Für Elise' Organ Pedal & Applied Diminished 7ths): Left Hand hammers a steady `A1+A2` pedal point while Right Hand stacks `G#4+B4+D5+F5` (`vii°7`) and `A4+C5+D#5+F#5` (`vii°7/V`), generating maximum polyphonic friction over the invariant `A` bass.
+- Measures 5–6 (The Neapolitan Sixth `bII6` & German Augmented Sixth `Ger+6` Semitone Pinch): Harmony pivots to luminous `Bb Major` (`D4+F4+Bb4+D5` over `D2+Bb2`), then drops the bass to `F1+F2` (`b6`) while raising the soprano to `D#5` (`#4`) in the German Augmented Sixth (`A4+C5+D#5+F5`), squeezing the dominant `E` from both sides (`F -> E` and `D# -> E`) through a Cadential `I6/4` (`A4+C5+E5+A5` over `E`) into a radiant 6-finger `A Major` Picardy citadel!
+------------------------------------------------------------------------------
