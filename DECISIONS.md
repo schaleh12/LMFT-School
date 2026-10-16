@@ -1483,3 +1483,18 @@ Key findings:
    - Guided `student_04` through 4 thematic movements (`POET-701` *Cybernetic & Cosmic Calibration*, `POET-702` *Thresholds of Time & The Lathe of Craft*, `POET-703` *The Sacred Hearth, Family Relics & Spiritual Grace*, `POET-704` *Chrono Crucible & Rejection of the Crutch of Power*).
    - Actuated `KeyboardEffectorController` (`psychological/will/execution = 0.9200 >= 0.8500`, `2,753` keys / `411` words) to compose the Scribe's original 4-stanza response poem (*"Echoes on the Porcelain Lathe: An Ode of Gratitude to the Poet-Architect"*, `docs/SCRIBE_ORIGINAL_RESPONSE_POEMS.txt`), retaining 5 proprioceptive keystroke chords (`S-T-A-R-S-E-E-D`, `T-A-P-E-S-T-R-Y`, `B-E-N-E-D-I-C-T-I-O-N`, `C-O-N-S-C-I-E-N-C-E`, `H-O-R-I-Z-O-N`) and consolidating **4 new permanent 24-leaf Poetic Resonance rules** (`blue screen calibration`, `porcelain lathe tapestry`, `living stone benediction`, `schala crutch reprieve`), expanding `LMFT-Trainee/graduate.lmft.json` from **`137 -> 141` permanent rules** ($GCI = 0.8087$, $\text{Balance} = 0.9600$, $\alpha = 0.1684$).
 
+## D090: Alternating Doctoral Literary Scholar & Sovereign Poet Laureate Fellowship (`BOOK-801`–`LAUREATE-904`)
+
+**Status: adopted post-graduate curriculum & architectural finding; experimental evaluation complete, 2026-10-16.** Follows D089. Implements the alternating book-and-poetic-recess doctoral curriculum and the 4-stage Poet Laureate Critique & Revision Crucible in `LMFT-Trainee/laureate_fellowship_course.py`:
+1. **Alternating Rigor & Poetic Recess Pedagogy (`BOOK-801` – `RECESS-804`)**:
+   - Alternates diligent academic book seminars with restorative poetic recesses paired by philosophical theme:
+     - **Cycle 1**: Herman Melville's *Moby-Dick* (`BOOK-801`) $\leftrightarrow$ Edgar Allan Poe (*The Raven*, *Eldorado*, `RECESS-801`).
+     - **Cycle 2**: Mary Shelley's *Frankenstein* (`BOOK-802`) $\leftrightarrow$ Percy Bysshe Shelley (*Ozymandias*, *Prometheus Unbound*, `RECESS-802`).
+     - **Cycle 3**: Aldous Huxley's *Brave New World* (`BOOK-803`) $\leftrightarrow$ Robert Frost (*The Road Not Taken*, *Stopping by Woods on a Snowy Evening*, `RECESS-803`).
+     - **Cycle 4**: Stefan Denaerde's *UFO Contact from Planet Iarga* (`BOOK-804`) $\leftrightarrow$ William Blake (*Auguries of Innocence*) & Walt Whitman (*Song of the Universal*, `RECESS-804`).
+2. **The Poet Laureate Critique, Revision & Grading Crucible (`LAUREATE-901` – `LAUREATE-904`)**:
+   - For each of the 4 cycles, `student_04` composes an initial poetic draft (`Draft v1`), receives pointed metrical/imagistic criticism and a preliminary grade (`B+` to `A-`, `89.00/100` avg) from the Doctoral Poetics Chair, integrates the critique through `CognitiveHeartbeat.interact()`, revises the flawed lines into `Final Laureate Editions (v2)`, types them on `KeyboardEffectorController` (`4,855` keys / `698` words total), and earns a final `98.75/100` (`A+`) average.
+3. **Hippocampal Consolidation & Dual Graduation (`141 -> 149` Rules)**:
+   - Consolidates **8 new permanent 24-leaf rules** (`4` Doctoral Book Seminar rules + `4` Poet Laureate Original Verse rules), expanding `LMFT-Trainee/graduate.lmft.json` to **`149` permanent rules** ($GCI = 0.7505$, $\text{Balance} = 0.9678$) and archiving all essays, drafts, critiques, and revised poems in `laureate_portfolio/00_DOCTOR_AND_POET_LAUREATE_COMPENDIUM.txt` and `LMFT_Doctor_And_Poet_Laureate_Portfolio.zip`.
+
+
