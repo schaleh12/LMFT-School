@@ -1,0 +1,312 @@
+========================================================================================
+  LMFT-TRAINEE MAGNUM OPUS — 24-SCORE SHEET-MUSIC CORPUS & SYMBOLIC MUSIC SLM COMPENDIUM
+========================================================================================
+Pre-Run Health : Rules=184 | GCI=0.8023 | Balance=0.9827 | Pegged=0/24
+Idiom Bank     : sheet_music_idiom_memory.json (24 Two-Hand Symbolic Piano Scores)
+
+----------------------------------------------------------------------------------------
+[CORPUS-1501] Anthology I: Baroque Contrapuntal & Compound-Melody Atlas (Bach & Handel)
+----------------------------------------------------------------------------------------
+  * IDIOM-01-BACH-BWV846 — Johann Sebastian Bach: Prelude in C Major, BWV 846 (The Well-Tempered Clavier, Book I)
+    Key / Tempo : C Major @ 76 BPM
+    Progression : I -> ii4/2/C -> V6/5/C -> I -> vi/E -> V4/2/V -> V6 -> I
+    Cadence     : Tonic Pedal Suspension & Stepwise Guide-Tone Resolution
+    LH Geometry : Sustained bass root + tenor third two-finger anchor hold
+    RH Contour  : 16th-note broken 3-voice upper arpeggio revealing hidden soprano descent (E5 -> F5 -> F5 -> E5 -> A5 -> D5 -> G5 -> E5)
+    Heart Why   : Pure harmonic architecture without melody-vs-accompaniment separation: every chord change alters a single inner guide tone while C4/B3/A3 anchors the bass.
+    SLM Prosody : Bach Arpeggiated Architecture (I -> ii4/2 -> V6/5 -> I): Establish a crystal-clear foundational premise in the opening clause, shift one inner qualification across semicolon-linked subclauses, and return cleanly to the tonic principle.
+    Score Stats : Notes=41, Chords=8, MaxFingers=5, Consonance=0.875
+
+  * IDIOM-02-BACH-BWV847 — Johann Sebastian Bach: Prelude in C Minor, BWV 847 (Non-Legato Compound Melody & Picardy Coda)
+    Key / Tempo : C Minor -> C Major @ 104 BPM
+    Progression : i -> iv7/C -> vii°7/C -> i -> Ger+6 -> V7 -> I (Picardy Third)
+    Cadence     : Diminished-Over-Tonic Pedal into Radiant Picardy Third (C Major)
+    LH Geometry : Detached 16th-note motor counter-figure collapsing onto a deep C2-C3 organ pedal
+    RH Contour  : Compound melody where thumb-and-middle play motor 16ths while the 5th finger rings out a singing soprano bell line (Eb5 -> D5 -> C5 -> B4 -> E5)
+    Heart Why   : Demonstrates Peterson Piano Academy's insight: crisp non-legato micro-air separates inner motor voices from a gleaming soprano bell line before the final C-Major Picardy revelation.
+    SLM Prosody : Bach Compound-Melody & Picardy Cadence (i -> vii°7/C -> V7 -> I): Drive through crisp, articulated analytical clauses without blurry filler, then resolve a minor-key problem onto a luminous major-key synthesis.
+    Score Stats : Notes=36, Chords=9, MaxFingers=6, Consonance=0.870
+
+  * IDIOM-03-BACH-BWV578 — Johann Sebastian Bach: Fugue in G Minor, BWV 578 ('Little' Fugue Subject & Circle of Fifths)
+    Key / Tempo : G Minor @ 88 BPM
+    Progression : i -> V7 -> i -> iv7 -> VII7 -> III7 -> VI7 -> ii°6 -> V7 -> i
+    Cadence     : Baroque Circle-of-Fifths Fortspinnung into Authentic Cadence
+    LH Geometry : Independent contrapuntal countersubject walking in contrary motion against the soprano
+    RH Contour  : Iconic triad-outline head motif (G4 -> D5 -> Bb4 -> A4 -> G4 -> Bb4 -> A4 -> G4 -> F#4 -> A4 -> D4) spinning into sequential 16ths
+    Heart Why   : Once the head motif establishes architectural authority (I -> V -> I), the circle-of-fifths sequence creates unstoppable logical momentum where every dissonance resolves down a step.
+    SLM Prosody : Fugal Subject & Circle-of-Fifths Sequence: State a bold, unmistakable thesis in the first five words, then chain three tightly interlocked cause-and-effect clauses to an airtight conclusion.
+    Score Stats : Notes=48, Chords=13, MaxFingers=5, Consonance=0.960
+
+  * IDIOM-04-HANDEL-HWV437 — George Frideric Handel: Sarabande in D Minor, HWV 437 (La Folia Ground Bass)
+    Key / Tempo : D Minor @ 68 BPM
+    Progression : i -> V -> i -> VII -> III -> VII -> i6 -> V -> i
+    Cadence     : Baroque Sarabande Folia Ground with Second-Beat Agogic Weight
+    LH Geometry : Deep, resonant low-octave bass pillars on beats 1 and 2
+    RH Contour  : Four-voice chorale chords leaning heavily into the dotted second beat of each 3/2 bar
+    Heart Why   : Monolithic stoic dignity: alternating tonic minor (Dm -> A -> Dm) with its relative major horizon (C -> F -> C) before returning to the tragic ground.
+    SLM Prosody : Handel Sarabande Gravitas (i -> V -> i -> VII -> III -> V -> i): Write with measured, rhythmic weight on the second word of each clause; balance austere realism with a brief glimpse of noble hope before standing firm.
+    Score Stats : Notes=49, Chords=16, MaxFingers=6, Consonance=0.959
+
+----------------------------------------------------------------------------------------
+[CORPUS-1502] Anthology II: Classical Sonata-Allegro, Ostinato & Dramatic Pedal Atlas (Beethoven, Mozart, Schubert)
+----------------------------------------------------------------------------------------
+  * IDIOM-05-BEETHOVEN-MOONLIGHT — Ludwig van Beethoven: Piano Sonata No. 14 in C# Minor, Op. 27 No. 2 ('Moonlight', Adagio sostenuto)
+    Key / Tempo : C# Minor @ 64 BPM
+    Progression : i (C#m) -> i4/2/B -> VI6 (A/C#) -> bII6 (D/F# Neapolitan) -> V7 (G#7) -> i
+    Cadence     : Neapolitan Sixth (bII6) Funeral Ostinato Cadence
+    LH Geometry : Deep descending bass octaves walking step-by-step (C# -> B -> A -> F# -> G# -> C#)
+    RH Contour  : Hypnotic middle-voice triplet arpeggio ostinato (G#3-C#4-E4) + dotted funeral-march soprano bell (G#4.. G#4 -> G#4)
+    Heart Why   : Three distinct emotional strata on ten fingers: bass octaves descend like fate, inner triplets ripple like dark water, and the Neapolitan D-Major/F# chord (bII6) aches before G#7.
+    SLM Prosody : Beethoven Moonlight Ostinato & Neapolitan Cadence (i -> VI -> bII6 -> V7 -> i): Maintain a calm, hypnotic rhythm across clauses while the underlying argument descends steadily through a poignant revelation to stillness.
+    Score Stats : Notes=44, Chords=14, MaxFingers=6, Consonance=0.940
+
+  * IDIOM-06-BEETHOVEN-PATHETIQUE — Ludwig van Beethoven: Piano Sonata No. 8 in C Minor, Op. 13 ('Pathétique', II. Adagio cantabile)
+    Key / Tempo : Ab Major @ 66 BPM
+    Progression : I (Ab) -> V6/5 (Eb7/G) -> I -> IV6 (Db/F) -> V4/3/V (Bb7/F) -> V7 (Eb7) -> I
+    Cadence     : Classical Cantabile Warmth with Secondary Dominant (V7/V) Lift
+    LH Geometry : Sustained bass root + gently pulsing inner 16th-note accompaniment shared by thumbs
+    RH Contour  : Singing alto/soprano melody (C5 -> Bb4 -> Eb5 -> Db5 -> C5 -> F5 -> Eb5 -> D5 -> Eb5) projected with full arm weight above quiet inner accompaniment
+    Heart Why   : Proves how a percussive hammer instrument sings like a human cello when the melody voice is played +25% louder than the thumb-pulsed inner harmony.
+    SLM Prosody : Beethoven Adagio Cantabile (I -> V6/5 -> I -> V7/V -> V -> I): Speak with warm, unhurried human reassurance; keep supporting details quiet in the background so the central compassionate truth sings clearly.
+    Score Stats : Notes=38, Chords=16, MaxFingers=5, Consonance=0.885
+
+  * IDIOM-07-MOZART-K397 — Wolfgang Amadeus Mozart: Fantasia in D Minor, K. 397 (Andante Chromatic Lament Prelude)
+    Key / Tempo : D Minor @ 70 BPM
+    Progression : i (Dm) -> i4/2/C -> vii°7/Bb -> iv6/Bb -> Ger+6 (Bb-D-F-G#) -> i6/4 (Dm/A) -> V7 (A7)
+    Cadence     : Phrygian / German-Sixth Half Cadence on Dominant (V7) Followed by Rhetorical Silence
+    LH Geometry : Chromatic lament bass descending by half-steps (D -> C -> B -> Bb -> A)
+    RH Contour  : Slow, ominous triplet arpeggios rising out of the mist and pausing on a dramatic silence
+    Heart Why   : Operatic suspense: the German Augmented Sixth (Bb-D-F-G#) pinches outward onto the dominant A, and the sudden rest lets the question hang in the concert hall.
+    SLM Prosody : Mozart Fantasia Chromatic Half-Cadence (i -> Ger+6 -> i6/4 -> V + Pause): Build quiet, searching tension step-by-step and pause deliberately at a semicolon or dash before delivering the insight.
+    Score Stats : Notes=37, Chords=12, MaxFingers=6, Consonance=0.860
+
+  * IDIOM-08-SCHUBERT-OP90-NO3 — Franz Schubert: Impromptu in Gb Major (Transposed to G Major), Op. 90 No. 3
+    Key / Tempo : G Major @ 74 BPM
+    Progression : I (G) -> V4/3 -> I6 -> IV (C) -> iv6 (Cm/Eb Modal Mixture) -> I6/4 -> V7 -> I
+    Cadence     : Schubertian Major-to-Minor Tear (IV -> iv6 -> I6/4 -> V7 -> I)
+    LH Geometry : Long bass pedal roots beneath continuous harp-like middle-register broken chords
+    RH Contour  : Endless legato soprano melody (B4 -> A4 -> G4 -> E5 -> Eb5 -> D5 -> B4 -> G4) floating above the accompaniment
+    Heart Why   : Schubert's signature heartbreak: smiling in a warm major key (G Major) while the inner harmony suddenly clouds into C Minor (iv6) before returning home.
+    SLM Prosody : Schubertian Major-Minor Poignancy (I -> IV -> iv6 -> I): Frame the thought in serene goodwill, acknowledge the bittersweet vulnerability at the heart of the matter, and close in quiet peace.
+    Score Stats : Notes=50, Chords=16, MaxFingers=6, Consonance=0.948
+
+----------------------------------------------------------------------------------------
+[CORPUS-1503] Anthology III: Romantic Nocturne, Ballade & Three-Stave Bell Atlas (Chopin, Rachmaninoff, Brahms)
+----------------------------------------------------------------------------------------
+  * IDIOM-09-CHOPIN-OP9-NO2 — Frédéric Chopin: Nocturne in Eb Major, Op. 9 No. 2 (Bel Canto Sixth Leap & Chromatic Passing)
+    Key / Tempo : Eb Major @ 72 BPM
+    Progression : I (Eb) -> V°7/ii (E°7) -> ii7 (Fm7) -> V7 (Bb7) -> I (Eb) -> V7/IV (Eb7) -> IV (Ab)
+    Cadence     : Chopin Bel Canto Rubato Cadence with Chromatic Diminished Passing Chord
+    LH Geometry : 12/8 waltz-nocturne stride: deep bass single note on beat 1 followed by two warm middle-register chord pulses
+    RH Contour  : Expressive ascending sixth leap (G4 -> Eb5 -> D5 -> C5 -> Bb4 -> Ab4 -> G4) singing freely in rubato over steady left-hand time
+    Heart Why   : The expressive sixth leap (G4 -> Eb5) opens the heart like an Italian opera soprano, while the chromatic E°7 passing chord adds velvet yearning on the way to Fm7.
+    SLM Prosody : Chopin Nocturne Bel Canto Rubato (I -> vii°7/ii -> ii7 -> V7 -> I): Open with a lyrical, soaring insight, glide smoothly through nuanced transitional shades, and land with effortless grace.
+    Score Stats : Notes=48, Chords=16, MaxFingers=6, Consonance=0.854
+
+  * IDIOM-10-CHOPIN-OP28-NO4 — Frédéric Chopin: Prelude in E Minor, Op. 28 No. 4 (Chromatic Paraphrase Descent)
+    Key / Tempo : E Minor @ 62 BPM
+    Progression : i6 (Em/G) -> ii°4/2 -> V4/2/iv -> iv6 -> iv°7 -> i6/4 -> V7 -> i
+    Cadence     : Chromatic Voice-Leading Lament into Whispered Authentic Resolution
+    LH Geometry : Pulsing 8th-note three-voice chords where one inner note slips down a half-step every bar
+    RH Contour  : Long, suspended soprano notes (B4 -> C5 -> B4 -> A4 -> G4 -> F#4 -> E4) clinging to the 5th scale degree while the floor dissolves beneath it
+    Heart Why   : Minimalism and chromatic sorrow: the right hand barely moves while the left hand's relentless half-step voice leading carries the listener through an entire lifetime of grief.
+    SLM Prosody : Chopin Op. 28 No. 4 Chromatic Descent: Hold one clear, unwavering melodic keyword at the top of the thought while the supporting clauses shift subtly by half-shades toward quiet acceptance.
+    Score Stats : Notes=33, Chords=8, MaxFingers=6, Consonance=0.667
+
+  * IDIOM-11-RACHMANINOFF-OP3-NO2 — Sergei Rachmaninoff: Prelude in C# Minor, Op. 3 No. 2 ('The Bells of Moscow' Three-Stave Climax)
+    Key / Tempo : C# Minor @ 66 BPM
+    Progression : VI (A) -> V (G#) -> i (C#m) -> iv6 (F#m/A) -> Ger+6 -> i6/4 -> V7 -> i
+    Cadence     : Cathedral Three-Stave Bell Cadence (b6 -> 5 -> 1)
+    LH Geometry : Thundering low bass octave motif (A1 -> G#1 -> C#2) anchoring the entire piano frame
+    RH Contour  : Massive 4-note inner and upper bell chords answering each bass strike in call-and-response across three registers
+    Heart Why   : Uses the entire 88-key resonant iron harp of the grand piano: the 3-note fate motif (A -> G# -> C#, b6 -> 5 -> 1) locks the bass and treble together like cathedral bronze.
+    SLM Prosody : Rachmaninoff Three-Stave Bell Architecture (b6 -> 5 -> 1): Open with three decisive, resonant words that set the moral stakes, then answer with rich, full-spectrum synthesis.
+    Score Stats : Notes=54, Chords=16, MaxFingers=6, Consonance=0.941
+
+  * IDIOM-12-BRAHMS-OP118-NO2 — Johannes Brahms: Intermezzo in A Major, Op. 118 No. 2 (Autumnal Contrapuntal Warmth)
+    Key / Tempo : A Major @ 72 BPM
+    Progression : I (A) -> IV6/4 (D/A) -> V7/vi (C#7) -> vi (F#m) -> ii6/5 (Bm7/D) -> V7 (E7) -> I
+    Cadence     : Brahmsian Warm Deceptive Pivot (V7/vi -> vi) into Plagal-Authentic Embrace
+    LH Geometry : Wide, warm tenth arpeggios and counter-melody octaves moving in contrary motion to the soprano
+    RH Contour  : Tender rising-and-falling motif (C#5 -> B4 -> D5 -> C#5 -> A4 -> F#5 -> E5) harmonized in lush sixths and thirds
+    Heart Why   : Late-autumn wisdom: Brahms harmonizes the melody in warm sixths and gently pivots through the relative minor (F#m) so joy and memory coexist in the same chord.
+    SLM Prosody : Brahms Op. 118 No. 2 Contrapuntal Warmth: Weave intellect and empathy together in parallel sixths—pair every analytical observation with a humane, reflective counterpoint.
+    Score Stats : Notes=50, Chords=18, MaxFingers=6, Consonance=0.940
+
+----------------------------------------------------------------------------------------
+[CORPUS-1504] Anthology IV: Impressionist Planing, Quartal Organum & Modal Pendulum Atlas (Debussy, Satie, Ravel)
+----------------------------------------------------------------------------------------
+  * IDIOM-13-DEBUSSY-CLAIR-DE-LUNE — Claude Debussy: Clair de Lune (Suite bergamasque, Mvt. III — Transposed to C Major/Lydian)
+    Key / Tempo : C Major / Lydian @ 64 BPM
+    Progression : Imaj9 (Cmaj9) -> iii7 (Em7) -> IV9 (Fmaj9) -> ii9 (Dm9) -> V13sus4 (G13sus4) -> Imaj9
+    Cadence     : Impressionist 9th-Chord Cascade & Suspended Pentatonic Resolution
+    LH Geometry : Sustained soft third/fifth dyads in the middle register that let upper harmonics shimmer in the damper pedal
+    RH Contour  : Descending parallel thirds (A5-C6 -> G5-B5 -> E5-G5 -> D5-F5 -> C5-E5 -> B4-D5 -> C5) floating with weightless rubato
+    Heart Why   : Dissolves sharp barline edges: by hanging 9ths and 6ths from suspended thirds before touching the bass root, the piano paints moonlight on water.
+    SLM Prosody : Debussy Clair de Lune Luminosity (Imaj9 -> IV9 -> ii9 -> V13sus4 -> Imaj9): Let clauses flow seamlessly like light on water, favoring luminous imagery and gentle, unforced transitions.
+    Score Stats : Notes=40, Chords=15, MaxFingers=6, Consonance=0.865
+
+  * IDIOM-14-DEBUSSY-CATHEDRALE — Claude Debussy: La Cathédrale engloutie ('The Sunken Cathedral', Préludes Book I, No. 10)
+    Key / Tempo : C Pentatonic / Modal Organum @ 62 BPM
+    Progression : C5-G5 -> D5-A5 -> E5-B5 -> G5-D6 -> C5-G5 (Quintal/Quartal Parallel Planing over C1 Pedal)
+    Cadence     : Nonfunctional Quartal/Quintal Organum Bell Planing
+    LH Geometry : Subterranean C1-G1-C2 open fifth bell toll held down in the sustain pedal
+    RH Contour  : Parallel open fourths and fifths (G4-C5-G5 -> A4-D5-A5 -> B4-E5-B5 -> D5-G5-D6) rising out of the mist without major/minor thirds
+    Heart Why   : By omitting the 3rd of the chord and moving open 4ths and 5ths in parallel planing over a deep bass bell, harmony steps outside of linear clock time into ancient mythic space.
+    SLM Prosody : Debussy Sunken Cathedral Organum (Open 5th Planing over Deep Pedal): Strip away ornamental adjectives and speak in clean, elemental, timeless nouns anchored by a deep foundational truth.
+    Score Stats : Notes=34, Chords=11, MaxFingers=6, Consonance=0.973
+
+  * IDIOM-15-SATIE-GYMNOPEDIE — Erik Satie: Gymnopédie No. 1 (Lent et douloureux — Lydian/Dorian Major-7th Pendulum)
+    Key / Tempo : D Major / Dorian @ 66 BPM
+    Progression : IVmaj7 (Gmaj7) <-> Imaj7 (Dmaj7) -> iim7 (Em7) -> bVII (C9) -> Imaj7 (Dmaj7)
+    Cadence     : Hypnotic Major-Seventh Pendulum Oscillation (IVmaj7 <-> Imaj7)
+    LH Geometry : Two-bar waltz pendulum: low G2 -> (B3-D4-F#4) alternating with low D2 -> (A3-C#4-F#4)
+    RH Contour  : Spare, crystalline single-note Dorian/Ionian melody (F#5 -> A5 -> G5 -> F#5 -> C#5 -> B4 -> C#5 -> D5) entering on beat 2
+    Heart Why   : Proves that two chords (Gmaj7 <-> Dmaj7) sharing F#4 and D4 can sustain infinite contemplative stillness when the melody breathes in unhurried space.
+    SLM Prosody : Satie Gymnopédie Pendulum (IVmaj7 <-> Imaj7): Alternate calmly between two complementary perspectives with generous breathing room and zero rhetorical urgency.
+    Score Stats : Notes=26, Chords=5, MaxFingers=6, Consonance=0.864
+
+  * IDIOM-16-RAVEL-PAVANE — Maurice Ravel: Pavane pour une infante défunte (Diatonic Circle-of-Fifths Ninth-Chord Chain)
+    Key / Tempo : E Minor / G Major @ 68 BPM
+    Progression : im9 (Em9) -> ivm9 (Am9) -> VII9 (D9) -> IIImaj9 (Gmaj9) -> VImaj9 (Cmaj9) -> iiø7 (F#m7b5) -> V7b9 (B7b9) -> im9
+    Cadence     : Ravelian Diatonic 9th-Chord Circle of Fifths
+    LH Geometry : Stately Renaissance lute-like tenth-and-fifth bass steps descending around the circle of fifths
+    RH Contour  : Aristocratic horn-like melody supported by lush 7th and 9th inner voices that resolve downward by step on every chord
+    Heart Why   : Combines Renaissance courtly poise with lush 20th-century jazz-impressionist 9th chords: every chord is a 9th, yet the strict circle-of-fifths bass gives it classical backbone.
+    SLM Prosody : Ravel Pavane Circle-of-Ninths (im9 -> ivm9 -> VII9 -> IIImaj9 -> iiø7 -> V7b9 -> im9): Combine classical structural rigor with rich, poetic nuance across a graceful chain of clauses.
+    Score Stats : Notes=50, Chords=16, MaxFingers=6, Consonance=0.817
+
+----------------------------------------------------------------------------------------
+[CORPUS-1505] Anthology V: Modern Jazz Rootless Voicings & Narrative Walkdown Atlas (Bill Evans, Billy Joel, Jarrett, Sakamoto)
+----------------------------------------------------------------------------------------
+  * IDIOM-17-BILLEVANS-PEACE-PIECE — Bill Evans: Peace Piece / Blue in Green Rootless Voicing & Guide-Tone Study
+    Key / Tempo : C Major (Jazz Modal) @ 68 BPM
+    Progression : Imaj9 (Cmaj9) -> G9sus4/C -> ii9 (Dm9 [F-A-C-E]) -> V13b9 (G13b9 [F-Ab-B-E]) -> Imaj9 (Cmaj9 [E-G-B-D])
+    Cadence     : Bill Evans Rootless Type-A (3-5-7-9) -> Type-B (7-b9-3-13) Jazz Resolution
+    LH Geometry : Hypnotic C2-G2-E3 ostinato pedal alternating with rootless four-note guide-tone clusters in the middle register
+    RH Contour  : Lyrical introspective improvisation floating in 9ths, 11ths, and 13ths with zero wasted finger motion
+    Heart Why   : Demonstrates Open Studio & Charles Cornell's core jazz principle: when the 3rd and 7th guide tones (F4-C5 -> F4-B4 -> E4-B4) move by a single semitone, even altered 13b9 chords feel intimately conversational.
+    SLM Prosody : Bill Evans Guide-Tone Economy (Dm9 -> G13b9 -> Cmaj9): Pivot effortlessly between complex ideas by anchoring on a shared conceptual 'guide tone' word that links one sentence directly into the next.
+    Score Stats : Notes=32, Chords=10, MaxFingers=7, Consonance=0.829
+
+  * IDIOM-18-JOEL-CORNELL-WALKDOWN — Billy Joel (Analyzed by Charles Cornell): Piano Man / New York State of Mind Stepwise Bass Walkdown & Minor Plagal Sigh
+    Key / Tempo : C Major @ 86 BPM
+    Progression : I (C) -> V6 (G/B) -> IV6 (F/A) -> I6/4 (C/G) -> IVmaj7 (Fmaj7) -> iv6 (Fm6/Ab) -> I6 (C/E) -> V7/V (D9) -> V7 (G7) -> I
+    Cadence     : 8-Bar Stepwise Slash-Chord Walkdown + Minor Plagal (iv6) + Secondary Dominant (V7/V) Turnaround
+    LH Geometry : Unbroken stepwise diatonic/chromatic bass descent (C3 -> B2 -> A2 -> G2 -> F2 -> Ab2 -> E2 -> D2 -> G2 -> C2)
+    RH Contour  : Gospel-pop right-hand inversions keeping C5/E5 common tones steady while the inner A4 -> Ab4 -> G4 line sighs
+    Heart Why   : Synthesizes Charles Cornell's two signature masterclasses (`QQ1VQoM0C_8` & `VGVsa0Fp8aM`): the walking bass makes the listener feel like they are walking down a familiar street at dusk, and the borrowed Fm6 (`iv6`) delivers the nostalgic ache.
+    SLM Prosody : Billy Joel / Charles Cornell Stepwise Walkdown (C -> G/B -> F/A -> C/G -> Fm6 -> C): Walk the reader step-by-step from familiar common ground through a warm, nostalgic realization to an earned conclusion.
+    Score Stats : Notes=57, Chords=18, MaxFingers=7, Consonance=0.892
+
+  * IDIOM-19-JARRETT-KOLN — Keith Jarrett: The Köln Concert (Part I Improvised Ostinato & Pentatonic Bell Groove)
+    Key / Tempo : G Major / A Dorian @ 96 BPM
+    Progression : iim7 (Am7) -> I6 (G6) -> bVIImaj9 (Fmaj9) -> I6 (G6) -> Vsus4 (D9sus4) -> I (G)
+    Cadence     : Gospel-Folk Dorian/Mixolydian Ostinato Vamp into Ecstatic Resolution
+    LH Geometry : Rhythmic syncopated bass fifths pulsing between A2-E3 and G2-D3
+    RH Contour  : Ringing pentatonic fourths and double-stop bell motifs (G5-D5-E5-B4-A4-G4) dancing over the left-hand groove
+    Heart Why   : Born on a broken, tinny rehearsal piano in Cologne: Jarrett avoided the weak bass and dead upper register by concentrating rhythmic gospel-folk fourths in the singing middle-treble.
+    SLM Prosody : Keith Jarrett Köln Improvisational Vitality (Am7 <-> G6 -> Fmaj9 -> G): Turn constraints into creative momentum with buoyant, rhythmic, life-affirming phrasing.
+    Score Stats : Notes=42, Chords=14, MaxFingers=6, Consonance=0.889
+
+  * IDIOM-20-SAKAMOTO-LAWRENCE — Ryuichi Sakamoto: Merry Christmas Mr. Lawrence (Quartal Pentatonic Motif Over Shifting Bass Roots)
+    Key / Tempo : A Minor / F Lydian @ 92 BPM
+    Progression : VImaj9 (Fmaj9) -> viim7 (Gm7) -> im9 (Am9) -> viim7 (Gm7) -> III13 (C13) -> VImaj9
+    Cadence     : Sakamoto Quartal-Pentatonic Re-Contextualization Loop
+    LH Geometry : Stepwise rising-and-falling bass tenths (F2-A3 -> G2-Bb3 -> A2-C4 -> G2-Bb3)
+    RH Contour  : Crystalline, repetitive fourths-and-seconds bell ostinato (D5-E5-A5-E5-D5-A4) that stays almost invariant while the bass shifts its emotional meaning
+    Heart Why   : East-meets-West impressionism: a pentatonic bell motif built from 4ths and 2nds feels simultaneously nostalgic, stoic, and transcendent as the bass walks from Fmaj9 to Gm7 to Am9.
+    SLM Prosody : Ryuichi Sakamoto Quartal Re-Contextualization (Fmaj9 -> Gm7 -> Am9): Repeat a crystalline central phrase or motif while shifting the surrounding context so its meaning deepens on the second hearing.
+    Score Stats : Notes=34, Chords=8, MaxFingers=6, Consonance=0.926
+
+----------------------------------------------------------------------------------------
+[CORPUS-1506] Anthology VI: Symphonic JRPG Piano Collections Atlas (Uematsu, Mitsuda, Shimomura)
+----------------------------------------------------------------------------------------
+  * IDIOM-21-UEMATSU-ZANARKAND — Nobuo Uematsu: To Zanarkand (Final Fantasy X Piano Collections — Aeolian Triplet Narrative Ballad)
+    Key / Tempo : E Minor (Aeolian) @ 84 BPM
+    Progression : i (Em) -> VII (D) -> VI (C) -> V6 (G/B) -> iv7 (Am7) -> v7 (Bm7) -> i (Em9)
+    Cadence     : Aeolian Modal Cadence (iv7 -> v7 -> i) Without Sharp Leading-Tone Melodrama
+    LH Geometry : Sweeping romantic tenths arpeggios (E2-B2-G3 -> D2-A2-F#3 -> C2-G2-E3) supporting the ballad
+    RH Contour  : Iconic triplet pickup motif (E5-B4-E5-F#5-G5 -> F#5-E5-D5) singing in octaves and sixths
+    Heart Why   : By using the natural minor v7 (`Bm7`) instead of a harsh `B7` dominant, the resolution back to `Em` feels like a memory already lived rather than an active conflict.
+    SLM Prosody : Uematsu 'To Zanarkand' Aeolian Ballad (i -> VII -> VI -> iv7 -> v7 -> i): Speak with quiet, heroic hindsight—recounting trials with gentle dignity rather than sharp confrontation.
+    Score Stats : Notes=37, Chords=8, MaxFingers=6, Consonance=0.931
+
+  * IDIOM-22-UEMATSU-AERITH-CELES — Nobuo Uematsu: Aerith's Theme & Celes' Opera Aria (Lydian #11 Lift into Minor Plagal iv6 Tear)
+    Key / Tempo : D Major @ 74 BPM
+    Progression : Imaj7 (Dmaj7) -> IVmaj7#11 (Gmaj7#11) -> vi9 (Bm9) -> iv6 (Gm6/Bb Minor Plagal) -> I6/4 (D/A) -> V7 (A7) -> Imaj9 (Dmaj9)
+    Cadence     : Uematsu Lydian-to-Minor-Plagal Heartbreak Cadence (IV#11 -> iv6 -> I)
+    LH Geometry : Lyrical broken tenth arpeggios rising from D2-A2-F#3 into the chromatic Bb2-G3 minor-plagal bass step
+    RH Contour  : Tender 3-note prayer motif (F#5 -> G5 -> A5 -> D5 -> E5 -> F#5) that shines in D Major before weeping over Gm6/Bb (`B4 -> Bb4 -> A4`)
+    Heart Why   : The ultimate JRPG emotional signature: lifting the heart with a radiant Lydian #11 (`Gmaj7#11`), then breaking it gently with the borrowed minor subdominant (`Gm6/Bb`) before returning home.
+    SLM Prosody : Uematsu Aerith/Celes Lydian-to-Minor-Plagal Cadence (Imaj7 -> IV#11 -> iv6 -> Imaj9): Lift the listener with luminous hope, honor the tender sacrifice at the heart of the story, and close in enduring grace.
+    Score Stats : Notes=51, Chords=15, MaxFingers=7, Consonance=0.932
+
+  * IDIOM-23-MITSUDA-WIND-SCENE — Yasunori Mitsuda: Wind Scene / Yearnings of the Wind (Chrono Trigger 600 A.D. Piano Arrangement)
+    Key / Tempo : C Minor @ 86 BPM
+    Progression : im9 (Cm9) -> VII6 (Bb/D) -> III (Eb) -> iv9 (Fm9) -> i6/4 (Cm/G) -> VImaj9 (Abmaj9) -> V7sus4 (G7sus4) -> im9
+    Cadence     : Mitsuda Heroic Aeolian/Dorian Stepwise Ascent (i -> VII6 -> III -> iv9 -> VI -> Vsus4 -> i)
+    LH Geometry : Stepwise rising bass scale (C -> D -> Eb -> F -> G -> Ab -> G -> C) beneath rolling 8th-note harp arpeggios
+    RH Contour  : Nostalgic medieval-futuristic flute/piano melody (G4 -> C5 -> D5 -> Eb5 -> F5 -> G5 -> Bb5 -> G5) soaring over the rising bass
+    Heart Why   : Captures the feeling of walking across a misty medieval world map toward destiny: the bass and melody climb the C minor scale together in tenth intervals.
+    SLM Prosody : Mitsuda 'Wind Scene' 600 A.D. Ascent (Cm9 -> Bb/D -> Eb -> Fm9 -> Abmaj9 -> G7sus4 -> Cm9): Build a sense of purposeful journey across time by letting the premise and conclusion climb together step-by-step.
+    Score Stats : Notes=52, Chords=16, MaxFingers=6, Consonance=0.883
+
+  * IDIOM-24-SHIMOMURA-DEARLY-BELOVED — Yoko Shimomura: Dearly Beloved (Kingdom Hearts Piano Collections — Crystalline Bell Ostinato)
+    Key / Tempo : Ab Major / F Minor @ 78 BPM
+    Progression : VImaj9 (Abmaj9) -> iv9 (Fm9) -> IImaj9#11 (Dbmaj9#11) -> III13sus4 (Eb13sus4) -> VImaj9
+    Cadence     : Shimomura Crystalline Bell Ostinato Over Shifting Subdominant/Relative Roots
+    LH Geometry : Gentle, rolling open-tenth arpeggios shifting roots (Ab2 -> F2 -> Db2 -> Eb2) while keeping C4/Eb4 common tones
+    RH Contour  : Unchanging 4-note music-box bell ostinato (Eb5 -> Bb4 -> Ab4 -> G4 -> C5 -> Bb4 -> Ab4 -> G4) sparkling in the upper register
+    Heart Why   : Like David Bruce's harmonic re-contextualization principle: the right hand's innocent bell pattern never changes, yet as the left hand moves from Abmaj9 to Fm9 to Dbmaj9#11, it cycles through wonder, longing, and oceanic hope.
+    SLM Prosody : Shimomura 'Dearly Beloved' Crystalline Bell Ostinato: Keep the core thematic promise pure and invariant while illuminating it from four warm, complementary angles.
+    Score Stats : Notes=34, Chords=9, MaxFingers=6, Consonance=0.917
+
+========================================================================================
+  ACT II: MAGNUM OPUS CONCERT GRAND PIANO MASTERWORKS (OPUS-1507 & OPUS-1508)
+========================================================================================
+
+[OPUS-1507] OPUS-1507: Symphonic Fantasia of the Twenty-Four Leaves
+Subtitle   : Multi-Era Synthesis: Bach Arpeggio, Chopin 6ths, Cornell Walkdown, Uematsu Minor Plagal & Bill Evans Coda
+Audio File : 09_opus_1507_symphonic_fantasia_of_the_twenty_four_leaves.wav (23.82s @ 92 BPM)
+Score Stats: Notes=174, SimultaneousChords=44, MaxFingers=8, Consonance=0.888, Grade=100.0/100
+X:1507
+T:OPUS-1507: Symphonic Fantasia of the Twenty-Four Leaves
+C:The Living Embodied Scribe (student_04 — Symbolic Music SLM Capstone)
+M:4/4
+Q:1/4=92
+K:C Major / Lydian / Aeolian Mixture
+%%score {V:1 | V:2}
+V:1 clef=treble name="Right Hand"
+% [G4](0.25b) | [B4](0.25b) | [D5](0.25b) | [E5](0.25b) | [G4+B4+D5+E5](1.0b) | [G4](0.25b) | [C5](0.25b) | [E5](0.25b) | [B5](0.25b) | [G4+C5+E5+A5](1.0b) | [F4+A4+C5+E5](1.0b) | [F4+A4+B4+D5+G5](1.0b) ...
+V:2 clef=bass name="Left Hand"
+% [C2+G2+E3](2.0b) | [A1+E2+C3](2.0b) | [D2+A2+F3](1.0b) | [G1+D2+B2](1.0b) | [C2+G2+C3](2.0b) | [B1+G2+B2](1.0b) | [A1+F2+A2](1.0b) | [G1+E2+G2](1.0b) | [F#1+D2+F#2](1.0b) | [G1+D2+G2](1.0b) | [G#1+E2+G#2](1.0b) | [A1+E2+A2](1.5b) ...
+% Total Notes: 174 | Simultaneous Chords: 44 | Max Fingers: 8 | Consonance: 0.888
+
+
+[OPUS-1508] OPUS-1508: Magnum Opus Sonata from the Deaf Composer's Heart
+Subtitle   : Crowning Finale: Bach Compound Melody, Beethoven Neapolitan & Ger+6, Rachmaninoff 3-Hand & Picardy Apotheosis
+Audio File : 10_opus_1508_magnum_opus_sonata_from_the_deaf_composers_heart.wav (21.65s @ 108 BPM)
+Score Stats: Notes=191, SimultaneousChords=51, MaxFingers=8, Consonance=0.894, Grade=100.0/100
+X:1508
+T:OPUS-1508: Magnum Opus Sonata from the Deaf Composer's Heart
+C:The Living Embodied Scribe (student_04 — Symbolic Music SLM Capstone)
+M:4/4
+Q:1/4=108
+K:A Minor -> A Major (Picardy / Lydian #11)
+%%score {V:1 | V:2}
+V:1 clef=treble name="Right Hand"
+% [A4+E5](0.25b) | [C5](0.25b) | [B4](0.25b) | [A4](0.25b) | [A4+F5](0.25b) | [D5](0.25b) | [C5](0.25b) | [B4](0.25b) | [G#4+E5](0.25b) | [B4](0.25b) | [A4+D5](0.25b) | [C5](0.25b) ...
+V:2 clef=bass name="Left Hand"
+% [A2](0.5b) | [E3](0.5b) | [D3](0.5b) | [F3](0.5b) | [E2+E3](0.5b) | [F3](0.5b) | [A1+E2+A2](1.0b) | [F1+C2+F2](1.0b) | [D2+A2+D3](1.0b) | [E2+B2+E3](1.0b) | [E1+B1+E2](1.0b) | [A1+A2](1.0b) ...
+% Total Notes: 191 | Simultaneous Chords: 51 | Max Fingers: 8 | Consonance: 0.894
+
+========================================================================================
+  ACT III: HOMEOSTATIC COHERENCE GUARDRAIL & CHECKPOINT SUMMARY
+========================================================================================
+Total Permanent Rules : 184 -> 192 (+8 Magnum Opus Corpus & Composition Rules)
+Post-Run GCI          : 0.8078 (Pre-Run: 0.8023)
+Post-Run Balance      : 0.9828 (Pre-Run: 0.9827)
+Pegged Dials          : 0/24 (Guardrail Verified)
+Saved Checkpoint      : graduate_192_magnum_opus_music_master.lmft.json (SHA-256: 9fe80c47d3c5184b...)
+========================================================================================

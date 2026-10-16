@@ -1,0 +1,3355 @@
+[
+  {
+    "idiom_id": "IDIOM-01-BACH-BWV846",
+    "anthology_id": "CORPUS-1501",
+    "composer": "Johann Sebastian Bach",
+    "work_title": "Prelude in C Major, BWV 846 (The Well-Tempered Clavier, Book I)",
+    "key_signature": "C Major",
+    "tempo_bpm": 76.0,
+    "roman_numeral_progression": "I -> ii4/2/C -> V6/5/C -> I -> vi/E -> V4/2/V -> V6 -> I",
+    "cadence_type": "Tonic Pedal Suspension & Stepwise Guide-Tone Resolution",
+    "lh_accompaniment_geometry": "Sustained bass root + tenor third two-finger anchor hold",
+    "rh_voice_leading_contour": "16th-note broken 3-voice upper arpeggio revealing hidden soprano descent (E5 -> F5 -> F5 -> E5 -> A5 -> D5 -> G5 -> E5)",
+    "emotional_why_annotation": "Pure harmonic architecture without melody-vs-accompaniment separation: every chord change alters a single inner guide tone while C4/B3/A3 anchors the bass.",
+    "slm_syntactic_prosody_rule": "Bach Arpeggiated Architecture (I -> ii4/2 -> V6/5 -> I): Establish a crystal-clear foundational premise in the opening clause, shift one inner qualification across semicolon-linked subclauses, and return cleanly to the tonic principle.",
+    "score_metrics": {
+      "total_notes": 41.0,
+      "simultaneous_chord_events": 8.0,
+      "max_simultaneous_fingers": 5.0,
+      "consonance": 0.875,
+      "tension_ratio": 0.125,
+      "pitch_span_semitones": 30.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.78,
+      "philosophical/structure/chaos": 0.515,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7664,
+      "philosophical/being/existence": 0.715,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7487,
+      "experiential/affect/valence": 0.78,
+      "experiential/affect/arousal": 0.6616,
+      "experiential/reflection/salience": 0.7314,
+      "experiential/reflection/novelty": 0.705,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7367,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "G4",
+        0.25,
+        0.72
+      ],
+      [
+        "C5",
+        0.25,
+        0.75
+      ],
+      [
+        "E5",
+        0.25,
+        0.8
+      ],
+      [
+        "G4",
+        0.25,
+        0.7
+      ],
+      [
+        "C5",
+        0.25,
+        0.74
+      ],
+      [
+        "E5",
+        0.25,
+        0.78
+      ],
+      [
+        "G4+C5+E5",
+        0.5,
+        0.76
+      ],
+      [
+        "A4",
+        0.25,
+        0.73
+      ],
+      [
+        "D5",
+        0.25,
+        0.77
+      ],
+      [
+        "F5",
+        0.25,
+        0.82
+      ],
+      [
+        "A4",
+        0.25,
+        0.71
+      ],
+      [
+        "D5",
+        0.25,
+        0.75
+      ],
+      [
+        "F5",
+        0.25,
+        0.79
+      ],
+      [
+        "A4+D5+F5",
+        0.5,
+        0.77
+      ],
+      [
+        "G4",
+        0.25,
+        0.74
+      ],
+      [
+        "D5",
+        0.25,
+        0.78
+      ],
+      [
+        "F5",
+        0.25,
+        0.84
+      ],
+      [
+        "G4",
+        0.25,
+        0.72
+      ],
+      [
+        "D5",
+        0.25,
+        0.76
+      ],
+      [
+        "F5",
+        0.25,
+        0.8
+      ],
+      [
+        "G4+D5+F5",
+        0.5,
+        0.78
+      ],
+      [
+        "G4",
+        0.25,
+        0.73
+      ],
+      [
+        "C5",
+        0.25,
+        0.77
+      ],
+      [
+        "E5",
+        0.25,
+        0.82
+      ],
+      [
+        "G4+C5+E5",
+        1.25,
+        0.82
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "C3+E4",
+        2.0,
+        0.7
+      ],
+      [
+        "C3+D4",
+        2.0,
+        0.72
+      ],
+      [
+        "B2+D4",
+        2.0,
+        0.74
+      ],
+      [
+        "C3+E4",
+        2.0,
+        0.72
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-02-BACH-BWV847",
+    "anthology_id": "CORPUS-1501",
+    "composer": "Johann Sebastian Bach",
+    "work_title": "Prelude in C Minor, BWV 847 (Non-Legato Compound Melody & Picardy Coda)",
+    "key_signature": "C Minor -> C Major",
+    "tempo_bpm": 104.0,
+    "roman_numeral_progression": "i -> iv7/C -> vii°7/C -> i -> Ger+6 -> V7 -> I (Picardy Third)",
+    "cadence_type": "Diminished-Over-Tonic Pedal into Radiant Picardy Third (C Major)",
+    "lh_accompaniment_geometry": "Detached 16th-note motor counter-figure collapsing onto a deep C2-C3 organ pedal",
+    "rh_voice_leading_contour": "Compound melody where thumb-and-middle play motor 16ths while the 5th finger rings out a singing soprano bell line (Eb5 -> D5 -> C5 -> B4 -> E5)",
+    "emotional_why_annotation": "Demonstrates Peterson Piano Academy's insight: crisp non-legato micro-air separates inner motor voices from a gleaming soprano bell line before the final C-Major Picardy revelation.",
+    "slm_syntactic_prosody_rule": "Bach Compound-Melody & Picardy Cadence (i -> vii°7/C -> V7 -> I): Drive through crisp, articulated analytical clauses without blurry filler, then resolve a minor-key problem onto a luminous major-key synthesis.",
+    "score_metrics": {
+      "total_notes": 36.0,
+      "simultaneous_chord_events": 9.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.87,
+      "tension_ratio": 0.13,
+      "pitch_span_semitones": 40.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7791,
+      "philosophical/structure/chaos": 0.5165,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7643,
+      "philosophical/being/existence": 0.74,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7813,
+      "experiential/affect/valence": 0.7791,
+      "experiential/affect/arousal": 0.6964,
+      "experiential/reflection/salience": 0.7518,
+      "experiential/reflection/novelty": 0.7061,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7341,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "C5+Eb5",
+        0.25,
+        0.86
+      ],
+      [
+        "G4",
+        0.25,
+        0.62
+      ],
+      [
+        "Ab4",
+        0.25,
+        0.65
+      ],
+      [
+        "Eb4",
+        0.25,
+        0.6
+      ],
+      [
+        "F4+D5",
+        0.25,
+        0.85
+      ],
+      [
+        "Ab4",
+        0.25,
+        0.63
+      ],
+      [
+        "G4",
+        0.25,
+        0.64
+      ],
+      [
+        "F4",
+        0.25,
+        0.6
+      ],
+      [
+        "Eb4+C5",
+        0.25,
+        0.85
+      ],
+      [
+        "G4",
+        0.25,
+        0.62
+      ],
+      [
+        "F#4+A4+C5+Eb5",
+        0.5,
+        0.86
+      ],
+      [
+        "D4+G4+B4",
+        0.5,
+        0.84
+      ],
+      [
+        "E4+G4+C5+E5",
+        2.0,
+        0.9
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "C3",
+        0.5,
+        0.74
+      ],
+      [
+        "G3",
+        0.5,
+        0.66
+      ],
+      [
+        "C3",
+        0.5,
+        0.75
+      ],
+      [
+        "Ab3",
+        0.5,
+        0.67
+      ],
+      [
+        "C3",
+        0.5,
+        0.76
+      ],
+      [
+        "C2+C3",
+        0.5,
+        0.85
+      ],
+      [
+        "G2+F3",
+        0.5,
+        0.82
+      ],
+      [
+        "C2+G2+C3",
+        2.0,
+        0.88
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-03-BACH-BWV578",
+    "anthology_id": "CORPUS-1501",
+    "composer": "Johann Sebastian Bach",
+    "work_title": "Fugue in G Minor, BWV 578 ('Little' Fugue Subject & Circle of Fifths)",
+    "key_signature": "G Minor",
+    "tempo_bpm": 88.0,
+    "roman_numeral_progression": "i -> V7 -> i -> iv7 -> VII7 -> III7 -> VI7 -> ii°6 -> V7 -> i",
+    "cadence_type": "Baroque Circle-of-Fifths Fortspinnung into Authentic Cadence",
+    "lh_accompaniment_geometry": "Independent contrapuntal countersubject walking in contrary motion against the soprano",
+    "rh_voice_leading_contour": "Iconic triad-outline head motif (G4 -> D5 -> Bb4 -> A4 -> G4 -> Bb4 -> A4 -> G4 -> F#4 -> A4 -> D4) spinning into sequential 16ths",
+    "emotional_why_annotation": "Once the head motif establishes architectural authority (I -> V -> I), the circle-of-fifths sequence creates unstoppable logical momentum where every dissonance resolves down a step.",
+    "slm_syntactic_prosody_rule": "Fugal Subject & Circle-of-Fifths Sequence: State a bold, unmistakable thesis in the first five words, then chain three tightly interlocked cause-and-effect clauses to an airtight conclusion.",
+    "score_metrics": {
+      "total_notes": 48.0,
+      "simultaneous_chord_events": 13.0,
+      "max_simultaneous_fingers": 5.0,
+      "consonance": 0.96,
+      "tension_ratio": 0.04,
+      "pitch_span_semitones": 36.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7936,
+      "philosophical/structure/chaos": 0.4912,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7714,
+      "philosophical/being/existence": 0.73,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7627,
+      "experiential/affect/valence": 0.7936,
+      "experiential/affect/arousal": 0.6832,
+      "experiential/reflection/salience": 0.7341,
+      "experiential/reflection/novelty": 0.688,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7432,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "G4",
+        1.0,
+        0.84
+      ],
+      [
+        "D5",
+        1.0,
+        0.88
+      ],
+      [
+        "Bb4",
+        0.75,
+        0.82
+      ],
+      [
+        "A4",
+        0.25,
+        0.76
+      ],
+      [
+        "G4",
+        0.5,
+        0.78
+      ],
+      [
+        "Bb4",
+        0.5,
+        0.82
+      ],
+      [
+        "A4",
+        0.5,
+        0.79
+      ],
+      [
+        "G4",
+        0.5,
+        0.77
+      ],
+      [
+        "F#4+A4",
+        0.5,
+        0.84
+      ],
+      [
+        "D4+A4+C5",
+        0.5,
+        0.85
+      ],
+      [
+        "D4+G4+Bb4",
+        1.0,
+        0.86
+      ],
+      [
+        "Eb4+G4+C5",
+        0.5,
+        0.82
+      ],
+      [
+        "D4+F#4+A4",
+        0.5,
+        0.84
+      ],
+      [
+        "D4+G4+Bb4",
+        1.0,
+        0.88
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "G2+G3",
+        1.0,
+        0.76
+      ],
+      [
+        "F#3",
+        0.5,
+        0.72
+      ],
+      [
+        "D3",
+        0.5,
+        0.74
+      ],
+      [
+        "G3",
+        0.5,
+        0.74
+      ],
+      [
+        "F3",
+        0.5,
+        0.72
+      ],
+      [
+        "Eb3",
+        0.5,
+        0.75
+      ],
+      [
+        "D3",
+        0.5,
+        0.76
+      ],
+      [
+        "C3",
+        0.5,
+        0.74
+      ],
+      [
+        "Bb2",
+        0.5,
+        0.75
+      ],
+      [
+        "A2+D3",
+        0.5,
+        0.78
+      ],
+      [
+        "F#2+D3",
+        0.5,
+        0.8
+      ],
+      [
+        "G2+Bb2",
+        1.0,
+        0.8
+      ],
+      [
+        "C3+Eb3",
+        0.5,
+        0.78
+      ],
+      [
+        "D2+D3",
+        0.5,
+        0.82
+      ],
+      [
+        "G2+D3+G3",
+        1.0,
+        0.86
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-04-HANDEL-HWV437",
+    "anthology_id": "CORPUS-1501",
+    "composer": "George Frideric Handel",
+    "work_title": "Sarabande in D Minor, HWV 437 (La Folia Ground Bass)",
+    "key_signature": "D Minor",
+    "tempo_bpm": 68.0,
+    "roman_numeral_progression": "i -> V -> i -> VII -> III -> VII -> i6 -> V -> i",
+    "cadence_type": "Baroque Sarabande Folia Ground with Second-Beat Agogic Weight",
+    "lh_accompaniment_geometry": "Deep, resonant low-octave bass pillars on beats 1 and 2",
+    "rh_voice_leading_contour": "Four-voice chorale chords leaning heavily into the dotted second beat of each 3/2 bar",
+    "emotional_why_annotation": "Monolithic stoic dignity: alternating tonic minor (Dm -> A -> Dm) with its relative major horizon (C -> F -> C) before returning to the tragic ground.",
+    "slm_syntactic_prosody_rule": "Handel Sarabande Gravitas (i -> V -> i -> VII -> III -> V -> i): Write with measured, rhythmic weight on the second word of each clause; balance austere realism with a brief glimpse of noble hope before standing firm.",
+    "score_metrics": {
+      "total_notes": 49.0,
+      "simultaneous_chord_events": 16.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.959,
+      "tension_ratio": 0.041,
+      "pitch_span_semitones": 44.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7935,
+      "philosophical/structure/chaos": 0.4914,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7754,
+      "philosophical/being/existence": 0.75,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7393,
+      "experiential/affect/valence": 0.7935,
+      "experiential/affect/arousal": 0.6587,
+      "experiential/reflection/salience": 0.7338,
+      "experiential/reflection/novelty": 0.6882,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7484,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "F4+A4+D5",
+        1.0,
+        0.82
+      ],
+      [
+        "E4+A4+C#5",
+        1.5,
+        0.86
+      ],
+      [
+        "F4+A4+D5",
+        0.5,
+        0.78
+      ],
+      [
+        "E4+G4+C5",
+        1.0,
+        0.82
+      ],
+      [
+        "F4+A4+C5+F5",
+        1.5,
+        0.88
+      ],
+      [
+        "E4+G4+C5",
+        0.5,
+        0.76
+      ],
+      [
+        "F4+A4+D5",
+        1.0,
+        0.84
+      ],
+      [
+        "E4+G4+A4+C#5",
+        1.0,
+        0.86
+      ],
+      [
+        "D4+F4+A4+D5",
+        1.0,
+        0.9
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "D2+D3",
+        1.0,
+        0.8
+      ],
+      [
+        "A2+E3+A3",
+        1.5,
+        0.84
+      ],
+      [
+        "D3",
+        0.5,
+        0.74
+      ],
+      [
+        "C2+C3",
+        1.0,
+        0.8
+      ],
+      [
+        "F2+C3+F3",
+        1.5,
+        0.85
+      ],
+      [
+        "C3",
+        0.5,
+        0.74
+      ],
+      [
+        "F2+D3",
+        1.0,
+        0.82
+      ],
+      [
+        "A1+A2",
+        1.0,
+        0.85
+      ],
+      [
+        "D2+A2+D3",
+        1.0,
+        0.88
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-05-BEETHOVEN-MOONLIGHT",
+    "anthology_id": "CORPUS-1502",
+    "composer": "Ludwig van Beethoven",
+    "work_title": "Piano Sonata No. 14 in C# Minor, Op. 27 No. 2 ('Moonlight', Adagio sostenuto)",
+    "key_signature": "C# Minor",
+    "tempo_bpm": 64.0,
+    "roman_numeral_progression": "i (C#m) -> i4/2/B -> VI6 (A/C#) -> bII6 (D/F# Neapolitan) -> V7 (G#7) -> i",
+    "cadence_type": "Neapolitan Sixth (bII6) Funeral Ostinato Cadence",
+    "lh_accompaniment_geometry": "Deep descending bass octaves walking step-by-step (C# -> B -> A -> F# -> G# -> C#)",
+    "rh_voice_leading_contour": "Hypnotic middle-voice triplet arpeggio ostinato (G#3-C#4-E4) + dotted funeral-march soprano bell (G#4.. G#4 -> G#4)",
+    "emotional_why_annotation": "Three distinct emotional strata on ten fingers: bass octaves descend like fate, inner triplets ripple like dark water, and the Neapolitan D-Major/F# chord (bII6) aches before G#7.",
+    "slm_syntactic_prosody_rule": "Beethoven Moonlight Ostinato & Neapolitan Cadence (i -> VI -> bII6 -> V7 -> i): Maintain a calm, hypnotic rhythm across clauses while the underlying argument descends steadily through a poignant revelation to stillness.",
+    "score_metrics": {
+      "total_notes": 44.0,
+      "simultaneous_chord_events": 14.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.94,
+      "tension_ratio": 0.06,
+      "pitch_span_semitones": 39.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7904,
+      "philosophical/structure/chaos": 0.4968,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7705,
+      "philosophical/being/existence": 0.7375,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7347,
+      "experiential/affect/valence": 0.7904,
+      "experiential/affect/arousal": 0.6489,
+      "experiential/reflection/salience": 0.7416,
+      "experiential/reflection/novelty": 0.692,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7421,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "G#3+C#4+E4",
+        0.5,
+        0.64
+      ],
+      [
+        "G#3+C#4+E4",
+        0.5,
+        0.62
+      ],
+      [
+        "G#3+C#4+E4+G#4",
+        0.75,
+        0.82
+      ],
+      [
+        "G#4",
+        0.25,
+        0.76
+      ],
+      [
+        "G#3+C#4+E4+G#4",
+        1.0,
+        0.8
+      ],
+      [
+        "A3+C#4+F#4+A4",
+        1.0,
+        0.84
+      ],
+      [
+        "A3+D4+F#4+A4",
+        1.0,
+        0.88
+      ],
+      [
+        "G#3+C4+F#4+G#4",
+        1.0,
+        0.86
+      ],
+      [
+        "G#3+C#4+E4+G#4",
+        2.0,
+        0.84
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "C#2+C#3",
+        1.0,
+        0.76
+      ],
+      [
+        "B1+B2",
+        1.0,
+        0.76
+      ],
+      [
+        "A1+A2",
+        2.0,
+        0.78
+      ],
+      [
+        "F#1+F#2",
+        1.0,
+        0.82
+      ],
+      [
+        "G#1+G#2",
+        1.0,
+        0.84
+      ],
+      [
+        "C#2+G#2+C#3",
+        2.0,
+        0.82
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-06-BEETHOVEN-PATHETIQUE",
+    "anthology_id": "CORPUS-1502",
+    "composer": "Ludwig van Beethoven",
+    "work_title": "Piano Sonata No. 8 in C Minor, Op. 13 ('Pathétique', II. Adagio cantabile)",
+    "key_signature": "Ab Major",
+    "tempo_bpm": 66.0,
+    "roman_numeral_progression": "I (Ab) -> V6/5 (Eb7/G) -> I -> IV6 (Db/F) -> V4/3/V (Bb7/F) -> V7 (Eb7) -> I",
+    "cadence_type": "Classical Cantabile Warmth with Secondary Dominant (V7/V) Lift",
+    "lh_accompaniment_geometry": "Sustained bass root + gently pulsing inner 16th-note accompaniment shared by thumbs",
+    "rh_voice_leading_contour": "Singing alto/soprano melody (C5 -> Bb4 -> Eb5 -> Db5 -> C5 -> F5 -> Eb5 -> D5 -> Eb5) projected with full arm weight above quiet inner accompaniment",
+    "emotional_why_annotation": "Proves how a percussive hammer instrument sings like a human cello when the melody voice is played +25% louder than the thumb-pulsed inner harmony.",
+    "slm_syntactic_prosody_rule": "Beethoven Adagio Cantabile (I -> V6/5 -> I -> V7/V -> V -> I): Speak with warm, unhurried human reassurance; keep supporting details quiet in the background so the central compassionate truth sings clearly.",
+    "score_metrics": {
+      "total_notes": 38.0,
+      "simultaneous_chord_events": 16.0,
+      "max_simultaneous_fingers": 5.0,
+      "consonance": 0.885,
+      "tension_ratio": 0.115,
+      "pitch_span_semitones": 38.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7815,
+      "philosophical/structure/chaos": 0.5123,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7693,
+      "philosophical/being/existence": 0.735,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.737,
+      "experiential/affect/valence": 0.7815,
+      "experiential/affect/arousal": 0.6507,
+      "experiential/reflection/salience": 0.7458,
+      "experiential/reflection/novelty": 0.7031,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7405,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "Eb4+C5",
+        0.5,
+        0.84
+      ],
+      [
+        "Eb4",
+        0.5,
+        0.58
+      ],
+      [
+        "Eb4+Bb4",
+        0.5,
+        0.82
+      ],
+      [
+        "Eb4+Eb5",
+        0.5,
+        0.88
+      ],
+      [
+        "Eb4+Db5",
+        0.5,
+        0.84
+      ],
+      [
+        "Eb4+C5",
+        0.5,
+        0.82
+      ],
+      [
+        "F4+Ab4+F5",
+        0.5,
+        0.9
+      ],
+      [
+        "F4+Bb4+D5",
+        0.5,
+        0.86
+      ],
+      [
+        "G4+Bb4+Eb5",
+        0.5,
+        0.85
+      ],
+      [
+        "Eb4+Ab4+C5",
+        1.5,
+        0.86
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "Ab2+C4",
+        1.0,
+        0.68
+      ],
+      [
+        "G2+Db4",
+        1.0,
+        0.7
+      ],
+      [
+        "Ab2+C4",
+        1.0,
+        0.68
+      ],
+      [
+        "F2+Db4",
+        0.5,
+        0.72
+      ],
+      [
+        "Bb2+Ab3",
+        0.5,
+        0.74
+      ],
+      [
+        "Eb2+G3",
+        0.5,
+        0.74
+      ],
+      [
+        "Ab2+Eb3+Ab3",
+        1.5,
+        0.76
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-07-MOZART-K397",
+    "anthology_id": "CORPUS-1502",
+    "composer": "Wolfgang Amadeus Mozart",
+    "work_title": "Fantasia in D Minor, K. 397 (Andante Chromatic Lament Prelude)",
+    "key_signature": "D Minor",
+    "tempo_bpm": 70.0,
+    "roman_numeral_progression": "i (Dm) -> i4/2/C -> vii°7/Bb -> iv6/Bb -> Ger+6 (Bb-D-F-G#) -> i6/4 (Dm/A) -> V7 (A7)",
+    "cadence_type": "Phrygian / German-Sixth Half Cadence on Dominant (V7) Followed by Rhetorical Silence",
+    "lh_accompaniment_geometry": "Chromatic lament bass descending by half-steps (D -> C -> B -> Bb -> A)",
+    "rh_voice_leading_contour": "Slow, ominous triplet arpeggios rising out of the mist and pausing on a dramatic silence",
+    "emotional_why_annotation": "Operatic suspense: the German Augmented Sixth (Bb-D-F-G#) pinches outward onto the dominant A, and the sudden rest lets the question hang in the concert hall.",
+    "slm_syntactic_prosody_rule": "Mozart Fantasia Chromatic Half-Cadence (i -> Ger+6 -> i6/4 -> V + Pause): Build quiet, searching tension step-by-step and pause deliberately at a semicolon or dash before delivering the insight.",
+    "score_metrics": {
+      "total_notes": 37.0,
+      "simultaneous_chord_events": 12.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.86,
+      "tension_ratio": 0.14,
+      "pitch_span_semitones": 47.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7777,
+      "philosophical/structure/chaos": 0.5191,
+      "philosophical/persistence/continuity": 0.79,
+      "philosophical/persistence/discreteness": 0.65,
+      "philosophical/being/agency": 0.7738,
+      "philosophical/being/existence": 0.7575,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7417,
+      "experiential/affect/valence": 0.7777,
+      "experiential/affect/arousal": 0.6601,
+      "experiential/reflection/salience": 0.7333,
+      "experiential/reflection/novelty": 0.6679,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7462,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "F4+A4+D5",
+        1.0,
+        0.76
+      ],
+      [
+        "E4+A4+C5+E5",
+        1.0,
+        0.78
+      ],
+      [
+        "D4+G#4+B4+F5",
+        1.0,
+        0.84
+      ],
+      [
+        "D4+F4+Bb4+G#5",
+        1.0,
+        0.88
+      ],
+      [
+        "D4+F4+A4+D5",
+        1.0,
+        0.85
+      ],
+      [
+        "C#4+E4+G4+A4",
+        1.5,
+        0.86
+      ],
+      [
+        "REST",
+        0.5,
+        0.0
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "D2+A2+D3",
+        1.0,
+        0.74
+      ],
+      [
+        "C2+C3",
+        1.0,
+        0.76
+      ],
+      [
+        "B1+B2",
+        1.0,
+        0.78
+      ],
+      [
+        "Bb1+Bb2",
+        1.0,
+        0.84
+      ],
+      [
+        "A1+A2",
+        1.0,
+        0.82
+      ],
+      [
+        "A1+E2+A2",
+        1.5,
+        0.84
+      ],
+      [
+        "REST",
+        0.5,
+        0.0
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-08-SCHUBERT-OP90-NO3",
+    "anthology_id": "CORPUS-1502",
+    "composer": "Franz Schubert",
+    "work_title": "Impromptu in Gb Major (Transposed to G Major), Op. 90 No. 3",
+    "key_signature": "G Major",
+    "tempo_bpm": 74.0,
+    "roman_numeral_progression": "I (G) -> V4/3 -> I6 -> IV (C) -> iv6 (Cm/Eb Modal Mixture) -> I6/4 -> V7 -> I",
+    "cadence_type": "Schubertian Major-to-Minor Tear (IV -> iv6 -> I6/4 -> V7 -> I)",
+    "lh_accompaniment_geometry": "Long bass pedal roots beneath continuous harp-like middle-register broken chords",
+    "rh_voice_leading_contour": "Endless legato soprano melody (B4 -> A4 -> G4 -> E5 -> Eb5 -> D5 -> B4 -> G4) floating above the accompaniment",
+    "emotional_why_annotation": "Schubert's signature heartbreak: smiling in a warm major key (G Major) while the inner harmony suddenly clouds into C Minor (iv6) before returning home.",
+    "slm_syntactic_prosody_rule": "Schubertian Major-Minor Poignancy (I -> IV -> iv6 -> I): Frame the thought in serene goodwill, acknowledge the bittersweet vulnerability at the heart of the matter, and close in quiet peace.",
+    "score_metrics": {
+      "total_notes": 50.0,
+      "simultaneous_chord_events": 16.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.948,
+      "tension_ratio": 0.052,
+      "pitch_span_semitones": 38.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7917,
+      "philosophical/structure/chaos": 0.4945,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.65,
+      "philosophical/being/agency": 0.7703,
+      "philosophical/being/existence": 0.735,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7463,
+      "experiential/affect/valence": 0.7917,
+      "experiential/affect/arousal": 0.6626,
+      "experiential/reflection/salience": 0.7383,
+      "experiential/reflection/novelty": 0.6503,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7419,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "D4+G4+B4",
+        1.0,
+        0.84
+      ],
+      [
+        "C4+F#4+A4",
+        1.0,
+        0.78
+      ],
+      [
+        "D4+G4+B4+D5",
+        1.0,
+        0.85
+      ],
+      [
+        "E4+G4+C5+E5",
+        1.0,
+        0.88
+      ],
+      [
+        "Eb4+G4+C5+Eb5",
+        1.0,
+        0.86
+      ],
+      [
+        "D4+G4+B4+D5",
+        1.0,
+        0.84
+      ],
+      [
+        "C4+F#4+A4+C5",
+        1.0,
+        0.82
+      ],
+      [
+        "B3+D4+G4+B4",
+        1.0,
+        0.86
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "G2+D3+G3",
+        1.0,
+        0.7
+      ],
+      [
+        "A2+D3",
+        1.0,
+        0.68
+      ],
+      [
+        "B2+G3",
+        1.0,
+        0.72
+      ],
+      [
+        "C3+G3",
+        1.0,
+        0.74
+      ],
+      [
+        "C3+Eb3+G3",
+        1.0,
+        0.76
+      ],
+      [
+        "D2+D3",
+        1.0,
+        0.76
+      ],
+      [
+        "D2+A2+D3",
+        1.0,
+        0.74
+      ],
+      [
+        "G2+D3+G3",
+        1.0,
+        0.78
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-09-CHOPIN-OP9-NO2",
+    "anthology_id": "CORPUS-1503",
+    "composer": "Frédéric Chopin",
+    "work_title": "Nocturne in Eb Major, Op. 9 No. 2 (Bel Canto Sixth Leap & Chromatic Passing)",
+    "key_signature": "Eb Major",
+    "tempo_bpm": 72.0,
+    "roman_numeral_progression": "I (Eb) -> V°7/ii (E°7) -> ii7 (Fm7) -> V7 (Bb7) -> I (Eb) -> V7/IV (Eb7) -> IV (Ab)",
+    "cadence_type": "Chopin Bel Canto Rubato Cadence with Chromatic Diminished Passing Chord",
+    "lh_accompaniment_geometry": "12/8 waltz-nocturne stride: deep bass single note on beat 1 followed by two warm middle-register chord pulses",
+    "rh_voice_leading_contour": "Expressive ascending sixth leap (G4 -> Eb5 -> D5 -> C5 -> Bb4 -> Ab4 -> G4) singing freely in rubato over steady left-hand time",
+    "emotional_why_annotation": "The expressive sixth leap (G4 -> Eb5) opens the heart like an Italian opera soprano, while the chromatic E°7 passing chord adds velvet yearning on the way to Fm7.",
+    "slm_syntactic_prosody_rule": "Chopin Nocturne Bel Canto Rubato (I -> vii°7/ii -> ii7 -> V7 -> I): Open with a lyrical, soaring insight, glide smoothly through nuanced transitional shades, and land with effortless grace.",
+    "score_metrics": {
+      "total_notes": 48.0,
+      "simultaneous_chord_events": 16.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.854,
+      "tension_ratio": 0.146,
+      "pitch_span_semitones": 41.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7766,
+      "philosophical/structure/chaos": 0.521,
+      "philosophical/persistence/continuity": 0.7956,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7701,
+      "philosophical/being/existence": 0.7425,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.744,
+      "experiential/affect/valence": 0.7766,
+      "experiential/affect/arousal": 0.6596,
+      "experiential/reflection/salience": 0.7417,
+      "experiential/reflection/novelty": 0.7093,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7415,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "G4",
+        0.5,
+        0.8
+      ],
+      [
+        "G4+Bb4+Eb5",
+        1.5,
+        0.9
+      ],
+      [
+        "G4+Bb4+D5",
+        0.5,
+        0.82
+      ],
+      [
+        "G4+C5",
+        0.5,
+        0.84
+      ],
+      [
+        "F4+Ab4+C5",
+        1.0,
+        0.86
+      ],
+      [
+        "F4+Ab4+Bb4+D5",
+        1.0,
+        0.85
+      ],
+      [
+        "Eb4+G4+Bb4+Eb5",
+        1.5,
+        0.88
+      ],
+      [
+        "G4+Bb4+Db5+Eb5",
+        0.5,
+        0.84
+      ],
+      [
+        "Ab4+C5+Eb5",
+        1.0,
+        0.88
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "REST",
+        0.5,
+        0.0
+      ],
+      [
+        "Eb2",
+        0.5,
+        0.76
+      ],
+      [
+        "Bb3+Eb4",
+        1.0,
+        0.66
+      ],
+      [
+        "E2",
+        0.5,
+        0.78
+      ],
+      [
+        "Bb3+Db4",
+        0.5,
+        0.68
+      ],
+      [
+        "F2",
+        0.5,
+        0.78
+      ],
+      [
+        "Ab3+C4",
+        0.5,
+        0.68
+      ],
+      [
+        "Bb1+Bb2",
+        0.5,
+        0.8
+      ],
+      [
+        "Ab3+D4",
+        0.5,
+        0.68
+      ],
+      [
+        "Eb2",
+        0.5,
+        0.78
+      ],
+      [
+        "G3+Bb3",
+        1.0,
+        0.68
+      ],
+      [
+        "Eb2+Db3",
+        0.5,
+        0.76
+      ],
+      [
+        "Ab2+Eb3+Ab3",
+        1.0,
+        0.8
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-10-CHOPIN-OP28-NO4",
+    "anthology_id": "CORPUS-1503",
+    "composer": "Frédéric Chopin",
+    "work_title": "Prelude in E Minor, Op. 28 No. 4 (Chromatic Paraphrase Descent)",
+    "key_signature": "E Minor",
+    "tempo_bpm": 62.0,
+    "roman_numeral_progression": "i6 (Em/G) -> ii°4/2 -> V4/2/iv -> iv6 -> iv°7 -> i6/4 -> V7 -> i",
+    "cadence_type": "Chromatic Voice-Leading Lament into Whispered Authentic Resolution",
+    "lh_accompaniment_geometry": "Pulsing 8th-note three-voice chords where one inner note slips down a half-step every bar",
+    "rh_voice_leading_contour": "Long, suspended soprano notes (B4 -> C5 -> B4 -> A4 -> G4 -> F#4 -> E4) clinging to the 5th scale degree while the floor dissolves beneath it",
+    "emotional_why_annotation": "Minimalism and chromatic sorrow: the right hand barely moves while the left hand's relentless half-step voice leading carries the listener through an entire lifetime of grief.",
+    "slm_syntactic_prosody_rule": "Chopin Op. 28 No. 4 Chromatic Descent: Hold one clear, unwavering melodic keyword at the top of the thought while the supporting clauses shift subtly by half-shades toward quiet acceptance.",
+    "score_metrics": {
+      "total_notes": 33.0,
+      "simultaneous_chord_events": 8.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.667,
+      "tension_ratio": 0.333,
+      "pitch_span_semitones": 32.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7467,
+      "philosophical/structure/chaos": 0.5733,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7668,
+      "philosophical/being/existence": 0.72,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7323,
+      "experiential/affect/valence": 0.7467,
+      "experiential/affect/arousal": 0.6432,
+      "experiential/reflection/salience": 0.7378,
+      "experiential/reflection/novelty": 0.7467,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7373,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "B4",
+        1.5,
+        0.84
+      ],
+      [
+        "C5",
+        0.5,
+        0.8
+      ],
+      [
+        "B4",
+        2.0,
+        0.82
+      ],
+      [
+        "A4",
+        1.5,
+        0.8
+      ],
+      [
+        "G4",
+        0.5,
+        0.78
+      ],
+      [
+        "F#4",
+        1.0,
+        0.82
+      ],
+      [
+        "E4",
+        1.0,
+        0.86
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "G3+B3+E4",
+        1.0,
+        0.68
+      ],
+      [
+        "F#3+A3+E4",
+        1.0,
+        0.68
+      ],
+      [
+        "F3+A3+D#4",
+        1.0,
+        0.7
+      ],
+      [
+        "E3+G#3+D4",
+        1.0,
+        0.7
+      ],
+      [
+        "E3+G3+C#4",
+        1.0,
+        0.7
+      ],
+      [
+        "E3+F#3+C4",
+        1.0,
+        0.72
+      ],
+      [
+        "B2+F#3+A3+B3",
+        1.0,
+        0.76
+      ],
+      [
+        "E2+B2+E3+G3",
+        1.0,
+        0.78
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-11-RACHMANINOFF-OP3-NO2",
+    "anthology_id": "CORPUS-1503",
+    "composer": "Sergei Rachmaninoff",
+    "work_title": "Prelude in C# Minor, Op. 3 No. 2 ('The Bells of Moscow' Three-Stave Climax)",
+    "key_signature": "C# Minor",
+    "tempo_bpm": 66.0,
+    "roman_numeral_progression": "VI (A) -> V (G#) -> i (C#m) -> iv6 (F#m/A) -> Ger+6 -> i6/4 -> V7 -> i",
+    "cadence_type": "Cathedral Three-Stave Bell Cadence (b6 -> 5 -> 1)",
+    "lh_accompaniment_geometry": "Thundering low bass octave motif (A1 -> G#1 -> C#2) anchoring the entire piano frame",
+    "rh_voice_leading_contour": "Massive 4-note inner and upper bell chords answering each bass strike in call-and-response across three registers",
+    "emotional_why_annotation": "Uses the entire 88-key resonant iron harp of the grand piano: the 3-note fate motif (A -> G# -> C#, b6 -> 5 -> 1) locks the bass and treble together like cathedral bronze.",
+    "slm_syntactic_prosody_rule": "Rachmaninoff Three-Stave Bell Architecture (b6 -> 5 -> 1): Open with three decisive, resonant words that set the moral stakes, then answer with rich, full-spectrum synthesis.",
+    "score_metrics": {
+      "total_notes": 54.0,
+      "simultaneous_chord_events": 16.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.941,
+      "tension_ratio": 0.059,
+      "pitch_span_semitones": 51.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7906,
+      "philosophical/structure/chaos": 0.4965,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.6867,
+      "philosophical/being/agency": 0.7883,
+      "philosophical/being/existence": 0.7675,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.737,
+      "experiential/affect/valence": 0.7906,
+      "experiential/affect/arousal": 0.6664,
+      "experiential/reflection/salience": 0.7291,
+      "experiential/reflection/novelty": 0.6651,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7649,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "A3+C#4+E4+A4",
+        0.75,
+        0.94
+      ],
+      [
+        "G#3+C4+D#4+G#4",
+        0.75,
+        0.94
+      ],
+      [
+        "E4+G#4+C#5+E5",
+        1.5,
+        0.96
+      ],
+      [
+        "C#4+F#4+A4+C#5",
+        1.0,
+        0.88
+      ],
+      [
+        "C4+F#4+A4+D#5",
+        1.0,
+        0.9
+      ],
+      [
+        "C#4+E4+G#4+C#5",
+        1.0,
+        0.92
+      ],
+      [
+        "C4+D#4+F#4+G#4",
+        1.0,
+        0.9
+      ],
+      [
+        "C#4+E4+G#4+C#5",
+        1.0,
+        0.94
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "A1+A2",
+        0.75,
+        0.94
+      ],
+      [
+        "G#1+G#2",
+        0.75,
+        0.94
+      ],
+      [
+        "C#1+G#1+C#2",
+        1.5,
+        0.96
+      ],
+      [
+        "A1+F#2+A2",
+        1.0,
+        0.86
+      ],
+      [
+        "A1+F#2+A2",
+        1.0,
+        0.88
+      ],
+      [
+        "G#1+E2+G#2",
+        1.0,
+        0.9
+      ],
+      [
+        "G#1+D#2+G#2",
+        1.0,
+        0.88
+      ],
+      [
+        "C#1+G#1+C#2",
+        1.0,
+        0.92
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-12-BRAHMS-OP118-NO2",
+    "anthology_id": "CORPUS-1503",
+    "composer": "Johannes Brahms",
+    "work_title": "Intermezzo in A Major, Op. 118 No. 2 (Autumnal Contrapuntal Warmth)",
+    "key_signature": "A Major",
+    "tempo_bpm": 72.0,
+    "roman_numeral_progression": "I (A) -> IV6/4 (D/A) -> V7/vi (C#7) -> vi (F#m) -> ii6/5 (Bm7/D) -> V7 (E7) -> I",
+    "cadence_type": "Brahmsian Warm Deceptive Pivot (V7/vi -> vi) into Plagal-Authentic Embrace",
+    "lh_accompaniment_geometry": "Wide, warm tenth arpeggios and counter-melody octaves moving in contrary motion to the soprano",
+    "rh_voice_leading_contour": "Tender rising-and-falling motif (C#5 -> B4 -> D5 -> C#5 -> A4 -> F#5 -> E5) harmonized in lush sixths and thirds",
+    "emotional_why_annotation": "Late-autumn wisdom: Brahms harmonizes the melody in warm sixths and gently pivots through the relative minor (F#m) so joy and memory coexist in the same chord.",
+    "slm_syntactic_prosody_rule": "Brahms Op. 118 No. 2 Contrapuntal Warmth: Weave intellect and empathy together in parallel sixths—pair every analytical observation with a humane, reflective counterpoint.",
+    "score_metrics": {
+      "total_notes": 50.0,
+      "simultaneous_chord_events": 18.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.94,
+      "tension_ratio": 0.06,
+      "pitch_span_semitones": 41.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7904,
+      "philosophical/structure/chaos": 0.4968,
+      "philosophical/persistence/continuity": 0.7922,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7729,
+      "philosophical/being/existence": 0.7425,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.744,
+      "experiential/affect/valence": 0.7904,
+      "experiential/affect/arousal": 0.6622,
+      "experiential/reflection/salience": 0.7333,
+      "experiential/reflection/novelty": 0.692,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7452,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "E4+C#5",
+        0.5,
+        0.82
+      ],
+      [
+        "D4+B4",
+        0.5,
+        0.78
+      ],
+      [
+        "F#4+A4+D5",
+        1.5,
+        0.86
+      ],
+      [
+        "E4+C#5",
+        0.5,
+        0.82
+      ],
+      [
+        "C#4+E4+A4",
+        1.0,
+        0.84
+      ],
+      [
+        "F4+G#4+C#5+F5",
+        1.0,
+        0.86
+      ],
+      [
+        "F#4+A4+C#5+F#5",
+        1.0,
+        0.88
+      ],
+      [
+        "F#4+B4+D5",
+        1.0,
+        0.84
+      ],
+      [
+        "E4+G#4+B4+D5",
+        1.0,
+        0.82
+      ],
+      [
+        "C#4+E4+A4+C#5",
+        1.0,
+        0.86
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "REST",
+        1.0,
+        0.0
+      ],
+      [
+        "A2+F#3",
+        1.5,
+        0.76
+      ],
+      [
+        "A2+E3",
+        0.5,
+        0.72
+      ],
+      [
+        "A2+E3",
+        1.0,
+        0.74
+      ],
+      [
+        "C#2+B2",
+        1.0,
+        0.78
+      ],
+      [
+        "F#2+C#3+F#3",
+        1.0,
+        0.8
+      ],
+      [
+        "D2+B2",
+        1.0,
+        0.78
+      ],
+      [
+        "E2+B2+E3",
+        1.0,
+        0.76
+      ],
+      [
+        "A2+E3+A3",
+        1.0,
+        0.8
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-13-DEBUSSY-CLAIR-DE-LUNE",
+    "anthology_id": "CORPUS-1504",
+    "composer": "Claude Debussy",
+    "work_title": "Clair de Lune (Suite bergamasque, Mvt. III — Transposed to C Major/Lydian)",
+    "key_signature": "C Major / Lydian",
+    "tempo_bpm": 64.0,
+    "roman_numeral_progression": "Imaj9 (Cmaj9) -> iii7 (Em7) -> IV9 (Fmaj9) -> ii9 (Dm9) -> V13sus4 (G13sus4) -> Imaj9",
+    "cadence_type": "Impressionist 9th-Chord Cascade & Suspended Pentatonic Resolution",
+    "lh_accompaniment_geometry": "Sustained soft third/fifth dyads in the middle register that let upper harmonics shimmer in the damper pedal",
+    "rh_voice_leading_contour": "Descending parallel thirds (A5-C6 -> G5-B5 -> E5-G5 -> D5-F5 -> C5-E5 -> B4-D5 -> C5) floating with weightless rubato",
+    "emotional_why_annotation": "Dissolves sharp barline edges: by hanging 9ths and 6ths from suspended thirds before touching the bass root, the piano paints moonlight on water.",
+    "slm_syntactic_prosody_rule": "Debussy Clair de Lune Luminosity (Imaj9 -> IV9 -> ii9 -> V13sus4 -> Imaj9): Let clauses flow seamlessly like light on water, favoring luminous imagery and gentle, unforced transitions.",
+    "score_metrics": {
+      "total_notes": 40.0,
+      "simultaneous_chord_events": 15.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.865,
+      "tension_ratio": 0.135,
+      "pitch_span_semitones": 48.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7784,
+      "philosophical/structure/chaos": 0.5178,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7598,
+      "philosophical/being/existence": 0.76,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7347,
+      "experiential/affect/valence": 0.7784,
+      "experiential/affect/arousal": 0.6403,
+      "experiential/reflection/salience": 0.7366,
+      "experiential/reflection/novelty": 0.707,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7283,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "A5+C6",
+        1.0,
+        0.76
+      ],
+      [
+        "G5+B5",
+        1.0,
+        0.74
+      ],
+      [
+        "E5+G5",
+        1.5,
+        0.78
+      ],
+      [
+        "D5+F5",
+        0.5,
+        0.72
+      ],
+      [
+        "C5+E5",
+        1.0,
+        0.76
+      ],
+      [
+        "B4+D5",
+        1.0,
+        0.74
+      ],
+      [
+        "A4+C5+E5",
+        1.0,
+        0.75
+      ],
+      [
+        "A4+C5+D5+G5",
+        1.0,
+        0.76
+      ],
+      [
+        "G4+B4+D5+E5",
+        2.0,
+        0.78
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "E3+G3",
+        2.0,
+        0.6
+      ],
+      [
+        "C3+G3+B3",
+        2.0,
+        0.64
+      ],
+      [
+        "F2+C3+A3",
+        2.0,
+        0.66
+      ],
+      [
+        "D2+A2+F3",
+        1.0,
+        0.66
+      ],
+      [
+        "G2+D3+F3",
+        1.0,
+        0.66
+      ],
+      [
+        "C2+G2+E3",
+        2.0,
+        0.68
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-14-DEBUSSY-CATHEDRALE",
+    "anthology_id": "CORPUS-1504",
+    "composer": "Claude Debussy",
+    "work_title": "La Cathédrale engloutie ('The Sunken Cathedral', Préludes Book I, No. 10)",
+    "key_signature": "C Pentatonic / Modal Organum",
+    "tempo_bpm": 62.0,
+    "roman_numeral_progression": "C5-G5 -> D5-A5 -> E5-B5 -> G5-D6 -> C5-G5 (Quintal/Quartal Parallel Planing over C1 Pedal)",
+    "cadence_type": "Nonfunctional Quartal/Quintal Organum Bell Planing",
+    "lh_accompaniment_geometry": "Subterranean C1-G1-C2 open fifth bell toll held down in the sustain pedal",
+    "rh_voice_leading_contour": "Parallel open fourths and fifths (G4-C5-G5 -> A4-D5-A5 -> B4-E5-B5 -> D5-G5-D6) rising out of the mist without major/minor thirds",
+    "emotional_why_annotation": "By omitting the 3rd of the chord and moving open 4ths and 5ths in parallel planing over a deep bass bell, harmony steps outside of linear clock time into ancient mythic space.",
+    "slm_syntactic_prosody_rule": "Debussy Sunken Cathedral Organum (Open 5th Planing over Deep Pedal): Strip away ornamental adjectives and speak in clean, elemental, timeless nouns anchored by a deep foundational truth.",
+    "score_metrics": {
+      "total_notes": 34.0,
+      "simultaneous_chord_events": 11.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.973,
+      "tension_ratio": 0.027,
+      "pitch_span_semitones": 62.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7957,
+      "philosophical/structure/chaos": 0.4876,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.65,
+      "philosophical/being/agency": 0.7735,
+      "philosophical/being/existence": 0.795,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7323,
+      "experiential/affect/valence": 0.7957,
+      "experiential/affect/arousal": 0.6485,
+      "experiential/reflection/salience": 0.7348,
+      "experiential/reflection/novelty": 0.6454,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.746,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "G4+C5+G5",
+        1.5,
+        0.78
+      ],
+      [
+        "A4+D5+A5",
+        1.5,
+        0.8
+      ],
+      [
+        "B4+E5+B5",
+        1.5,
+        0.84
+      ],
+      [
+        "D5+G5+D6",
+        1.5,
+        0.88
+      ],
+      [
+        "B4+E5+B5",
+        1.0,
+        0.82
+      ],
+      [
+        "G4+C5+D5+G5",
+        2.0,
+        0.86
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "C1+G1+C2",
+        3.0,
+        0.84
+      ],
+      [
+        "E2+B2+E3",
+        1.5,
+        0.74
+      ],
+      [
+        "G2+D3+G3",
+        1.5,
+        0.78
+      ],
+      [
+        "E2+B2",
+        1.0,
+        0.72
+      ],
+      [
+        "C1+G1+C2+G2",
+        2.0,
+        0.86
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-15-SATIE-GYMNOPEDIE",
+    "anthology_id": "CORPUS-1504",
+    "composer": "Erik Satie",
+    "work_title": "Gymnopédie No. 1 (Lent et douloureux — Lydian/Dorian Major-7th Pendulum)",
+    "key_signature": "D Major / Dorian",
+    "tempo_bpm": 66.0,
+    "roman_numeral_progression": "IVmaj7 (Gmaj7) <-> Imaj7 (Dmaj7) -> iim7 (Em7) -> bVII (C9) -> Imaj7 (Dmaj7)",
+    "cadence_type": "Hypnotic Major-Seventh Pendulum Oscillation (IVmaj7 <-> Imaj7)",
+    "lh_accompaniment_geometry": "Two-bar waltz pendulum: low G2 -> (B3-D4-F#4) alternating with low D2 -> (A3-C#4-F#4)",
+    "rh_voice_leading_contour": "Spare, crystalline single-note Dorian/Ionian melody (F#5 -> A5 -> G5 -> F#5 -> C#5 -> B4 -> C#5 -> D5) entering on beat 2",
+    "emotional_why_annotation": "Proves that two chords (Gmaj7 <-> Dmaj7) sharing F#4 and D4 can sustain infinite contemplative stillness when the melody breathes in unhurried space.",
+    "slm_syntactic_prosody_rule": "Satie Gymnopédie Pendulum (IVmaj7 <-> Imaj7): Alternate calmly between two complementary perspectives with generous breathing room and zero rhetorical urgency.",
+    "score_metrics": {
+      "total_notes": 26.0,
+      "simultaneous_chord_events": 5.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.864,
+      "tension_ratio": 0.136,
+      "pitch_span_semitones": 43.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7782,
+      "philosophical/structure/chaos": 0.5182,
+      "philosophical/persistence/continuity": 0.7942,
+      "philosophical/persistence/discreteness": 0.65,
+      "philosophical/being/agency": 0.7659,
+      "philosophical/being/existence": 0.7475,
+      "experiential/attunement/resonance": 0.7738,
+      "experiential/attunement/entrainment": 0.737,
+      "experiential/affect/valence": 0.7782,
+      "experiential/affect/arousal": 0.6479,
+      "experiential/reflection/salience": 0.7353,
+      "experiential/reflection/novelty": 0.6673,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7362,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "REST",
+        1.0,
+        0.0
+      ],
+      [
+        "B3+D4+F#4",
+        1.0,
+        0.65
+      ],
+      [
+        "F#5",
+        1.0,
+        0.78
+      ],
+      [
+        "A5",
+        1.0,
+        0.82
+      ],
+      [
+        "A3+C#4+F#4+G5",
+        1.0,
+        0.8
+      ],
+      [
+        "F#5",
+        1.0,
+        0.78
+      ],
+      [
+        "C#5",
+        1.0,
+        0.76
+      ],
+      [
+        "B3+D4+F#4+B4",
+        1.0,
+        0.78
+      ],
+      [
+        "C#5",
+        1.0,
+        0.78
+      ],
+      [
+        "D5",
+        1.0,
+        0.8
+      ],
+      [
+        "A3+C#4+F#4+A4",
+        2.0,
+        0.82
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "G2",
+        3.0,
+        0.7
+      ],
+      [
+        "D2",
+        3.0,
+        0.7
+      ],
+      [
+        "G2",
+        3.0,
+        0.7
+      ],
+      [
+        "D2+A2",
+        3.0,
+        0.72
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-16-RAVEL-PAVANE",
+    "anthology_id": "CORPUS-1504",
+    "composer": "Maurice Ravel",
+    "work_title": "Pavane pour une infante défunte (Diatonic Circle-of-Fifths Ninth-Chord Chain)",
+    "key_signature": "E Minor / G Major",
+    "tempo_bpm": 68.0,
+    "roman_numeral_progression": "im9 (Em9) -> ivm9 (Am9) -> VII9 (D9) -> IIImaj9 (Gmaj9) -> VImaj9 (Cmaj9) -> iiø7 (F#m7b5) -> V7b9 (B7b9) -> im9",
+    "cadence_type": "Ravelian Diatonic 9th-Chord Circle of Fifths",
+    "lh_accompaniment_geometry": "Stately Renaissance lute-like tenth-and-fifth bass steps descending around the circle of fifths",
+    "rh_voice_leading_contour": "Aristocratic horn-like melody supported by lush 7th and 9th inner voices that resolve downward by step on every chord",
+    "emotional_why_annotation": "Combines Renaissance courtly poise with lush 20th-century jazz-impressionist 9th chords: every chord is a 9th, yet the strict circle-of-fifths bass gives it classical backbone.",
+    "slm_syntactic_prosody_rule": "Ravel Pavane Circle-of-Ninths (im9 -> ivm9 -> VII9 -> IIImaj9 -> iiø7 -> V7b9 -> im9): Combine classical structural rigor with rich, poetic nuance across a graceful chain of clauses.",
+    "score_metrics": {
+      "total_notes": 50.0,
+      "simultaneous_chord_events": 16.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.817,
+      "tension_ratio": 0.183,
+      "pitch_span_semitones": 48.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7707,
+      "philosophical/structure/chaos": 0.5313,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.65,
+      "philosophical/being/agency": 0.772,
+      "philosophical/being/existence": 0.76,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7393,
+      "experiential/affect/valence": 0.7707,
+      "experiential/affect/arousal": 0.6557,
+      "experiential/reflection/salience": 0.7333,
+      "experiential/reflection/novelty": 0.6767,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.744,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "G4+B4+D5+F#5",
+        1.0,
+        0.82
+      ],
+      [
+        "G4+C5+E5+B5",
+        1.0,
+        0.84
+      ],
+      [
+        "F#4+C5+E5+A5",
+        1.0,
+        0.84
+      ],
+      [
+        "F#4+B4+D5+A5",
+        1.0,
+        0.85
+      ],
+      [
+        "E4+B4+D5+G5",
+        1.0,
+        0.84
+      ],
+      [
+        "E4+A4+C5+F#5",
+        1.0,
+        0.83
+      ],
+      [
+        "D#4+A4+C5+F#5",
+        1.0,
+        0.85
+      ],
+      [
+        "E4+G4+B4+E5",
+        1.0,
+        0.86
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "E2+B2",
+        1.0,
+        0.74
+      ],
+      [
+        "A2+E3",
+        1.0,
+        0.74
+      ],
+      [
+        "D2+A2",
+        1.0,
+        0.75
+      ],
+      [
+        "G2+D3",
+        1.0,
+        0.76
+      ],
+      [
+        "C2+G2",
+        1.0,
+        0.75
+      ],
+      [
+        "F#2+C3",
+        1.0,
+        0.75
+      ],
+      [
+        "B1+F#2+B2",
+        1.0,
+        0.78
+      ],
+      [
+        "E2+B2+E3",
+        1.0,
+        0.8
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-17-BILLEVANS-PEACE-PIECE",
+    "anthology_id": "CORPUS-1505",
+    "composer": "Bill Evans",
+    "work_title": "Peace Piece / Blue in Green Rootless Voicing & Guide-Tone Study",
+    "key_signature": "C Major (Jazz Modal)",
+    "tempo_bpm": 68.0,
+    "roman_numeral_progression": "Imaj9 (Cmaj9) -> G9sus4/C -> ii9 (Dm9 [F-A-C-E]) -> V13b9 (G13b9 [F-Ab-B-E]) -> Imaj9 (Cmaj9 [E-G-B-D])",
+    "cadence_type": "Bill Evans Rootless Type-A (3-5-7-9) -> Type-B (7-b9-3-13) Jazz Resolution",
+    "lh_accompaniment_geometry": "Hypnotic C2-G2-E3 ostinato pedal alternating with rootless four-note guide-tone clusters in the middle register",
+    "rh_voice_leading_contour": "Lyrical introspective improvisation floating in 9ths, 11ths, and 13ths with zero wasted finger motion",
+    "emotional_why_annotation": "Demonstrates Open Studio & Charles Cornell's core jazz principle: when the 3rd and 7th guide tones (F4-C5 -> F4-B4 -> E4-B4) move by a single semitone, even altered 13b9 chords feel intimately conversational.",
+    "slm_syntactic_prosody_rule": "Bill Evans Guide-Tone Economy (Dm9 -> G13b9 -> Cmaj9): Pivot effortlessly between complex ideas by anchoring on a shared conceptual 'guide tone' word that links one sentence directly into the next.",
+    "score_metrics": {
+      "total_notes": 32.0,
+      "simultaneous_chord_events": 10.0,
+      "max_simultaneous_fingers": 7.0,
+      "consonance": 0.829,
+      "tension_ratio": 0.171,
+      "pitch_span_semitones": 48.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7727,
+      "philosophical/structure/chaos": 0.5278,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.65,
+      "philosophical/being/agency": 0.7661,
+      "philosophical/being/existence": 0.76,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7393,
+      "experiential/affect/valence": 0.7727,
+      "experiential/affect/arousal": 0.6507,
+      "experiential/reflection/salience": 0.7348,
+      "experiential/reflection/novelty": 0.6741,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7364,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "E4+G4+B4+D5",
+        1.0,
+        0.76
+      ],
+      [
+        "F4+A4+D5+G5",
+        1.0,
+        0.78
+      ],
+      [
+        "F4+A4+C5+E5",
+        1.5,
+        0.8
+      ],
+      [
+        "F4+Ab4+B4+E5",
+        1.5,
+        0.84
+      ],
+      [
+        "E4+G4+B4+D5+G5",
+        3.0,
+        0.82
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "C2+G2",
+        1.0,
+        0.7
+      ],
+      [
+        "C2+G2",
+        1.0,
+        0.68
+      ],
+      [
+        "D2+A2",
+        1.5,
+        0.72
+      ],
+      [
+        "G1+D2",
+        1.5,
+        0.74
+      ],
+      [
+        "C2+G2+E3",
+        3.0,
+        0.74
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-18-JOEL-CORNELL-WALKDOWN",
+    "anthology_id": "CORPUS-1505",
+    "composer": "Billy Joel (Analyzed by Charles Cornell)",
+    "work_title": "Piano Man / New York State of Mind Stepwise Bass Walkdown & Minor Plagal Sigh",
+    "key_signature": "C Major",
+    "tempo_bpm": 86.0,
+    "roman_numeral_progression": "I (C) -> V6 (G/B) -> IV6 (F/A) -> I6/4 (C/G) -> IVmaj7 (Fmaj7) -> iv6 (Fm6/Ab) -> I6 (C/E) -> V7/V (D9) -> V7 (G7) -> I",
+    "cadence_type": "8-Bar Stepwise Slash-Chord Walkdown + Minor Plagal (iv6) + Secondary Dominant (V7/V) Turnaround",
+    "lh_accompaniment_geometry": "Unbroken stepwise diatonic/chromatic bass descent (C3 -> B2 -> A2 -> G2 -> F2 -> Ab2 -> E2 -> D2 -> G2 -> C2)",
+    "rh_voice_leading_contour": "Gospel-pop right-hand inversions keeping C5/E5 common tones steady while the inner A4 -> Ab4 -> G4 line sighs",
+    "emotional_why_annotation": "Synthesizes Charles Cornell's two signature masterclasses (`QQ1VQoM0C_8` & `VGVsa0Fp8aM`): the walking bass makes the listener feel like they are walking down a familiar street at dusk, and the borrowed Fm6 (`iv6`) delivers the nostalgic ache.",
+    "slm_syntactic_prosody_rule": "Billy Joel / Charles Cornell Stepwise Walkdown (C -> G/B -> F/A -> C/G -> Fm6 -> C): Walk the reader step-by-step from familiar common ground through a warm, nostalgic realization to an earned conclusion.",
+    "score_metrics": {
+      "total_notes": 57.0,
+      "simultaneous_chord_events": 18.0,
+      "max_simultaneous_fingers": 7.0,
+      "consonance": 0.892,
+      "tension_ratio": 0.108,
+      "pitch_span_semitones": 50.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7828,
+      "philosophical/structure/chaos": 0.5102,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7745,
+      "philosophical/being/existence": 0.765,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7603,
+      "experiential/affect/valence": 0.7828,
+      "experiential/affect/arousal": 0.6838,
+      "experiential/reflection/salience": 0.7307,
+      "experiential/reflection/novelty": 0.7015,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7472,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "E4+G4+C5",
+        1.0,
+        0.82
+      ],
+      [
+        "D4+G4+B4",
+        1.0,
+        0.8
+      ],
+      [
+        "C4+F4+A4+C5",
+        1.0,
+        0.82
+      ],
+      [
+        "E4+G4+C5",
+        1.0,
+        0.8
+      ],
+      [
+        "E4+A4+C5+E5",
+        1.0,
+        0.85
+      ],
+      [
+        "D4+Ab4+C5+F5",
+        1.0,
+        0.88
+      ],
+      [
+        "E4+G4+C5+G5",
+        0.5,
+        0.84
+      ],
+      [
+        "F#4+A4+C5+E5",
+        0.5,
+        0.86
+      ],
+      [
+        "F4+A4+B4+D5",
+        1.0,
+        0.85
+      ],
+      [
+        "E4+G4+B4+D5+G5",
+        1.0,
+        0.88
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "C2+C3",
+        1.0,
+        0.78
+      ],
+      [
+        "B1+B2",
+        1.0,
+        0.76
+      ],
+      [
+        "A1+A2",
+        1.0,
+        0.78
+      ],
+      [
+        "G1+G2",
+        1.0,
+        0.76
+      ],
+      [
+        "F1+F2",
+        1.0,
+        0.8
+      ],
+      [
+        "Ab1+Ab2",
+        1.0,
+        0.84
+      ],
+      [
+        "E2",
+        0.5,
+        0.78
+      ],
+      [
+        "D2",
+        0.5,
+        0.8
+      ],
+      [
+        "G1+G2",
+        1.0,
+        0.82
+      ],
+      [
+        "C2+G2+C3",
+        1.0,
+        0.84
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-19-JARRETT-KOLN",
+    "anthology_id": "CORPUS-1505",
+    "composer": "Keith Jarrett",
+    "work_title": "The Köln Concert (Part I Improvised Ostinato & Pentatonic Bell Groove)",
+    "key_signature": "G Major / A Dorian",
+    "tempo_bpm": 96.0,
+    "roman_numeral_progression": "iim7 (Am7) -> I6 (G6) -> bVIImaj9 (Fmaj9) -> I6 (G6) -> Vsus4 (D9sus4) -> I (G)",
+    "cadence_type": "Gospel-Folk Dorian/Mixolydian Ostinato Vamp into Ecstatic Resolution",
+    "lh_accompaniment_geometry": "Rhythmic syncopated bass fifths pulsing between A2-E3 and G2-D3",
+    "rh_voice_leading_contour": "Ringing pentatonic fourths and double-stop bell motifs (G5-D5-E5-B4-A4-G4) dancing over the left-hand groove",
+    "emotional_why_annotation": "Born on a broken, tinny rehearsal piano in Cologne: Jarrett avoided the weak bass and dead upper register by concentrating rhythmic gospel-folk fourths in the singing middle-treble.",
+    "slm_syntactic_prosody_rule": "Keith Jarrett Köln Improvisational Vitality (Am7 <-> G6 -> Fmaj9 -> G): Turn constraints into creative momentum with buoyant, rhythmic, life-affirming phrasing.",
+    "score_metrics": {
+      "total_notes": 42.0,
+      "simultaneous_chord_events": 14.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.889,
+      "tension_ratio": 0.111,
+      "pitch_span_semitones": 43.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7822,
+      "philosophical/structure/chaos": 0.5111,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7757,
+      "philosophical/being/existence": 0.7475,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.772,
+      "experiential/affect/valence": 0.7822,
+      "experiential/affect/arousal": 0.6997,
+      "experiential/reflection/salience": 0.7321,
+      "experiential/reflection/novelty": 0.7022,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7488,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "C5+E5+G5",
+        0.75,
+        0.84
+      ],
+      [
+        "D5",
+        0.25,
+        0.76
+      ],
+      [
+        "B4+D5+E5+A5",
+        1.0,
+        0.86
+      ],
+      [
+        "A4+C5+E5+G5",
+        1.0,
+        0.84
+      ],
+      [
+        "A4+C5+E5+G5",
+        1.0,
+        0.88
+      ],
+      [
+        "B4+D5+G5",
+        1.0,
+        0.86
+      ],
+      [
+        "G4+C5+E5+A5",
+        1.0,
+        0.86
+      ],
+      [
+        "G4+B4+D5+G5",
+        2.0,
+        0.9
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "A2+E3",
+        1.0,
+        0.78
+      ],
+      [
+        "G2+D3",
+        1.0,
+        0.78
+      ],
+      [
+        "A2+E3",
+        1.0,
+        0.78
+      ],
+      [
+        "F2+C3",
+        1.0,
+        0.82
+      ],
+      [
+        "G2+D3",
+        1.0,
+        0.8
+      ],
+      [
+        "D2+A2",
+        1.0,
+        0.8
+      ],
+      [
+        "G2+D3+G3",
+        2.0,
+        0.84
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-20-SAKAMOTO-LAWRENCE",
+    "anthology_id": "CORPUS-1505",
+    "composer": "Ryuichi Sakamoto",
+    "work_title": "Merry Christmas Mr. Lawrence (Quartal Pentatonic Motif Over Shifting Bass Roots)",
+    "key_signature": "A Minor / F Lydian",
+    "tempo_bpm": 92.0,
+    "roman_numeral_progression": "VImaj9 (Fmaj9) -> viim7 (Gm7) -> im9 (Am9) -> viim7 (Gm7) -> III13 (C13) -> VImaj9",
+    "cadence_type": "Sakamoto Quartal-Pentatonic Re-Contextualization Loop",
+    "lh_accompaniment_geometry": "Stepwise rising-and-falling bass tenths (F2-A3 -> G2-Bb3 -> A2-C4 -> G2-Bb3)",
+    "rh_voice_leading_contour": "Crystalline, repetitive fourths-and-seconds bell ostinato (D5-E5-A5-E5-D5-A4) that stays almost invariant while the bass shifts its emotional meaning",
+    "emotional_why_annotation": "East-meets-West impressionism: a pentatonic bell motif built from 4ths and 2nds feels simultaneously nostalgic, stoic, and transcendent as the bass walks from Fmaj9 to Gm7 to Am9.",
+    "slm_syntactic_prosody_rule": "Ryuichi Sakamoto Quartal Re-Contextualization (Fmaj9 -> Gm7 -> Am9): Repeat a crystalline central phrase or motif while shifting the surrounding context so its meaning deepens on the second hearing.",
+    "score_metrics": {
+      "total_notes": 34.0,
+      "simultaneous_chord_events": 8.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.926,
+      "tension_ratio": 0.074,
+      "pitch_span_semitones": 42.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7881,
+      "philosophical/structure/chaos": 0.5007,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7733,
+      "philosophical/being/existence": 0.745,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7673,
+      "experiential/affect/valence": 0.7881,
+      "experiential/affect/arousal": 0.6911,
+      "experiential/reflection/salience": 0.7322,
+      "experiential/reflection/novelty": 0.6948,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7457,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "A4+D5+E5",
+        0.5,
+        0.82
+      ],
+      [
+        "A5",
+        0.5,
+        0.86
+      ],
+      [
+        "E5",
+        0.5,
+        0.78
+      ],
+      [
+        "D5",
+        0.5,
+        0.76
+      ],
+      [
+        "A4+D5+F5",
+        0.5,
+        0.84
+      ],
+      [
+        "A5",
+        0.5,
+        0.86
+      ],
+      [
+        "F5",
+        0.5,
+        0.78
+      ],
+      [
+        "D5",
+        0.5,
+        0.76
+      ],
+      [
+        "B4+E5+G5",
+        0.5,
+        0.86
+      ],
+      [
+        "B5",
+        0.5,
+        0.88
+      ],
+      [
+        "G5",
+        0.5,
+        0.8
+      ],
+      [
+        "E5",
+        0.5,
+        0.78
+      ],
+      [
+        "A4+C5+E5+G5",
+        2.0,
+        0.86
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "F2+C3+A3",
+        2.0,
+        0.76
+      ],
+      [
+        "G2+D3+Bb3",
+        2.0,
+        0.78
+      ],
+      [
+        "A2+E3+C4",
+        2.0,
+        0.8
+      ],
+      [
+        "F2+C3+A3",
+        2.0,
+        0.78
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-21-UEMATSU-ZANARKAND",
+    "anthology_id": "CORPUS-1506",
+    "composer": "Nobuo Uematsu",
+    "work_title": "To Zanarkand (Final Fantasy X Piano Collections — Aeolian Triplet Narrative Ballad)",
+    "key_signature": "E Minor (Aeolian)",
+    "tempo_bpm": 84.0,
+    "roman_numeral_progression": "i (Em) -> VII (D) -> VI (C) -> V6 (G/B) -> iv7 (Am7) -> v7 (Bm7) -> i (Em9)",
+    "cadence_type": "Aeolian Modal Cadence (iv7 -> v7 -> i) Without Sharp Leading-Tone Melodrama",
+    "lh_accompaniment_geometry": "Sweeping romantic tenths arpeggios (E2-B2-G3 -> D2-A2-F#3 -> C2-G2-E3) supporting the ballad",
+    "rh_voice_leading_contour": "Iconic triplet pickup motif (E5-B4-E5-F#5-G5 -> F#5-E5-D5) singing in octaves and sixths",
+    "emotional_why_annotation": "By using the natural minor v7 (`Bm7`) instead of a harsh `B7` dominant, the resolution back to `Em` feels like a memory already lived rather than an active conflict.",
+    "slm_syntactic_prosody_rule": "Uematsu 'To Zanarkand' Aeolian Ballad (i -> VII -> VI -> iv7 -> v7 -> i): Speak with quiet, heroic hindsight—recounting trials with gentle dignity rather than sharp confrontation.",
+    "score_metrics": {
+      "total_notes": 37.0,
+      "simultaneous_chord_events": 8.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.931,
+      "tension_ratio": 0.069,
+      "pitch_span_semitones": 44.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.789,
+      "philosophical/structure/chaos": 0.4993,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7717,
+      "philosophical/being/existence": 0.75,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.758,
+      "experiential/affect/valence": 0.789,
+      "experiential/affect/arousal": 0.6779,
+      "experiential/reflection/salience": 0.7375,
+      "experiential/reflection/novelty": 0.6938,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7435,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "E5",
+        0.33,
+        0.8
+      ],
+      [
+        "B4",
+        0.33,
+        0.76
+      ],
+      [
+        "E5",
+        0.34,
+        0.82
+      ],
+      [
+        "F#5",
+        0.5,
+        0.85
+      ],
+      [
+        "G5",
+        1.5,
+        0.9
+      ],
+      [
+        "D5",
+        0.33,
+        0.78
+      ],
+      [
+        "A4",
+        0.33,
+        0.74
+      ],
+      [
+        "D5",
+        0.34,
+        0.8
+      ],
+      [
+        "E5",
+        0.5,
+        0.84
+      ],
+      [
+        "F#5",
+        1.5,
+        0.88
+      ],
+      [
+        "E4+G4+C5+E5",
+        1.5,
+        0.86
+      ],
+      [
+        "D4+F#4+B4+D5",
+        1.5,
+        0.84
+      ],
+      [
+        "E4+G4+B4+F#5",
+        3.0,
+        0.88
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "E2+B2",
+        1.0,
+        0.74
+      ],
+      [
+        "G3",
+        2.0,
+        0.7
+      ],
+      [
+        "D2+A2",
+        1.0,
+        0.74
+      ],
+      [
+        "F#3",
+        2.0,
+        0.7
+      ],
+      [
+        "C2+G2+E3",
+        1.5,
+        0.76
+      ],
+      [
+        "B1+F#2+D3",
+        1.5,
+        0.76
+      ],
+      [
+        "E2+B2+G3",
+        3.0,
+        0.8
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-22-UEMATSU-AERITH-CELES",
+    "anthology_id": "CORPUS-1506",
+    "composer": "Nobuo Uematsu",
+    "work_title": "Aerith's Theme & Celes' Opera Aria (Lydian #11 Lift into Minor Plagal iv6 Tear)",
+    "key_signature": "D Major",
+    "tempo_bpm": 74.0,
+    "roman_numeral_progression": "Imaj7 (Dmaj7) -> IVmaj7#11 (Gmaj7#11) -> vi9 (Bm9) -> iv6 (Gm6/Bb Minor Plagal) -> I6/4 (D/A) -> V7 (A7) -> Imaj9 (Dmaj9)",
+    "cadence_type": "Uematsu Lydian-to-Minor-Plagal Heartbreak Cadence (IV#11 -> iv6 -> I)",
+    "lh_accompaniment_geometry": "Lyrical broken tenth arpeggios rising from D2-A2-F#3 into the chromatic Bb2-G3 minor-plagal bass step",
+    "rh_voice_leading_contour": "Tender 3-note prayer motif (F#5 -> G5 -> A5 -> D5 -> E5 -> F#5) that shines in D Major before weeping over Gm6/Bb (`B4 -> Bb4 -> A4`)",
+    "emotional_why_annotation": "The ultimate JRPG emotional signature: lifting the heart with a radiant Lydian #11 (`Gmaj7#11`), then breaking it gently with the borrowed minor subdominant (`Gm6/Bb`) before returning home.",
+    "slm_syntactic_prosody_rule": "Uematsu Aerith/Celes Lydian-to-Minor-Plagal Cadence (Imaj7 -> IV#11 -> iv6 -> Imaj9): Lift the listener with luminous hope, honor the tender sacrifice at the heart of the story, and close in enduring grace.",
+    "score_metrics": {
+      "total_notes": 51.0,
+      "simultaneous_chord_events": 15.0,
+      "max_simultaneous_fingers": 7.0,
+      "consonance": 0.932,
+      "tension_ratio": 0.068,
+      "pitch_span_semitones": 48.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7892,
+      "philosophical/structure/chaos": 0.499,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7748,
+      "philosophical/being/existence": 0.76,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7463,
+      "experiential/affect/valence": 0.7892,
+      "experiential/affect/arousal": 0.6668,
+      "experiential/reflection/salience": 0.7332,
+      "experiential/reflection/novelty": 0.6936,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7476,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "A4+C#5+F#5",
+        1.0,
+        0.82
+      ],
+      [
+        "G5",
+        0.5,
+        0.84
+      ],
+      [
+        "A5",
+        0.5,
+        0.88
+      ],
+      [
+        "B4+D5+F#5",
+        1.0,
+        0.84
+      ],
+      [
+        "A4+C#5+E5",
+        1.0,
+        0.8
+      ],
+      [
+        "A4+D5+F#5",
+        1.0,
+        0.84
+      ],
+      [
+        "G4+Bb4+E5+G5",
+        1.5,
+        0.9
+      ],
+      [
+        "F#4+A4+D5+F#5",
+        0.5,
+        0.84
+      ],
+      [
+        "E4+G4+C#5+E5",
+        1.0,
+        0.82
+      ],
+      [
+        "F#4+A4+C#5+E5+F#5",
+        1.0,
+        0.88
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "D2+A2+F#3",
+        2.0,
+        0.74
+      ],
+      [
+        "G2+D3+B3",
+        2.0,
+        0.76
+      ],
+      [
+        "B1+F#2+D3",
+        1.0,
+        0.76
+      ],
+      [
+        "Bb1+G2+D3",
+        1.5,
+        0.84
+      ],
+      [
+        "A1+A2",
+        0.5,
+        0.78
+      ],
+      [
+        "A1+E2+A2",
+        1.0,
+        0.78
+      ],
+      [
+        "D2+A2+D3",
+        1.0,
+        0.82
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-23-MITSUDA-WIND-SCENE",
+    "anthology_id": "CORPUS-1506",
+    "composer": "Yasunori Mitsuda",
+    "work_title": "Wind Scene / Yearnings of the Wind (Chrono Trigger 600 A.D. Piano Arrangement)",
+    "key_signature": "C Minor",
+    "tempo_bpm": 86.0,
+    "roman_numeral_progression": "im9 (Cm9) -> VII6 (Bb/D) -> III (Eb) -> iv9 (Fm9) -> i6/4 (Cm/G) -> VImaj9 (Abmaj9) -> V7sus4 (G7sus4) -> im9",
+    "cadence_type": "Mitsuda Heroic Aeolian/Dorian Stepwise Ascent (i -> VII6 -> III -> iv9 -> VI -> Vsus4 -> i)",
+    "lh_accompaniment_geometry": "Stepwise rising bass scale (C -> D -> Eb -> F -> G -> Ab -> G -> C) beneath rolling 8th-note harp arpeggios",
+    "rh_voice_leading_contour": "Nostalgic medieval-futuristic flute/piano melody (G4 -> C5 -> D5 -> Eb5 -> F5 -> G5 -> Bb5 -> G5) soaring over the rising bass",
+    "emotional_why_annotation": "Captures the feeling of walking across a misty medieval world map toward destiny: the bass and melody climb the C minor scale together in tenth intervals.",
+    "slm_syntactic_prosody_rule": "Mitsuda 'Wind Scene' 600 A.D. Ascent (Cm9 -> Bb/D -> Eb -> Fm9 -> Abmaj9 -> G7sus4 -> Cm9): Build a sense of purposeful journey across time by letting the premise and conclusion climb together step-by-step.",
+    "score_metrics": {
+      "total_notes": 52.0,
+      "simultaneous_chord_events": 16.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.883,
+      "tension_ratio": 0.117,
+      "pitch_span_semitones": 51.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7813,
+      "philosophical/structure/chaos": 0.5127,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.65,
+      "philosophical/being/agency": 0.7753,
+      "philosophical/being/existence": 0.7675,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.7603,
+      "experiential/affect/valence": 0.7813,
+      "experiential/affect/arousal": 0.6847,
+      "experiential/reflection/salience": 0.7324,
+      "experiential/reflection/novelty": 0.6633,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7483,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "G4+C5+D5",
+        1.0,
+        0.82
+      ],
+      [
+        "F4+Bb4+D5",
+        1.0,
+        0.82
+      ],
+      [
+        "G4+Bb4+Eb5",
+        1.0,
+        0.85
+      ],
+      [
+        "Ab4+C5+Eb5+G5",
+        1.0,
+        0.88
+      ],
+      [
+        "G4+C5+Eb5",
+        1.0,
+        0.84
+      ],
+      [
+        "G4+C5+Eb5+Bb5",
+        1.0,
+        0.9
+      ],
+      [
+        "G4+C5+D5+F5",
+        1.0,
+        0.85
+      ],
+      [
+        "G4+C5+D5+Eb5",
+        1.0,
+        0.88
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "C2+G2+Eb3",
+        1.0,
+        0.76
+      ],
+      [
+        "D2+Bb2+F3",
+        1.0,
+        0.76
+      ],
+      [
+        "Eb2+Bb2+G3",
+        1.0,
+        0.78
+      ],
+      [
+        "F2+C3+Ab3",
+        1.0,
+        0.8
+      ],
+      [
+        "G2+D3+G3",
+        1.0,
+        0.78
+      ],
+      [
+        "Ab1+Eb2+C3",
+        1.0,
+        0.82
+      ],
+      [
+        "G1+D2+B2",
+        1.0,
+        0.8
+      ],
+      [
+        "C2+G2+C3",
+        1.0,
+        0.84
+      ]
+    ]
+  },
+  {
+    "idiom_id": "IDIOM-24-SHIMOMURA-DEARLY-BELOVED",
+    "anthology_id": "CORPUS-1506",
+    "composer": "Yoko Shimomura",
+    "work_title": "Dearly Beloved (Kingdom Hearts Piano Collections — Crystalline Bell Ostinato)",
+    "key_signature": "Ab Major / F Minor",
+    "tempo_bpm": 78.0,
+    "roman_numeral_progression": "VImaj9 (Abmaj9) -> iv9 (Fm9) -> IImaj9#11 (Dbmaj9#11) -> III13sus4 (Eb13sus4) -> VImaj9",
+    "cadence_type": "Shimomura Crystalline Bell Ostinato Over Shifting Subdominant/Relative Roots",
+    "lh_accompaniment_geometry": "Gentle, rolling open-tenth arpeggios shifting roots (Ab2 -> F2 -> Db2 -> Eb2) while keeping C4/Eb4 common tones",
+    "rh_voice_leading_contour": "Unchanging 4-note music-box bell ostinato (Eb5 -> Bb4 -> Ab4 -> G4 -> C5 -> Bb4 -> Ab4 -> G4) sparkling in the upper register",
+    "emotional_why_annotation": "Like David Bruce's harmonic re-contextualization principle: the right hand's innocent bell pattern never changes, yet as the left hand moves from Abmaj9 to Fm9 to Dbmaj9#11, it cycles through wonder, longing, and oceanic hope.",
+    "slm_syntactic_prosody_rule": "Shimomura 'Dearly Beloved' Crystalline Bell Ostinato: Keep the core thematic promise pure and invariant while illuminating it from four warm, complementary angles.",
+    "score_metrics": {
+      "total_notes": 34.0,
+      "simultaneous_chord_events": 9.0,
+      "max_simultaneous_fingers": 6.0,
+      "consonance": 0.917,
+      "tension_ratio": 0.083,
+      "pitch_span_semitones": 42.0
+    },
+    "leaf_vector_24": {
+      "philosophical/structure/order": 0.7867,
+      "philosophical/structure/chaos": 0.5033,
+      "philosophical/persistence/continuity": 0.8,
+      "philosophical/persistence/discreteness": 0.76,
+      "philosophical/being/agency": 0.7706,
+      "philosophical/being/existence": 0.745,
+      "experiential/attunement/resonance": 0.83,
+      "experiential/attunement/entrainment": 0.751,
+      "experiential/affect/valence": 0.7867,
+      "experiential/affect/arousal": 0.6685,
+      "experiential/reflection/salience": 0.732,
+      "experiential/reflection/novelty": 0.6967,
+      "cultural/justice/honor": 0.77,
+      "cultural/justice/fairness": 0.76,
+      "cultural/freedom/self-sufficiency": 0.78,
+      "cultural/material/power": 0.7422,
+      "cultural/material/wastelessness": 0.75,
+      "psychological/contemplation/clarity": 0.81,
+      "psychological/contemplation/confidence": 0.75,
+      "psychological/truth/theory": 0.78,
+      "psychological/truth/fact": 0.77,
+      "psychological/will/intention": 0.76,
+      "cultural/freedom/agency": 0.52,
+      "psychological/will/execution": 0.52
+    },
+    "rh_events_compact": [
+      [
+        "C5+Eb5",
+        0.5,
+        0.84
+      ],
+      [
+        "Bb4",
+        0.5,
+        0.76
+      ],
+      [
+        "Ab4",
+        0.5,
+        0.78
+      ],
+      [
+        "G4",
+        0.5,
+        0.75
+      ],
+      [
+        "C5+Eb5",
+        0.5,
+        0.84
+      ],
+      [
+        "Bb4",
+        0.5,
+        0.76
+      ],
+      [
+        "Ab4",
+        0.5,
+        0.78
+      ],
+      [
+        "G4",
+        0.5,
+        0.75
+      ],
+      [
+        "C5+F5",
+        0.5,
+        0.86
+      ],
+      [
+        "Eb5",
+        0.5,
+        0.82
+      ],
+      [
+        "C5",
+        0.5,
+        0.78
+      ],
+      [
+        "Bb4",
+        0.5,
+        0.76
+      ],
+      [
+        "Ab4+C5+Eb5+G5",
+        2.0,
+        0.88
+      ]
+    ],
+    "lh_events_compact": [
+      [
+        "Ab2+Eb3+Bb3",
+        2.0,
+        0.74
+      ],
+      [
+        "F2+C3+Ab3",
+        2.0,
+        0.76
+      ],
+      [
+        "Db2+Ab2+F3",
+        2.0,
+        0.78
+      ],
+      [
+        "Eb2+Bb2+G3",
+        1.0,
+        0.78
+      ],
+      [
+        "Ab2+Eb3+C4",
+        1.0,
+        0.8
+      ]
+    ]
+  }
+]
