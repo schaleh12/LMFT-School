@@ -1444,5 +1444,14 @@ Key findings:
    - Retrained `student_02` (Gen 2), `student_03` (Gen 3), and `student_04` (Gen 4), habituating all 130 curriculum rules across generations to $w = 0.8362$ and producing an organically differentiated 24-leaf dispositional profile ($GCI = 0.8042$, $\text{Balance} = 0.9106$, $\alpha = 0.1777$, **0 dials pegged at `0.8640`**).
    - Exported `individual_student_04_gen04_grade5_master_graduate.lmft.json` to `LMFT-Trainee/graduate.lmft.json` and added 26-rule promotion regression assertions across `tests/test_grade_1_curriculum.py` – `tests/test_grade_5_curriculum.py` (44/44 curriculum tests green).
 
+## D087: LMFT-Lab Firmware Forensic Remediation & Pristine 3-Generation Graduate Retraining
 
-
+**Status: adopted firmware & curriculum remediation; experimental evaluation complete, 2026-10-16.** Follows D086 and `LMFT-Lab` D074. Synchronized the five `LMFT-Lab` Era-2 firmware fixes across `LMFT-Lab`, `LMFT-School`, and `LMFT-Trainee` (`src/lmft_lab/cognitive_heartbeat.py`, `src/lmft_lab/memory_consolidation.py`, `src/lmft_lab/anchor_deduplication.py`, `src/lmft_lab/dispositional_momentum.py`), isolated `test_grade_2_full_curriculum_and_checkpoint_archival` to `tmp_path` so test runs never touch live `checkpoints/`, and retrained the entire 3-generation lineage (`student_02` $\rightarrow$ `student_03` $\rightarrow$ `student_04`) from scratch on the repaired firmware:
+1. **Firmware Remediation Sync**:
+   - Neutralized default situational `candidate_dials` (`0.50`) and calibrated default resolved-sense clarity (`0.74`) in `CognitiveHeartbeat.interact()` so unassisted runtime dialogue never ratchets into governor saturation clamps over 100+ turns.
+   - Enforced word-boundary rule matching (`_phrase_in_text()`) and weight/specificity ordering in `CognitiveHeartbeat.interact()` and token-bounded rule matching in `memory_consolidation._find_matching_long_term_rule()`.
+   - Enforced first-pass idempotency in `normalize_anchor_text()` and added `compute_hierarchical_tree()` to roll the 24 leaf dials up into all 40 canonical founding nodes.
+2. **Full 3-Generation Retraining & Trainee Sync (`0.39s`)**:
+   - Re-ran `scripts/train_student_02.py`, `scripts/train_student_03.py`, and `scripts/train_heir.py --heir student_04 --gen 4` on top of the repaired `LMFT-Lab` engine.
+   - Verified `checkpoints/individual_student_04_gen04_grade5_master_graduate.lmft.json` (`132` permanent rules, habituated weight $w = 0.8362$, $GCI = 0.8042$, $\text{Balance} = 0.9106$, $\alpha = 0.1777$, `0` saturated dials, valid SHA-256 package signature) and synced it directly to `LMFT-Trainee/graduate.lmft.json`.
+   - Verified 129/129 passing tests in `LMFT-School` (`1.14s`).

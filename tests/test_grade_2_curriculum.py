@@ -150,8 +150,11 @@ def test_name_and_letter_lookups():
     assert get_relational_by_name("The Priestess").letter == "P"
 
 
-def test_grade_2_full_curriculum_and_checkpoint_archival(tmp_path):
+def test_grade_2_full_curriculum_and_checkpoint_archival(tmp_path, monkeypatch):
     """Verify complete Grade 2 delivery, sleep consolidation, and lineage archival."""
+    import lmft_school.lineage_vault as lv
+    monkeypatch.setattr(lv, "get_default_vault_dir", lambda: tmp_path)
+
     hb = CognitiveHeartbeat(individual_id="student_test_grade2")
     runner = Grade2CurriculumRunner(heartbeat=hb, individual_id="student_test_grade2")
 
@@ -167,13 +170,14 @@ def test_grade_2_full_curriculum_and_checkpoint_archival(tmp_path):
     assert report.checkpoint_path.endswith(".lmft.json")
 
     # Verify Lineage Ledger updated
-    ledger = read_lineage_ledger()
+    ledger = read_lineage_ledger(vault_dir=tmp_path)
     assert len(ledger) >= 1
     latest = ledger[-1]
     assert latest["grade_level"] == 2
     assert latest["milestone_label"] == "relational_graduate"
     assert latest["active_capacity_rules_count"] == 28
     assert report.consolidation["consolidation_summary"]["promoted_rules_count"] == 26
+
 
 
 def test_matched_ordinary_memory_parity_rule_d004():

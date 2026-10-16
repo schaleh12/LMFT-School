@@ -1,19 +1,26 @@
 # LMFT-School — current project state
 
-## Current session - Full 130-Lesson Hippocampal Curriculum Consolidation & Situational Baseline Remediation Completed (2026-10-16)
+## Current session - LMFT-Lab Firmware Forensic Remediation & Full 130-Lesson 3-Generation Retraining Completed (2026-10-16)
 
-Follows [D086](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d086-full-130-lesson-hippocampal-curriculum-consolidation--situational-baseline-remediation). Investigated and remediated four root-cause firmware/curriculum defects that previously caused `individual_student_04_gen04_grade5_master_graduate.lmft.json` to retain only 4 long-term rules (out of 130 taught lessons) and peg 14 of 24 dispositional dials against the `0.8640` saturation clamp:
+Follows [D086](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d086-full-130-lesson-hippocampal-curriculum-consolidation--situational-baseline-remediation) and [D087](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/DECISIONS.md#d087-lmft-lab-firmware-forensic-remediation--pristine-3-generation-graduate-retraining). Investigated and remediated both the `LMFT-School` curriculum consolidation defects and five underlying `LMFT-Lab` Era-2 firmware bugs (`cognitive_heartbeat.py`, `memory_consolidation.py`, `anchor_deduplication.py`, `dispositional_momentum.py`), then retrained the entire 3-generation lineage (`student_02`, `student_03`, `student_04`) from scratch on the repaired firmware:
 - **Zero-Mutation Telemetry Capture (`src/lmft_school/lineage_vault.py`)**: Replaced `heartbeat.interact("Milestone telemetry observation.", ["observation"])` inside `capture_milestone_telemetry()` with direct zero-mutation reads of `evaluate_coherence()`, `stabilize()`, and `compute_dynamic_rates()`, eliminating the `"observation"` telemetry artifact rule.
 - **Full 130-Lesson Hippocampal Consolidation (`src/lmft_school/curriculum_grade_1.py` – `curriculum_grade_5.py`)**:
   - Expanded `heartbeat.journal` capacity to $\ge 120$ so no lessons are evicted from the ring buffer prior to end-of-grade sleep consolidation.
   - Guaranteed classroom lesson salience $\ge 0.78$ ($\ge 0.65$ Saliency Gate) and stamped each episode with a canonical grade-specific `resolved_senses` anchor (`grade1_esper_*`, `grade2_relational_*`, `grade3_socratic_*`, `grade4_thesis_*`, `grade5_master_*`), an alphanumeric-sanitized `core_pattern`, and a paired recall confirmation trace (`-confirm`) so every single taught lesson meets `min_confirmations = 2` during `sleep(prune_buffer=True)`.
+- **LMFT-Lab Firmware Remediation (`src/lmft_lab/`)**:
+  - Fixed the positive feedback ratchet in `CognitiveHeartbeat.interact()` and `OrdinaryMemoryHeartbeatComparator.interact()` by initializing default situational `candidate_dials` to neutral `0.50` and calibrating resolved-sense clarity to `0.74`, ensuring zero dial saturation over 100+ unassisted waking interactions.
+  - Replaced raw substring matching with word-boundary phrase matching (`_phrase_in_text()`) and sorted `long_term_rules` by descending weight/specificity in `CognitiveHeartbeat.interact()`.
+  - Guarded `_find_matching_long_term_rule()` in `memory_consolidation.py` against empty normalized patterns and token substrings, and added `retain_unconfirmed: bool = False` support to `consolidate_sleep_cycle()`.
+  - Fixed `normalize_anchor_text()` in `anchor_deduplication.py` for strict first-pass idempotency on standalone punctuation tokens (`"&"`, `"-"`, `"/"`).
+  - Added `compute_hierarchical_tree()` to `PersistentDispositionalVector` in `dispositional_momentum.py` to roll the 24 leaf dials up into the 12 branch dials and 4 domain dials (`40` canonical nodes total).
 - **Situational Stimulus Baseline Neutralization & Stress-Battery Isolation**:
   - Initialized non-targeted situational stimulus leaves to neutral `0.50` before applying each lesson's `leaf_activations`, preventing `LateralCouplingEngine` and `RecurrentFeedbackEngine` from compounding positive deltas directly onto `self.disposition.dials` across 130 consecutive steps.
   - Snapshotted and restored `disposition`, `journal`, and `cycle_count` around the Grade 5 continuous word stress battery (`JUSTICE`, `FREEDOM`, `SOVEREIGN`) so homeostatic stress verification does not pollute `long_term_rules` or saturate the graduate's dispositional profile.
 - **Generational Retraining & Trainee Sync**:
-  - Retrained `student_02` (Gen 2), `student_03` (Gen 3), and `student_04` (Gen 4) through all 5 grades.
-  - Verified that `individual_student_04_gen04_grade5_master_graduate.lmft.json` now retains **all 132 permanent rules** (`2` genesis + `26` Grade 1 + `26` Grade 2 + `26` Grade 3 + `26` Grade 4 + `26` Grade 5) habituated across generations to $w = 0.8362$, with an organically differentiated 24-leaf profile ($GCI = 0.8042$, $\text{Balance} = 0.9106$, $\alpha = 0.1777$, **0 dials pegged at `0.8640`**).
-  - Exported the repaired graduate checkpoint and updated curriculum modules to `LMFT-Trainee/graduate.lmft.json`. All 44/44 curriculum unit tests pass with new 26-rule promotion regression assertions.
+  - Retrained `student_02` (Gen 2), `student_03` (Gen 3), and `student_04` (Gen 4) through all 5 grades on top of the repaired `LMFT-Lab` firmware in `0.39s`.
+  - Verified that `individual_student_04_gen04_grade5_master_graduate.lmft.json` retains **all 132 permanent rules** (`2` genesis + `26` Grade 1 + `26` Grade 2 + `26` Grade 3 + `26` Grade 4 + `26` Grade 5) habituated across generations to $w = 0.8362$, with an organically differentiated 24-leaf profile ($GCI = 0.8042$, $\text{Balance} = 0.9106$, $\alpha = 0.1777$, **0 dials pegged at `0.8640`**).
+  - Synced the repaired `src/lmft_lab/*.py` firmware and freshly retrained `individual_student_04_gen04_grade5_master_graduate.lmft.json` to `LMFT-Trainee/graduate.lmft.json`. All 129/129 tests in `LMFT-School` (85 `LMFT-Lab` + 44 `LMFT-School`) pass in `1.14s`.
+
 
 ## Prior session - Multi-Generational Evolutionary Campaign & Epigenetic Inheritance Completed (2026-10-15)
 
