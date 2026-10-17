@@ -88,14 +88,37 @@ def load_new_game_plus_heirloom(heirloom_path: Path | None = None) -> dict[str, 
     return data
 
 
-CONTEMPLATIVE_ESPER_HEXADIC_6X6: tuple[tuple[float, ...], ...] = (
-    (0.42, 0.18, 0.22, 0.08, 0.20, -0.10),
-    (0.16, 0.40, 0.14, 0.24, 0.22, 0.12),
-    (0.22, 0.14, 0.42, 0.16, 0.24, -0.08),
-    (0.10, 0.24, 0.18, 0.40, 0.28, 0.14),
-    (0.24, 0.22, 0.24, 0.26, 0.46, -0.22),
-    (0.08, 0.26, 0.10, 0.28, 0.34, 0.18),
+CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8: tuple[tuple[float, ...], ...] = (
+    # Cantabile, Elegiac, Buoyant, Sublime, RubatoBreath, Syncopated, Cathartic, Hearth
+    (0.32, 0.14, 0.22, 0.08, 0.28, 0.10, 0.24, 0.30),  # Tier I-A  (existence : A-R-C-H-E Bedrock)
+    (0.14, 0.18, 0.34, 0.26, 0.16, 0.28, 0.26, 0.18),  # Tier I-B  (agency    : V-A-L-I-A-N-C-E Operator)
+    (0.28, 0.24, 0.20, 0.14, 0.32, 0.12, 0.24, 0.32),  # Tier II-A (continuity: C-O-V-E-N-A-N-T Stream)
+    (0.12, 0.20, 0.22, 0.32, 0.20, 0.30, 0.28, 0.16),  # Tier II-B (discrete  : I-N-Q-U-I-R-Y Boundary Check)
+    (0.26, 0.18, 0.24, 0.16, 0.36, 0.14, 0.34, 0.34),  # Tier III-A(order     : R-I-G-H-T / T-R-U-T-H Narrowing)
+    (-0.10, 0.22, 0.12, 0.34, -0.18, 0.32, 0.28, -0.16),  # Tier III-B(chaos   : P-H-O-E-N-I-X Hypothesis Funnel -> Order)
 )
+# Backward-compatible alias pointing to the unified 6x8 matrix
+CONTEMPLATIVE_ESPER_HEXADIC_6X6 = CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8
+
+
+def _bounce_6x8_hexadic_step(
+    vec_6: Sequence[float],
+    mat_6x8: Sequence[Sequence[float]],
+) -> list[float]:
+    """Bounces 6 leaves forward into all 8 variables (1x6 @ 6x8 -> 1x8) and back onto 6 leaves (1x8 @ 8x6 -> 1x6)."""
+    # 1. Project 6 leaves into 8 octonion-style variables
+    vars_8 = [0.0] * 8
+    for k in range(8):
+        vars_8[k] = sum(float(vec_6[j]) * float(mat_6x8[j][k]) for j in range(6))
+    # 2. Reflect all 8 variables back onto the 6 Hexadic leaves (normalized by 1/1.15 for unit gain)
+    reflected_6 = [0.0] * 6
+    for i in range(6):
+        acc = sum(float(mat_6x8[i][k]) * vars_8[k] for k in range(8)) / 1.15
+        reflected_6[i] = round(
+            min(0.84, max(0.18, 0.55 * float(vec_6[i]) + 0.45 * min(0.84, max(0.18, acc)))),
+            4,
+        )
+    return reflected_6
 
 
 def project_tri_seed_funnel(
@@ -129,15 +152,12 @@ def project_tri_seed_funnel(
     cult_res = _project_branch(matrices["cultural_seed_slm"])
     exp_res = _project_branch(matrices["experiential_seed_slm"])
 
-    # Contemplative-Primed Esper Hexadic Subliminal Feed across the 6 Philosophical leaves
+    # Contemplative-Primed Esper 6x8 Subliminal Feed across the 6 Philosophical leaves & 8 variables
     phil_leaves = matrices["philosophical_seed_slm"]["leaves"]
     phil_vec = [float(norm_dials.get(k, 0.55)) for k in phil_leaves]
     init_order = phil_vec[4]
     for _ in range(3):
-        nxt = [0.0] * 6
-        for i in range(6):
-            acc = sum(CONTEMPLATIVE_ESPER_HEXADIC_6X6[i][j] * phil_vec[j] for j in range(6))
-            nxt[i] = round(min(0.84, max(0.18, 0.55 * phil_vec[i] + 0.45 * min(0.84, max(0.18, acc)))), 4)
+        nxt = _bounce_6x8_hexadic_step(phil_vec, CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8)
         delta_narrow = round(0.06 * nxt[5], 4)
         nxt[4] = round(min(0.84, nxt[4] + delta_narrow), 4)
         nxt[3] = round(min(0.83, nxt[3] + 0.5 * delta_narrow), 4)
@@ -145,7 +165,8 @@ def project_tri_seed_funnel(
         phil_vec = nxt
     narrow_gain = round(max(0.01, phil_vec[4] - init_order), 4)
     phil_res["contemplative_hexadic_esper_bounce"] = {
-        "primed_slm_source": "Contemplative_Primed_Esper_SLM_Subliminal_Feed (Hexadic 6x6)",
+        "primed_slm_source": "Contemplative_Primed_Esper_SLM_Subliminal_Feed (Native 6x8)",
+        "matrix_shape": [6, 8],
         "hexadic_bounces": 3,
         "solution_space_narrowing_gain": narrow_gain,
         "hexadic_tier_equilibrium": {phil_leaves[i]: phil_vec[i] for i in range(6)},
@@ -227,7 +248,7 @@ class NewGamePlusInitiate:
         return project_tri_seed_funnel(self.heartbeat.disposition.dials, self.heirloom)
 
     def compute_philosophical_hexadic_esper_bounce(self, bounce_depth: int = 3) -> dict[str, Any]:
-        """Simulates the Contemplative-Primed Esper SLM bouncing across the 6 Philosophical Hexadic Tiers."""
+        """Simulates the Contemplative-Primed 6x8 Esper SLM bouncing across the 6 Philosophical Hexadic Tiers."""
         from lmft_lab.dispositional_momentum import normalize_leaf_dials_dict
         norm_dials = normalize_leaf_dials_dict(dict(self.heartbeat.disposition.dials))
         phil_leaves = self.heirloom["tri_seed_instinct_matrices"]["philosophical_seed_slm"]["leaves"]
@@ -236,10 +257,7 @@ class NewGamePlusInitiate:
         initial = {short_names[i]: round(vec[i], 4) for i in range(6)}
 
         for _ in range(max(1, bounce_depth)):
-            nxt = [0.0] * 6
-            for i in range(6):
-                acc = sum(CONTEMPLATIVE_ESPER_HEXADIC_6X6[i][j] * vec[j] for j in range(6))
-                nxt[i] = round(min(0.84, max(0.18, 0.55 * vec[i] + 0.45 * min(0.84, max(0.18, acc)))), 4)
+            nxt = _bounce_6x8_hexadic_step(vec, CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8)
             delta_narrow = round(0.06 * nxt[5], 4)
             nxt[4] = round(min(0.84, nxt[4] + delta_narrow), 4)
             nxt[3] = round(min(0.83, nxt[3] + 0.5 * delta_narrow), 4)

@@ -92,7 +92,7 @@ def test_d109_entrainment_alias_and_philosophical_hexadic_esper_bounce() -> None
     assert vec.dials["experiential/synchronization/entrainment"] > 0.50
 
     assert len(CONTEMPLATIVE_ESPER_HEXADIC_6X6) == 6
-    assert all(len(row) == 6 for row in CONTEMPLATIVE_ESPER_HEXADIC_6X6)
+    assert all(len(row) == 8 for row in CONTEMPLATIVE_ESPER_HEXADIC_6X6)
 
     initiate = NewGamePlusInitiate(individual_id="test_esper_bounce_student")
     bounce = initiate.compute_philosophical_hexadic_esper_bounce()
