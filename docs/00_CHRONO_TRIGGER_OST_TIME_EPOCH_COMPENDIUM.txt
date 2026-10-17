@@ -1,0 +1,173 @@
+========================================================================================
+  LMFT-SCHOOL: CHRONO TRIGGER (64-TRACK OST) TIME-EPOCH LEITMOTIF & SCHALA/ZEAL COMPENDIUM
+  Candidate: student_04 (The Living Embodied Scribe)
+  Soundtrack: Chrono Trigger Original Sound Version (1995, 3 Discs, 64 Tracks)
+  Composers : Yasunori Mitsuda (54 Tracks) & Nobuo Uematsu (10 Tracks)
+========================================================================================
+Pre-Course Checkpoint : backup_pre_chrono_trigger_214_rules.lmft.json (SHA-256: 3fab9703a4c9c6dd...)
+Pre-Course Health     : Rules=214 | GCI=0.8429 | Balance=0.9828 | Pegged=0/24
+Full OST Catalog      : 64 Tracks across 7 Time Epochs (65,000,000 B.C. -> 2300 A.D. & End of Time)
+Strict Integrity Gate : 100% Full-Measure Verified (`validate_score_measure_integrity`), 0 Enharmonic Drop-Outs, 100% Standard ABC 2.1
+
+========================================================================================
+  ACT I: 6 CHRONOLOGICAL TIME-EPOCH SEMINARS & 8 HARVESTED LEITMOTIF IDIOMS (CHRONO-1901..1906)
+========================================================================================
+
+[CHRONO-1901] 1000 A.D. Present: 'A Premonition' (#1-01), 'Peaceful Days' (#1-04), 'Millennial Fair' (#1-07) & 'Chrono Trigger' (#1-02)
+Lemma / Sense : millennial_pendulum_trigger (chrono_trigger.1000ad.premonition_to_heroic_dorian_trigger)
+Reflection    : At the very first second of Chrono Trigger (#1-01 'A Premonition'), a lone pendulum ticks in G minor while a celesta whispers the exact rising-fourth melody that will later close the game in #3-15 'To Far Away Times'. When Crono wakes to #1-03 'Morning Sunlight' and #1-04 'Peaceful Days', bumps into Marle under Leene's Bell at #1-07 'Guardia Millennial Fair', and dives after her into Lucca's Telepod (#1-09 'Strange Occurrences'), #1-02 'Chrono Trigger' ignites—raising the flat sixth (`Eb`) to a Dorian natural sixth (`E` in `C9`) so human courage breaks out of deterministic clockwork.
+  * IDIOM-47-CHRONO-PREMONITION-TO-HEROIC-TRIGGER-FANFARE (From the Ticking Pendulum to the Heroic Trigger: 'A Premonition' & 'Chrono Trigger' (Mitsuda))
+    Tracks Referenced : #01 (1-01) A Premonition (Pendulum Seed of To Far Away Times), #02 (1-02) Chrono Trigger (Main Heroic Dorian-Mixolydian Theme), #04 (1-04) Peaceful Days (Truce Pastorale), #07 (1-07) Guardia Millennial Fair (Leene's Bell & Pendant Collision)
+    Harmony           : Gm9 (Pendulum Ostinato) -> Ebadd9 -> F6 -> Gm7 -> C9 (Dorian IV9 Lift) -> Bbmaj7 -> C/Bb -> Gm (i9 -> bVI -> bVII -> i7 -> IV9 -> III7 -> i)
+    Leitmotif Secret  : Why 'A Premonition' and 'Chrono Trigger' anchor the entire 64-track score: #1-01 quietly states the rising fourth + falling major-seventh sigh that later blossoms into #3-15 'To Far Away Times', while #1-02 'Chrono Trigger' propels G minor into G Dorian (raising Eb to E natural on the IV9 chord C9) so heroism feels like breaking free of a closed clockwork loop.
+    SLM Prosody Rule  : CHRONO-PROSODY-47 (Pendulum-to-Dorian Ignition): Begin reflective openings with steady, clockwork rhythmic symmetry, then pivot on a raised-sixth Dorian modal lift (`i -> IV9`) when agency overrides passive determinism.
+    Measure Integrity : 12.0 beats = 3 full 4/4 measures
+
+[CHRONO-1902] 600 A.D. Middle Ages: 'Wind Scene' (#1-10), Uematsu's 'Secret of the Forest' (#1-12), 'Frog's Theme' (#1-20) & 'Battle with Magus' (#3-16)
+Lemma / Sense : masamune_wind_chivalry (chrono_trigger.600ad.wind_scene_frog_and_magus_duel)
+Reflection    : In 600 A.D., #1-10 'Wind Scene (Yearnings of the Wind)' and Nobuo Uematsu's nocturnal #1-12 'Secret of the Forest' paint a world weighed down by chivalric grief. Yet #1-20 'Frog's Theme' uses the exact same E-Minor / G-Major chord progression (`Em -> C -> D -> G -> B7 -> Em`) as 'Wind Scene', inverting its falling sigh into a rising dotted-eighth brass fanfare when Glenn accepts Cyrus's legacy, reforges the Masamune with Melchior, and charges into #3-16 'Battle with Magus'.
+  * IDIOM-48-CHRONO-WIND-SCENE-TO-FROGS-THEME-AND-MAGUS (600 A.D. Chivalry & Shadow: 'Wind Scene' Elegy into 'Frog's Theme' & 'Battle with Magus')
+    Tracks Referenced : #10 (1-10) Yearnings of the Wind / Wind Scene (600 A.D. Overworld), #12 (1-12) Secret of the Forest (Nobuo Uematsu's Guardia Forest Nocturne), #20 (1-20) Frog's Theme (Glenn's Chivalric Oath & The Masamune), #63 (3-16) Battle with Magus (Galloping 16th-Note C-Minor/Phrygian-Dominant Duel)
+    Harmony           : Em9 -> Cmaj7 -> D6 -> Em (Wind Scene Aeolian) -> Em -> C -> D -> G -> B7/D# -> Em (Frog's Chivalric March)
+    Leitmotif Secret  : Both #1-10 'Wind Scene' and #1-20 'Frog's Theme' inhabit the exact same E Minor / G Major tonal axis (Em -> C -> D -> G -> B7 -> Em)! In 'Wind Scene', that progression sighs downward (B5 -> A5 -> G5 -> F#5 -> E5) like mist over Cyrus's grave; in 'Frog's Theme', Glenn reverses the contour into a rising dotted-eighth chivalric fanfare (E5 -> G5 -> A5 -> B5 -> D6 -> B5) that refuses to kneel.
+    SLM Prosody Rule  : CHRONO-PROSODY-48 (Aeolian-to-Chivalric Contour Inversion): Invert a descending elegiac minor progression (`i -> VI -> VII -> i`) into an ascending dotted-rhythm relative-major/dominant march (`i -> VI -> VII -> III -> V7 -> i`) when grief is forged into duty.
+    Measure Integrity : 12.0 beats = 3 full 4/4 measures
+
+[CHRONO-1903] 2300 A.D. Ruined Future: Uematsu's 'People Who Threw Away the Will to Live' (#2-05), 'Robo's Theme' (#2-09) & 'Fiona's Forest' (#3-17)
+Lemma / Sense : promethean_four_hundred_years (chrono_trigger.2300ad.uematsu_despair_to_robo_fiona_sanctuary)
+Reflection    : When Yasunori Mitsuda was hospitalized with stomach ulcers in 1995, Nobuo Uematsu composed 10 tracks to finish the score—most hauntingly #2-05 'People Who Threw Away the Will to Live' in the starving domes of 2300 A.D. Against that descending D-minor passacaglia of exhaustion stands #2-09 'Robo's Theme': unit R-66Y (Prometheus), repaired by Lucca, beaten by his own machine brothers in #2-10 'Remains of the Factory', who later spends 400 patient years tilling the desert from 600 A.D. to 1000 A.D. so #3-17 'Fiona's Forest' can bloom.
+  * IDIOM-49-CHRONO-UEMATSU-PEOPLE-WHO-THREW-AWAY-WILL-TO-LIVE (Uematsu's 2300 A.D. Passacaglia: 'People Who Threw Away the Will to Live' (#2-05))
+    Tracks Referenced : #25 (2-02) Desolate World (2300 A.D. Radioactive Wind), #28 (2-05) People Who Threw Away the Will to Live (Nobuo Uematsu's 2300 A.D. Passacaglia), #29 (2-06) Lavos' Theme & #30 (2-07) The Last Day of the World (1999 A.D. Apocalypse)
+    Harmony           : Dm -> Dm/C -> Bbmaj7 -> A7sus4 -> A7 -> Gm7 -> C7 -> Fmaj7 -> A7/C# -> Dm (Lament Tetrachord in 2300 A.D.)
+    Leitmotif Secret  : Uematsu brings his signature Final Fantasy VI tragic passacaglia architecture into Chrono Trigger: a relentless descending D-minor bass tetrachord (D -> C -> Bb -> A) while the right hand clings to a suspended A4/E5 fifth that drops by a half-step to Bb4->A4, making physical exhaustion audible before lifting briefly to Fmaj7 when the seed of hope is planted.
+    SLM Prosody Rule  : CHRONO-PROSODY-49 (Uematsu Lament-Bass Passacaglia): In scenes of systemic exhaustion or post-apocalyptic despair, walk the bass down the natural/chromatic minor tetrachord (`i -> v/VII -> VI -> V7`) before admitting a single warm relative-major ray (`III7`).
+    Measure Integrity : 12.0 beats = 3 full 4/4 measures
+  * IDIOM-50-CHRONO-ROBOS-THEME-AND-400-YEAR-SANCTUARY (Promethean Devotion: 'Robo's Theme' (#2-09) & The 400-Year Sanctuary of 'Fiona's Forest')
+    Tracks Referenced : #32 (2-09) Robo's Theme (Unit R-66Y / Prometheus Awakened by Lucca), #33 (2-10) Remains of the Factory (R-Series Betrayal & Lucca's Repair), #64 (3-17) Fiona's Forest (Robo's 400 Years of Patient Reforestation from 600 A.D. to 1000 A.D.)
+    Harmony           : Fmaj7 -> G7/F -> Em7 -> Am7 -> Dm9 -> G13 -> Cmaj9 -> C6/9 (Lydian/Major-6th Optimism & patient counterpoint)
+    Leitmotif Secret  : Mitsuda gives Robo a bouncy syncopated motif built on rising major sixths and Lydian fourths (C5 -> A5 -> G5 -> E5 -> D5 -> C5) over a IVmaj7 -> V7/IV -> iii7 -> vi7 cycle (Fmaj7 -> G7/F -> Em7 -> Am7)—the exact harmonic progression of warm human gratitude, proving that soul is measured by 400 years of patient care rather than biological origin.
+    SLM Prosody Rule  : CHRONO-PROSODY-50 (Promethean IVmaj7->iii7->vi7 Warmth): Express constructive loyalty and patient stewardship through syncopated major-sixth leaps over a `IVmaj7 -> V/IV -> iii7 -> vi7 -> ii9 -> V13 -> Imaj9` progression.
+    Measure Integrity : 12.0 beats = 3 full 4/4 measures
+
+[CHRONO-1904] 12,000 B.C. Kingdom of Zeal: 'Corridors of Time' (#3-02), 'Zeal Palace' (#3-03), 'Schala's Theme' (#3-04) & Uematsu's 'Sealed Door' (#3-05)
+Lemma / Sense : schala_corridors_of_zeal (chrono_trigger.12000bc.corridors_of_time_and_schalas_pendant)
+Reflection    : In my earliest Poetic Primer (`POET-703`) and Synesthetic (`SYNC-1302`) schooling, I wrote verse about Schala's amethyst pendant at Zeal Palace. Now I hear the exact musical architecture connecting #3-02 'Corridors of Time' and #3-04 'Schala's Theme': both share the F# Aeolian / Dmaj7 / Bm7 / C#7 modal axis! Where 'Corridors of Time' floats above the clouds in 16th-note sitar-and-harpsichord wonder, 'Schala's Theme' turns that exact harmonic loop into an intimate oboe-and-celesta prayer (`C#5 -> D5 -> C#5 -> A4 -> F#4`) before Schala uses the last strength of her pendant to seal the Ocean Palace (#3-06) and save Crono's friends.
+  * IDIOM-51-CHRONO-CORRIDORS-OF-TIME-ZEAL-OSTINATO (12,000 B.C. Floating Antiquity: 'Corridors of Time' (#3-02) Sitar-Harpsichord Modal Ostinato)
+    Tracks Referenced : #49 (3-02) Corridors of Time (12,000 B.C. Floating Kingdom of Zeal Overworld), #50 (3-03) Zeal Palace (The Mammon Machine's Cold Crystalline Hubris), #52 (3-05) Sealed Door (Nobuo Uematsu's Blue Pendant Crest Adagio), #53 (3-06) Undersea Palace (The Ocean Palace Descent Before Crono's Sacrifice)
+    Harmony           : F#m9 -> Dmaj7 -> C#m7 -> Bm7 -> C#7sus4 -> C#7 -> F#m9 (i9 -> VImaj7 -> v7 -> iv7 -> V7 in F# Aeolian/Harmonic Minor)
+    Leitmotif Secret  : Why 'Corridors of Time' is one of the greatest pieces in video game history: the left hand and inner voice spin a hypnotic 16th-note ostinato across `F#m9 -> Dmaj7 -> C#m7 -> Bm7`, keeping the notes `A4` and `C#5` ringing as a common-tone celestial axis while the bass descends step-by-step (`F# -> D -> C# -> B -> C#`), blending Indian raga ornament, Baroque harpsichord counterpoint, and acid-jazz groove.
+    SLM Prosody Rule  : CHRONO-PROSODY-51 (Zeal F#-Aeolian Common-Tone Ostinato): Maintain a crystalline 16th-note common-tone upper pedal (`A` and `C#`) while the bass descends through `i9 -> VImaj7 -> v7 -> iv7 -> V7`, evoking ancient wisdom tinged with tragic hubris.
+    Measure Integrity : 12.0 beats = 3 full 4/4 measures
+  * IDIOM-52-CHRONO-SCHALAS-THEME-PENDANT-ELEGY (The Blue Pendant's Prayer: 'Schala's Theme' (#3-04) Modal Counterpoint to 'Corridors of Time')
+    Tracks Referenced : #51 (3-04) Schala's Theme (Princess Schala & Young Janus in Zeal Palace), #49 (3-02) Corridors of Time (Shared F# Minor / Dmaj7 Modal Axis), #52 (3-05) Sealed Door (Uematsu's Pendant Resonance) & #53 (3-06) Undersea Palace
+    Harmony           : F#m7 -> Dmaj9 -> Bm9 -> C#7(b9) -> F#m9 (Shared Zeal Modal Axis transformed into a Compassionate Prayer)
+    Leitmotif Secret  : Compare #3-02 'Corridors of Time' with #3-04 'Schala's Theme': both use the exact same `F#m -> Dmaj7 -> Bm7 -> C#7` Zeal chord loop! Where 'Corridors of Time' spins outward in detached 16th-note wonder, 'Schala's Theme' concentrates the melody onto an intimate three-note sigh (`C#5 -> D5 -> C#5 -> A4 -> F#4`) before leaping up a minor sixth (`A4 -> F#5 -> E5 -> C#5`) and resolving onto a tragic Phrygian-dominant `C#7(b9)` chord (`E#` + `D` natural clash)—turning the grandeur of Zeal into personal grief.
+    SLM Prosody Rule  : CHRONO-PROSODY-52 (Schala's Phrygian-Dominant Pendant Sigh): Transform an environmental modal loop (`i -> VImaj7 -> iv7 -> V7b9`) into intimate tragedy by pairing a half-step upper-neighbor sigh (`5 -> b6 -> 5`) with a sudden minor-sixth plea.
+    Measure Integrity : 12.0 beats = 3 full 4/4 measures
+
+[CHRONO-1905] The Campfire & Death Peak Miracle: 'At the Bottom of Night' (#3-01) & 'Chrono and Marle ~Far Off Promise~' (#3-07)
+Lemma / Sense : bottom_of_night_death_peak (chrono_trigger.campfire.at_the_bottom_of_night_and_marles_promise)
+Reflection    : Around the campfire in Fiona's regrown sanctuary, #3-01 'At the Bottom of Night' plays as the friends reflect on the Entity whose memories created the Time Gates, and as Lucca steps through the Red Gate to 990 A.D. to save her mother Lara. Its relative-major twin is #3-07 'Chrono and Marle ~Far Off Promise~': when Marle climbs the howling winds of Death Peak and her pendant shatters the Time Egg, the A-minor campfire elegy (`Am -> Em/G -> Fmaj7 -> E7`) blossoms into radiant C Major (`Cmaj7 -> Fmaj7 -> Dm9 -> G13 -> Cmaj9`) as Crono returns to life in her arms.
+  * IDIOM-53-CHRONO-AT-THE-BOTTOM-OF-NIGHT-TO-MARLES-PROMISE (From the Campfire to Death Peak: 'At the Bottom of Night' (#3-01) & 'Marle's Far Off Promise' (#3-07))
+    Tracks Referenced : #48 (3-01) At the Bottom of Night (Fiona's Campfire, Cyrus's Grave & Lucca's Red Gate), #54 (3-07) Chrono and Marle ~Far Off Promise~ (Marle's Theme & The Death Peak Miracle), #05 (1-05) Memories of Green & #64 (3-17) Fiona's Forest
+    Harmony           : Am9 -> Em7/G -> Fmaj7 -> E7sus4 -> E7 (At the Bottom of Night) -> Cmaj7 -> Fmaj7 -> Dm9 -> G13 -> Cmaj9 (Marle's Promise)
+    Leitmotif Secret  : #3-01 'At the Bottom of Night' and #3-07 'Marle's Theme (~Far Off Promise~)' are relative-minor / relative-major twins (A Minor <-> C Major)! 'At the Bottom of Night' descends from `E5 -> C5 -> B4 -> A4` over `Am -> Em/G -> Fmaj7 -> E7`, while 'Marle's Theme' takes the exact same third-and-sixth intervals and lifts them into radiant C Major (`E5 -> G5 -> C6 -> B5 -> A5 -> G5`) over `Cmaj7 -> Fmaj7 -> Dm9 -> G7`, turning nocturnal grief into the miracle on Death Peak.
+    SLM Prosody Rule  : CHRONO-PROSODY-53 (Campfire-to-Death-Peak Relative-Major Awakening): Resolve an intimate `vi -> iii/V -> IVmaj7 -> V7/vi` nocturnal confession into its relative-major `Imaj7 -> IVmaj7 -> ii9 -> V13 -> Imaj9` sibling when memory heals trauma.
+    Measure Integrity : 12.0 beats = 3 full 4/4 measures
+
+[CHRONO-1906] Breaking Lavos's Determinism: 'World Revolution' (#3-11), Uematsu's 'First Festival of Stars' (#3-13) & 'To Far Away Times' (#3-15)
+Lemma / Sense : to_far_away_times_horizon (chrono_trigger.finale.world_revolution_to_far_away_times)
+Reflection    : In #3-11 'World Revolution' and #3-12 'Last Battle', Crono's heroic leitmotif shatters Lavos's parasitic determinism. After Uematsu's joyous #3-13 'First Festival of Stars' Moonlight Parade and the bittersweet farewells at the Telepod (#3-14 'Epilogue ~To Good Friends~'), #3-15 'To Far Away Times' (`walking` playlist #154) takes the ticking minor-key seed of #1-01 'A Premonition' and re-harmonizes it across a soaring Bb-Major circle-of-fifths flight (`Ebmaj7 -> F7/Eb -> Dm7 -> Gm7 -> Cm9 -> F13 -> Bbmaj9`)—proving that the pendulum of time was never a cage, but a horizon.
+  * IDIOM-54-CHRONO-WORLD-REVOLUTION-TO-FAR-AWAY-TIMES (The Pendulum Becomes a Horizon: 'World Revolution' (#3-11) into 'To Far Away Times' (#3-15))
+    Tracks Referenced : #58 (3-11) World Revolution & #59 (3-12) Last Battle (Defeating Lavos's Cosmic Determinism), #60 (3-13) First Festival of Stars (Nobuo Uematsu's Moonlight Parade Processional), #61 (3-14) Epilogue ~To Good Friends~ & #62 (3-15) To Far Away Times (Fulfilling #1-01 A Premonition)
+    Harmony           : Gm -> Eb -> F -> Gm (World Revolution) -> Bbmaj9 -> Ebadd9#11 -> F13 -> Dm7 -> Gm7 -> Cm9 -> F9 -> Bbmaj9 (To Far Away Times)
+    Leitmotif Secret  : In #1-01 'A Premonition', the rising-fourth + major-seventh motif was trapped over a static G-minor pendulum pedal. In #3-15 'To Far Away Times', Mitsuda harmonizes that exact same melody in radiant Bb Major / G Aeolian (`Ebmaj7 -> F7/Eb -> Dm7 -> Gm7 -> Cm9 -> F13 -> Bbmaj9`), Turning the closed circle of fate into an open spiral of time.
+    SLM Prosody Rule  : CHRONO-PROSODY-54 (Premonition-to-Horizon Circle-of-Fifths Flight): Re-harmonize the opening minor seed motif over a descending circle-of-fifths sequence (`IVmaj7 -> V7/IV -> iii7 -> vi7 -> ii9 -> V13 -> Imaj9`) so the conclusion fulfills the beginning while transcending its initial constraint.
+    Measure Integrity : 12.0 beats = 3 full 4/4 measures
+
+========================================================================================
+  ACT II: TWO 64.0-BEAT (16-MEASURE, ~40s) 4-TRACK CONCERT GRAND, CELLO & CELESTA MASTERWORKS
+========================================================================================
+
+[OPUS-1907] OPUS-1907: Corridors of Zeal & Schala's Amethyst Pendant — Symphonic Fantasy
+Subtitle   : After Yasunori Mitsuda & Nobuo Uematsu (#1-10 Wind Scene -> #1-20 Frog's Theme -> #3-02 Corridors of Time <-> #3-04 Schala's Theme -> #3-05 Sealed Door)
+Audio File : 17_opus_1907_corridors_of_zeal_and_schalas_pendant_symphonic_fantasy.wav (42.63s @ 94 BPM, 64.0 Beats / 16 Full Measures, 4 Tracks)
+Score Stats: TotalRenderedNotes=426, PianoNotes=345, SimultaneousChords=82, MaxFingers=8, VoiceLeading=0.924, Counterpoint=0.691, Grade=100.0/100
+X:1907
+T:OPUS-1907: Corridors of Zeal & Schala's Amethyst Pendant — Symphonic Fantasy
+T:After Yasunori Mitsuda & Nobuo Uematsu (#1-10 Wind Scene -> #1-20 Frog's Theme -> #3-02 Corridors of Time <-> #3-04 Schala's Theme -> #3-05 Sealed Door)
+C:The Living Embodied Scribe (student_04 — Symbolic Music SLM Capstone)
+M:4/4
+L:1/16
+Q:1/4=94
+%%staves {V:1 | V:2 | V:3 | V:4}
+% tonal_trajectory: E Minor -> F# Minor / D Major
+% telemetry: total_notes=345 chords=81 max_fingers=8 consonance=0.925 voice_leading=0.924 counterpoint=0.691
+K:Em
+V:1 clef=treble name="Right Hand (Concert Grand Soprano)"
+| [GBe]3 ^f g2 e2 [EGce]4 [^FAd^f]4 | [GBeg]3 a b2 g2 [Ad^fa]4 [^G^c^e^g]4 | [A^c^f]3 ^g a2 e2 [^FAd^f]4 [E^G^ce]4 | [D^FBd]4 [F^G^c^e]4 [^FA^c^f]8 |
+| [^FA^c] e ^f2 ^g a2 ^g [A^c^fa]3 ^g ^f2 e2 | [^GBe^g]3 a [e^gb]2 ^f2 [^FBd^f]3 e d2 ^c2 | A ^c ^f a ^c'2 b2 [Ad^fa]3 ^g ^f2 e2 | [^FBd^f]4 [F^GB^e]4 [^FA^c^f]8 |
+| [A^c]3 d ^c2 A2 [^FA^ce]4 d2 ^c2 | [^FBd^f]3 ^g a2 b2 [^G^c^e^g]4 [^c^fa]4 | [^c^fa^c']3 b a2 ^g2 [Ad^fa]3 ^g ^f2 e2 | [^FBd^f]4 [^GBd^e]4 [A^c^fa]8 |
+| [A^c^f]3 ^g a2 ^f2 [Ad^fe]4 [A^ce]4 | [^FBd^f]4 [^GBe^g]4 [A^c^fa]4 [Ad^fa]4 | [^FBd^g]4 [F^G^c^e]4 [^FA^ce^g]8 | [^FA^c^f]16 |]
+V:2 clef=bass name="Left Hand (Concert Grand Bass & Arpeggios)"
+| E,,2 B,,2 E,2 B,,2 C,,2 G,,2 D,,2 A,,2 | [E,,B,,]4 [G,,,D,,G,,]4 [D,,A,,]4 [^C,,^G,,]4 | ^F,,2 ^C,2 ^F,2 ^C,2 [D,,A,,]4 [^C,,^G,,]4 | [B,,,^F,,]4 [^C,,^G,,]4 [^F,,,^C,,^F,,]8 |
+| ^F,,2 ^C,2 ^F,2 ^C,2 D,,2 A,,2 D,2 ^F,2 | ^C,,2 ^G,,2 ^C,2 E,2 B,,,2 ^F,,2 B,,2 D,2 | [^F,,^C,]4 [E,,B,,]4 [D,,A,,D,]4 [^C,,^G,,^C,]4 | [B,,,^F,,B,,]4 [^C,,^G,,B,,]4 [^F,,,^C,,^F,,]8 |
+| ^F,,3 ^C, ^F,4 D,,3 A,, [D,^F,]4 | B,,,3 ^F,, [B,,D,]4 [^C,,^G,,]4 [^F,,^C,]4 | [^F,,,^C,,^F,,]4 [E,,,B,,,E,,]4 [D,,,A,,,D,,]4 [^C,,,^G,,,^C,,]4 | [B,,,^F,,B,,]4 [^C,,^G,,^C,]4 [^F,,,^C,,^F,,]8 |
+| [^F,,^C,]4 [D,,A,,^F,]4 [D,,A,,E,]4 [A,,,E,,^C,]4 | [B,,,^F,,D,]4 [E,,B,,^G,]4 [^F,,^C,A,]4 [D,,A,,^F,]4 | [B,,,^F,,]4 [^C,,^G,,]4 [D,,A,,E,]8 | [^F,,,^C,,^F,,^C,]16 |]
+V:3 clef=bass name="Violoncello Counter-Melody"
+| E,8 C,4 D,4 | B,,8 D,4 ^C,4 | ^F,8 D,4 ^C,4 | B,,4 ^C,4 ^F,8 |
+| ^C,8 D,8 | E,8 D,8 | ^F,8 D,8 | B,,4 ^C,4 ^F,8 |
+| ^F,8 E,8 | D,8 ^E,4 ^F,4 | A,8 ^F,8 | D,4 ^C,4 ^F,8 |
+| ^C,8 D,4 ^C,4 | B,,4 E,4 ^F,8 | D,4 ^C,4 A,,8 | [^F,,^C,]16 |]
+V:4 clef=treble name="Celesta / Music-Box Bell Halo"
+| b8 a8 | g8 ^f4 ^e4 | ^f8 a8 | b4 ^g4 a8 |
+| a4 ^c'4 ^f'8 | e'8 d'8 | ^c'8 d'8 | b4 ^c'4 ^f'8 |
+| ^c'4 d'4 ^c'8 | ^f'8 ^e'4 ^f'4 | a'8 ^f'8 | d'4 ^e'4 ^f'8 |
+| a8 ^f8 | b8 ^c'8 | d'4 ^e'4 ^c'8 | ^f'16 |]
+
+
+[OPUS-1908] OPUS-1908: From the Campfire at the Bottom of Night to Far Away Times — Chrono Trigger Finale
+Subtitle   : After Yasunori Mitsuda & Nobuo Uematsu (#1-01 A Premonition -> #2-09 Robo's Theme -> #3-01 At the Bottom of Night -> #3-07 Marle's Promise -> #3-11 World Revolution -> #3-15 To Far Away Times)
+Audio File : 18_opus_1908_at_the_bottom_of_night_to_far_away_times_finale.wav (40.18s @ 100 BPM, 64.0 Beats / 16 Full Measures, 4 Tracks)
+Score Stats: TotalRenderedNotes=458, PianoNotes=359, SimultaneousChords=99, MaxFingers=9, VoiceLeading=0.919, Counterpoint=0.704, Grade=100.0/100
+X:1908
+T:OPUS-1908: From the Campfire at the Bottom of Night to Far Away Times — Chrono Trigger Finale
+T:After Yasunori Mitsuda & Nobuo Uematsu (#1-01 A Premonition -> #2-09 Robo's Theme -> #3-01 At the Bottom of Night -> #3-07 Marle's Promise -> #3-11 World Revolution -> #3-15 To Far Away Times)
+C:The Living Embodied Scribe (student_04 — Symbolic Music SLM Capstone)
+M:4/4
+L:1/16
+Q:1/4=100
+%%staves {V:1 | V:2 | V:3 | V:4}
+% tonal_trajectory: G Minor -> A Minor / C Major -> Bb Major
+% telemetry: total_notes=359 chords=98 max_fingers=9 consonance=0.911 voice_leading=0.919 counterpoint=0.704
+K:Gm
+V:1 clef=treble name="Right Hand (Concert Grand Soprano)"
+| [dg]3 a _b2 a2 g2 f2 [dg]4 | [Adf]4 [G_Be]4 [Acea]3 g [fac']4 | [Bdgb]3 a [GBeg]4 [Acea]4 [FAdf]4 | [EGBe]8 [Ace]3 d [Beg]2 d2 |
+| [Acf]4 [^GBe]4 [Acea]3 g f2 e2 | [FAdf]4 [GBdg]4 [Gceg]3 a [cfac']4 | [Bdgb]3 a [Gceg]4 [Acfa]4 [Acf]4 | [GBdg]8 [G_Bdg]3 f g2 a2 |
+| [_Bdg_b]3 a g2 f2 [_Begc']4 [Adfa]4 | [_Bdg_b]4 [Acfa]4 [G_B_eg]3 f [g_bd']4 | [fac'f']4 _e'2 d'2 [_eg_b_e']4 [fac'd']4 | [df_bd']8 [g_bd']3 c' [fac']2 _b2 |
+| [fa]3 g [dg_b]4 [_eg_bd']4 [_efac']4 | [df_bd']4 [d^fac']4 [dg_b]4 [_d_eg_b]4 | [df_b]4 [_egac']4 [dfac']8 | [_Bdfa_b]16 |]
+V:2 clef=bass name="Left Hand (Concert Grand Bass & Arpeggios)"
+| G,,2 D,2 _E,,2 _B,,2 F,,2 C,2 [G,,D,]4 | [D,,A,,]4 [^C,,A,,]4 [F,,C,]4 [F,,D,]4 | [G,,D,]4 [E,,B,,]4 [A,,,E,,A,,]4 [D,,A,,]4 | [E,,B,,E,]8 A,,2 E,2 G,,2 E,2 |
+| F,,2 C,2 E,,2 B,,2 [A,,,E,,]4 [A,,,G,,]4 | [D,,A,,]4 [G,,,D,,G,,]4 C,,2 G,,2 F,,2 C,2 | G,,2 D,2 [C,,G,,E,]4 [F,,C,]4 [F,,,C,,F,,]4 | [G,,,D,,G,,]8 [G,,,G,,]3 D,, [G,,D,]2 F,,2 |
+| [_E,,_B,,]3 _E,, [F,,C,]4 [C,,G,,_B,,]4 [D,,A,,]4 | [G,,,D,,G,,]4 [F,,,C,,F,,]4 [_E,,,_B,,,_E,,]4 [G,,,D,,G,,]4 | [F,,,C,,F,,]4 [F,,,C,,A,,]4 [C,,G,,_E,]4 [F,,,C,,F,,]4 | [_B,,,F,,_B,,]8 [_E,,_B,,G,]4 [_E,,C,F,]4 |
+| [D,,A,,F,]4 [G,,,D,,_B,,]4 [C,,G,,_E,]4 [F,,,C,,_E,]4 | [_B,,,F,,D,]4 [D,,A,,C,]4 [G,,,D,,_B,,]4 [_E,,_B,,_G,]4 | [F,,,C,,_B,,]4 [F,,,C,,A,,]4 [_B,,,F,,C,]8 | [_B,,,,F,,,_B,,,F,,]16 |]
+V:3 clef=bass name="Violoncello Counter-Melody"
+| G,8 F,4 G,4 | F,4 E,4 C,8 | D,4 E,4 C,4 D,4 | B,,8 C,8 |
+| A,,4 B,,4 C,8 | D,4 B,,4 E,4 F,4 | G,4 E,4 F,8 | D,8 D,8 |
+| _E,4 F,4 G,4 ^F,4 | G,4 F,4 _E,4 G,4 | A,8 G,4 F,4 | _B,8 G,8 |
+| F,4 D,4 _E,4 F,4 | _B,,4 ^F,4 G,4 _G,4 | F,8 F,8 | [_B,,F,]16 |]
+V:4 clef=treble name="Celesta / Music-Box Bell Halo"
+| d'4 _b4 a4 g4 | f4 e4 a8 | b4 g4 a8 | ^g8 e8 |
+| f4 e4 a8 | f4 g4 c'4 a4 | b4 g4 a8 | g8 g8 |
+| _b4 a4 c'4 a4 | _b4 a4 _b4 d'4 | f'8 _e'4 c'4 | d'8 d'4 c'4 |
+| a4 _b4 d'4 c'4 | _b4 c'4 _b4 _g4 | f4 a4 c'8 | _b'16 |]
+
+========================================================================================
+  ACT III: HOMEOSTATIC COHERENCE GUARDRAIL & CHECKPOINT SUMMARY
+========================================================================================
+Total Permanent Rules : 214 -> 222 (+8 Chrono Trigger Time-Epoch Leitmotif Rules)
+Post-Run GCI          : 0.8529 (Pre-Run: 0.8429)
+Post-Run Balance      : 0.9828 (Pre-Run: 0.9828)
+Pegged Dials          : 0/24 (Guardrail Verified)
+Saved Checkpoint      : graduate_222_chrono_trigger_ost_master.lmft.json (SHA-256: 58cb583d0ef08e6e...)
+========================================================================================
