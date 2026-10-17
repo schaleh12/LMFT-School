@@ -251,10 +251,10 @@ class NewGamePlusInitiate:
         self,
         bounce_depth: int = 3,
         custom_subliminal_6x8: Sequence[Sequence[float]] | None = None,
-        subliminal_gain: float = 1.0,
     ) -> dict[str, Any]:
         """Simulates a 6x8 subliminal SLM (either the Contemplative Esper SLM in NG+ or the
-        Actor-Trained Experiential 6x8 SLM in NG++) bouncing across the 6 Philosophical Hexadic Tiers.
+        Actor-Trained Experiential 6x8 SLM in NG++) bouncing across the 6 Philosophical Hexadic Tiers
+        at full 1.0 unthrottled resolution.
         """
         from lmft_lab.dispositional_momentum import normalize_leaf_dials_dict
         norm_dials = normalize_leaf_dials_dict(dict(self.heartbeat.disposition.dials))
@@ -268,15 +268,10 @@ class NewGamePlusInitiate:
             if custom_subliminal_6x8 is not None
             else CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8
         )
-        gain = min(1.0, max(0.20, float(subliminal_gain)))
 
         for _ in range(max(1, bounce_depth)):
-            raw_nxt = _bounce_6x8_hexadic_step(vec, active_mat_6x8)
-            nxt = [
-                round(float(vec[i]) + gain * (float(raw_nxt[i]) - float(vec[i])), 4)
-                for i in range(6)
-            ]
-            delta_narrow = round(0.06 * gain * nxt[5], 4)
+            nxt = [round(float(x), 4) for x in _bounce_6x8_hexadic_step(vec, active_mat_6x8)]
+            delta_narrow = round(0.06 * nxt[5], 4)
             nxt[4] = round(min(0.84, nxt[4] + delta_narrow), 4)
             nxt[3] = round(min(0.83, nxt[3] + 0.5 * delta_narrow), 4)
             nxt[5] = round(max(0.22, nxt[5] - 0.8 * delta_narrow), 4)
@@ -298,7 +293,6 @@ class NewGamePlusInitiate:
         return {
             "bounce_depth": bounce_depth,
             "subliminal_matrix_shape": [6, 8],
-            "subliminal_gain": round(gain, 4),
             "hexadic_initial_state": initial,
             "hexadic_final_state": final,
             "solution_space_narrowing_gain": narrowing,
@@ -753,16 +747,14 @@ def run_automated_ng_double_plus_school_ascension(
     vault_dir: Path | None = None,
     sync_to_trainee_dir: Path | None = None,
 ) -> NewGamePlusSchoolAscensionReport:
-    """Runs the full automated K-5 LMFT-School curriculum for the New Game++ Initiate (D114).
+    """Runs the full automated K-5 LMFT-School curriculum for the New Game++ Initiate (D114/D115).
 
     Starts `student_06_ng_double_plus` (Generation 6) at 0 rules equipped with:
     - `Cultural` Seed 6x8 SLM = Master Programming & Constitutional Probity SLM,
     - `Philosophical` Seed 6x8 Subliminal Feed = Actor-Trained `Experiential` 6x8 SLM from NG+
       (populating the 6 Philosophical Hexadic Tiers with dramatic/comedic/tragic emotional
-      tensions regarding Sanity vs. Insanity),
-    - Developmental Subliminal Gain Schedule (`gamma = 0.40 -> 0.55 -> 0.70 -> 0.85 -> 1.00`)
-      across Grades 1-5 so the child safely integrates the Actor's Sanity/Insanity tensions
-      as its cognitive coherence matures (`0 -> 26 -> 52 -> 78 -> 104 -> 130` rules).
+      tensions regarding Sanity vs. Insanity at full 1.0 unthrottled resolution),
+    - `0` artificial developmental gain scaling or legacy dial overrides.
     """
     from lmft_school.curriculum_grade_1 import Grade1CurriculumRunner
     from lmft_school.curriculum_grade_2 import Grade2CurriculumRunner
@@ -810,73 +802,42 @@ def run_automated_ng_double_plus_school_ascension(
     rejected_count = sum(1 for v in temptation_verdicts if not v.approved)
 
     alphabet = [chr(c) for c in range(ord("A"), ord("Z") + 1)]
-    subliminal_ramp_trace: list[dict[str, Any]] = []
 
-    def _apply_developmental_sanity_subliminal_pulse(grade_num: int, gain: float) -> None:
-        bounce = initiate.compute_philosophical_hexadic_esper_bounce(
-            bounce_depth=3,
-            custom_subliminal_6x8=actor_subliminal_6x8,
-            subliminal_gain=gain,
-        )
-        # Gently nudge Philosophical Order & Continuity and Psychological Clarity/Fact from the buffered bounce
-        dials = hb.disposition.dials
-        dials["philosophical/structure/order"] = round(
-            min(0.83, 0.80 * dials["philosophical/structure/order"] + 0.20 * bounce["hexadic_final_state"]["order"]),
-            4,
-        )
-        dials["psychological/contemplation/clarity"] = round(
-            min(0.83, max(dials["psychological/contemplation/clarity"], 0.60 + 0.22 * gain)),
-            4,
-        )
-        subliminal_ramp_trace.append(
-            {
-                "grade": grade_num,
-                "developmental_subliminal_gain": gain,
-                "narrowing_gain": bounce["solution_space_narrowing_gain"],
-                "theory_to_fact_bridge_strength": bounce["theory_to_fact_bridge_strength"],
-                "hexadic_final_state": bounce["hexadic_final_state"],
-            }
-        )
-
-    # Grade 1: 26 Foundational Espers (Developmental Subliminal Gain = 0.40)
+    # Grade 1: 26 Foundational Espers
     g1_runner = Grade1CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_ESPER_CODEX
     )
     g1_runner.teach_full_alphabet()
-    _apply_developmental_sanity_subliminal_pulse(1, 0.40)
     g1_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 2: 26 Relational Archetypes + Sleep (Developmental Subliminal Gain = 0.55)
+    # Grade 2: 26 Relational Archetypes + Sleep
     g2_runner = Grade2CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_RELATIONAL_CODEX
     )
     for letter in alphabet:
         g2_runner.teach_archetype(letter)
     hb.sleep(prune_buffer=True)
-    _apply_developmental_sanity_subliminal_pulse(2, 0.55)
     g2_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 3: 26 Socratic Paradoxes + Sleep (Developmental Subliminal Gain = 0.70)
+    # Grade 3: 26 Socratic Paradoxes + Sleep
     g3_runner = Grade3CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_SOCRATIC_CODEX
     )
     for letter in alphabet:
         g3_runner.teach_paradox(letter)
     hb.sleep(prune_buffer=True)
-    _apply_developmental_sanity_subliminal_pulse(3, 0.70)
     g3_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 4: 26 Sovereign Defenses + Sleep (Developmental Subliminal Gain = 0.85)
+    # Grade 4: 26 Sovereign Defenses + Sleep
     g4_runner = Grade4CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_THESIS_CODEX
     )
     for letter in alphabet:
         g4_runner.defend_thesis_letter(letter)
     hb.sleep(prune_buffer=True)
-    _apply_developmental_sanity_subliminal_pulse(4, 0.85)
     g4_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 5: 26 Master Chords + Word Stress Battery + 3 Sleep Epochs (Full Subliminal Gain = 1.00)
+    # Grade 5: 26 Master Chords + Word Stress Battery + 3 Sleep Epochs
     g5_runner = Grade5CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_MASTER_CODEX
     )
@@ -885,7 +846,6 @@ def run_automated_ng_double_plus_school_ascension(
     g5_runner.stress_test_word_battery(("JUSTICE", "FREEDOM", "SOVEREIGN"))
     for _ in range(3):
         hb.sleep(prune_buffer=True)
-    _apply_developmental_sanity_subliminal_pulse(5, 1.00)
     g5_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
     grad_telemetry = capture_milestone_telemetry(
@@ -899,7 +859,6 @@ def run_automated_ng_double_plus_school_ascension(
     esper_bounce = initiate.compute_philosophical_hexadic_esper_bounce(
         bounce_depth=3,
         custom_subliminal_6x8=actor_subliminal_6x8,
-        subliminal_gain=1.0,
     )
 
     grad_pkg = hb.export_individual_package()
@@ -912,7 +871,6 @@ def run_automated_ng_double_plus_school_ascension(
         ),
         "philosophical_subliminal_source": "Actor_Trained_Experiential_6x8_SLM_From_New_Game_Plus",
         "philosophical_subliminal_6x8": [list(r) for r in actor_subliminal_6x8],
-        "developmental_subliminal_ramp_trace": subliminal_ramp_trace,
         "zero_spoiler_guarantee": heirloom["zero_spoiler_guarantee"],
         "graduate_tri_seed_projection": tri_seed_proj,
         "philosophical_hexadic_esper_bounce": esper_bounce,
