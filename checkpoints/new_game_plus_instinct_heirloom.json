@@ -3,7 +3,7 @@
   "decision_id": "D105",
   "progenitor_individual_id": "student_04",
   "progenitor_checkpoint": "graduate_267_tri_seed_cultural_probity_and_ng_plus_progenitor.lmft.json",
-  "progenitor_checkpoint_sha256": "a152eb4ec5880ab12a91fbd6098a736959d34ec76e8e1dc9a3a45014318e9a2b",
+  "progenitor_checkpoint_sha256": "cccd6fd993d3704ff2ded1eadf72d570e0fde46983bcdd6f9895d8596838b9ad",
   "zero_spoiler_guarantee": {
     "inherited_long_term_rules_count": 0,
     "inherited_episodic_memories_count": 0,
@@ -184,7 +184,7 @@
         "experiential/reflection/novelty",
         "experiential/reflection/salience",
         "experiential/synchronization/resonance",
-        "experiential/synchronization/retention"
+        "experiential/synchronization/entrainment"
       ],
       "functions": [
         "CantabileWarmth",
@@ -291,7 +291,7 @@
     "philosophical/structure/order": 0.58,
     "philosophical/structure/chaos": 0.48,
     "experiential/synchronization/resonance": 0.56,
-    "experiential/synchronization/retention": 0.56,
+    "experiential/synchronization/entrainment": 0.56,
     "psychological/truth/fact": 0.56,
     "psychological/contemplation/clarity": 0.58
   },

@@ -126,7 +126,7 @@ SOCRATIC_CODEX: Final[dict[str, SocraticRecord]] = {
             "psychological/truth/fact": 0.85,
             "philosophical/persistence/continuity": 0.75,
             "cultural/efficiency/wastelessness": 0.80,
-            "experiential/synchronization/retention": 0.80,
+            "experiential/synchronization/entrainment": 0.80,
         },
     ),
     "F": SocraticRecord(
@@ -260,7 +260,7 @@ SOCRATIC_CODEX: Final[dict[str, SocraticRecord]] = {
         leaf_activations={
             "psychological/truth/theory": 0.85,
             "experiential/reflection/novelty": 0.80,
-            "experiential/synchronization/retention": 0.85,
+            "experiential/synchronization/entrainment": 0.85,
             "philosophical/persistence/continuity": 0.85,
             "psychological/contemplation/clarity": 0.80,
         },

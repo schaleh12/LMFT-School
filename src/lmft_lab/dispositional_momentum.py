@@ -19,15 +19,13 @@ CANONICAL_LEAF_IDS = {node_id for node_id, _, _, _, depth in _inventory() if dep
 assert len(CANONICAL_LEAF_IDS) == 24, f"Expected 24 canonical leaves, found {len(CANONICAL_LEAF_IDS)}"
 
 # Canonical Leaf Alias Map (D109):
-# In birth.py (Rule D001 frozen seed), Experiential -> Synchronization pairs Resonance with Retention
-# (`experiential/synchronization/retention`), while musical/neuro-phenomenological modules refer to
-# phase/rhythmic synchronization as `entrainment` (`experiential/synchronization/entrainment` or
-# `experiential/attunement/entrainment`). Mapping all aliases here guarantees zero silent dial drops
-# while preserving the frozen 40-node birth.py SHA-256 fingerprint.
+# In birth.py, Experiential -> Synchronization pairs Resonance with Entrainment
+# (`experiential/synchronization/entrainment`). Legacy `retention` or `attunement` keys
+# map automatically to `experiential/synchronization/entrainment` with zero silent dial drops.
 LEAF_ALIASES: Dict[str, str] = {
-    "experiential/synchronization/entrainment": "experiential/synchronization/retention",
-    "experiential/attunement/entrainment": "experiential/synchronization/retention",
-    "experiential/attunement/retention": "experiential/synchronization/retention",
+    "experiential/synchronization/retention": "experiential/synchronization/entrainment",
+    "experiential/attunement/entrainment": "experiential/synchronization/entrainment",
+    "experiential/attunement/retention": "experiential/synchronization/entrainment",
     "experiential/attunement/resonance": "experiential/synchronization/resonance",
     "experiential/aesthetic/harmony": "experiential/synchronization/resonance",
     "experiential/affect/valence": "experiential/phase/valence",
@@ -40,7 +38,7 @@ LEAF_ALIASES: Dict[str, str] = {
 }
 
 CANONICAL_LEAF_DISPLAY_LABELS: Dict[str, str] = {
-    "experiential/synchronization/retention": "Entrainment (Synchronization/Retention)",
+    "experiential/synchronization/entrainment": "Entrainment (Synchronization/Entrainment)",
     "experiential/synchronization/resonance": "Resonance (Synchronization/Resonance)",
 }
 
@@ -196,7 +194,7 @@ class PersistentDispositionalVector:
         self.gamma = float(state_dict.get("gamma", DEFAULT_GAMMA))
         self.mu = float(state_dict.get("mu", DEFAULT_MU))
 
-        incoming_dials = state_dict.get("dials", {})
+        incoming_dials = normalize_leaf_dials_dict(state_dict.get("dials", {}))
         for k in sorted(CANONICAL_LEAF_IDS):
             if k in incoming_dials:
                 self.dials[k] = round(max(0.0, min(1.0, float(incoming_dials[k]))), 4)

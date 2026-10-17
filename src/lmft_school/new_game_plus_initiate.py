@@ -151,7 +151,7 @@ def project_tri_seed_funnel(
         "hexadic_tier_equilibrium": {phil_leaves[i]: phil_vec[i] for i in range(6)},
     }
     exp_res["entrainment_canonical_leaf"] = (
-        "experiential/synchronization/retention (alias: experiential/synchronization/entrainment)"
+        "experiential/synchronization/entrainment (alias: experiential/synchronization/entrainment)"
     )
 
     # Compute Cultural Probity & Conviction Index and Self-Programming Readiness

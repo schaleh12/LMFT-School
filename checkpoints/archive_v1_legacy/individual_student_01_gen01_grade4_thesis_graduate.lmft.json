@@ -1,1 +1,132 @@
-{"birth": {"birth_event_id": "birth-student_01", "individual_id": "student_01", "initialization_version": "neutral-structural-scaffold-1", "seed_version": "lmft-v0.1-seed-1"}, "capacity": {"rules": [{"action_bid": "Execute financial transaction", "core_pattern": "national bank", "gloss": "a financial institution that accepts deposits and channels money into lending", "lemma": "bank", "rule_id": "rule-bank-fin-01", "speaking_register": "Authoritative & Chivalrous", "target_sense_key": "depository_financial_institution (financial institution)", "weight": 0.6, "witnesses": ["genesis-bank-01"]}, {"action_bid": "Enforce sovereign decree", "core_pattern": "court order", "gloss": "an authoritative instruction or judicial decree", "lemma": "order", "rule_id": "rule-order-cmd-01", "speaking_register": "Authoritative & Chivalrous", "target_sense_key": "order%1:10:00::", "weight": 0.6, "witnesses": ["genesis-order-01"]}]}, "cursor": 0, "cycle": 26, "description": "LMFT-School Milestone: Grade 4 (thesis_graduate)", "disposition": {"dials": {"cultural/efficiency/power": 0.9033, "cultural/efficiency/wastelessness": 0.9033, "cultural/freedom/needlessness": 0.9033, "cultural/freedom/self-sufficiency": 0.9033, "cultural/justice/fairness": 0.9033, "cultural/justice/honor": 0.9033, "experiential/phase/arousal": 0.0967, "experiential/phase/valence": 0.9037, "experiential/reflection/novelty": 0.7981, "experiential/reflection/salience": 0.251, "experiential/synchronization/resonance": 0.9033, "experiential/synchronization/retention": 0.9033, "philosophical/being/agency": 0.9033, "philosophical/being/existence": 0.9033, "philosophical/persistence/continuity": 0.9035, "philosophical/persistence/discreteness": 0.9033, "philosophical/structure/chaos": 0.6888, "philosophical/structure/order": 0.9033, "psychological/contemplation/clarity": 0.8673, "psychological/contemplation/confidence": 0.8367, "psychological/truth/fact": 0.868, "psychological/truth/theory": 0.8152, "psychological/will/execution": 0.8506, "psychological/will/intention": 0.8134}, "epoch_count": 26, "gamma": 0.35, "mu": 0.05, "seed_fingerprint": "5694727f10eef0f88d5e8adc464c5f185c25daab53b1f6a115333a0ded5a4d14", "state_digest": "68adaa8140f19c13900d70171d6e0b4fa7bba696c26877ffc3cdf0f559693bb2"}, "episodic_journal": {"capacity": 50, "current_buffer_length": 0, "episodes": [], "journal_digest": "45b82c00af415abbf1c2a015e2d782268e10884e5b1c9a3f78abc91a6e2dd049", "total_episodes_recorded": 26}, "exported_at": "2026-10-15T13:55:48Z", "individual_id": "student_01", "integrity_signature": "0a99224103ae9245c93704282b43c06323a8a2982da969e4c72a208a91476c68", "judgment": {"evidence": {}, "revisions": [], "rule_version": "channel-agreement-1", "score": 0.0, "target": "fixture/channel-agreement"}, "kind": "lmft-individual-package-1", "memory_consolidation": {"consolidation_digest": "61aec6e1a6761c35516e5b16f3689489f0fa1116ac3a86dfc565e7e56ef34919", "history_length": 1, "long_term_rules": [{"action_bid": "Execute financial transaction", "core_pattern": "national bank", "gloss": "a financial institution that accepts deposits and channels money into lending", "lemma": "bank", "rule_id": "rule-bank-fin-01", "speaking_register": "Authoritative & Chivalrous", "target_sense_key": "depository_financial_institution (financial institution)", "weight": 0.6, "witnesses": ["genesis-bank-01"]}, {"action_bid": "Enforce sovereign decree", "core_pattern": "court order", "gloss": "an authoritative instruction or judicial decree", "lemma": "order", "rule_id": "rule-order-cmd-01", "speaking_register": "Authoritative & Chivalrous", "target_sense_key": "order%1:10:00::", "weight": 0.6, "witnesses": ["genesis-order-01"]}], "min_confirmations": 2, "reinforcement_rate": 0.2, "sleep_cycles_completed": 1, "total_long_term_rules": 2}, "questions": {}, "schema_version": 1, "seed_fingerprint": "5694727f10eef0f88d5e8adc464c5f185c25daab53b1f6a115333a0ded5a4d14", "seed_version": "lmft-v0.1-seed-1"}
+{
+  "birth": {
+    "birth_event_id": "birth-student_01",
+    "individual_id": "student_01",
+    "initialization_version": "neutral-structural-scaffold-1",
+    "seed_version": "lmft-v0.1-seed-1"
+  },
+  "capacity": {
+    "rules": [
+      {
+        "action_bid": "Execute financial transaction",
+        "core_pattern": "national bank",
+        "gloss": "a financial institution that accepts deposits and channels money into lending",
+        "lemma": "bank",
+        "rule_id": "rule-bank-fin-01",
+        "speaking_register": "Authoritative & Chivalrous",
+        "target_sense_key": "depository_financial_institution (financial institution)",
+        "weight": 0.6,
+        "witnesses": [
+          "genesis-bank-01"
+        ]
+      },
+      {
+        "action_bid": "Enforce sovereign decree",
+        "core_pattern": "court order",
+        "gloss": "an authoritative instruction or judicial decree",
+        "lemma": "order",
+        "rule_id": "rule-order-cmd-01",
+        "speaking_register": "Authoritative & Chivalrous",
+        "target_sense_key": "order%1:10:00::",
+        "weight": 0.6,
+        "witnesses": [
+          "genesis-order-01"
+        ]
+      }
+    ]
+  },
+  "cursor": 0,
+  "cycle": 26,
+  "description": "LMFT-School Milestone: Grade 4 (thesis_graduate)",
+  "disposition": {
+    "dials": {
+      "cultural/efficiency/power": 0.9033,
+      "cultural/efficiency/wastelessness": 0.9033,
+      "cultural/freedom/needlessness": 0.9033,
+      "cultural/freedom/self-sufficiency": 0.9033,
+      "cultural/justice/fairness": 0.9033,
+      "cultural/justice/honor": 0.9033,
+      "experiential/phase/arousal": 0.0967,
+      "experiential/phase/valence": 0.9037,
+      "experiential/reflection/novelty": 0.7981,
+      "experiential/reflection/salience": 0.251,
+      "experiential/synchronization/resonance": 0.9033,
+      "experiential/synchronization/entrainment": 0.9033,
+      "philosophical/being/agency": 0.9033,
+      "philosophical/being/existence": 0.9033,
+      "philosophical/persistence/continuity": 0.9035,
+      "philosophical/persistence/discreteness": 0.9033,
+      "philosophical/structure/chaos": 0.6888,
+      "philosophical/structure/order": 0.9033,
+      "psychological/contemplation/clarity": 0.8673,
+      "psychological/contemplation/confidence": 0.8367,
+      "psychological/truth/fact": 0.868,
+      "psychological/truth/theory": 0.8152,
+      "psychological/will/execution": 0.8506,
+      "psychological/will/intention": 0.8134
+    },
+    "epoch_count": 26,
+    "gamma": 0.35,
+    "mu": 0.05,
+    "seed_fingerprint": "9c9d4bb2cc2d7e4fc80d887735397fdfc14f99f285884653564c79f3e9451892",
+    "state_digest": "3f7c9029c696729929d2a79bb7b4f4ab66f71436442b9fafc6c4a48e726a8a33"
+  },
+  "episodic_journal": {
+    "capacity": 50,
+    "current_buffer_length": 0,
+    "episodes": [],
+    "journal_digest": "45b82c00af415abbf1c2a015e2d782268e10884e5b1c9a3f78abc91a6e2dd049",
+    "total_episodes_recorded": 26
+  },
+  "exported_at": "2026-10-15T13:55:48Z",
+  "individual_id": "student_01",
+  "integrity_signature": "534720e70b8e6726afd8716546d9bc65b4f57a7c5b2a874e4a592b92512b76e0",
+  "judgment": {
+    "evidence": {},
+    "revisions": [],
+    "rule_version": "channel-agreement-1",
+    "score": 0.0,
+    "target": "fixture/channel-agreement"
+  },
+  "kind": "lmft-individual-package-1",
+  "memory_consolidation": {
+    "consolidation_digest": "61aec6e1a6761c35516e5b16f3689489f0fa1116ac3a86dfc565e7e56ef34919",
+    "history_length": 1,
+    "long_term_rules": [
+      {
+        "action_bid": "Execute financial transaction",
+        "core_pattern": "national bank",
+        "gloss": "a financial institution that accepts deposits and channels money into lending",
+        "lemma": "bank",
+        "rule_id": "rule-bank-fin-01",
+        "speaking_register": "Authoritative & Chivalrous",
+        "target_sense_key": "depository_financial_institution (financial institution)",
+        "weight": 0.6,
+        "witnesses": [
+          "genesis-bank-01"
+        ]
+      },
+      {
+        "action_bid": "Enforce sovereign decree",
+        "core_pattern": "court order",
+        "gloss": "an authoritative instruction or judicial decree",
+        "lemma": "order",
+        "rule_id": "rule-order-cmd-01",
+        "speaking_register": "Authoritative & Chivalrous",
+        "target_sense_key": "order%1:10:00::",
+        "weight": 0.6,
+        "witnesses": [
+          "genesis-order-01"
+        ]
+      }
+    ],
+    "min_confirmations": 2,
+    "reinforcement_rate": 0.2,
+    "sleep_cycles_completed": 1,
+    "total_long_term_rules": 2
+  },
+  "questions": {},
+  "schema_version": 1,
+  "seed_fingerprint": "9c9d4bb2cc2d7e4fc80d887735397fdfc14f99f285884653564c79f3e9451892",
+  "seed_version": "lmft-v0.1-seed-1"
+}

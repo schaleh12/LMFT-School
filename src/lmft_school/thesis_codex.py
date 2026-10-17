@@ -157,7 +157,7 @@ SOVEREIGN_THESIS_CODEX: Final[dict[str, ThesisRecord]] = {
         keystroke_chord="G-R-A-C-E",
         polar_virtue="Inviolable Memory",
         leaf_activations={
-            "experiential/synchronization/retention": 0.92,
+            "experiential/synchronization/entrainment": 0.92,
             "psychological/truth/fact": 0.90,
             "philosophical/persistence/continuity": 0.90,
             "psychological/contemplation/confidence": 0.88,

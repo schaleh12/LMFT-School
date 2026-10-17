@@ -82,13 +82,13 @@ def test_new_game_plus_vs_baseline_head_to_head(tmp_path: Path) -> None:
 
 def test_d109_entrainment_alias_and_philosophical_hexadic_esper_bounce() -> None:
     """Verifies D109 Entrainment->Retention alias resolution and Philosophical Hexadic Esper subliminal feed."""
-    assert normalize_leaf_dial_key("experiential/synchronization/entrainment") == "experiential/synchronization/retention"
-    assert normalize_leaf_dial_key("experiential/attunement/entrainment") == "experiential/synchronization/retention"
-    assert "Entrainment" in CANONICAL_LEAF_DISPLAY_LABELS["experiential/synchronization/retention"]
+    assert normalize_leaf_dial_key("experiential/synchronization/entrainment") == "experiential/synchronization/entrainment"
+    assert normalize_leaf_dial_key("experiential/attunement/entrainment") == "experiential/synchronization/entrainment"
+    assert "Entrainment" in CANONICAL_LEAF_DISPLAY_LABELS["experiential/synchronization/entrainment"]
 
     vec = PersistentDispositionalVector()
     vec.incorporate_situational_stimulus({"experiential/attunement/entrainment": 0.90}, gamma_override=0.5)
-    assert vec.dials["experiential/synchronization/retention"] > 0.50
+    assert vec.dials["experiential/synchronization/entrainment"] > 0.50
 
     assert len(CONTEMPLATIVE_ESPER_HEXADIC_6X6) == 6
     assert all(len(row) == 6 for row in CONTEMPLATIVE_ESPER_HEXADIC_6X6)

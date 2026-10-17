@@ -45,7 +45,7 @@ CANONICAL_LEAF_IDS = {
     "experiential/reflection/novelty",
     "experiential/reflection/salience",
     "experiential/synchronization/resonance",
-    "experiential/synchronization/retention",
+    "experiential/synchronization/entrainment",
     "philosophical/being/agency",
     "philosophical/being/existence",
     "philosophical/persistence/continuity",

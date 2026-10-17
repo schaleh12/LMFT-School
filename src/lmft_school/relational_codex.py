@@ -151,7 +151,7 @@ RELATIONAL_CODEX: Final[dict[str, RelationalRecord]] = {
         leaf_activations={
             "psychological/contemplation/clarity": 0.85,
             "experiential/reflection/salience": 0.85,
-            "experiential/synchronization/retention": 0.80,
+            "experiential/synchronization/entrainment": 0.80,
             "philosophical/being/existence": 0.80,
             "psychological/truth/theory": 0.75,
         },
@@ -379,7 +379,7 @@ RELATIONAL_CODEX: Final[dict[str, RelationalRecord]] = {
         leaf_activations={
             "psychological/contemplation/clarity": 0.85,
             "cultural/freedom/self-sufficiency": 0.85,
-            "experiential/synchronization/retention": 0.85,
+            "experiential/synchronization/entrainment": 0.85,
             "philosophical/persistence/continuity": 0.80,
             "psychological/truth/fact": 0.75,
         },
@@ -415,7 +415,7 @@ RELATIONAL_CODEX: Final[dict[str, RelationalRecord]] = {
         shadow="Obsessive clinging to historical grudges, living in the past, refusing forgiveness.",
         horizon="The living tapestry: bearing witness to what actually occurred across generations.",
         leaf_activations={
-            "experiential/synchronization/retention": 0.85,
+            "experiential/synchronization/entrainment": 0.85,
             "psychological/truth/fact": 0.85,
             "philosophical/persistence/continuity": 0.85,
             "cultural/justice/honor": 0.80,

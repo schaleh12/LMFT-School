@@ -149,7 +149,7 @@ MASTER_CODEX: Final[dict[str, MasterRecord]] = {
         sovereign_keystroke="G-R-A-C-E",
         mastery_synthesis="Inviolable memory that preserves ancestral precedent against all sophistical distortion.",
         leaf_activations={
-            "experiential/synchronization/retention": 0.94,
+            "experiential/synchronization/entrainment": 0.94,
             "psychological/truth/fact": 0.92,
             "philosophical/persistence/continuity": 0.92,
             "psychological/contemplation/confidence": 0.90,

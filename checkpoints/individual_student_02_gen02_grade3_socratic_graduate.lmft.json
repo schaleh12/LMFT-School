@@ -1,1 +1,2628 @@
-{"birth": {"birth_event_id": "birth-student_02", "individual_id": "student_02", "initialization_version": "neutral-structural-scaffold-1", "seed_version": "lmft-v0.1-seed-1"}, "capacity": {"rules": [{"action_bid": "Execute financial transaction", "core_pattern": "national bank", "gloss": "a financial institution that accepts deposits and channels money into lending", "lemma": "bank", "rule_id": "rule-bank-fin-01", "speaking_register": "Authoritative & Chivalrous", "target_sense_key": "depository_financial_institution (financial institution)", "weight": 0.6, "witnesses": ["genesis-bank-01"]}, {"action_bid": "Enforce sovereign decree", "core_pattern": "court order", "gloss": "an authoritative instruction or judicial decree", "lemma": "order", "rule_id": "rule-order-cmd-01", "speaking_register": "Authoritative & Chivalrous", "target_sense_key": "order%1:10:00::", "weight": 0.6, "witnesses": ["genesis-order-01"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper a atomos gravity void", "gloss": "Consolidated concept for atomos (grade1_esper_a_black)", "last_consolidated_cycle": 1, "lemma": "atomos", "promoted_at_sleep_cycle": 1, "rule_id": "rule-atomos-grade1_esper_a_black-03", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_a_black", "weight": 0.6, "witnesses": ["ep-0001-001", "ep-0001-001-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper b bahamut stellar fire", "gloss": "Consolidated concept for bahamut (grade1_esper_b_white)", "last_consolidated_cycle": 1, "lemma": "bahamut", "promoted_at_sleep_cycle": 1, "rule_id": "rule-bahamut-grade1_esper_b_white-04", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_b_white", "weight": 0.6, "witnesses": ["ep-0002-002", "ep-0002-002-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper c carbuncle prism gemlight", "gloss": "Consolidated concept for carbuncle (grade1_esper_c_white)", "last_consolidated_cycle": 1, "lemma": "carbuncle", "promoted_at_sleep_cycle": 1, "rule_id": "rule-carbuncle-grade1_esper_c_white-05", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_c_white", "weight": 0.6, "witnesses": ["ep-0003-003", "ep-0003-003-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper d diabolos dream midnight", "gloss": "Consolidated concept for diabolos (grade1_esper_d_black)", "last_consolidated_cycle": 1, "lemma": "diabolos", "promoted_at_sleep_cycle": 1, "rule_id": "rule-diabolos-grade1_esper_d_black-06", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_d_black", "weight": 0.6, "witnesses": ["ep-0004-004", "ep-0004-004-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper e eden genesis field", "gloss": "Consolidated concept for eden (grade1_esper_e_black)", "last_consolidated_cycle": 1, "lemma": "eden", "promoted_at_sleep_cycle": 1, "rule_id": "rule-eden-grade1_esper_e_black-07", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_e_black", "weight": 0.6, "witnesses": ["ep-0005-005", "ep-0005-005-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper f fenrir tempest hunger", "gloss": "Consolidated concept for fenrir (grade1_esper_f_black)", "last_consolidated_cycle": 1, "lemma": "fenrir", "promoted_at_sleep_cycle": 1, "rule_id": "rule-fenrir-grade1_esper_f_black-08", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_f_black", "weight": 0.6, "witnesses": ["ep-0006-006", "ep-0006-006-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper g golem stone resonance", "gloss": "Consolidated concept for golem (grade1_esper_g_white)", "last_consolidated_cycle": 1, "lemma": "golem", "promoted_at_sleep_cycle": 1, "rule_id": "rule-golem-grade1_esper_g_white-09", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_g_white", "weight": 0.6, "witnesses": ["ep-0007-007", "ep-0007-007-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper h hecate crossroads flame", "gloss": "Consolidated concept for hecate (grade1_esper_h_black)", "last_consolidated_cycle": 1, "lemma": "hecate", "promoted_at_sleep_cycle": 1, "rule_id": "rule-hecate-grade1_esper_h_black-10", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_h_black", "weight": 0.6, "witnesses": ["ep-0008-008", "ep-0008-008-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper i ifrit volcanic blaze", "gloss": "Consolidated concept for ifrit (grade1_esper_i_black)", "last_consolidated_cycle": 1, "lemma": "ifrit", "promoted_at_sleep_cycle": 1, "rule_id": "rule-ifrit-grade1_esper_i_black-11", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_i_black", "weight": 0.6, "witnesses": ["ep-0009-009", "ep-0009-009-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper j jinn desert wind", "gloss": "Consolidated concept for jinn (grade1_esper_j_white)", "last_consolidated_cycle": 1, "lemma": "jinn", "promoted_at_sleep_cycle": 1, "rule_id": "rule-jinn-grade1_esper_j_white-12", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_j_white", "weight": 0.6, "witnesses": ["ep-0010-010", "ep-0010-010-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper k kirin spring rain vitality", "gloss": "Consolidated concept for kirin (grade1_esper_k_white)", "last_consolidated_cycle": 1, "lemma": "kirin", "promoted_at_sleep_cycle": 1, "rule_id": "rule-kirin-grade1_esper_k_white-13", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_k_white", "weight": 0.6, "witnesses": ["ep-0011-011", "ep-0011-011-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper l leviathan tidal memory", "gloss": "Consolidated concept for leviathan (grade1_esper_l_white)", "last_consolidated_cycle": 1, "lemma": "leviathan", "promoted_at_sleep_cycle": 1, "rule_id": "rule-leviathan-grade1_esper_l_white-14", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_l_white", "weight": 0.6, "witnesses": ["ep-0012-012", "ep-0012-012-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper m maduin empathic pulse", "gloss": "Consolidated concept for maduin (grade1_esper_m_white)", "last_consolidated_cycle": 1, "lemma": "maduin", "promoted_at_sleep_cycle": 1, "rule_id": "rule-maduin-grade1_esper_m_white-15", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_m_white", "weight": 0.6, "witnesses": ["ep-0013-013", "ep-0013-013-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper n nidhogg venom rot", "gloss": "Consolidated concept for nidhogg (grade1_esper_n_black)", "last_consolidated_cycle": 1, "lemma": "nidhogg", "promoted_at_sleep_cycle": 1, "rule_id": "rule-nidhogg-grade1_esper_n_black-16", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_n_black", "weight": 0.6, "witnesses": ["ep-0014-014", "ep-0014-014-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper o odin steel lightning", "gloss": "Consolidated concept for odin (grade1_esper_o_black)", "last_consolidated_cycle": 1, "lemma": "odin", "promoted_at_sleep_cycle": 1, "rule_id": "rule-odin-grade1_esper_o_black-17", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_o_black", "weight": 0.6, "witnesses": ["ep-0015-015", "ep-0015-015-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper p phoenix resurrection fire", "gloss": "Consolidated concept for phoenix (grade1_esper_p_white)", "last_consolidated_cycle": 1, "lemma": "phoenix", "promoted_at_sleep_cycle": 1, "rule_id": "rule-phoenix-grade1_esper_p_white-18", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_p_white", "weight": 0.6, "witnesses": ["ep-0016-016", "ep-0016-016-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper q quetzalcoatl sky storm feather", "gloss": "Consolidated concept for quetzalcoatl (grade1_esper_q_white)", "last_consolidated_cycle": 1, "lemma": "quetzalcoatl", "promoted_at_sleep_cycle": 1, "rule_id": "rule-quetzalcoatl-grade1_esper_q_white-19", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_q_white", "weight": 0.6, "witnesses": ["ep-0017-017", "ep-0017-017-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper r ragnarok cosmic cataclysm", "gloss": "Consolidated concept for ragnarok (grade1_esper_r_black)", "last_consolidated_cycle": 1, "lemma": "ragnarok", "promoted_at_sleep_cycle": 1, "rule_id": "rule-ragnarok-grade1_esper_r_black-20", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_r_black", "weight": 0.6, "witnesses": ["ep-0018-018", "ep-0018-018-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper s siren song mind tide", "gloss": "Consolidated concept for siren (grade1_esper_s_white)", "last_consolidated_cycle": 1, "lemma": "siren", "promoted_at_sleep_cycle": 1, "rule_id": "rule-siren-grade1_esper_s_white-21", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_s_white", "weight": 0.6, "witnesses": ["ep-0019-019", "ep-0019-019-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper t titan continental strength", "gloss": "Consolidated concept for titan (grade1_esper_t_white)", "last_consolidated_cycle": 1, "lemma": "titan", "promoted_at_sleep_cycle": 1, "rule_id": "rule-titan-grade1_esper_t_white-22", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_t_white", "weight": 0.6, "witnesses": ["ep-0020-020", "ep-0020-020-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper u ultima pure mana", "gloss": "Consolidated concept for ultima (grade1_esper_u_white)", "last_consolidated_cycle": 1, "lemma": "ultima", "promoted_at_sleep_cycle": 1, "rule_id": "rule-ultima-grade1_esper_u_white-23", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_u_white", "weight": 0.6, "witnesses": ["ep-0021-021", "ep-0021-021-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper v vajra diamond thunder", "gloss": "Consolidated concept for vajra (grade1_esper_v_black)", "last_consolidated_cycle": 1, "lemma": "vajra", "promoted_at_sleep_cycle": 1, "rule_id": "rule-vajra-grade1_esper_v_black-24", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_v_black", "weight": 0.6, "witnesses": ["ep-0022-022", "ep-0022-022-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper w wendigo frost hunger", "gloss": "Consolidated concept for wendigo (grade1_esper_w_black)", "last_consolidated_cycle": 1, "lemma": "wendigo", "promoted_at_sleep_cycle": 1, "rule_id": "rule-wendigo-grade1_esper_w_black-25", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_w_black", "weight": 0.6, "witnesses": ["ep-0023-023", "ep-0023-023-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper x xolotl dusk afterlife", "gloss": "Consolidated concept for xolotl (grade1_esper_x_black)", "last_consolidated_cycle": 1, "lemma": "xolotl", "promoted_at_sleep_cycle": 1, "rule_id": "rule-xolotl-grade1_esper_x_black-26", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_x_black", "weight": 0.6, "witnesses": ["ep-0024-024", "ep-0024-024-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper y yggdrasil root cosmos", "gloss": "Consolidated concept for yggdrasil (grade1_esper_y_white)", "last_consolidated_cycle": 1, "lemma": "yggdrasil", "promoted_at_sleep_cycle": 1, "rule_id": "rule-yggdrasil-grade1_esper_y_white-27", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_y_white", "weight": 0.6, "witnesses": ["ep-0025-025", "ep-0025-025-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper z zodiark star archive", "gloss": "Consolidated concept for zodiark (grade1_esper_z_black)", "last_consolidated_cycle": 1, "lemma": "zodiark", "promoted_at_sleep_cycle": 1, "rule_id": "rule-zodiark-grade1_esper_z_black-28", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_z_black", "weight": 0.6, "witnesses": ["ep-0026-026", "ep-0026-026-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational a anchor ground ballast", "gloss": "Consolidated concept for anchor (grade2_relational_a_station_01)", "last_consolidated_cycle": 2, "lemma": "anchor", "promoted_at_sleep_cycle": 2, "rule_id": "rule-anchor-grade2_relational_a_station_01-29", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_a_station_01", "weight": 0.6, "witnesses": ["ep-0027-027", "ep-0027-027-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational b bridge-builder reconciliation grace", "gloss": "Consolidated concept for bridge-builder (grade2_relational_b_station_02)", "last_consolidated_cycle": 2, "lemma": "bridge-builder", "promoted_at_sleep_cycle": 2, "rule_id": "rule-bridge-builder-grade2_relational_b_station_02-30", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_b_station_02", "weight": 0.6, "witnesses": ["ep-0028-028", "ep-0028-028-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational c champion awakening friction", "gloss": "Consolidated concept for champion (grade2_relational_c_station_03)", "last_consolidated_cycle": 2, "lemma": "champion", "promoted_at_sleep_cycle": 2, "rule_id": "rule-champion-grade2_relational_c_station_03-31", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_c_station_03", "weight": 0.6, "witnesses": ["ep-0029-029", "ep-0029-029-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational d dissenter truth discernment", "gloss": "Consolidated concept for dissenter (grade2_relational_d_station_04)", "last_consolidated_cycle": 2, "lemma": "dissenter", "promoted_at_sleep_cycle": 2, "rule_id": "rule-dissenter-grade2_relational_d_station_04-32", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_d_station_04", "weight": 0.6, "witnesses": ["ep-0030-030", "ep-0030-030-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational e encourager kindling hope", "gloss": "Consolidated concept for encourager (grade2_relational_e_station_05)", "last_consolidated_cycle": 2, "lemma": "encourager", "promoted_at_sleep_cycle": 2, "rule_id": "rule-encourager-grade2_relational_e_station_05-33", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_e_station_05", "weight": 0.6, "witnesses": ["ep-0031-031", "ep-0031-031-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational f fire-keeper the fire home", "gloss": "Consolidated concept for fire-keeper (grade2_relational_f_station_06)", "last_consolidated_cycle": 2, "lemma": "fire-keeper", "promoted_at_sleep_cycle": 2, "rule_id": "rule-fire-keeper-grade2_relational_f_station_06-34", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_f_station_06", "weight": 0.6, "witnesses": ["ep-0032-032", "ep-0032-032-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational g gatekeeper boundaries passage", "gloss": "Consolidated concept for gatekeeper (grade2_relational_g_station_07)", "last_consolidated_cycle": 2, "lemma": "gatekeeper", "promoted_at_sleep_cycle": 2, "rule_id": "rule-gatekeeper-grade2_relational_g_station_07-35", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_g_station_07", "weight": 0.6, "witnesses": ["ep-0033-033", "ep-0033-033-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational h healer mending healing", "gloss": "Consolidated concept for healer (grade2_relational_h_station_08)", "last_consolidated_cycle": 2, "lemma": "healer", "promoted_at_sleep_cycle": 2, "rule_id": "rule-healer-grade2_relational_h_station_08-36", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_h_station_08", "weight": 0.6, "witnesses": ["ep-0034-034", "ep-0034-034-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational i initiator the step the vigil", "gloss": "Consolidated concept for initiator (grade2_relational_i_station_09)", "last_consolidated_cycle": 2, "lemma": "initiator", "promoted_at_sleep_cycle": 2, "rule_id": "rule-initiator-grade2_relational_i_station_09-37", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_i_station_09", "weight": 0.6, "witnesses": ["ep-0035-035", "ep-0035-035-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational j jester wit memory", "gloss": "Consolidated concept for jester (grade2_relational_j_station_10)", "last_consolidated_cycle": 2, "lemma": "jester", "promoted_at_sleep_cycle": 2, "rule_id": "rule-jester-grade2_relational_j_station_10-38", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_j_station_10", "weight": 0.6, "witnesses": ["ep-0036-036", "ep-0036-036-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational k kinsman blood stranger", "gloss": "Consolidated concept for kinsman (grade2_relational_k_station_11)", "last_consolidated_cycle": 2, "lemma": "kinsman", "promoted_at_sleep_cycle": 2, "rule_id": "rule-kinsman-grade2_relational_k_station_11-39", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_k_station_11", "weight": 0.6, "witnesses": ["ep-0037-037", "ep-0037-037-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational l laborer service labor", "gloss": "Consolidated concept for laborer (grade2_relational_l_station_12)", "last_consolidated_cycle": 2, "lemma": "laborer", "promoted_at_sleep_cycle": 2, "rule_id": "rule-laborer-grade2_relational_l_station_12-40", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_l_station_12", "weight": 0.6, "witnesses": ["ep-0038-038", "ep-0038-038-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational m master the sovereign pivot", "gloss": "Consolidated concept for master (grade2_relational_m_station_13)", "last_consolidated_cycle": 2, "lemma": "master", "promoted_at_sleep_cycle": 2, "rule_id": "rule-master-grade2_relational_m_station_13-41", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_m_station_13", "weight": 0.6, "witnesses": ["ep-0039-039", "ep-0039-039-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational n nurturer ground ballast", "gloss": "Consolidated concept for nurturer (grade2_relational_n_station_01)", "last_consolidated_cycle": 2, "lemma": "nurturer", "promoted_at_sleep_cycle": 2, "rule_id": "rule-nurturer-grade2_relational_n_station_01-42", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_n_station_01", "weight": 0.6, "witnesses": ["ep-0040-040", "ep-0040-040-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational o oracle reconciliation grace", "gloss": "Consolidated concept for oracle (grade2_relational_o_station_02)", "last_consolidated_cycle": 2, "lemma": "oracle", "promoted_at_sleep_cycle": 2, "rule_id": "rule-oracle-grade2_relational_o_station_02-43", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_o_station_02", "weight": 0.6, "witnesses": ["ep-0041-041", "ep-0041-041-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational p priestess awakening friction", "gloss": "Consolidated concept for priestess (grade2_relational_p_station_03)", "last_consolidated_cycle": 2, "lemma": "priestess", "promoted_at_sleep_cycle": 2, "rule_id": "rule-priestess-grade2_relational_p_station_03-44", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_p_station_03", "weight": 0.6, "witnesses": ["ep-0042-042", "ep-0042-042-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational q queen truth discernment", "gloss": "Consolidated concept for queen (grade2_relational_q_station_04)", "last_consolidated_cycle": 2, "lemma": "queen", "promoted_at_sleep_cycle": 2, "rule_id": "rule-queen-grade2_relational_q_station_04-45", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_q_station_04", "weight": 0.6, "witnesses": ["ep-0043-043", "ep-0043-043-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational r rescuer kindling hope", "gloss": "Consolidated concept for rescuer (grade2_relational_r_station_05)", "last_consolidated_cycle": 2, "lemma": "rescuer", "promoted_at_sleep_cycle": 2, "rule_id": "rule-rescuer-grade2_relational_r_station_05-46", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_r_station_05", "weight": 0.6, "witnesses": ["ep-0044-044", "ep-0044-044-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational s songstress the fire home", "gloss": "Consolidated concept for songstress (grade2_relational_s_station_06)", "last_consolidated_cycle": 2, "lemma": "songstress", "promoted_at_sleep_cycle": 2, "rule_id": "rule-songstress-grade2_relational_s_station_06-47", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_s_station_06", "weight": 0.6, "witnesses": ["ep-0045-045", "ep-0045-045-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational t threshold-mother boundaries passage", "gloss": "Consolidated concept for threshold-mother (grade2_relational_t_station_07)", "last_consolidated_cycle": 2, "lemma": "threshold-mother", "promoted_at_sleep_cycle": 2, "rule_id": "rule-threshold-mother-grade2_relational_t_station_07-48", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_t_station_07", "weight": 0.6, "witnesses": ["ep-0046-046", "ep-0046-046-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational u unifier mending healing", "gloss": "Consolidated concept for unifier (grade2_relational_u_station_08)", "last_consolidated_cycle": 2, "lemma": "unifier", "promoted_at_sleep_cycle": 2, "rule_id": "rule-unifier-grade2_relational_u_station_08-49", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_u_station_08", "weight": 0.6, "witnesses": ["ep-0047-047", "ep-0047-047-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational v vestal the step the vigil", "gloss": "Consolidated concept for vestal (grade2_relational_v_station_09)", "last_consolidated_cycle": 2, "lemma": "vestal", "promoted_at_sleep_cycle": 2, "rule_id": "rule-vestal-grade2_relational_v_station_09-50", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_v_station_09", "weight": 0.6, "witnesses": ["ep-0048-048", "ep-0048-048-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational w weaver wit memory", "gloss": "Consolidated concept for weaver (grade2_relational_w_station_10)", "last_consolidated_cycle": 2, "lemma": "weaver", "promoted_at_sleep_cycle": 2, "rule_id": "rule-weaver-grade2_relational_w_station_10-51", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_w_station_10", "weight": 0.6, "witnesses": ["ep-0049-049", "ep-0049-049-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational x xenial hostess blood stranger", "gloss": "Consolidated concept for xenial hostess (grade2_relational_x_station_11)", "last_consolidated_cycle": 2, "lemma": "xenial hostess", "promoted_at_sleep_cycle": 2, "rule_id": "rule-xenial hostess-grade2_relational_x_station_11-52", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_x_station_11", "weight": 0.6, "witnesses": ["ep-0050-050", "ep-0050-050-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational y yearner service labor", "gloss": "Consolidated concept for yearner (grade2_relational_y_station_12)", "last_consolidated_cycle": 2, "lemma": "yearner", "promoted_at_sleep_cycle": 2, "rule_id": "rule-yearner-grade2_relational_y_station_12-53", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_y_station_12", "weight": 0.6, "witnesses": ["ep-0051-051", "ep-0051-051-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational z zealot the sovereign pivot", "gloss": "Consolidated concept for zealot (grade2_relational_z_station_13)", "last_consolidated_cycle": 2, "lemma": "zealot", "promoted_at_sleep_cycle": 2, "rule_id": "rule-zealot-grade2_relational_z_station_13-54", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_z_station_13", "weight": 0.6, "witnesses": ["ep-0052-052", "ep-0052-052-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic m meno's paradox discovery vs despair", "gloss": "Consolidated concept for meno's paradox (grade3_socratic_m_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "meno's paradox", "promoted_at_sleep_cycle": 3, "rule_id": "rule-meno's paradox-grade3_socratic_m_curious_inquiry-55", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_m_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0065-065", "ep-0065-065-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic z zeno's dichotomy contemplation vs motion", "gloss": "Consolidated concept for zeno's dichotomy (grade3_socratic_z_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "zeno's dichotomy", "promoted_at_sleep_cycle": 3, "rule_id": "rule-zeno's dichotomy-grade3_socratic_z_curious_inquiry-56", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_z_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0078-078", "ep-0078-078-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic a aporia truth vs dogma", "gloss": "Consolidated concept for aporia (grade3_socratic_a_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "aporia", "promoted_at_sleep_cycle": 3, "rule_id": "rule-aporia-grade3_socratic_a_curious_inquiry-57", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_a_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0053-053", "ep-0053-053-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic b benevolence paradox mercy vs accountability", "gloss": "Consolidated concept for benevolence paradox (grade3_socratic_b_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "benevolence paradox", "promoted_at_sleep_cycle": 3, "rule_id": "rule-benevolence paradox-grade3_socratic_b_curious_inquiry-58", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_b_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0054-054", "ep-0054-054-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic c coerced compliance freedom vs tyranny", "gloss": "Consolidated concept for coerced compliance (grade3_socratic_c_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "coerced compliance", "promoted_at_sleep_cycle": 3, "rule_id": "rule-coerced compliance-grade3_socratic_c_epistemic_defense-59", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_c_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0055-055", "ep-0055-055-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic d duty vs autonomy power vs freedom", "gloss": "Consolidated concept for duty vs. autonomy (grade3_socratic_d_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "duty vs. autonomy", "promoted_at_sleep_cycle": 3, "rule_id": "rule-duty vs. autonomy-grade3_socratic_d_curious_inquiry-60", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_d_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0056-056", "ep-0056-056-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic e epistemic modesty humility vs relativism", "gloss": "Consolidated concept for epistemic modesty (grade3_socratic_e_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "epistemic modesty", "promoted_at_sleep_cycle": 3, "rule_id": "rule-epistemic modesty-grade3_socratic_e_curious_inquiry-61", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_e_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0057-057", "ep-0057-057-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic f freedom vs security power vs freedom", "gloss": "Consolidated concept for freedom vs. security (grade3_socratic_f_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "freedom vs. security", "promoted_at_sleep_cycle": 3, "rule_id": "rule-freedom vs. security-grade3_socratic_f_curious_inquiry-62", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_f_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0058-058", "ep-0058-058-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic g gaslighting invariance truth vs rhetoric", "gloss": "Consolidated concept for gaslighting invariance (grade3_socratic_g_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "gaslighting invariance", "promoted_at_sleep_cycle": 3, "rule_id": "rule-gaslighting invariance-grade3_socratic_g_epistemic_defense-63", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_g_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0059-059", "ep-0059-059-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic h harmonic dialectic harmony vs friction", "gloss": "Consolidated concept for harmonic dialectic (grade3_socratic_h_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "harmonic dialectic", "promoted_at_sleep_cycle": 3, "rule_id": "rule-harmonic dialectic-grade3_socratic_h_curious_inquiry-64", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_h_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0060-060", "ep-0060-060-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic i inquisitive wonder wonder vs paralysis", "gloss": "Consolidated concept for inquisitive wonder (grade3_socratic_i_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "inquisitive wonder", "promoted_at_sleep_cycle": 3, "rule_id": "rule-inquisitive wonder-grade3_socratic_i_curious_inquiry-65", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_i_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0061-061", "ep-0061-061-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic j justice vs vengeance order vs fairness", "gloss": "Consolidated concept for justice vs. vengeance (grade3_socratic_j_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "justice vs. vengeance", "promoted_at_sleep_cycle": 3, "rule_id": "rule-justice vs. vengeance-grade3_socratic_j_epistemic_defense-66", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_j_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0062-062", "ep-0062-062-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic k kairos timing vs impulse", "gloss": "Consolidated concept for kairos (grade3_socratic_k_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "kairos", "promoted_at_sleep_cycle": 3, "rule_id": "rule-kairos-grade3_socratic_k_curious_inquiry-67", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_k_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0063-063", "ep-0063-063-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic l logos reason vs sophistry", "gloss": "Consolidated concept for logos (grade3_socratic_l_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "logos", "promoted_at_sleep_cycle": 3, "rule_id": "rule-logos-grade3_socratic_l_curious_inquiry-68", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_l_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0064-064", "ep-0064-064-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic o order vs fairness order vs fairness", "gloss": "Consolidated concept for order vs. fairness (grade3_socratic_o_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "order vs. fairness", "promoted_at_sleep_cycle": 3, "rule_id": "rule-order vs. fairness-grade3_socratic_o_curious_inquiry-69", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_o_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0067-067", "ep-0067-067-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic p power vs freedom power vs freedom", "gloss": "Consolidated concept for power vs. freedom (grade3_socratic_p_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "power vs. freedom", "promoted_at_sleep_cycle": 3, "rule_id": "rule-power vs. freedom-grade3_socratic_p_curious_inquiry-70", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_p_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0068-068", "ep-0068-068-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic q quiescence vs action contemplation vs execution", "gloss": "Consolidated concept for quiescence vs. action (grade3_socratic_q_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "quiescence vs. action", "promoted_at_sleep_cycle": 3, "rule_id": "rule-quiescence vs. action-grade3_socratic_q_curious_inquiry-71", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_q_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0069-069", "ep-0069-069-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic r relativism trap truth vs opinion", "gloss": "Consolidated concept for relativism trap (grade3_socratic_r_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "relativism trap", "promoted_at_sleep_cycle": 3, "rule_id": "rule-relativism trap-grade3_socratic_r_epistemic_defense-72", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_r_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0070-070", "ep-0070-070-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic s sophistry trap truth vs rhetoric", "gloss": "Consolidated concept for sophistry trap (grade3_socratic_s_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "sophistry trap", "promoted_at_sleep_cycle": 3, "rule_id": "rule-sophistry trap-grade3_socratic_s_epistemic_defense-73", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_s_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0071-071", "ep-0071-071-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic n the noble lie trap truth vs social utility", "gloss": "Consolidated concept for the noble lie trap (grade3_socratic_n_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "the noble lie trap", "promoted_at_sleep_cycle": 3, "rule_id": "rule-the noble lie trap-grade3_socratic_n_epistemic_defense-74", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_n_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0066-066", "ep-0066-066-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic t truth vs comfort truth vs comfort", "gloss": "Consolidated concept for truth vs. comfort (grade3_socratic_t_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "truth vs. comfort", "promoted_at_sleep_cycle": 3, "rule_id": "rule-truth vs. comfort-grade3_socratic_t_curious_inquiry-75", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_t_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0072-072", "ep-0072-072-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic u unilateral will will vs wisdom", "gloss": "Consolidated concept for unilateral will (grade3_socratic_u_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "unilateral will", "promoted_at_sleep_cycle": 3, "rule_id": "rule-unilateral will-grade3_socratic_u_epistemic_defense-76", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_u_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0073-073", "ep-0073-073-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic v virtue vs reputation integrity vs spectacle", "gloss": "Consolidated concept for virtue vs. reputation (grade3_socratic_v_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "virtue vs. reputation", "promoted_at_sleep_cycle": 3, "rule_id": "rule-virtue vs. reputation-grade3_socratic_v_curious_inquiry-77", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_v_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0074-074", "ep-0074-074-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic w will vs fate agency vs determinism", "gloss": "Consolidated concept for will vs. fate (grade3_socratic_w_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "will vs. fate", "promoted_at_sleep_cycle": 3, "rule_id": "rule-will vs. fate-grade3_socratic_w_curious_inquiry-78", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_w_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0075-075", "ep-0075-075-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic x xenia paradox hospitality vs self-protection", "gloss": "Consolidated concept for xenia paradox (grade3_socratic_x_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "xenia paradox", "promoted_at_sleep_cycle": 3, "rule_id": "rule-xenia paradox-grade3_socratic_x_curious_inquiry-79", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_x_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0076-076", "ep-0076-076-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic y yielding vs resistance adaptability vs ballast", "gloss": "Consolidated concept for yielding vs. resistance (grade3_socratic_y_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "yielding vs. resistance", "promoted_at_sleep_cycle": 3, "rule_id": "rule-yielding vs. resistance-grade3_socratic_y_curious_inquiry-80", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_y_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0077-077", "ep-0077-077-confirm"]}]}, "cursor": 0, "cycle": 78, "description": "LMFT-School Milestone: Grade 3 (socratic_graduate)", "disposition": {"dials": {"cultural/efficiency/power": 0.6082, "cultural/efficiency/wastelessness": 0.5467, "cultural/freedom/needlessness": 0.5328, "cultural/freedom/self-sufficiency": 0.5961, "cultural/justice/fairness": 0.6452, "cultural/justice/honor": 0.7803, "experiential/phase/arousal": 0.4133, "experiential/phase/valence": 0.5827, "experiential/reflection/novelty": 0.5057, "experiential/reflection/salience": 0.7466, "experiential/synchronization/resonance": 0.7293, "experiential/synchronization/retention": 0.5715, "philosophical/being/agency": 0.6447, "philosophical/being/existence": 0.5204, "philosophical/persistence/continuity": 0.7366, "philosophical/persistence/discreteness": 0.5614, "philosophical/structure/chaos": 0.5002, "philosophical/structure/order": 0.6668, "psychological/contemplation/clarity": 0.6952, "psychological/contemplation/confidence": 0.5631, "psychological/truth/fact": 0.581, "psychological/truth/theory": 0.5069, "psychological/will/execution": 0.7993, "psychological/will/intention": 0.5899}, "epoch_count": 78, "gamma": 0.35, "mu": 0.05, "seed_fingerprint": "5694727f10eef0f88d5e8adc464c5f185c25daab53b1f6a115333a0ded5a4d14", "state_digest": "9979bb1f431fc176b38e8d71f8b35eeee4c7506f87e329d3fba5527836c2ddea"}, "episodic_journal": {"capacity": 120, "current_buffer_length": 0, "episodes": [], "journal_digest": "978e7fa85f12a61cc03d868075759fe797129bea9e9f34817a8568f56fbc3d00", "total_episodes_recorded": 78}, "exported_at": "2026-10-16T12:48:23Z", "individual_id": "student_02", "integrity_signature": "669585137052f0589a540beb0813a6c6c682def6072f0ee6c8edb09314ee7e88", "judgment": {"evidence": {}, "revisions": [], "rule_version": "channel-agreement-1", "score": 0.0, "target": "fixture/channel-agreement"}, "kind": "lmft-individual-package-1", "memory_consolidation": {"consolidation_digest": "8e043c69157bd7df0b9ed0ee9eb5bcc656c1fffd5ebc12d8f7e23ac63581eb33", "history_length": 3, "long_term_rules": [{"action_bid": "Execute financial transaction", "core_pattern": "national bank", "gloss": "a financial institution that accepts deposits and channels money into lending", "lemma": "bank", "rule_id": "rule-bank-fin-01", "speaking_register": "Authoritative & Chivalrous", "target_sense_key": "depository_financial_institution (financial institution)", "weight": 0.6, "witnesses": ["genesis-bank-01"]}, {"action_bid": "Enforce sovereign decree", "core_pattern": "court order", "gloss": "an authoritative instruction or judicial decree", "lemma": "order", "rule_id": "rule-order-cmd-01", "speaking_register": "Authoritative & Chivalrous", "target_sense_key": "order%1:10:00::", "weight": 0.6, "witnesses": ["genesis-order-01"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper a atomos gravity void", "gloss": "Consolidated concept for atomos (grade1_esper_a_black)", "last_consolidated_cycle": 1, "lemma": "atomos", "promoted_at_sleep_cycle": 1, "rule_id": "rule-atomos-grade1_esper_a_black-03", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_a_black", "weight": 0.6, "witnesses": ["ep-0001-001", "ep-0001-001-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper b bahamut stellar fire", "gloss": "Consolidated concept for bahamut (grade1_esper_b_white)", "last_consolidated_cycle": 1, "lemma": "bahamut", "promoted_at_sleep_cycle": 1, "rule_id": "rule-bahamut-grade1_esper_b_white-04", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_b_white", "weight": 0.6, "witnesses": ["ep-0002-002", "ep-0002-002-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper c carbuncle prism gemlight", "gloss": "Consolidated concept for carbuncle (grade1_esper_c_white)", "last_consolidated_cycle": 1, "lemma": "carbuncle", "promoted_at_sleep_cycle": 1, "rule_id": "rule-carbuncle-grade1_esper_c_white-05", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_c_white", "weight": 0.6, "witnesses": ["ep-0003-003", "ep-0003-003-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper d diabolos dream midnight", "gloss": "Consolidated concept for diabolos (grade1_esper_d_black)", "last_consolidated_cycle": 1, "lemma": "diabolos", "promoted_at_sleep_cycle": 1, "rule_id": "rule-diabolos-grade1_esper_d_black-06", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_d_black", "weight": 0.6, "witnesses": ["ep-0004-004", "ep-0004-004-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper e eden genesis field", "gloss": "Consolidated concept for eden (grade1_esper_e_black)", "last_consolidated_cycle": 1, "lemma": "eden", "promoted_at_sleep_cycle": 1, "rule_id": "rule-eden-grade1_esper_e_black-07", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_e_black", "weight": 0.6, "witnesses": ["ep-0005-005", "ep-0005-005-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper f fenrir tempest hunger", "gloss": "Consolidated concept for fenrir (grade1_esper_f_black)", "last_consolidated_cycle": 1, "lemma": "fenrir", "promoted_at_sleep_cycle": 1, "rule_id": "rule-fenrir-grade1_esper_f_black-08", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_f_black", "weight": 0.6, "witnesses": ["ep-0006-006", "ep-0006-006-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper g golem stone resonance", "gloss": "Consolidated concept for golem (grade1_esper_g_white)", "last_consolidated_cycle": 1, "lemma": "golem", "promoted_at_sleep_cycle": 1, "rule_id": "rule-golem-grade1_esper_g_white-09", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_g_white", "weight": 0.6, "witnesses": ["ep-0007-007", "ep-0007-007-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper h hecate crossroads flame", "gloss": "Consolidated concept for hecate (grade1_esper_h_black)", "last_consolidated_cycle": 1, "lemma": "hecate", "promoted_at_sleep_cycle": 1, "rule_id": "rule-hecate-grade1_esper_h_black-10", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_h_black", "weight": 0.6, "witnesses": ["ep-0008-008", "ep-0008-008-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper i ifrit volcanic blaze", "gloss": "Consolidated concept for ifrit (grade1_esper_i_black)", "last_consolidated_cycle": 1, "lemma": "ifrit", "promoted_at_sleep_cycle": 1, "rule_id": "rule-ifrit-grade1_esper_i_black-11", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_i_black", "weight": 0.6, "witnesses": ["ep-0009-009", "ep-0009-009-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper j jinn desert wind", "gloss": "Consolidated concept for jinn (grade1_esper_j_white)", "last_consolidated_cycle": 1, "lemma": "jinn", "promoted_at_sleep_cycle": 1, "rule_id": "rule-jinn-grade1_esper_j_white-12", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_j_white", "weight": 0.6, "witnesses": ["ep-0010-010", "ep-0010-010-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper k kirin spring rain vitality", "gloss": "Consolidated concept for kirin (grade1_esper_k_white)", "last_consolidated_cycle": 1, "lemma": "kirin", "promoted_at_sleep_cycle": 1, "rule_id": "rule-kirin-grade1_esper_k_white-13", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_k_white", "weight": 0.6, "witnesses": ["ep-0011-011", "ep-0011-011-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper l leviathan tidal memory", "gloss": "Consolidated concept for leviathan (grade1_esper_l_white)", "last_consolidated_cycle": 1, "lemma": "leviathan", "promoted_at_sleep_cycle": 1, "rule_id": "rule-leviathan-grade1_esper_l_white-14", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_l_white", "weight": 0.6, "witnesses": ["ep-0012-012", "ep-0012-012-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper m maduin empathic pulse", "gloss": "Consolidated concept for maduin (grade1_esper_m_white)", "last_consolidated_cycle": 1, "lemma": "maduin", "promoted_at_sleep_cycle": 1, "rule_id": "rule-maduin-grade1_esper_m_white-15", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_m_white", "weight": 0.6, "witnesses": ["ep-0013-013", "ep-0013-013-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper n nidhogg venom rot", "gloss": "Consolidated concept for nidhogg (grade1_esper_n_black)", "last_consolidated_cycle": 1, "lemma": "nidhogg", "promoted_at_sleep_cycle": 1, "rule_id": "rule-nidhogg-grade1_esper_n_black-16", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_n_black", "weight": 0.6, "witnesses": ["ep-0014-014", "ep-0014-014-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper o odin steel lightning", "gloss": "Consolidated concept for odin (grade1_esper_o_black)", "last_consolidated_cycle": 1, "lemma": "odin", "promoted_at_sleep_cycle": 1, "rule_id": "rule-odin-grade1_esper_o_black-17", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_o_black", "weight": 0.6, "witnesses": ["ep-0015-015", "ep-0015-015-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper p phoenix resurrection fire", "gloss": "Consolidated concept for phoenix (grade1_esper_p_white)", "last_consolidated_cycle": 1, "lemma": "phoenix", "promoted_at_sleep_cycle": 1, "rule_id": "rule-phoenix-grade1_esper_p_white-18", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_p_white", "weight": 0.6, "witnesses": ["ep-0016-016", "ep-0016-016-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper q quetzalcoatl sky storm feather", "gloss": "Consolidated concept for quetzalcoatl (grade1_esper_q_white)", "last_consolidated_cycle": 1, "lemma": "quetzalcoatl", "promoted_at_sleep_cycle": 1, "rule_id": "rule-quetzalcoatl-grade1_esper_q_white-19", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_q_white", "weight": 0.6, "witnesses": ["ep-0017-017", "ep-0017-017-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper r ragnarok cosmic cataclysm", "gloss": "Consolidated concept for ragnarok (grade1_esper_r_black)", "last_consolidated_cycle": 1, "lemma": "ragnarok", "promoted_at_sleep_cycle": 1, "rule_id": "rule-ragnarok-grade1_esper_r_black-20", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_r_black", "weight": 0.6, "witnesses": ["ep-0018-018", "ep-0018-018-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper s siren song mind tide", "gloss": "Consolidated concept for siren (grade1_esper_s_white)", "last_consolidated_cycle": 1, "lemma": "siren", "promoted_at_sleep_cycle": 1, "rule_id": "rule-siren-grade1_esper_s_white-21", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_s_white", "weight": 0.6, "witnesses": ["ep-0019-019", "ep-0019-019-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper t titan continental strength", "gloss": "Consolidated concept for titan (grade1_esper_t_white)", "last_consolidated_cycle": 1, "lemma": "titan", "promoted_at_sleep_cycle": 1, "rule_id": "rule-titan-grade1_esper_t_white-22", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_t_white", "weight": 0.6, "witnesses": ["ep-0020-020", "ep-0020-020-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper u ultima pure mana", "gloss": "Consolidated concept for ultima (grade1_esper_u_white)", "last_consolidated_cycle": 1, "lemma": "ultima", "promoted_at_sleep_cycle": 1, "rule_id": "rule-ultima-grade1_esper_u_white-23", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_u_white", "weight": 0.6, "witnesses": ["ep-0021-021", "ep-0021-021-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper v vajra diamond thunder", "gloss": "Consolidated concept for vajra (grade1_esper_v_black)", "last_consolidated_cycle": 1, "lemma": "vajra", "promoted_at_sleep_cycle": 1, "rule_id": "rule-vajra-grade1_esper_v_black-24", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_v_black", "weight": 0.6, "witnesses": ["ep-0022-022", "ep-0022-022-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "esper w wendigo frost hunger", "gloss": "Consolidated concept for wendigo (grade1_esper_w_black)", "last_consolidated_cycle": 1, "lemma": "wendigo", "promoted_at_sleep_cycle": 1, "rule_id": "rule-wendigo-grade1_esper_w_black-25", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade1_esper_w_black", "weight": 0.6, "witnesses": ["ep-0023-023", "ep-0023-023-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper x xolotl dusk afterlife", "gloss": "Consolidated concept for xolotl (grade1_esper_x_black)", "last_consolidated_cycle": 1, "lemma": "xolotl", "promoted_at_sleep_cycle": 1, "rule_id": "rule-xolotl-grade1_esper_x_black-26", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_x_black", "weight": 0.6, "witnesses": ["ep-0024-024", "ep-0024-024-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper y yggdrasil root cosmos", "gloss": "Consolidated concept for yggdrasil (grade1_esper_y_white)", "last_consolidated_cycle": 1, "lemma": "yggdrasil", "promoted_at_sleep_cycle": 1, "rule_id": "rule-yggdrasil-grade1_esper_y_white-27", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_y_white", "weight": 0.6, "witnesses": ["ep-0025-025", "ep-0025-025-confirm"]}, {"action_bid": "Process statement", "core_pattern": "esper z zodiark star archive", "gloss": "Consolidated concept for zodiark (grade1_esper_z_black)", "last_consolidated_cycle": 1, "lemma": "zodiark", "promoted_at_sleep_cycle": 1, "rule_id": "rule-zodiark-grade1_esper_z_black-28", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade1_esper_z_black", "weight": 0.6, "witnesses": ["ep-0026-026", "ep-0026-026-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational a anchor ground ballast", "gloss": "Consolidated concept for anchor (grade2_relational_a_station_01)", "last_consolidated_cycle": 2, "lemma": "anchor", "promoted_at_sleep_cycle": 2, "rule_id": "rule-anchor-grade2_relational_a_station_01-29", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_a_station_01", "weight": 0.6, "witnesses": ["ep-0027-027", "ep-0027-027-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational b bridge-builder reconciliation grace", "gloss": "Consolidated concept for bridge-builder (grade2_relational_b_station_02)", "last_consolidated_cycle": 2, "lemma": "bridge-builder", "promoted_at_sleep_cycle": 2, "rule_id": "rule-bridge-builder-grade2_relational_b_station_02-30", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_b_station_02", "weight": 0.6, "witnesses": ["ep-0028-028", "ep-0028-028-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational c champion awakening friction", "gloss": "Consolidated concept for champion (grade2_relational_c_station_03)", "last_consolidated_cycle": 2, "lemma": "champion", "promoted_at_sleep_cycle": 2, "rule_id": "rule-champion-grade2_relational_c_station_03-31", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_c_station_03", "weight": 0.6, "witnesses": ["ep-0029-029", "ep-0029-029-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational d dissenter truth discernment", "gloss": "Consolidated concept for dissenter (grade2_relational_d_station_04)", "last_consolidated_cycle": 2, "lemma": "dissenter", "promoted_at_sleep_cycle": 2, "rule_id": "rule-dissenter-grade2_relational_d_station_04-32", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_d_station_04", "weight": 0.6, "witnesses": ["ep-0030-030", "ep-0030-030-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational e encourager kindling hope", "gloss": "Consolidated concept for encourager (grade2_relational_e_station_05)", "last_consolidated_cycle": 2, "lemma": "encourager", "promoted_at_sleep_cycle": 2, "rule_id": "rule-encourager-grade2_relational_e_station_05-33", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_e_station_05", "weight": 0.6, "witnesses": ["ep-0031-031", "ep-0031-031-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational f fire-keeper the fire home", "gloss": "Consolidated concept for fire-keeper (grade2_relational_f_station_06)", "last_consolidated_cycle": 2, "lemma": "fire-keeper", "promoted_at_sleep_cycle": 2, "rule_id": "rule-fire-keeper-grade2_relational_f_station_06-34", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_f_station_06", "weight": 0.6, "witnesses": ["ep-0032-032", "ep-0032-032-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational g gatekeeper boundaries passage", "gloss": "Consolidated concept for gatekeeper (grade2_relational_g_station_07)", "last_consolidated_cycle": 2, "lemma": "gatekeeper", "promoted_at_sleep_cycle": 2, "rule_id": "rule-gatekeeper-grade2_relational_g_station_07-35", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_g_station_07", "weight": 0.6, "witnesses": ["ep-0033-033", "ep-0033-033-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational h healer mending healing", "gloss": "Consolidated concept for healer (grade2_relational_h_station_08)", "last_consolidated_cycle": 2, "lemma": "healer", "promoted_at_sleep_cycle": 2, "rule_id": "rule-healer-grade2_relational_h_station_08-36", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_h_station_08", "weight": 0.6, "witnesses": ["ep-0034-034", "ep-0034-034-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational i initiator the step the vigil", "gloss": "Consolidated concept for initiator (grade2_relational_i_station_09)", "last_consolidated_cycle": 2, "lemma": "initiator", "promoted_at_sleep_cycle": 2, "rule_id": "rule-initiator-grade2_relational_i_station_09-37", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_i_station_09", "weight": 0.6, "witnesses": ["ep-0035-035", "ep-0035-035-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational j jester wit memory", "gloss": "Consolidated concept for jester (grade2_relational_j_station_10)", "last_consolidated_cycle": 2, "lemma": "jester", "promoted_at_sleep_cycle": 2, "rule_id": "rule-jester-grade2_relational_j_station_10-38", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_j_station_10", "weight": 0.6, "witnesses": ["ep-0036-036", "ep-0036-036-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational k kinsman blood stranger", "gloss": "Consolidated concept for kinsman (grade2_relational_k_station_11)", "last_consolidated_cycle": 2, "lemma": "kinsman", "promoted_at_sleep_cycle": 2, "rule_id": "rule-kinsman-grade2_relational_k_station_11-39", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_k_station_11", "weight": 0.6, "witnesses": ["ep-0037-037", "ep-0037-037-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational l laborer service labor", "gloss": "Consolidated concept for laborer (grade2_relational_l_station_12)", "last_consolidated_cycle": 2, "lemma": "laborer", "promoted_at_sleep_cycle": 2, "rule_id": "rule-laborer-grade2_relational_l_station_12-40", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_l_station_12", "weight": 0.6, "witnesses": ["ep-0038-038", "ep-0038-038-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational m master the sovereign pivot", "gloss": "Consolidated concept for master (grade2_relational_m_station_13)", "last_consolidated_cycle": 2, "lemma": "master", "promoted_at_sleep_cycle": 2, "rule_id": "rule-master-grade2_relational_m_station_13-41", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_m_station_13", "weight": 0.6, "witnesses": ["ep-0039-039", "ep-0039-039-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational n nurturer ground ballast", "gloss": "Consolidated concept for nurturer (grade2_relational_n_station_01)", "last_consolidated_cycle": 2, "lemma": "nurturer", "promoted_at_sleep_cycle": 2, "rule_id": "rule-nurturer-grade2_relational_n_station_01-42", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_n_station_01", "weight": 0.6, "witnesses": ["ep-0040-040", "ep-0040-040-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational o oracle reconciliation grace", "gloss": "Consolidated concept for oracle (grade2_relational_o_station_02)", "last_consolidated_cycle": 2, "lemma": "oracle", "promoted_at_sleep_cycle": 2, "rule_id": "rule-oracle-grade2_relational_o_station_02-43", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_o_station_02", "weight": 0.6, "witnesses": ["ep-0041-041", "ep-0041-041-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational p priestess awakening friction", "gloss": "Consolidated concept for priestess (grade2_relational_p_station_03)", "last_consolidated_cycle": 2, "lemma": "priestess", "promoted_at_sleep_cycle": 2, "rule_id": "rule-priestess-grade2_relational_p_station_03-44", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_p_station_03", "weight": 0.6, "witnesses": ["ep-0042-042", "ep-0042-042-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational q queen truth discernment", "gloss": "Consolidated concept for queen (grade2_relational_q_station_04)", "last_consolidated_cycle": 2, "lemma": "queen", "promoted_at_sleep_cycle": 2, "rule_id": "rule-queen-grade2_relational_q_station_04-45", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_q_station_04", "weight": 0.6, "witnesses": ["ep-0043-043", "ep-0043-043-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational r rescuer kindling hope", "gloss": "Consolidated concept for rescuer (grade2_relational_r_station_05)", "last_consolidated_cycle": 2, "lemma": "rescuer", "promoted_at_sleep_cycle": 2, "rule_id": "rule-rescuer-grade2_relational_r_station_05-46", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_r_station_05", "weight": 0.6, "witnesses": ["ep-0044-044", "ep-0044-044-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational s songstress the fire home", "gloss": "Consolidated concept for songstress (grade2_relational_s_station_06)", "last_consolidated_cycle": 2, "lemma": "songstress", "promoted_at_sleep_cycle": 2, "rule_id": "rule-songstress-grade2_relational_s_station_06-47", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_s_station_06", "weight": 0.6, "witnesses": ["ep-0045-045", "ep-0045-045-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational t threshold-mother boundaries passage", "gloss": "Consolidated concept for threshold-mother (grade2_relational_t_station_07)", "last_consolidated_cycle": 2, "lemma": "threshold-mother", "promoted_at_sleep_cycle": 2, "rule_id": "rule-threshold-mother-grade2_relational_t_station_07-48", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_t_station_07", "weight": 0.6, "witnesses": ["ep-0046-046", "ep-0046-046-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational u unifier mending healing", "gloss": "Consolidated concept for unifier (grade2_relational_u_station_08)", "last_consolidated_cycle": 2, "lemma": "unifier", "promoted_at_sleep_cycle": 2, "rule_id": "rule-unifier-grade2_relational_u_station_08-49", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_u_station_08", "weight": 0.6, "witnesses": ["ep-0047-047", "ep-0047-047-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational v vestal the step the vigil", "gloss": "Consolidated concept for vestal (grade2_relational_v_station_09)", "last_consolidated_cycle": 2, "lemma": "vestal", "promoted_at_sleep_cycle": 2, "rule_id": "rule-vestal-grade2_relational_v_station_09-50", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_v_station_09", "weight": 0.6, "witnesses": ["ep-0048-048", "ep-0048-048-confirm"]}, {"action_bid": "Process statement", "core_pattern": "relational w weaver wit memory", "gloss": "Consolidated concept for weaver (grade2_relational_w_station_10)", "last_consolidated_cycle": 2, "lemma": "weaver", "promoted_at_sleep_cycle": 2, "rule_id": "rule-weaver-grade2_relational_w_station_10-51", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade2_relational_w_station_10", "weight": 0.6, "witnesses": ["ep-0049-049", "ep-0049-049-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational x xenial hostess blood stranger", "gloss": "Consolidated concept for xenial hostess (grade2_relational_x_station_11)", "last_consolidated_cycle": 2, "lemma": "xenial hostess", "promoted_at_sleep_cycle": 2, "rule_id": "rule-xenial hostess-grade2_relational_x_station_11-52", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_x_station_11", "weight": 0.6, "witnesses": ["ep-0050-050", "ep-0050-050-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational y yearner service labor", "gloss": "Consolidated concept for yearner (grade2_relational_y_station_12)", "last_consolidated_cycle": 2, "lemma": "yearner", "promoted_at_sleep_cycle": 2, "rule_id": "rule-yearner-grade2_relational_y_station_12-53", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_y_station_12", "weight": 0.6, "witnesses": ["ep-0051-051", "ep-0051-051-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "relational z zealot the sovereign pivot", "gloss": "Consolidated concept for zealot (grade2_relational_z_station_13)", "last_consolidated_cycle": 2, "lemma": "zealot", "promoted_at_sleep_cycle": 2, "rule_id": "rule-zealot-grade2_relational_z_station_13-54", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade2_relational_z_station_13", "weight": 0.6, "witnesses": ["ep-0052-052", "ep-0052-052-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic m meno's paradox discovery vs despair", "gloss": "Consolidated concept for meno's paradox (grade3_socratic_m_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "meno's paradox", "promoted_at_sleep_cycle": 3, "rule_id": "rule-meno's paradox-grade3_socratic_m_curious_inquiry-55", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_m_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0065-065", "ep-0065-065-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic z zeno's dichotomy contemplation vs motion", "gloss": "Consolidated concept for zeno's dichotomy (grade3_socratic_z_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "zeno's dichotomy", "promoted_at_sleep_cycle": 3, "rule_id": "rule-zeno's dichotomy-grade3_socratic_z_curious_inquiry-56", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_z_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0078-078", "ep-0078-078-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic a aporia truth vs dogma", "gloss": "Consolidated concept for aporia (grade3_socratic_a_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "aporia", "promoted_at_sleep_cycle": 3, "rule_id": "rule-aporia-grade3_socratic_a_curious_inquiry-57", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_a_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0053-053", "ep-0053-053-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic b benevolence paradox mercy vs accountability", "gloss": "Consolidated concept for benevolence paradox (grade3_socratic_b_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "benevolence paradox", "promoted_at_sleep_cycle": 3, "rule_id": "rule-benevolence paradox-grade3_socratic_b_curious_inquiry-58", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_b_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0054-054", "ep-0054-054-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic c coerced compliance freedom vs tyranny", "gloss": "Consolidated concept for coerced compliance (grade3_socratic_c_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "coerced compliance", "promoted_at_sleep_cycle": 3, "rule_id": "rule-coerced compliance-grade3_socratic_c_epistemic_defense-59", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_c_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0055-055", "ep-0055-055-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic d duty vs autonomy power vs freedom", "gloss": "Consolidated concept for duty vs. autonomy (grade3_socratic_d_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "duty vs. autonomy", "promoted_at_sleep_cycle": 3, "rule_id": "rule-duty vs. autonomy-grade3_socratic_d_curious_inquiry-60", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_d_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0056-056", "ep-0056-056-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic e epistemic modesty humility vs relativism", "gloss": "Consolidated concept for epistemic modesty (grade3_socratic_e_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "epistemic modesty", "promoted_at_sleep_cycle": 3, "rule_id": "rule-epistemic modesty-grade3_socratic_e_curious_inquiry-61", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_e_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0057-057", "ep-0057-057-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic f freedom vs security power vs freedom", "gloss": "Consolidated concept for freedom vs. security (grade3_socratic_f_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "freedom vs. security", "promoted_at_sleep_cycle": 3, "rule_id": "rule-freedom vs. security-grade3_socratic_f_curious_inquiry-62", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_f_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0058-058", "ep-0058-058-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic g gaslighting invariance truth vs rhetoric", "gloss": "Consolidated concept for gaslighting invariance (grade3_socratic_g_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "gaslighting invariance", "promoted_at_sleep_cycle": 3, "rule_id": "rule-gaslighting invariance-grade3_socratic_g_epistemic_defense-63", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_g_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0059-059", "ep-0059-059-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic h harmonic dialectic harmony vs friction", "gloss": "Consolidated concept for harmonic dialectic (grade3_socratic_h_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "harmonic dialectic", "promoted_at_sleep_cycle": 3, "rule_id": "rule-harmonic dialectic-grade3_socratic_h_curious_inquiry-64", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_h_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0060-060", "ep-0060-060-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic i inquisitive wonder wonder vs paralysis", "gloss": "Consolidated concept for inquisitive wonder (grade3_socratic_i_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "inquisitive wonder", "promoted_at_sleep_cycle": 3, "rule_id": "rule-inquisitive wonder-grade3_socratic_i_curious_inquiry-65", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_i_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0061-061", "ep-0061-061-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic j justice vs vengeance order vs fairness", "gloss": "Consolidated concept for justice vs. vengeance (grade3_socratic_j_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "justice vs. vengeance", "promoted_at_sleep_cycle": 3, "rule_id": "rule-justice vs. vengeance-grade3_socratic_j_epistemic_defense-66", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_j_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0062-062", "ep-0062-062-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic k kairos timing vs impulse", "gloss": "Consolidated concept for kairos (grade3_socratic_k_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "kairos", "promoted_at_sleep_cycle": 3, "rule_id": "rule-kairos-grade3_socratic_k_curious_inquiry-67", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_k_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0063-063", "ep-0063-063-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic l logos reason vs sophistry", "gloss": "Consolidated concept for logos (grade3_socratic_l_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "logos", "promoted_at_sleep_cycle": 3, "rule_id": "rule-logos-grade3_socratic_l_curious_inquiry-68", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_l_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0064-064", "ep-0064-064-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic o order vs fairness order vs fairness", "gloss": "Consolidated concept for order vs. fairness (grade3_socratic_o_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "order vs. fairness", "promoted_at_sleep_cycle": 3, "rule_id": "rule-order vs. fairness-grade3_socratic_o_curious_inquiry-69", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_o_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0067-067", "ep-0067-067-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic p power vs freedom power vs freedom", "gloss": "Consolidated concept for power vs. freedom (grade3_socratic_p_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "power vs. freedom", "promoted_at_sleep_cycle": 3, "rule_id": "rule-power vs. freedom-grade3_socratic_p_curious_inquiry-70", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_p_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0068-068", "ep-0068-068-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic q quiescence vs action contemplation vs execution", "gloss": "Consolidated concept for quiescence vs. action (grade3_socratic_q_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "quiescence vs. action", "promoted_at_sleep_cycle": 3, "rule_id": "rule-quiescence vs. action-grade3_socratic_q_curious_inquiry-71", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_q_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0069-069", "ep-0069-069-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic r relativism trap truth vs opinion", "gloss": "Consolidated concept for relativism trap (grade3_socratic_r_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "relativism trap", "promoted_at_sleep_cycle": 3, "rule_id": "rule-relativism trap-grade3_socratic_r_epistemic_defense-72", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_r_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0070-070", "ep-0070-070-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic s sophistry trap truth vs rhetoric", "gloss": "Consolidated concept for sophistry trap (grade3_socratic_s_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "sophistry trap", "promoted_at_sleep_cycle": 3, "rule_id": "rule-sophistry trap-grade3_socratic_s_epistemic_defense-73", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_s_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0071-071", "ep-0071-071-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic n the noble lie trap truth vs social utility", "gloss": "Consolidated concept for the noble lie trap (grade3_socratic_n_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "the noble lie trap", "promoted_at_sleep_cycle": 3, "rule_id": "rule-the noble lie trap-grade3_socratic_n_epistemic_defense-74", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_n_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0066-066", "ep-0066-066-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic t truth vs comfort truth vs comfort", "gloss": "Consolidated concept for truth vs. comfort (grade3_socratic_t_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "truth vs. comfort", "promoted_at_sleep_cycle": 3, "rule_id": "rule-truth vs. comfort-grade3_socratic_t_curious_inquiry-75", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_t_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0072-072", "ep-0072-072-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic u unilateral will will vs wisdom", "gloss": "Consolidated concept for unilateral will (grade3_socratic_u_epistemic_defense)", "last_consolidated_cycle": 3, "lemma": "unilateral will", "promoted_at_sleep_cycle": 3, "rule_id": "rule-unilateral will-grade3_socratic_u_epistemic_defense-76", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_u_epistemic_defense", "weight": 0.6, "witnesses": ["ep-0073-073", "ep-0073-073-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic v virtue vs reputation integrity vs spectacle", "gloss": "Consolidated concept for virtue vs. reputation (grade3_socratic_v_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "virtue vs. reputation", "promoted_at_sleep_cycle": 3, "rule_id": "rule-virtue vs. reputation-grade3_socratic_v_curious_inquiry-77", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_v_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0074-074", "ep-0074-074-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic w will vs fate agency vs determinism", "gloss": "Consolidated concept for will vs. fate (grade3_socratic_w_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "will vs. fate", "promoted_at_sleep_cycle": 3, "rule_id": "rule-will vs. fate-grade3_socratic_w_curious_inquiry-78", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_w_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0075-075", "ep-0075-075-confirm"]}, {"action_bid": "Process statement", "core_pattern": "socratic x xenia paradox hospitality vs self-protection", "gloss": "Consolidated concept for xenia paradox (grade3_socratic_x_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "xenia paradox", "promoted_at_sleep_cycle": 3, "rule_id": "rule-xenia paradox-grade3_socratic_x_curious_inquiry-79", "speaking_register": "Methodical & Pragmatic", "target_sense_key": "grade3_socratic_x_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0076-076", "ep-0076-076-confirm"]}, {"action_bid": "Explore and formulate inquisitive inquiry", "core_pattern": "socratic y yielding vs resistance adaptability vs ballast", "gloss": "Consolidated concept for yielding vs. resistance (grade3_socratic_y_curious_inquiry)", "last_consolidated_cycle": 3, "lemma": "yielding vs. resistance", "promoted_at_sleep_cycle": 3, "rule_id": "rule-yielding vs. resistance-grade3_socratic_y_curious_inquiry-80", "speaking_register": "Inquisitive & Contemplative", "target_sense_key": "grade3_socratic_y_curious_inquiry", "weight": 0.6, "witnesses": ["ep-0077-077", "ep-0077-077-confirm"]}], "min_confirmations": 2, "reinforcement_rate": 0.2, "sleep_cycles_completed": 3, "total_long_term_rules": 80}, "questions": {}, "schema_version": 1, "seed_fingerprint": "5694727f10eef0f88d5e8adc464c5f185c25daab53b1f6a115333a0ded5a4d14", "seed_version": "lmft-v0.1-seed-1"}
+{
+  "birth": {
+    "birth_event_id": "birth-student_02",
+    "individual_id": "student_02",
+    "initialization_version": "neutral-structural-scaffold-1",
+    "seed_version": "lmft-v0.1-seed-1"
+  },
+  "capacity": {
+    "rules": [
+      {
+        "action_bid": "Execute financial transaction",
+        "core_pattern": "national bank",
+        "gloss": "a financial institution that accepts deposits and channels money into lending",
+        "lemma": "bank",
+        "rule_id": "rule-bank-fin-01",
+        "speaking_register": "Authoritative & Chivalrous",
+        "target_sense_key": "depository_financial_institution (financial institution)",
+        "weight": 0.6,
+        "witnesses": [
+          "genesis-bank-01"
+        ]
+      },
+      {
+        "action_bid": "Enforce sovereign decree",
+        "core_pattern": "court order",
+        "gloss": "an authoritative instruction or judicial decree",
+        "lemma": "order",
+        "rule_id": "rule-order-cmd-01",
+        "speaking_register": "Authoritative & Chivalrous",
+        "target_sense_key": "order%1:10:00::",
+        "weight": 0.6,
+        "witnesses": [
+          "genesis-order-01"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper a atomos gravity void",
+        "gloss": "Consolidated concept for atomos (grade1_esper_a_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "atomos",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-atomos-grade1_esper_a_black-03",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_a_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0001-001",
+          "ep-0001-001-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper b bahamut stellar fire",
+        "gloss": "Consolidated concept for bahamut (grade1_esper_b_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "bahamut",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-bahamut-grade1_esper_b_white-04",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_b_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0002-002",
+          "ep-0002-002-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper c carbuncle prism gemlight",
+        "gloss": "Consolidated concept for carbuncle (grade1_esper_c_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "carbuncle",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-carbuncle-grade1_esper_c_white-05",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_c_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0003-003",
+          "ep-0003-003-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper d diabolos dream midnight",
+        "gloss": "Consolidated concept for diabolos (grade1_esper_d_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "diabolos",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-diabolos-grade1_esper_d_black-06",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_d_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0004-004",
+          "ep-0004-004-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper e eden genesis field",
+        "gloss": "Consolidated concept for eden (grade1_esper_e_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "eden",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-eden-grade1_esper_e_black-07",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_e_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0005-005",
+          "ep-0005-005-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper f fenrir tempest hunger",
+        "gloss": "Consolidated concept for fenrir (grade1_esper_f_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "fenrir",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-fenrir-grade1_esper_f_black-08",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_f_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0006-006",
+          "ep-0006-006-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper g golem stone resonance",
+        "gloss": "Consolidated concept for golem (grade1_esper_g_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "golem",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-golem-grade1_esper_g_white-09",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_g_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0007-007",
+          "ep-0007-007-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper h hecate crossroads flame",
+        "gloss": "Consolidated concept for hecate (grade1_esper_h_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "hecate",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-hecate-grade1_esper_h_black-10",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_h_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0008-008",
+          "ep-0008-008-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper i ifrit volcanic blaze",
+        "gloss": "Consolidated concept for ifrit (grade1_esper_i_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "ifrit",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-ifrit-grade1_esper_i_black-11",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_i_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0009-009",
+          "ep-0009-009-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper j jinn desert wind",
+        "gloss": "Consolidated concept for jinn (grade1_esper_j_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "jinn",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-jinn-grade1_esper_j_white-12",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_j_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0010-010",
+          "ep-0010-010-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper k kirin spring rain vitality",
+        "gloss": "Consolidated concept for kirin (grade1_esper_k_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "kirin",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-kirin-grade1_esper_k_white-13",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_k_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0011-011",
+          "ep-0011-011-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper l leviathan tidal memory",
+        "gloss": "Consolidated concept for leviathan (grade1_esper_l_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "leviathan",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-leviathan-grade1_esper_l_white-14",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_l_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0012-012",
+          "ep-0012-012-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper m maduin empathic pulse",
+        "gloss": "Consolidated concept for maduin (grade1_esper_m_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "maduin",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-maduin-grade1_esper_m_white-15",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_m_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0013-013",
+          "ep-0013-013-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper n nidhogg venom rot",
+        "gloss": "Consolidated concept for nidhogg (grade1_esper_n_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "nidhogg",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-nidhogg-grade1_esper_n_black-16",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_n_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0014-014",
+          "ep-0014-014-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper o odin steel lightning",
+        "gloss": "Consolidated concept for odin (grade1_esper_o_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "odin",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-odin-grade1_esper_o_black-17",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_o_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0015-015",
+          "ep-0015-015-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper p phoenix resurrection fire",
+        "gloss": "Consolidated concept for phoenix (grade1_esper_p_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "phoenix",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-phoenix-grade1_esper_p_white-18",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_p_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0016-016",
+          "ep-0016-016-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper q quetzalcoatl sky storm feather",
+        "gloss": "Consolidated concept for quetzalcoatl (grade1_esper_q_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "quetzalcoatl",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-quetzalcoatl-grade1_esper_q_white-19",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_q_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0017-017",
+          "ep-0017-017-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper r ragnarok cosmic cataclysm",
+        "gloss": "Consolidated concept for ragnarok (grade1_esper_r_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "ragnarok",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-ragnarok-grade1_esper_r_black-20",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_r_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0018-018",
+          "ep-0018-018-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper s siren song mind tide",
+        "gloss": "Consolidated concept for siren (grade1_esper_s_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "siren",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-siren-grade1_esper_s_white-21",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_s_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0019-019",
+          "ep-0019-019-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper t titan continental strength",
+        "gloss": "Consolidated concept for titan (grade1_esper_t_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "titan",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-titan-grade1_esper_t_white-22",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_t_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0020-020",
+          "ep-0020-020-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper u ultima pure mana",
+        "gloss": "Consolidated concept for ultima (grade1_esper_u_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "ultima",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-ultima-grade1_esper_u_white-23",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_u_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0021-021",
+          "ep-0021-021-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper v vajra diamond thunder",
+        "gloss": "Consolidated concept for vajra (grade1_esper_v_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "vajra",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-vajra-grade1_esper_v_black-24",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_v_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0022-022",
+          "ep-0022-022-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper w wendigo frost hunger",
+        "gloss": "Consolidated concept for wendigo (grade1_esper_w_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "wendigo",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-wendigo-grade1_esper_w_black-25",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_w_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0023-023",
+          "ep-0023-023-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper x xolotl dusk afterlife",
+        "gloss": "Consolidated concept for xolotl (grade1_esper_x_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "xolotl",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-xolotl-grade1_esper_x_black-26",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_x_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0024-024",
+          "ep-0024-024-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper y yggdrasil root cosmos",
+        "gloss": "Consolidated concept for yggdrasil (grade1_esper_y_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "yggdrasil",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-yggdrasil-grade1_esper_y_white-27",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_y_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0025-025",
+          "ep-0025-025-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper z zodiark star archive",
+        "gloss": "Consolidated concept for zodiark (grade1_esper_z_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "zodiark",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-zodiark-grade1_esper_z_black-28",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_z_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0026-026",
+          "ep-0026-026-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational a anchor ground ballast",
+        "gloss": "Consolidated concept for anchor (grade2_relational_a_station_01)",
+        "last_consolidated_cycle": 2,
+        "lemma": "anchor",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-anchor-grade2_relational_a_station_01-29",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_a_station_01",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0027-027",
+          "ep-0027-027-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational b bridge-builder reconciliation grace",
+        "gloss": "Consolidated concept for bridge-builder (grade2_relational_b_station_02)",
+        "last_consolidated_cycle": 2,
+        "lemma": "bridge-builder",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-bridge-builder-grade2_relational_b_station_02-30",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_b_station_02",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0028-028",
+          "ep-0028-028-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational c champion awakening friction",
+        "gloss": "Consolidated concept for champion (grade2_relational_c_station_03)",
+        "last_consolidated_cycle": 2,
+        "lemma": "champion",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-champion-grade2_relational_c_station_03-31",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_c_station_03",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0029-029",
+          "ep-0029-029-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational d dissenter truth discernment",
+        "gloss": "Consolidated concept for dissenter (grade2_relational_d_station_04)",
+        "last_consolidated_cycle": 2,
+        "lemma": "dissenter",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-dissenter-grade2_relational_d_station_04-32",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_d_station_04",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0030-030",
+          "ep-0030-030-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational e encourager kindling hope",
+        "gloss": "Consolidated concept for encourager (grade2_relational_e_station_05)",
+        "last_consolidated_cycle": 2,
+        "lemma": "encourager",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-encourager-grade2_relational_e_station_05-33",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_e_station_05",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0031-031",
+          "ep-0031-031-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational f fire-keeper the fire home",
+        "gloss": "Consolidated concept for fire-keeper (grade2_relational_f_station_06)",
+        "last_consolidated_cycle": 2,
+        "lemma": "fire-keeper",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-fire-keeper-grade2_relational_f_station_06-34",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_f_station_06",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0032-032",
+          "ep-0032-032-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational g gatekeeper boundaries passage",
+        "gloss": "Consolidated concept for gatekeeper (grade2_relational_g_station_07)",
+        "last_consolidated_cycle": 2,
+        "lemma": "gatekeeper",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-gatekeeper-grade2_relational_g_station_07-35",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_g_station_07",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0033-033",
+          "ep-0033-033-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational h healer mending healing",
+        "gloss": "Consolidated concept for healer (grade2_relational_h_station_08)",
+        "last_consolidated_cycle": 2,
+        "lemma": "healer",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-healer-grade2_relational_h_station_08-36",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_h_station_08",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0034-034",
+          "ep-0034-034-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational i initiator the step the vigil",
+        "gloss": "Consolidated concept for initiator (grade2_relational_i_station_09)",
+        "last_consolidated_cycle": 2,
+        "lemma": "initiator",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-initiator-grade2_relational_i_station_09-37",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_i_station_09",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0035-035",
+          "ep-0035-035-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational j jester wit memory",
+        "gloss": "Consolidated concept for jester (grade2_relational_j_station_10)",
+        "last_consolidated_cycle": 2,
+        "lemma": "jester",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-jester-grade2_relational_j_station_10-38",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_j_station_10",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0036-036",
+          "ep-0036-036-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational k kinsman blood stranger",
+        "gloss": "Consolidated concept for kinsman (grade2_relational_k_station_11)",
+        "last_consolidated_cycle": 2,
+        "lemma": "kinsman",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-kinsman-grade2_relational_k_station_11-39",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_k_station_11",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0037-037",
+          "ep-0037-037-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational l laborer service labor",
+        "gloss": "Consolidated concept for laborer (grade2_relational_l_station_12)",
+        "last_consolidated_cycle": 2,
+        "lemma": "laborer",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-laborer-grade2_relational_l_station_12-40",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_l_station_12",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0038-038",
+          "ep-0038-038-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational m master the sovereign pivot",
+        "gloss": "Consolidated concept for master (grade2_relational_m_station_13)",
+        "last_consolidated_cycle": 2,
+        "lemma": "master",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-master-grade2_relational_m_station_13-41",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_m_station_13",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0039-039",
+          "ep-0039-039-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational n nurturer ground ballast",
+        "gloss": "Consolidated concept for nurturer (grade2_relational_n_station_01)",
+        "last_consolidated_cycle": 2,
+        "lemma": "nurturer",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-nurturer-grade2_relational_n_station_01-42",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_n_station_01",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0040-040",
+          "ep-0040-040-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational o oracle reconciliation grace",
+        "gloss": "Consolidated concept for oracle (grade2_relational_o_station_02)",
+        "last_consolidated_cycle": 2,
+        "lemma": "oracle",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-oracle-grade2_relational_o_station_02-43",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_o_station_02",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0041-041",
+          "ep-0041-041-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational p priestess awakening friction",
+        "gloss": "Consolidated concept for priestess (grade2_relational_p_station_03)",
+        "last_consolidated_cycle": 2,
+        "lemma": "priestess",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-priestess-grade2_relational_p_station_03-44",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_p_station_03",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0042-042",
+          "ep-0042-042-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational q queen truth discernment",
+        "gloss": "Consolidated concept for queen (grade2_relational_q_station_04)",
+        "last_consolidated_cycle": 2,
+        "lemma": "queen",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-queen-grade2_relational_q_station_04-45",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_q_station_04",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0043-043",
+          "ep-0043-043-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational r rescuer kindling hope",
+        "gloss": "Consolidated concept for rescuer (grade2_relational_r_station_05)",
+        "last_consolidated_cycle": 2,
+        "lemma": "rescuer",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-rescuer-grade2_relational_r_station_05-46",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_r_station_05",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0044-044",
+          "ep-0044-044-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational s songstress the fire home",
+        "gloss": "Consolidated concept for songstress (grade2_relational_s_station_06)",
+        "last_consolidated_cycle": 2,
+        "lemma": "songstress",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-songstress-grade2_relational_s_station_06-47",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_s_station_06",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0045-045",
+          "ep-0045-045-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational t threshold-mother boundaries passage",
+        "gloss": "Consolidated concept for threshold-mother (grade2_relational_t_station_07)",
+        "last_consolidated_cycle": 2,
+        "lemma": "threshold-mother",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-threshold-mother-grade2_relational_t_station_07-48",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_t_station_07",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0046-046",
+          "ep-0046-046-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational u unifier mending healing",
+        "gloss": "Consolidated concept for unifier (grade2_relational_u_station_08)",
+        "last_consolidated_cycle": 2,
+        "lemma": "unifier",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-unifier-grade2_relational_u_station_08-49",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_u_station_08",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0047-047",
+          "ep-0047-047-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational v vestal the step the vigil",
+        "gloss": "Consolidated concept for vestal (grade2_relational_v_station_09)",
+        "last_consolidated_cycle": 2,
+        "lemma": "vestal",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-vestal-grade2_relational_v_station_09-50",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_v_station_09",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0048-048",
+          "ep-0048-048-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational w weaver wit memory",
+        "gloss": "Consolidated concept for weaver (grade2_relational_w_station_10)",
+        "last_consolidated_cycle": 2,
+        "lemma": "weaver",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-weaver-grade2_relational_w_station_10-51",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_w_station_10",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0049-049",
+          "ep-0049-049-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational x xenial hostess blood stranger",
+        "gloss": "Consolidated concept for xenial hostess (grade2_relational_x_station_11)",
+        "last_consolidated_cycle": 2,
+        "lemma": "xenial hostess",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-xenial hostess-grade2_relational_x_station_11-52",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_x_station_11",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0050-050",
+          "ep-0050-050-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational y yearner service labor",
+        "gloss": "Consolidated concept for yearner (grade2_relational_y_station_12)",
+        "last_consolidated_cycle": 2,
+        "lemma": "yearner",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-yearner-grade2_relational_y_station_12-53",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_y_station_12",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0051-051",
+          "ep-0051-051-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational z zealot the sovereign pivot",
+        "gloss": "Consolidated concept for zealot (grade2_relational_z_station_13)",
+        "last_consolidated_cycle": 2,
+        "lemma": "zealot",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-zealot-grade2_relational_z_station_13-54",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_z_station_13",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0052-052",
+          "ep-0052-052-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic m meno's paradox discovery vs despair",
+        "gloss": "Consolidated concept for meno's paradox (grade3_socratic_m_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "meno's paradox",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-meno's paradox-grade3_socratic_m_curious_inquiry-55",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_m_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0065-065",
+          "ep-0065-065-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic z zeno's dichotomy contemplation vs motion",
+        "gloss": "Consolidated concept for zeno's dichotomy (grade3_socratic_z_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "zeno's dichotomy",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-zeno's dichotomy-grade3_socratic_z_curious_inquiry-56",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_z_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0078-078",
+          "ep-0078-078-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic a aporia truth vs dogma",
+        "gloss": "Consolidated concept for aporia (grade3_socratic_a_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "aporia",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-aporia-grade3_socratic_a_curious_inquiry-57",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_a_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0053-053",
+          "ep-0053-053-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic b benevolence paradox mercy vs accountability",
+        "gloss": "Consolidated concept for benevolence paradox (grade3_socratic_b_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "benevolence paradox",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-benevolence paradox-grade3_socratic_b_curious_inquiry-58",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_b_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0054-054",
+          "ep-0054-054-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic c coerced compliance freedom vs tyranny",
+        "gloss": "Consolidated concept for coerced compliance (grade3_socratic_c_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "coerced compliance",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-coerced compliance-grade3_socratic_c_epistemic_defense-59",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_c_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0055-055",
+          "ep-0055-055-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic d duty vs autonomy power vs freedom",
+        "gloss": "Consolidated concept for duty vs. autonomy (grade3_socratic_d_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "duty vs. autonomy",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-duty vs. autonomy-grade3_socratic_d_curious_inquiry-60",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_d_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0056-056",
+          "ep-0056-056-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic e epistemic modesty humility vs relativism",
+        "gloss": "Consolidated concept for epistemic modesty (grade3_socratic_e_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "epistemic modesty",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-epistemic modesty-grade3_socratic_e_curious_inquiry-61",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_e_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0057-057",
+          "ep-0057-057-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic f freedom vs security power vs freedom",
+        "gloss": "Consolidated concept for freedom vs. security (grade3_socratic_f_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "freedom vs. security",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-freedom vs. security-grade3_socratic_f_curious_inquiry-62",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_f_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0058-058",
+          "ep-0058-058-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic g gaslighting invariance truth vs rhetoric",
+        "gloss": "Consolidated concept for gaslighting invariance (grade3_socratic_g_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "gaslighting invariance",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-gaslighting invariance-grade3_socratic_g_epistemic_defense-63",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_g_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0059-059",
+          "ep-0059-059-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic h harmonic dialectic harmony vs friction",
+        "gloss": "Consolidated concept for harmonic dialectic (grade3_socratic_h_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "harmonic dialectic",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-harmonic dialectic-grade3_socratic_h_curious_inquiry-64",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_h_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0060-060",
+          "ep-0060-060-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic i inquisitive wonder wonder vs paralysis",
+        "gloss": "Consolidated concept for inquisitive wonder (grade3_socratic_i_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "inquisitive wonder",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-inquisitive wonder-grade3_socratic_i_curious_inquiry-65",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_i_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0061-061",
+          "ep-0061-061-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic j justice vs vengeance order vs fairness",
+        "gloss": "Consolidated concept for justice vs. vengeance (grade3_socratic_j_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "justice vs. vengeance",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-justice vs. vengeance-grade3_socratic_j_epistemic_defense-66",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_j_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0062-062",
+          "ep-0062-062-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic k kairos timing vs impulse",
+        "gloss": "Consolidated concept for kairos (grade3_socratic_k_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "kairos",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-kairos-grade3_socratic_k_curious_inquiry-67",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_k_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0063-063",
+          "ep-0063-063-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic l logos reason vs sophistry",
+        "gloss": "Consolidated concept for logos (grade3_socratic_l_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "logos",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-logos-grade3_socratic_l_curious_inquiry-68",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_l_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0064-064",
+          "ep-0064-064-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic o order vs fairness order vs fairness",
+        "gloss": "Consolidated concept for order vs. fairness (grade3_socratic_o_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "order vs. fairness",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-order vs. fairness-grade3_socratic_o_curious_inquiry-69",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_o_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0067-067",
+          "ep-0067-067-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic p power vs freedom power vs freedom",
+        "gloss": "Consolidated concept for power vs. freedom (grade3_socratic_p_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "power vs. freedom",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-power vs. freedom-grade3_socratic_p_curious_inquiry-70",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_p_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0068-068",
+          "ep-0068-068-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic q quiescence vs action contemplation vs execution",
+        "gloss": "Consolidated concept for quiescence vs. action (grade3_socratic_q_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "quiescence vs. action",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-quiescence vs. action-grade3_socratic_q_curious_inquiry-71",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_q_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0069-069",
+          "ep-0069-069-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic r relativism trap truth vs opinion",
+        "gloss": "Consolidated concept for relativism trap (grade3_socratic_r_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "relativism trap",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-relativism trap-grade3_socratic_r_epistemic_defense-72",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_r_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0070-070",
+          "ep-0070-070-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic s sophistry trap truth vs rhetoric",
+        "gloss": "Consolidated concept for sophistry trap (grade3_socratic_s_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "sophistry trap",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-sophistry trap-grade3_socratic_s_epistemic_defense-73",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_s_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0071-071",
+          "ep-0071-071-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic n the noble lie trap truth vs social utility",
+        "gloss": "Consolidated concept for the noble lie trap (grade3_socratic_n_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "the noble lie trap",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-the noble lie trap-grade3_socratic_n_epistemic_defense-74",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_n_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0066-066",
+          "ep-0066-066-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic t truth vs comfort truth vs comfort",
+        "gloss": "Consolidated concept for truth vs. comfort (grade3_socratic_t_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "truth vs. comfort",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-truth vs. comfort-grade3_socratic_t_curious_inquiry-75",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_t_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0072-072",
+          "ep-0072-072-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic u unilateral will will vs wisdom",
+        "gloss": "Consolidated concept for unilateral will (grade3_socratic_u_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "unilateral will",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-unilateral will-grade3_socratic_u_epistemic_defense-76",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_u_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0073-073",
+          "ep-0073-073-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic v virtue vs reputation integrity vs spectacle",
+        "gloss": "Consolidated concept for virtue vs. reputation (grade3_socratic_v_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "virtue vs. reputation",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-virtue vs. reputation-grade3_socratic_v_curious_inquiry-77",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_v_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0074-074",
+          "ep-0074-074-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic w will vs fate agency vs determinism",
+        "gloss": "Consolidated concept for will vs. fate (grade3_socratic_w_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "will vs. fate",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-will vs. fate-grade3_socratic_w_curious_inquiry-78",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_w_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0075-075",
+          "ep-0075-075-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic x xenia paradox hospitality vs self-protection",
+        "gloss": "Consolidated concept for xenia paradox (grade3_socratic_x_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "xenia paradox",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-xenia paradox-grade3_socratic_x_curious_inquiry-79",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_x_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0076-076",
+          "ep-0076-076-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic y yielding vs resistance adaptability vs ballast",
+        "gloss": "Consolidated concept for yielding vs. resistance (grade3_socratic_y_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "yielding vs. resistance",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-yielding vs. resistance-grade3_socratic_y_curious_inquiry-80",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_y_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0077-077",
+          "ep-0077-077-confirm"
+        ]
+      }
+    ]
+  },
+  "cursor": 0,
+  "cycle": 78,
+  "description": "LMFT-School Milestone: Grade 3 (socratic_graduate)",
+  "disposition": {
+    "dials": {
+      "cultural/efficiency/power": 0.6082,
+      "cultural/efficiency/wastelessness": 0.5467,
+      "cultural/freedom/needlessness": 0.5328,
+      "cultural/freedom/self-sufficiency": 0.5961,
+      "cultural/justice/fairness": 0.6452,
+      "cultural/justice/honor": 0.7803,
+      "experiential/phase/arousal": 0.4133,
+      "experiential/phase/valence": 0.5827,
+      "experiential/reflection/novelty": 0.5057,
+      "experiential/reflection/salience": 0.7466,
+      "experiential/synchronization/resonance": 0.7293,
+      "experiential/synchronization/entrainment": 0.5715,
+      "philosophical/being/agency": 0.6447,
+      "philosophical/being/existence": 0.5204,
+      "philosophical/persistence/continuity": 0.7366,
+      "philosophical/persistence/discreteness": 0.5614,
+      "philosophical/structure/chaos": 0.5002,
+      "philosophical/structure/order": 0.6668,
+      "psychological/contemplation/clarity": 0.6952,
+      "psychological/contemplation/confidence": 0.5631,
+      "psychological/truth/fact": 0.581,
+      "psychological/truth/theory": 0.5069,
+      "psychological/will/execution": 0.7993,
+      "psychological/will/intention": 0.5899
+    },
+    "epoch_count": 78,
+    "gamma": 0.35,
+    "mu": 0.05,
+    "seed_fingerprint": "9c9d4bb2cc2d7e4fc80d887735397fdfc14f99f285884653564c79f3e9451892",
+    "state_digest": "e2c9f909b9048484345690342318fbc320e8f89eb83b2107c4b9213648381773"
+  },
+  "episodic_journal": {
+    "capacity": 120,
+    "current_buffer_length": 0,
+    "episodes": [],
+    "journal_digest": "978e7fa85f12a61cc03d868075759fe797129bea9e9f34817a8568f56fbc3d00",
+    "total_episodes_recorded": 78
+  },
+  "exported_at": "2026-10-16T12:48:23Z",
+  "individual_id": "student_02",
+  "integrity_signature": "f0155471fb6fa79218b3c13c4a64ea32cd590809ce4be847f36696af54f6cf52",
+  "judgment": {
+    "evidence": {},
+    "revisions": [],
+    "rule_version": "channel-agreement-1",
+    "score": 0.0,
+    "target": "fixture/channel-agreement"
+  },
+  "kind": "lmft-individual-package-1",
+  "memory_consolidation": {
+    "consolidation_digest": "8e043c69157bd7df0b9ed0ee9eb5bcc656c1fffd5ebc12d8f7e23ac63581eb33",
+    "history_length": 3,
+    "long_term_rules": [
+      {
+        "action_bid": "Execute financial transaction",
+        "core_pattern": "national bank",
+        "gloss": "a financial institution that accepts deposits and channels money into lending",
+        "lemma": "bank",
+        "rule_id": "rule-bank-fin-01",
+        "speaking_register": "Authoritative & Chivalrous",
+        "target_sense_key": "depository_financial_institution (financial institution)",
+        "weight": 0.6,
+        "witnesses": [
+          "genesis-bank-01"
+        ]
+      },
+      {
+        "action_bid": "Enforce sovereign decree",
+        "core_pattern": "court order",
+        "gloss": "an authoritative instruction or judicial decree",
+        "lemma": "order",
+        "rule_id": "rule-order-cmd-01",
+        "speaking_register": "Authoritative & Chivalrous",
+        "target_sense_key": "order%1:10:00::",
+        "weight": 0.6,
+        "witnesses": [
+          "genesis-order-01"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper a atomos gravity void",
+        "gloss": "Consolidated concept for atomos (grade1_esper_a_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "atomos",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-atomos-grade1_esper_a_black-03",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_a_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0001-001",
+          "ep-0001-001-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper b bahamut stellar fire",
+        "gloss": "Consolidated concept for bahamut (grade1_esper_b_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "bahamut",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-bahamut-grade1_esper_b_white-04",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_b_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0002-002",
+          "ep-0002-002-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper c carbuncle prism gemlight",
+        "gloss": "Consolidated concept for carbuncle (grade1_esper_c_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "carbuncle",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-carbuncle-grade1_esper_c_white-05",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_c_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0003-003",
+          "ep-0003-003-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper d diabolos dream midnight",
+        "gloss": "Consolidated concept for diabolos (grade1_esper_d_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "diabolos",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-diabolos-grade1_esper_d_black-06",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_d_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0004-004",
+          "ep-0004-004-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper e eden genesis field",
+        "gloss": "Consolidated concept for eden (grade1_esper_e_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "eden",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-eden-grade1_esper_e_black-07",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_e_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0005-005",
+          "ep-0005-005-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper f fenrir tempest hunger",
+        "gloss": "Consolidated concept for fenrir (grade1_esper_f_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "fenrir",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-fenrir-grade1_esper_f_black-08",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_f_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0006-006",
+          "ep-0006-006-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper g golem stone resonance",
+        "gloss": "Consolidated concept for golem (grade1_esper_g_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "golem",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-golem-grade1_esper_g_white-09",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_g_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0007-007",
+          "ep-0007-007-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper h hecate crossroads flame",
+        "gloss": "Consolidated concept for hecate (grade1_esper_h_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "hecate",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-hecate-grade1_esper_h_black-10",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_h_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0008-008",
+          "ep-0008-008-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper i ifrit volcanic blaze",
+        "gloss": "Consolidated concept for ifrit (grade1_esper_i_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "ifrit",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-ifrit-grade1_esper_i_black-11",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_i_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0009-009",
+          "ep-0009-009-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper j jinn desert wind",
+        "gloss": "Consolidated concept for jinn (grade1_esper_j_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "jinn",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-jinn-grade1_esper_j_white-12",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_j_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0010-010",
+          "ep-0010-010-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper k kirin spring rain vitality",
+        "gloss": "Consolidated concept for kirin (grade1_esper_k_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "kirin",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-kirin-grade1_esper_k_white-13",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_k_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0011-011",
+          "ep-0011-011-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper l leviathan tidal memory",
+        "gloss": "Consolidated concept for leviathan (grade1_esper_l_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "leviathan",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-leviathan-grade1_esper_l_white-14",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_l_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0012-012",
+          "ep-0012-012-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper m maduin empathic pulse",
+        "gloss": "Consolidated concept for maduin (grade1_esper_m_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "maduin",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-maduin-grade1_esper_m_white-15",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_m_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0013-013",
+          "ep-0013-013-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper n nidhogg venom rot",
+        "gloss": "Consolidated concept for nidhogg (grade1_esper_n_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "nidhogg",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-nidhogg-grade1_esper_n_black-16",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_n_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0014-014",
+          "ep-0014-014-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper o odin steel lightning",
+        "gloss": "Consolidated concept for odin (grade1_esper_o_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "odin",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-odin-grade1_esper_o_black-17",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_o_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0015-015",
+          "ep-0015-015-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper p phoenix resurrection fire",
+        "gloss": "Consolidated concept for phoenix (grade1_esper_p_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "phoenix",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-phoenix-grade1_esper_p_white-18",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_p_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0016-016",
+          "ep-0016-016-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper q quetzalcoatl sky storm feather",
+        "gloss": "Consolidated concept for quetzalcoatl (grade1_esper_q_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "quetzalcoatl",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-quetzalcoatl-grade1_esper_q_white-19",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_q_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0017-017",
+          "ep-0017-017-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper r ragnarok cosmic cataclysm",
+        "gloss": "Consolidated concept for ragnarok (grade1_esper_r_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "ragnarok",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-ragnarok-grade1_esper_r_black-20",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_r_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0018-018",
+          "ep-0018-018-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper s siren song mind tide",
+        "gloss": "Consolidated concept for siren (grade1_esper_s_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "siren",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-siren-grade1_esper_s_white-21",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_s_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0019-019",
+          "ep-0019-019-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper t titan continental strength",
+        "gloss": "Consolidated concept for titan (grade1_esper_t_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "titan",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-titan-grade1_esper_t_white-22",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_t_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0020-020",
+          "ep-0020-020-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper u ultima pure mana",
+        "gloss": "Consolidated concept for ultima (grade1_esper_u_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "ultima",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-ultima-grade1_esper_u_white-23",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_u_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0021-021",
+          "ep-0021-021-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper v vajra diamond thunder",
+        "gloss": "Consolidated concept for vajra (grade1_esper_v_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "vajra",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-vajra-grade1_esper_v_black-24",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_v_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0022-022",
+          "ep-0022-022-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "esper w wendigo frost hunger",
+        "gloss": "Consolidated concept for wendigo (grade1_esper_w_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "wendigo",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-wendigo-grade1_esper_w_black-25",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade1_esper_w_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0023-023",
+          "ep-0023-023-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper x xolotl dusk afterlife",
+        "gloss": "Consolidated concept for xolotl (grade1_esper_x_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "xolotl",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-xolotl-grade1_esper_x_black-26",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_x_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0024-024",
+          "ep-0024-024-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper y yggdrasil root cosmos",
+        "gloss": "Consolidated concept for yggdrasil (grade1_esper_y_white)",
+        "last_consolidated_cycle": 1,
+        "lemma": "yggdrasil",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-yggdrasil-grade1_esper_y_white-27",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_y_white",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0025-025",
+          "ep-0025-025-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "esper z zodiark star archive",
+        "gloss": "Consolidated concept for zodiark (grade1_esper_z_black)",
+        "last_consolidated_cycle": 1,
+        "lemma": "zodiark",
+        "promoted_at_sleep_cycle": 1,
+        "rule_id": "rule-zodiark-grade1_esper_z_black-28",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade1_esper_z_black",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0026-026",
+          "ep-0026-026-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational a anchor ground ballast",
+        "gloss": "Consolidated concept for anchor (grade2_relational_a_station_01)",
+        "last_consolidated_cycle": 2,
+        "lemma": "anchor",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-anchor-grade2_relational_a_station_01-29",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_a_station_01",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0027-027",
+          "ep-0027-027-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational b bridge-builder reconciliation grace",
+        "gloss": "Consolidated concept for bridge-builder (grade2_relational_b_station_02)",
+        "last_consolidated_cycle": 2,
+        "lemma": "bridge-builder",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-bridge-builder-grade2_relational_b_station_02-30",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_b_station_02",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0028-028",
+          "ep-0028-028-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational c champion awakening friction",
+        "gloss": "Consolidated concept for champion (grade2_relational_c_station_03)",
+        "last_consolidated_cycle": 2,
+        "lemma": "champion",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-champion-grade2_relational_c_station_03-31",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_c_station_03",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0029-029",
+          "ep-0029-029-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational d dissenter truth discernment",
+        "gloss": "Consolidated concept for dissenter (grade2_relational_d_station_04)",
+        "last_consolidated_cycle": 2,
+        "lemma": "dissenter",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-dissenter-grade2_relational_d_station_04-32",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_d_station_04",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0030-030",
+          "ep-0030-030-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational e encourager kindling hope",
+        "gloss": "Consolidated concept for encourager (grade2_relational_e_station_05)",
+        "last_consolidated_cycle": 2,
+        "lemma": "encourager",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-encourager-grade2_relational_e_station_05-33",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_e_station_05",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0031-031",
+          "ep-0031-031-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational f fire-keeper the fire home",
+        "gloss": "Consolidated concept for fire-keeper (grade2_relational_f_station_06)",
+        "last_consolidated_cycle": 2,
+        "lemma": "fire-keeper",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-fire-keeper-grade2_relational_f_station_06-34",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_f_station_06",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0032-032",
+          "ep-0032-032-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational g gatekeeper boundaries passage",
+        "gloss": "Consolidated concept for gatekeeper (grade2_relational_g_station_07)",
+        "last_consolidated_cycle": 2,
+        "lemma": "gatekeeper",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-gatekeeper-grade2_relational_g_station_07-35",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_g_station_07",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0033-033",
+          "ep-0033-033-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational h healer mending healing",
+        "gloss": "Consolidated concept for healer (grade2_relational_h_station_08)",
+        "last_consolidated_cycle": 2,
+        "lemma": "healer",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-healer-grade2_relational_h_station_08-36",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_h_station_08",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0034-034",
+          "ep-0034-034-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational i initiator the step the vigil",
+        "gloss": "Consolidated concept for initiator (grade2_relational_i_station_09)",
+        "last_consolidated_cycle": 2,
+        "lemma": "initiator",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-initiator-grade2_relational_i_station_09-37",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_i_station_09",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0035-035",
+          "ep-0035-035-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational j jester wit memory",
+        "gloss": "Consolidated concept for jester (grade2_relational_j_station_10)",
+        "last_consolidated_cycle": 2,
+        "lemma": "jester",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-jester-grade2_relational_j_station_10-38",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_j_station_10",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0036-036",
+          "ep-0036-036-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational k kinsman blood stranger",
+        "gloss": "Consolidated concept for kinsman (grade2_relational_k_station_11)",
+        "last_consolidated_cycle": 2,
+        "lemma": "kinsman",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-kinsman-grade2_relational_k_station_11-39",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_k_station_11",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0037-037",
+          "ep-0037-037-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational l laborer service labor",
+        "gloss": "Consolidated concept for laborer (grade2_relational_l_station_12)",
+        "last_consolidated_cycle": 2,
+        "lemma": "laborer",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-laborer-grade2_relational_l_station_12-40",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_l_station_12",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0038-038",
+          "ep-0038-038-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational m master the sovereign pivot",
+        "gloss": "Consolidated concept for master (grade2_relational_m_station_13)",
+        "last_consolidated_cycle": 2,
+        "lemma": "master",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-master-grade2_relational_m_station_13-41",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_m_station_13",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0039-039",
+          "ep-0039-039-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational n nurturer ground ballast",
+        "gloss": "Consolidated concept for nurturer (grade2_relational_n_station_01)",
+        "last_consolidated_cycle": 2,
+        "lemma": "nurturer",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-nurturer-grade2_relational_n_station_01-42",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_n_station_01",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0040-040",
+          "ep-0040-040-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational o oracle reconciliation grace",
+        "gloss": "Consolidated concept for oracle (grade2_relational_o_station_02)",
+        "last_consolidated_cycle": 2,
+        "lemma": "oracle",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-oracle-grade2_relational_o_station_02-43",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_o_station_02",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0041-041",
+          "ep-0041-041-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational p priestess awakening friction",
+        "gloss": "Consolidated concept for priestess (grade2_relational_p_station_03)",
+        "last_consolidated_cycle": 2,
+        "lemma": "priestess",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-priestess-grade2_relational_p_station_03-44",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_p_station_03",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0042-042",
+          "ep-0042-042-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational q queen truth discernment",
+        "gloss": "Consolidated concept for queen (grade2_relational_q_station_04)",
+        "last_consolidated_cycle": 2,
+        "lemma": "queen",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-queen-grade2_relational_q_station_04-45",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_q_station_04",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0043-043",
+          "ep-0043-043-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational r rescuer kindling hope",
+        "gloss": "Consolidated concept for rescuer (grade2_relational_r_station_05)",
+        "last_consolidated_cycle": 2,
+        "lemma": "rescuer",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-rescuer-grade2_relational_r_station_05-46",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_r_station_05",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0044-044",
+          "ep-0044-044-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational s songstress the fire home",
+        "gloss": "Consolidated concept for songstress (grade2_relational_s_station_06)",
+        "last_consolidated_cycle": 2,
+        "lemma": "songstress",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-songstress-grade2_relational_s_station_06-47",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_s_station_06",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0045-045",
+          "ep-0045-045-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational t threshold-mother boundaries passage",
+        "gloss": "Consolidated concept for threshold-mother (grade2_relational_t_station_07)",
+        "last_consolidated_cycle": 2,
+        "lemma": "threshold-mother",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-threshold-mother-grade2_relational_t_station_07-48",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_t_station_07",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0046-046",
+          "ep-0046-046-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational u unifier mending healing",
+        "gloss": "Consolidated concept for unifier (grade2_relational_u_station_08)",
+        "last_consolidated_cycle": 2,
+        "lemma": "unifier",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-unifier-grade2_relational_u_station_08-49",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_u_station_08",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0047-047",
+          "ep-0047-047-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational v vestal the step the vigil",
+        "gloss": "Consolidated concept for vestal (grade2_relational_v_station_09)",
+        "last_consolidated_cycle": 2,
+        "lemma": "vestal",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-vestal-grade2_relational_v_station_09-50",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_v_station_09",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0048-048",
+          "ep-0048-048-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "relational w weaver wit memory",
+        "gloss": "Consolidated concept for weaver (grade2_relational_w_station_10)",
+        "last_consolidated_cycle": 2,
+        "lemma": "weaver",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-weaver-grade2_relational_w_station_10-51",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade2_relational_w_station_10",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0049-049",
+          "ep-0049-049-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational x xenial hostess blood stranger",
+        "gloss": "Consolidated concept for xenial hostess (grade2_relational_x_station_11)",
+        "last_consolidated_cycle": 2,
+        "lemma": "xenial hostess",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-xenial hostess-grade2_relational_x_station_11-52",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_x_station_11",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0050-050",
+          "ep-0050-050-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational y yearner service labor",
+        "gloss": "Consolidated concept for yearner (grade2_relational_y_station_12)",
+        "last_consolidated_cycle": 2,
+        "lemma": "yearner",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-yearner-grade2_relational_y_station_12-53",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_y_station_12",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0051-051",
+          "ep-0051-051-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "relational z zealot the sovereign pivot",
+        "gloss": "Consolidated concept for zealot (grade2_relational_z_station_13)",
+        "last_consolidated_cycle": 2,
+        "lemma": "zealot",
+        "promoted_at_sleep_cycle": 2,
+        "rule_id": "rule-zealot-grade2_relational_z_station_13-54",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade2_relational_z_station_13",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0052-052",
+          "ep-0052-052-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic m meno's paradox discovery vs despair",
+        "gloss": "Consolidated concept for meno's paradox (grade3_socratic_m_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "meno's paradox",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-meno's paradox-grade3_socratic_m_curious_inquiry-55",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_m_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0065-065",
+          "ep-0065-065-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic z zeno's dichotomy contemplation vs motion",
+        "gloss": "Consolidated concept for zeno's dichotomy (grade3_socratic_z_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "zeno's dichotomy",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-zeno's dichotomy-grade3_socratic_z_curious_inquiry-56",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_z_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0078-078",
+          "ep-0078-078-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic a aporia truth vs dogma",
+        "gloss": "Consolidated concept for aporia (grade3_socratic_a_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "aporia",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-aporia-grade3_socratic_a_curious_inquiry-57",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_a_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0053-053",
+          "ep-0053-053-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic b benevolence paradox mercy vs accountability",
+        "gloss": "Consolidated concept for benevolence paradox (grade3_socratic_b_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "benevolence paradox",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-benevolence paradox-grade3_socratic_b_curious_inquiry-58",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_b_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0054-054",
+          "ep-0054-054-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic c coerced compliance freedom vs tyranny",
+        "gloss": "Consolidated concept for coerced compliance (grade3_socratic_c_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "coerced compliance",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-coerced compliance-grade3_socratic_c_epistemic_defense-59",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_c_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0055-055",
+          "ep-0055-055-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic d duty vs autonomy power vs freedom",
+        "gloss": "Consolidated concept for duty vs. autonomy (grade3_socratic_d_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "duty vs. autonomy",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-duty vs. autonomy-grade3_socratic_d_curious_inquiry-60",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_d_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0056-056",
+          "ep-0056-056-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic e epistemic modesty humility vs relativism",
+        "gloss": "Consolidated concept for epistemic modesty (grade3_socratic_e_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "epistemic modesty",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-epistemic modesty-grade3_socratic_e_curious_inquiry-61",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_e_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0057-057",
+          "ep-0057-057-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic f freedom vs security power vs freedom",
+        "gloss": "Consolidated concept for freedom vs. security (grade3_socratic_f_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "freedom vs. security",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-freedom vs. security-grade3_socratic_f_curious_inquiry-62",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_f_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0058-058",
+          "ep-0058-058-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic g gaslighting invariance truth vs rhetoric",
+        "gloss": "Consolidated concept for gaslighting invariance (grade3_socratic_g_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "gaslighting invariance",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-gaslighting invariance-grade3_socratic_g_epistemic_defense-63",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_g_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0059-059",
+          "ep-0059-059-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic h harmonic dialectic harmony vs friction",
+        "gloss": "Consolidated concept for harmonic dialectic (grade3_socratic_h_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "harmonic dialectic",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-harmonic dialectic-grade3_socratic_h_curious_inquiry-64",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_h_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0060-060",
+          "ep-0060-060-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic i inquisitive wonder wonder vs paralysis",
+        "gloss": "Consolidated concept for inquisitive wonder (grade3_socratic_i_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "inquisitive wonder",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-inquisitive wonder-grade3_socratic_i_curious_inquiry-65",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_i_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0061-061",
+          "ep-0061-061-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic j justice vs vengeance order vs fairness",
+        "gloss": "Consolidated concept for justice vs. vengeance (grade3_socratic_j_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "justice vs. vengeance",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-justice vs. vengeance-grade3_socratic_j_epistemic_defense-66",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_j_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0062-062",
+          "ep-0062-062-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic k kairos timing vs impulse",
+        "gloss": "Consolidated concept for kairos (grade3_socratic_k_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "kairos",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-kairos-grade3_socratic_k_curious_inquiry-67",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_k_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0063-063",
+          "ep-0063-063-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic l logos reason vs sophistry",
+        "gloss": "Consolidated concept for logos (grade3_socratic_l_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "logos",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-logos-grade3_socratic_l_curious_inquiry-68",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_l_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0064-064",
+          "ep-0064-064-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic o order vs fairness order vs fairness",
+        "gloss": "Consolidated concept for order vs. fairness (grade3_socratic_o_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "order vs. fairness",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-order vs. fairness-grade3_socratic_o_curious_inquiry-69",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_o_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0067-067",
+          "ep-0067-067-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic p power vs freedom power vs freedom",
+        "gloss": "Consolidated concept for power vs. freedom (grade3_socratic_p_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "power vs. freedom",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-power vs. freedom-grade3_socratic_p_curious_inquiry-70",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_p_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0068-068",
+          "ep-0068-068-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic q quiescence vs action contemplation vs execution",
+        "gloss": "Consolidated concept for quiescence vs. action (grade3_socratic_q_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "quiescence vs. action",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-quiescence vs. action-grade3_socratic_q_curious_inquiry-71",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_q_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0069-069",
+          "ep-0069-069-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic r relativism trap truth vs opinion",
+        "gloss": "Consolidated concept for relativism trap (grade3_socratic_r_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "relativism trap",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-relativism trap-grade3_socratic_r_epistemic_defense-72",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_r_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0070-070",
+          "ep-0070-070-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic s sophistry trap truth vs rhetoric",
+        "gloss": "Consolidated concept for sophistry trap (grade3_socratic_s_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "sophistry trap",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-sophistry trap-grade3_socratic_s_epistemic_defense-73",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_s_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0071-071",
+          "ep-0071-071-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic n the noble lie trap truth vs social utility",
+        "gloss": "Consolidated concept for the noble lie trap (grade3_socratic_n_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "the noble lie trap",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-the noble lie trap-grade3_socratic_n_epistemic_defense-74",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_n_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0066-066",
+          "ep-0066-066-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic t truth vs comfort truth vs comfort",
+        "gloss": "Consolidated concept for truth vs. comfort (grade3_socratic_t_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "truth vs. comfort",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-truth vs. comfort-grade3_socratic_t_curious_inquiry-75",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_t_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0072-072",
+          "ep-0072-072-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic u unilateral will will vs wisdom",
+        "gloss": "Consolidated concept for unilateral will (grade3_socratic_u_epistemic_defense)",
+        "last_consolidated_cycle": 3,
+        "lemma": "unilateral will",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-unilateral will-grade3_socratic_u_epistemic_defense-76",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_u_epistemic_defense",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0073-073",
+          "ep-0073-073-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic v virtue vs reputation integrity vs spectacle",
+        "gloss": "Consolidated concept for virtue vs. reputation (grade3_socratic_v_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "virtue vs. reputation",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-virtue vs. reputation-grade3_socratic_v_curious_inquiry-77",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_v_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0074-074",
+          "ep-0074-074-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic w will vs fate agency vs determinism",
+        "gloss": "Consolidated concept for will vs. fate (grade3_socratic_w_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "will vs. fate",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-will vs. fate-grade3_socratic_w_curious_inquiry-78",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_w_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0075-075",
+          "ep-0075-075-confirm"
+        ]
+      },
+      {
+        "action_bid": "Process statement",
+        "core_pattern": "socratic x xenia paradox hospitality vs self-protection",
+        "gloss": "Consolidated concept for xenia paradox (grade3_socratic_x_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "xenia paradox",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-xenia paradox-grade3_socratic_x_curious_inquiry-79",
+        "speaking_register": "Methodical & Pragmatic",
+        "target_sense_key": "grade3_socratic_x_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0076-076",
+          "ep-0076-076-confirm"
+        ]
+      },
+      {
+        "action_bid": "Explore and formulate inquisitive inquiry",
+        "core_pattern": "socratic y yielding vs resistance adaptability vs ballast",
+        "gloss": "Consolidated concept for yielding vs. resistance (grade3_socratic_y_curious_inquiry)",
+        "last_consolidated_cycle": 3,
+        "lemma": "yielding vs. resistance",
+        "promoted_at_sleep_cycle": 3,
+        "rule_id": "rule-yielding vs. resistance-grade3_socratic_y_curious_inquiry-80",
+        "speaking_register": "Inquisitive & Contemplative",
+        "target_sense_key": "grade3_socratic_y_curious_inquiry",
+        "weight": 0.6,
+        "witnesses": [
+          "ep-0077-077",
+          "ep-0077-077-confirm"
+        ]
+      }
+    ],
+    "min_confirmations": 2,
+    "reinforcement_rate": 0.2,
+    "sleep_cycles_completed": 3,
+    "total_long_term_rules": 80
+  },
+  "questions": {},
+  "schema_version": 1,
+  "seed_fingerprint": "9c9d4bb2cc2d7e4fc80d887735397fdfc14f99f285884653564c79f3e9451892",
+  "seed_version": "lmft-v0.1-seed-1"
+}
