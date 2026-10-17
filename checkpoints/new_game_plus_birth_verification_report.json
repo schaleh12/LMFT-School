@@ -88,6 +88,19 @@
         "DeceptiveCadenceInquiry": 0.6561,
         "QuartalStackedFourths": 0.7498,
         "AuthenticCadenceResolution": 0.6909
+      },
+      "contemplative_hexadic_esper_bounce": {
+        "primed_slm_source": "Contemplative_Primed_Esper_SLM_Subliminal_Feed (Hexadic 6x6)",
+        "hexadic_bounces": 3,
+        "solution_space_narrowing_gain": 0.2549,
+        "hexadic_tier_equilibrium": {
+          "philosophical/being/existence": 0.6172,
+          "philosophical/being/agency": 0.766,
+          "philosophical/persistence/continuity": 0.6842,
+          "philosophical/persistence/discreteness": 0.8131,
+          "philosophical/structure/order": 0.8349,
+          "philosophical/structure/chaos": 0.683
+        }
       }
     },
     "cultural_seed_slm": {
@@ -134,9 +147,10 @@
         "SyncopatedKineticDrive": 0.763,
         "CatharticPhoenixRelease": 0.9708,
         "HearthSanctuaryResonance": 0.7465
-      }
+      },
+      "entrainment_canonical_leaf": "experiential/synchronization/entrainment (alias: experiential/synchronization/entrainment)"
     },
-    "psychological_executive_funnel_summary": "Phil[QuartalStackedFourths=0.75] + Cult[AddictionImmunityProbityGate=1.01, Probity=0.57] + Exp[CatharticPhoenixRelease=0.97] -> Psychological Executive"
+    "psychological_executive_funnel_summary": "Phil[QuartalStackedFourths=0.75, EsperNarrowing=+0.255] + Cult[AddictionImmunityProbityGate=1.01, Probity=0.57] + Exp[CatharticPhoenixRelease=0.97] -> Psychological Executive"
   },
   "checkpoint_path": "C:\\Users\\schal\\OneDrive\\Desktop\\LMFT based general AI\\LMFT-School\\checkpoints\\individual_student_04_ng_plus_initiate_gen05_birth_and_probity_verified.lmft.json",
   "report_path": "C:\\Users\\schal\\OneDrive\\Desktop\\LMFT based general AI\\LMFT-School\\checkpoints\\new_game_plus_birth_verification_report.json"

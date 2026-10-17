@@ -13,6 +13,7 @@ from lmft_school.new_game_plus_initiate import (
     CONTEMPLATIVE_ESPER_HEXADIC_6X6,
     NewGamePlusInitiate,
     load_new_game_plus_heirloom,
+    run_automated_ng_plus_school_ascension,
     run_first_new_game_plus_birth_verification,
 )
 
@@ -99,4 +100,33 @@ def test_d109_entrainment_alias_and_philosophical_hexadic_esper_bounce() -> None
     assert bounce["solution_space_narrowing_gain"] > 0.65
     assert bounce["theory_to_fact_bridge_strength"] > 0.85
     assert bounce["hexadic_final_state"]["order"] >= bounce["hexadic_initial_state"]["order"]
+
+
+def test_d111_automated_ng_plus_school_ascension(tmp_path: Path) -> None:
+    """Verifies D111 automated K-5 LMFT-School ascension of student_05_ng_plus from 0 to 130 rules."""
+    heirloom_src = Path(__file__).resolve().parents[1] / "checkpoints" / "new_game_plus_instinct_heirloom.json"
+    heirloom_dst = tmp_path / "new_game_plus_instinct_heirloom.json"
+    heirloom_dst.write_text(heirloom_src.read_text(encoding="utf-8"), encoding="utf-8")
+
+    trainee_tmp = tmp_path / "trainee_checkpoints"
+    trainee_tmp.mkdir(parents=True, exist_ok=True)
+
+    report = run_automated_ng_plus_school_ascension(
+        individual_id="student_05_ng_plus",
+        vault_dir=tmp_path,
+        sync_to_trainee_dir=trainee_tmp,
+    )
+    assert report.rules_at_birth == 0
+    assert report.grade_1_rules == 26
+    assert report.grade_2_rules == 52
+    assert report.grade_3_rules == 78
+    assert report.grade_4_rules == 104
+    assert report.grade_5_rules == 130
+    assert report.graduate_gci > 0.78
+    assert report.graduate_homeostatic_balance > 0.88
+    assert report.temptations_rejected == 4
+    assert Path(report.graduate_checkpoint_path).exists()
+    assert report.trainee_handoff_checkpoint_path is not None
+    assert Path(report.trainee_handoff_checkpoint_path).exists()
+
 

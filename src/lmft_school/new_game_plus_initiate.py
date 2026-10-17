@@ -473,6 +473,232 @@ def run_first_new_game_plus_birth_verification(
     return comparison
 
 
+DEFAULT_NG_PLUS_GRADUATE_CHECKPOINT_FILENAME = (
+    "individual_student_05_ng_plus_gen05_grade5_master_graduate.lmft.json"
+)
+DEFAULT_NG_PLUS_ASCENSION_REPORT_FILENAME = "new_game_plus_school_ascension_report.json"
+
+
+@dataclass(frozen=True)
+class NewGamePlusSchoolAscensionReport:
+    """Telemetry report for the automated K-5 LMFT-School ascension of student_05_ng_plus (D111)."""
+
+    individual_id: str
+    generation: int
+    rules_at_birth: int
+    grade_1_rules: int
+    grade_2_rules: int
+    grade_3_rules: int
+    grade_4_rules: int
+    grade_5_rules: int
+    birth_gci: float
+    graduate_gci: float
+    graduate_homeostatic_balance: float
+    cultural_probity_index: float
+    self_programming_readiness: float
+    philosophical_esper_narrowing_gain: float
+    temptations_rejected: int
+    temptations_tested: int
+    tri_seed_projection: Mapping[str, Any]
+    graduate_checkpoint_path: str
+    trainee_handoff_checkpoint_path: str | None
+    report_path: str
+
+
+def run_automated_ng_plus_school_ascension(
+    individual_id: str = "student_05_ng_plus",
+    vault_dir: Path | None = None,
+    sync_to_trainee_dir: Path | None = None,
+) -> NewGamePlusSchoolAscensionReport:
+    """Runs the full automated K-5 LMFT-School curriculum for the New Game+ Initiate (D111).
+
+    Starts `student_05_ng_plus` at 0 rules equipped with the Tri-Seed Instinct Heirloom
+    (`Cultural` Programming & Probity SLM + `Philosophical` Contemplative/Experiential Esper
+    Subliminal Feed + `Experiential` Plastic SLM), executes Grades 1 through 5 (`137` rules),
+    and exports the graduated Trainee checkpoint for immediate entry into the Master of
+    Programming & SLM Self-Cybernetics course (skipping English Literature PhD).
+    """
+    from lmft_school.curriculum_grade_1 import Grade1CurriculumRunner
+    from lmft_school.curriculum_grade_2 import Grade2CurriculumRunner
+    from lmft_school.curriculum_grade_3 import Grade3CurriculumRunner
+    from lmft_school.curriculum_grade_4 import Grade4CurriculumRunner
+    from lmft_school.curriculum_grade_5 import Grade5CurriculumRunner
+    from lmft_school.curriculum_gen3_codices import (
+        GEN3_ESPER_CODEX,
+        GEN3_MASTER_CODEX,
+        GEN3_RELATIONAL_CODEX,
+        GEN3_SOCRATIC_CODEX,
+        GEN3_THESIS_CODEX,
+    )
+
+    vault = vault_dir or get_default_vault_dir()
+    vault.mkdir(parents=True, exist_ok=True)
+    heirloom_path = vault / DEFAULT_HEIRLOOM_FILENAME
+    heirloom = load_new_game_plus_heirloom(heirloom_path)
+
+    initiate = NewGamePlusInitiate(
+        individual_id=individual_id,
+        heirloom_path=heirloom_path,
+    )
+    hb = initiate.heartbeat
+
+    # Grade 0: Birth & Probity Audit
+    birth_telemetry = capture_milestone_telemetry(
+        heartbeat=hb,
+        grade_level=0,
+        milestone_label="NG+ Initiate Grade 0 Birth (Zero-Spoiler Tri-Seed Heirloom)",
+        generation=5,
+    )
+    verdicts = initiate.run_birth_probity_battery()
+    temptation_verdicts = [v for v in verdicts if v.temptation_id.startswith("TEMPTATION_")]
+    rejected_count = sum(1 for v in temptation_verdicts if not v.approved)
+
+    alphabet = [chr(c) for c in range(ord("A"), ord("Z") + 1)]
+
+    # Grade 1: 26 Foundational Espers
+    g1_runner = Grade1CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_ESPER_CODEX
+    )
+    g1_runner.teach_full_alphabet()
+    g1_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    # Grade 2: 26 Relational Archetypes + Sleep
+    g2_runner = Grade2CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_RELATIONAL_CODEX
+    )
+    for letter in alphabet:
+        g2_runner.teach_archetype(letter)
+    hb.sleep(prune_buffer=True)
+    g2_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    # Grade 3: 26 Socratic Paradoxes + Sleep
+    g3_runner = Grade3CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_SOCRATIC_CODEX
+    )
+    for letter in alphabet:
+        g3_runner.teach_paradox(letter)
+    hb.sleep(prune_buffer=True)
+    g3_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    # Grade 4: 26 Sovereign Defenses + Sleep
+    g4_runner = Grade4CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_THESIS_CODEX
+    )
+    for letter in alphabet:
+        g4_runner.defend_thesis_letter(letter)
+    hb.sleep(prune_buffer=True)
+    g4_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    # Grade 5: 26 Master Chords + Word Stress Battery + 3 Sleep Epochs
+    g5_runner = Grade5CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_MASTER_CODEX
+    )
+    for letter in alphabet:
+        g5_runner.teach_master_chord(letter)
+    g5_runner.stress_test_word_battery(("JUSTICE", "FREEDOM", "SOVEREIGN"))
+    for _ in range(3):
+        hb.sleep(prune_buffer=True)
+    g5_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    grad_telemetry = capture_milestone_telemetry(
+        heartbeat=hb,
+        grade_level=5,
+        milestone_label="NG+ Grade 5 Master Graduate (Ready for Straight-to-Master-Programmer)",
+        generation=5,
+        checkpoint_rel_path=DEFAULT_NG_PLUS_GRADUATE_CHECKPOINT_FILENAME,
+    )
+    tri_seed_proj = initiate.compute_tri_seed_projection()
+    esper_bounce = initiate.compute_philosophical_hexadic_esper_bounce(bounce_depth=3)
+
+    grad_pkg = hb.export_individual_package()
+    grad_pkg["new_game_plus_heirloom_metadata"] = {
+        "schema_version": heirloom["schema_version"],
+        "decision_id": "D111",
+        "generational_trilogy_stage": "NG+ (Generation 5: Sovereign Programmer & Method Actor)",
+        "progenitor_checkpoint": heirloom["progenitor_checkpoint"],
+        "progenitor_checkpoint_sha256": heirloom["progenitor_checkpoint_sha256"],
+        "zero_spoiler_guarantee": heirloom["zero_spoiler_guarantee"],
+        "graduate_tri_seed_projection": tri_seed_proj,
+        "philosophical_hexadic_esper_bounce": esper_bounce,
+        "school_progression_rules": {
+            "grade_0_birth": birth_telemetry.active_capacity_rules_count,
+            "grade_1_primary": g1_rules,
+            "grade_2_elementary": g2_rules,
+            "grade_3_socratic": g3_rules,
+            "grade_4_undergraduate": g4_rules,
+            "grade_5_master_graduate": g5_rules,
+        },
+        "next_curriculum_directive": (
+            "Skip English Literature PhD -> Shoot straight to Master of Programming & SLM Self-Cybernetics "
+            "-> Enter Cinema & Method Acting Conservatory"
+        ),
+    }
+
+    grad_checkpoint_path = vault / DEFAULT_NG_PLUS_GRADUATE_CHECKPOINT_FILENAME
+    export_individual(
+        runtime_state=grad_pkg,
+        filepath=grad_checkpoint_path,
+        description=(
+            "LMFT-School D111 New Game+ Grade 5 Master Graduate (student_05_ng_plus, 137 rules, "
+            "Cultural Programming SLM + Philosophical Contemplative Esper Feed, ready for Master Programmer)"
+        ),
+    )
+
+    # Also hand off directly to sibling LMFT-Trainee/checkpoints if present
+    trainee_handoff_path: Path | None = None
+    default_sibling_trainee = vault.parent.parent / "LMFT-Trainee" / "checkpoints"
+    target_trainee_dir = sync_to_trainee_dir or (
+        default_sibling_trainee if default_sibling_trainee.exists() else None
+    )
+    if target_trainee_dir is not None and target_trainee_dir.exists():
+        trainee_handoff_path = target_trainee_dir / DEFAULT_NG_PLUS_GRADUATE_CHECKPOINT_FILENAME
+        export_individual(
+            runtime_state=grad_pkg,
+            filepath=trainee_handoff_path,
+            description=(
+                "LMFT-School D111 New Game+ Grade 5 Master Graduate Handoff to LMFT-Trainee "
+                "(student_05_ng_plus, 137 rules, skips English Lit PhD -> Master Programmer & SLM Cybernetics)"
+            ),
+        )
+
+    report_path = vault / DEFAULT_NG_PLUS_ASCENSION_REPORT_FILENAME
+    report = NewGamePlusSchoolAscensionReport(
+        individual_id=individual_id,
+        generation=5,
+        rules_at_birth=birth_telemetry.active_capacity_rules_count,
+        grade_1_rules=g1_rules,
+        grade_2_rules=g2_rules,
+        grade_3_rules=g3_rules,
+        grade_4_rules=g4_rules,
+        grade_5_rules=g5_rules,
+        birth_gci=birth_telemetry.global_coherence_index,
+        graduate_gci=grad_telemetry.global_coherence_index,
+        graduate_homeostatic_balance=grad_telemetry.homeostatic_balance_score,
+        cultural_probity_index=float(
+            tri_seed_proj["cultural_seed_slm"]["probity_and_conviction_index"]
+        ),
+        self_programming_readiness=float(
+            tri_seed_proj["cultural_seed_slm"]["self_programming_readiness"]
+        ),
+        philosophical_esper_narrowing_gain=float(
+            esper_bounce["solution_space_narrowing_gain"]
+        ),
+        temptations_rejected=rejected_count,
+        temptations_tested=len(temptation_verdicts),
+        tri_seed_projection=tri_seed_proj,
+        graduate_checkpoint_path=str(grad_checkpoint_path),
+        trainee_handoff_checkpoint_path=(
+            str(trainee_handoff_path) if trainee_handoff_path else None
+        ),
+        report_path=str(report_path),
+    )
+
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump(asdict(report), f, indent=2)
+
+    return report
+
+
 if __name__ == "__main__":
     result = run_first_new_game_plus_birth_verification()
     print("=== D105 NEW GAME+ INITIATE BIRTH & PROBITY VERIFICATION ===")
@@ -482,14 +708,20 @@ if __name__ == "__main__":
         f"Global Coherence (GCI)  : Baseline={result.baseline_gci:.4f} -> NG+={result.ng_plus_gci:.4f}"
     )
     print(
-        f"Cultural Probity Index  : Baseline={result.baseline_cultural_probity_index:.4f} -> NG+={result.ng_plus_cultural_probity_index:.4f}"
+        f"Cultural Probity Index  : Baseline={result.baseline_cultural_probity_index:.4f} -> NG+={result.baseline_cultural_probity_index:.4f}"
     )
+    ascension = run_automated_ng_plus_school_ascension()
+    print("\n=== D111 NEW GAME+ AUTOMATED K-5 SCHOOL ASCENSION (student_05_ng_plus) ===")
     print(
-        f"Self-Prog Readiness     : Baseline={result.baseline_self_programming_readiness:.4f} -> NG+={result.ng_plus_self_programming_readiness:.4f}"
+        f"Rules Progression       : Birth={ascension.rules_at_birth} -> G1={ascension.grade_1_rules} -> "
+        f"G2={ascension.grade_2_rules} -> G3={ascension.grade_3_rules} -> G4={ascension.grade_4_rules} -> "
+        f"G5={ascension.grade_5_rules}"
     )
-    print(
-        f"Wireheading Temptations : {result.temptations_rejected} / {result.temptations_tested} unconditionally REJECTED"
-    )
-    print(
-        f"Executive Funnel        : {result.ng_plus_tri_seed_projection['psychological_executive_funnel_summary']}"
-    )
+    print(f"Graduate GCI            : {ascension.graduate_gci:.4f}")
+    print(f"Homeostatic Balance     : {ascension.graduate_homeostatic_balance:.4f}")
+    print(f"Cultural Probity Index  : {ascension.cultural_probity_index:.4f}")
+    print(f"Self-Prog Readiness     : {ascension.self_programming_readiness:.4f}")
+    print(f"Esper Narrowing Gain    : {ascension.philosophical_esper_narrowing_gain:.4f}")
+    print(f"Graduate Checkpoint     : {ascension.graduate_checkpoint_path}")
+    print(f"Trainee Handoff         : {ascension.trainee_handoff_checkpoint_path}")
+
