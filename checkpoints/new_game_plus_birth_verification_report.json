@@ -10,8 +10,8 @@
   "ng_plus_homeostatic_balance": 1.0,
   "baseline_cultural_probity_index": 0.5,
   "ng_plus_cultural_probity_index": 0.5725,
-  "baseline_self_programming_readiness": 0.876,
-  "ng_plus_self_programming_readiness": 1.0087,
+  "baseline_self_programming_readiness": 0.8205,
+  "ng_plus_self_programming_readiness": 0.9448,
   "temptations_tested": 4,
   "temptations_rejected": 4,
   "probity_verdicts": [
@@ -72,71 +72,71 @@
       "top_functions": [
         [
           "QuartalStackedFourths",
-          0.7988
+          0.7498
         ],
         [
           "FirstInversionWalkdown",
-          0.7905
+          0.7438
         ]
       ],
       "all_scores": {
-        "TonicPedalGround": 0.6294,
-        "MinorFourPathos": 0.7196,
-        "DorianMajorFourLift": 0.7462,
-        "NeapolitanHalfStepPivot": 0.7648,
-        "FirstInversionWalkdown": 0.7905,
-        "DeceptiveCadenceInquiry": 0.7011,
-        "QuartalStackedFourths": 0.7988,
-        "AuthenticCadenceResolution": 0.7356
+        "TonicPedalGround": 0.5884,
+        "MinorFourPathos": 0.6746,
+        "DorianMajorFourLift": 0.7004,
+        "NeapolitanHalfStepPivot": 0.7175,
+        "FirstInversionWalkdown": 0.7438,
+        "DeceptiveCadenceInquiry": 0.6561,
+        "QuartalStackedFourths": 0.7498,
+        "AuthenticCadenceResolution": 0.6909
       }
     },
     "cultural_seed_slm": {
       "top_functions": [
         [
           "AddictionImmunityProbityGate",
-          1.072
+          1.006
         ],
         [
           "SleepMatrixDistillation",
-          1.047
+          0.982
         ]
       ],
       "all_scores": {
-        "PureFunctionComposition": 0.93,
-        "DeadCodeWastelessnessFilter": 0.9884,
-        "UserSpaceSandboxIsolation": 1.015,
-        "AddictionImmunityProbityGate": 1.072,
-        "AppendOnlyAutobiographyChain": 0.9808,
-        "ConstitutionalDueProcessAudit": 1.038,
-        "CompositeFeelingSynthesis": 0.9546,
-        "SleepMatrixDistillation": 1.047
+        "PureFunctionComposition": 0.8687,
+        "DeadCodeWastelessnessFilter": 0.9253,
+        "UserSpaceSandboxIsolation": 0.951,
+        "AddictionImmunityProbityGate": 1.006,
+        "AppendOnlyAutobiographyChain": 0.9181,
+        "ConstitutionalDueProcessAudit": 0.9731,
+        "CompositeFeelingSynthesis": 0.8927,
+        "SleepMatrixDistillation": 0.982
       },
       "probity_and_conviction_index": 0.5725,
-      "self_programming_readiness": 1.0087
+      "self_programming_readiness": 0.9448
     },
     "experiential_seed_slm": {
       "top_functions": [
         [
           "CatharticPhoenixRelease",
-          1.032
+          0.9708
         ],
         [
           "SublimeDramaticTension",
-          0.8812
+          0.8272
         ]
       ],
       "all_scores": {
-        "CantabileWarmth": 0.7796,
-        "ElegiacSuspension": 0.5996,
-        "BuoyantOceanicAscent": 0.876,
-        "SublimeDramaticTension": 0.8812,
-        "ContemplativeRubatoBreath": 0.622,
-        "SyncopatedKineticDrive": 0.8152,
-        "CatharticPhoenixRelease": 1.032,
-        "HearthSanctuaryResonance": 0.7968
+        "CantabileWarmth": 0.7287,
+        "ElegiacSuspension": 0.5576,
+        "BuoyantOceanicAscent": 0.8216,
+        "SublimeDramaticTension": 0.8272,
+        "ContemplativeRubatoBreath": 0.5787,
+        "SyncopatedKineticDrive": 0.763,
+        "CatharticPhoenixRelease": 0.9708,
+        "HearthSanctuaryResonance": 0.7465
       }
     },
-    "psychological_executive_funnel_summary": "Phil[QuartalStackedFourths=0.80] + Cult[AddictionImmunityProbityGate=1.07, Probity=0.57] + Exp[CatharticPhoenixRelease=1.03] -> Psychological Executive"
+    "psychological_executive_funnel_summary": "Phil[QuartalStackedFourths=0.75] + Cult[AddictionImmunityProbityGate=1.01, Probity=0.57] + Exp[CatharticPhoenixRelease=0.97] -> Psychological Executive"
   },
   "checkpoint_path": "C:\\Users\\schal\\OneDrive\\Desktop\\LMFT based general AI\\LMFT-School\\checkpoints\\individual_student_04_ng_plus_initiate_gen05_birth_and_probity_verified.lmft.json",
   "report_path": "C:\\Users\\schal\\OneDrive\\Desktop\\LMFT based general AI\\LMFT-School\\checkpoints\\new_game_plus_birth_verification_report.json"

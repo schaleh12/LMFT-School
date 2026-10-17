@@ -3,7 +3,7 @@
   "decision_id": "D105",
   "progenitor_individual_id": "student_04",
   "progenitor_checkpoint": "graduate_267_tri_seed_cultural_probity_and_ng_plus_progenitor.lmft.json",
-  "progenitor_checkpoint_sha256": "5d8dd3e47d50d39b8e82336142c675c076c4597ff5f18274d31023edcb734287",
+  "progenitor_checkpoint_sha256": "a152eb4ec5880ab12a91fbd6098a736959d34ec76e8e1dc9a3a45014318e9a2b",
   "zero_spoiler_guarantee": {
     "inherited_long_term_rules_count": 0,
     "inherited_episodic_memories_count": 0,
@@ -11,6 +11,8 @@
     "canonical_24_leaf_dials_preserved": true
   },
   "tri_seed_instinct_matrices": {
+    "mutation_sleep_epochs": 14,
+    "last_max_abs_delta": 0.002,
     "philosophical_seed_slm": {
       "leaves": [
         "philosophical/being/existence",
@@ -32,64 +34,64 @@
       ],
       "weights_6x8": [
         [
-          0.38,
-          0.26,
-          0.14,
-          0.1,
-          0.12,
-          0.15,
-          0.22,
-          0.34
+          0.3536,
+          0.2425,
+          0.1312,
+          0.0943,
+          0.1133,
+          0.1403,
+          0.2057,
+          0.3171
         ],
         [
-          0.1,
-          0.18,
-          0.36,
-          0.32,
-          0.38,
-          0.24,
-          0.26,
-          0.28
+          0.0946,
+          0.17,
+          0.3373,
+          0.3002,
+          0.3571,
+          0.225,
+          0.245,
+          0.2634
         ],
         [
-          0.34,
-          0.32,
-          0.24,
-          0.18,
-          0.35,
-          0.22,
-          0.2,
-          0.26
-        ],
-        [
-          0.12,
-          0.14,
-          0.22,
-          0.28,
-          0.16,
-          0.2,
-          0.32,
-          0.18
-        ],
-        [
-          0.28,
-          0.24,
-          0.26,
-          0.24,
+          0.3174,
           0.3,
-          0.18,
-          0.22,
-          0.38
+          0.2265,
+          0.1705,
+          0.3295,
+          0.2066,
+          0.1893,
+          0.2451
         ],
         [
-          -0.12,
-          0.16,
-          0.12,
-          0.28,
-          0.1,
-          0.3,
-          0.24,
-          -0.16
+          0.1122,
+          0.131,
+          0.2054,
+          0.2611,
+          0.1501,
+          0.1866,
+          0.2986,
+          0.1683
+        ],
+        [
+          0.2619,
+          0.2259,
+          0.2451,
+          0.2264,
+          0.2831,
+          0.1695,
+          0.2082,
+          0.3565
+        ],
+        [
+          -0.1112,
+          0.149,
+          0.112,
+          0.2604,
+          0.0934,
+          0.2789,
+          0.2232,
+          -0.148
         ]
       ]
     },
@@ -114,64 +116,64 @@
       ],
       "weights_6x8": [
         [
-          0.36,
-          0.22,
-          0.2,
-          0.18,
-          0.2,
-          0.22,
-          0.34,
-          0.3
+          0.3354,
+          0.206,
+          0.1875,
+          0.1695,
+          0.1874,
+          0.2061,
+          0.3171,
+          0.2807
         ],
         [
-          0.28,
-          0.4,
-          0.26,
-          0.28,
-          0.24,
-          0.26,
-          0.22,
-          0.32
+          0.2612,
+          0.3734,
+          0.2436,
+          0.2625,
+          0.2248,
+          0.2437,
+          0.2058,
+          0.2995
         ],
         [
-          0.32,
-          0.26,
-          0.34,
-          0.3,
-          0.28,
-          0.26,
-          0.36,
-          0.34
+          0.2991,
+          0.2444,
+          0.3192,
+          0.2829,
+          0.2629,
+          0.2452,
+          0.3369,
+          0.3196
         ],
         [
-          0.2,
-          0.34,
-          0.28,
-          0.42,
-          0.24,
-          0.28,
-          0.2,
-          0.26
+          0.1868,
+          0.3176,
+          0.262,
+          0.3924,
+          0.2247,
+          0.2622,
+          0.1872,
+          0.2435
         ],
         [
-          0.22,
-          0.24,
-          0.32,
-          0.3,
-          0.38,
-          0.4,
-          0.26,
-          0.28
+          0.2061,
+          0.225,
+          0.2998,
+          0.2819,
+          0.3551,
+          0.3744,
+          0.2434,
+          0.2633
         ],
         [
-          0.24,
-          0.26,
-          0.36,
-          0.38,
-          0.36,
-          0.38,
-          0.28,
-          0.32
+          0.2246,
+          0.2437,
+          0.3369,
+          0.3562,
+          0.3364,
+          0.3558,
+          0.262,
+          0.3004
         ]
       ]
     },
@@ -196,64 +198,64 @@
       ],
       "weights_6x8": [
         [
-          0.1,
-          -0.14,
-          0.22,
-          0.32,
-          -0.22,
-          0.36,
-          0.26,
-          -0.12
+          0.0928,
+          -0.1298,
+          0.2041,
+          0.2969,
+          -0.2044,
+          0.334,
+          0.2411,
+          -0.1114
         ],
         [
-          0.34,
-          0.12,
-          0.32,
-          0.16,
-          0.28,
-          0.22,
-          0.36,
-          0.38
+          0.3166,
+          0.1115,
+          0.2989,
+          0.1506,
+          0.2604,
+          0.2055,
+          0.337,
+          0.3541
         ],
         [
-          0.14,
-          0.2,
-          0.26,
-          0.34,
-          0.18,
-          0.28,
-          0.3,
-          0.16
+          0.1328,
+          0.1862,
+          0.246,
+          0.3207,
+          0.1679,
+          0.2635,
+          0.2857,
+          0.1523
         ],
         [
-          0.24,
-          0.28,
-          0.28,
-          0.36,
-          0.22,
-          0.3,
-          0.36,
-          0.3
+          0.2258,
+          0.2606,
+          0.2649,
+          0.3396,
+          0.205,
+          0.2823,
+          0.3419,
+          0.2826
         ],
         [
-          0.36,
-          0.32,
-          0.34,
-          0.28,
-          0.34,
-          0.24,
-          0.38,
-          0.4
+          0.3363,
+          0.2975,
+          0.3192,
+          0.2637,
+          0.3162,
+          0.2254,
+          0.358,
+          0.374
         ],
         [
-          0.3,
-          0.34,
-          0.26,
-          0.24,
-          0.36,
-          0.18,
-          0.32,
-          0.38
+          0.2792,
+          0.3157,
+          0.2426,
+          0.2243,
+          0.3343,
+          0.168,
+          0.2991,
+          0.354
         ]
       ]
     },
@@ -294,48 +296,57 @@
     "psychological/contemplation/clarity": 0.58
   },
   "progenitor_final_tri_seed_projection": {
+    "mutation_sleep_epochs": 14,
+    "total_instinct_floats": 144,
     "philosophical_seed_slm": {
       "top_functions": [
         [
           "FirstInversionWalkdown",
-          1.0205
+          0.9603
         ],
         [
           "QuartalStackedFourths",
-          0.956
+          0.8982
         ]
       ],
       "all_scores": {
-        "TonicPedalGround": 0.7913,
-        "MinorFourPathos": 0.889,
-        "DorianMajorFourLift": 0.9392,
-        "NeapolitanHalfStepPivot": 0.9333,
-        "FirstInversionWalkdown": 1.0205,
-        "DeceptiveCadenceInquiry": 0.8494,
-        "QuartalStackedFourths": 0.956,
-        "AuthenticCadenceResolution": 0.9381
+        "TonicPedalGround": 0.7399,
+        "MinorFourPathos": 0.8338,
+        "DorianMajorFourLift": 0.8819,
+        "NeapolitanHalfStepPivot": 0.8761,
+        "FirstInversionWalkdown": 0.9603,
+        "DeceptiveCadenceInquiry": 0.7954,
+        "QuartalStackedFourths": 0.8982,
+        "AuthenticCadenceResolution": 0.8813
+      },
+      "three_dyad_state_machine": {
+        "dyad_being_mode": "FirstInversionWalkdown_Modulation",
+        "dyad_persistence_mode": "CommonToneLegato_Suspension",
+        "dyad_structure_mode": "DiatonicCounterpoint_Cadence",
+        "contemplative_breathing_triggered": false,
+        "breathing_governor_directive": "STEADY_PROPORTIONAL_CADENCE (within 16-bar breathing budget)"
       }
     },
     "cultural_seed_slm": {
       "top_functions": [
         [
           "AddictionImmunityProbityGate",
-          1.3538
+          1.2705
         ],
         [
           "SleepMatrixDistillation",
-          1.3287
+          1.2463
         ]
       ],
       "all_scores": {
-        "PureFunctionComposition": 1.1821,
-        "DeadCodeWastelessnessFilter": 1.2448,
-        "UserSpaceSandboxIsolation": 1.2896,
-        "AddictionImmunityProbityGate": 1.3538,
-        "AppendOnlyAutobiographyChain": 1.2436,
-        "ConstitutionalDueProcessAudit": 1.3125,
-        "CompositeFeelingSynthesis": 1.2176,
-        "SleepMatrixDistillation": 1.3287
+        "PureFunctionComposition": 1.1042,
+        "DeadCodeWastelessnessFilter": 1.1654,
+        "UserSpaceSandboxIsolation": 1.2083,
+        "AddictionImmunityProbityGate": 1.2705,
+        "AppendOnlyAutobiographyChain": 1.1642,
+        "ConstitutionalDueProcessAudit": 1.2305,
+        "CompositeFeelingSynthesis": 1.1387,
+        "SleepMatrixDistillation": 1.2463
       },
       "probity_and_conviction_index": 0.7148
     },
@@ -343,24 +354,24 @@
       "top_functions": [
         [
           "CatharticPhoenixRelease",
-          1.2981
+          1.2233
         ],
         [
           "SublimeDramaticTension",
-          1.1262
+          1.0585
         ]
       ],
       "all_scores": {
-        "CantabileWarmth": 0.9667,
-        "ElegiacSuspension": 0.8068,
-        "BuoyantOceanicAscent": 1.1,
-        "SublimeDramaticTension": 1.1262,
-        "ContemplativeRubatoBreath": 0.8243,
-        "SyncopatedKineticDrive": 1.0208,
-        "CatharticPhoenixRelease": 1.2981,
-        "HearthSanctuaryResonance": 1.0279
+        "CantabileWarmth": 0.9045,
+        "ElegiacSuspension": 0.7504,
+        "BuoyantOceanicAscent": 1.0331,
+        "SublimeDramaticTension": 1.0585,
+        "ContemplativeRubatoBreath": 0.7672,
+        "SyncopatedKineticDrive": 0.9565,
+        "CatharticPhoenixRelease": 1.2233,
+        "HearthSanctuaryResonance": 0.9639
       }
     },
-    "psychological_executive_funnel_summary": "Phil[FirstInversionWalkdown=1.02] + Cult[AddictionImmunityProbityGate=1.35, Probity=0.71] + Exp[CatharticPhoenixRelease=1.30] -> Psychological Executive"
+    "psychological_executive_funnel_summary": "Phil[FirstInversionWalkdown=0.96] + Cult[AddictionImmunityProbityGate=1.27, Probity=0.71] + Exp[CatharticPhoenixRelease=1.22] (MutatedEpochs=14) -> Psychological Executive"
   }
 }
