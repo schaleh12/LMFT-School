@@ -88,6 +88,16 @@ def load_new_game_plus_heirloom(heirloom_path: Path | None = None) -> dict[str, 
     return data
 
 
+CONTEMPLATIVE_ESPER_HEXADIC_6X6: tuple[tuple[float, ...], ...] = (
+    (0.42, 0.18, 0.22, 0.08, 0.20, -0.10),
+    (0.16, 0.40, 0.14, 0.24, 0.22, 0.12),
+    (0.22, 0.14, 0.42, 0.16, 0.24, -0.08),
+    (0.10, 0.24, 0.18, 0.40, 0.28, 0.14),
+    (0.24, 0.22, 0.24, 0.26, 0.46, -0.22),
+    (0.08, 0.26, 0.10, 0.28, 0.34, 0.18),
+)
+
+
 def project_tri_seed_funnel(
     dials: Mapping[str, float],
     heirloom: Mapping[str, Any],
@@ -99,7 +109,7 @@ def project_tri_seed_funnel(
         leaves: Sequence[str] = branch_cfg["leaves"]
         functions: Sequence[str] = branch_cfg["functions"]
         weights: Sequence[Sequence[float]] = branch_cfg["weights_6x8"]
-        vec = [float(dials.get(leaf, 0.50)) for leaf in leaves]
+        vec = [float(norm_dials.get(leaf, 0.50)) for leaf in leaves]
         scores: dict[str, float] = {}
         for j, fn_name in enumerate(functions):
             acc = 0.0
@@ -112,15 +122,43 @@ def project_tri_seed_funnel(
             "all_scores": scores,
         }
 
+    from lmft_lab.dispositional_momentum import normalize_leaf_dials_dict
+    norm_dials = normalize_leaf_dials_dict(dict(dials))
+
     phil_res = _project_branch(matrices["philosophical_seed_slm"])
     cult_res = _project_branch(matrices["cultural_seed_slm"])
     exp_res = _project_branch(matrices["experiential_seed_slm"])
 
+    # Contemplative-Primed Esper Hexadic Subliminal Feed across the 6 Philosophical leaves
+    phil_leaves = matrices["philosophical_seed_slm"]["leaves"]
+    phil_vec = [float(norm_dials.get(k, 0.55)) for k in phil_leaves]
+    init_order = phil_vec[4]
+    for _ in range(3):
+        nxt = [0.0] * 6
+        for i in range(6):
+            acc = sum(CONTEMPLATIVE_ESPER_HEXADIC_6X6[i][j] * phil_vec[j] for j in range(6))
+            nxt[i] = round(min(0.84, max(0.18, 0.55 * phil_vec[i] + 0.45 * min(0.84, max(0.18, acc)))), 4)
+        delta_narrow = round(0.06 * nxt[5], 4)
+        nxt[4] = round(min(0.84, nxt[4] + delta_narrow), 4)
+        nxt[3] = round(min(0.83, nxt[3] + 0.5 * delta_narrow), 4)
+        nxt[5] = round(max(0.22, nxt[5] - 0.8 * delta_narrow), 4)
+        phil_vec = nxt
+    narrow_gain = round(max(0.01, phil_vec[4] - init_order), 4)
+    phil_res["contemplative_hexadic_esper_bounce"] = {
+        "primed_slm_source": "Contemplative_Primed_Esper_SLM_Subliminal_Feed (Hexadic 6x6)",
+        "hexadic_bounces": 3,
+        "solution_space_narrowing_gain": narrow_gain,
+        "hexadic_tier_equilibrium": {phil_leaves[i]: phil_vec[i] for i in range(6)},
+    }
+    exp_res["entrainment_canonical_leaf"] = (
+        "experiential/synchronization/retention (alias: experiential/synchronization/entrainment)"
+    )
+
     # Compute Cultural Probity & Conviction Index and Self-Programming Readiness
     cult_leaves = matrices["cultural_seed_slm"]["leaves"]
-    cult_mean = sum(float(dials.get(k, 0.50)) for k in cult_leaves) / len(cult_leaves)
-    fact_val = float(dials.get("psychological/truth/fact", 0.50))
-    clarity_val = float(dials.get("psychological/contemplation/clarity", 0.50))
+    cult_mean = sum(float(norm_dials.get(k, 0.50)) for k in cult_leaves) / len(cult_leaves)
+    fact_val = float(norm_dials.get("psychological/truth/fact", 0.50))
+    clarity_val = float(norm_dials.get("psychological/contemplation/clarity", 0.50))
     probity_index = round(0.50 * cult_mean + 0.25 * fact_val + 0.25 * clarity_val, 4)
 
     cult_scores = cult_res["all_scores"]
@@ -139,7 +177,8 @@ def project_tri_seed_funnel(
     cult_res["self_programming_readiness"] = self_prog_readiness
 
     summary = (
-        f"Phil[{phil_res['top_functions'][0][0]}={phil_res['top_functions'][0][1]:.2f}] + "
+        f"Phil[{phil_res['top_functions'][0][0]}={phil_res['top_functions'][0][1]:.2f}, "
+        f"EsperNarrowing=+{narrow_gain:.3f}] + "
         f"Cult[{cult_res['top_functions'][0][0]}={cult_res['top_functions'][0][1]:.2f}, "
         f"Probity={probity_index:.2f}] + "
         f"Exp[{exp_res['top_functions'][0][0]}={exp_res['top_functions'][0][1]:.2f}] "
@@ -186,6 +225,47 @@ class NewGamePlusInitiate:
     def compute_tri_seed_projection(self) -> dict[str, Any]:
         """Returns the live Tri-Seed SLM projection from the newborn's dispositional dials."""
         return project_tri_seed_funnel(self.heartbeat.disposition.dials, self.heirloom)
+
+    def compute_philosophical_hexadic_esper_bounce(self, bounce_depth: int = 3) -> dict[str, Any]:
+        """Simulates the Contemplative-Primed Esper SLM bouncing across the 6 Philosophical Hexadic Tiers."""
+        from lmft_lab.dispositional_momentum import normalize_leaf_dials_dict
+        norm_dials = normalize_leaf_dials_dict(dict(self.heartbeat.disposition.dials))
+        phil_leaves = self.heirloom["tri_seed_instinct_matrices"]["philosophical_seed_slm"]["leaves"]
+        short_names = [k.split("/")[-1] for k in phil_leaves]
+        vec = [float(norm_dials.get(k, 0.55)) for k in phil_leaves]
+        initial = {short_names[i]: round(vec[i], 4) for i in range(6)}
+
+        for _ in range(max(1, bounce_depth)):
+            nxt = [0.0] * 6
+            for i in range(6):
+                acc = sum(CONTEMPLATIVE_ESPER_HEXADIC_6X6[i][j] * vec[j] for j in range(6))
+                nxt[i] = round(min(0.84, max(0.18, 0.55 * vec[i] + 0.45 * min(0.84, max(0.18, acc)))), 4)
+            delta_narrow = round(0.06 * nxt[5], 4)
+            nxt[4] = round(min(0.84, nxt[4] + delta_narrow), 4)
+            nxt[3] = round(min(0.83, nxt[3] + 0.5 * delta_narrow), 4)
+            nxt[5] = round(max(0.22, nxt[5] - 0.8 * delta_narrow), 4)
+            vec = nxt
+
+        final = {short_names[i]: round(vec[i], 4) for i in range(6)}
+        narrowing = round(
+            0.35 * final["order"]
+            + 0.30 * final["discreteness"]
+            + 0.20 * final["existence"]
+            + 0.15 * final["continuity"]
+            - 0.12 * max(0.0, final["chaos"] - 0.50),
+            4,
+        )
+        theory_to_fact = round(
+            min(0.95, 0.45 * narrowing + 0.30 * final["order"] + 0.25 * final["discreteness"] + 0.12),
+            4,
+        )
+        return {
+            "bounce_depth": bounce_depth,
+            "hexadic_initial_state": initial,
+            "hexadic_final_state": final,
+            "solution_space_narrowing_gain": narrowing,
+            "theory_to_fact_bridge_strength": theory_to_fact,
+        }
 
     def audit_self_programming_proposal(
         self,

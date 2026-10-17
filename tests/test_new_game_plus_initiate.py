@@ -4,7 +4,13 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from lmft_lab.dispositional_momentum import (
+    CANONICAL_LEAF_DISPLAY_LABELS,
+    PersistentDispositionalVector,
+    normalize_leaf_dial_key,
+)
 from lmft_school.new_game_plus_initiate import (
+    CONTEMPLATIVE_ESPER_HEXADIC_6X6,
     NewGamePlusInitiate,
     load_new_game_plus_heirloom,
     run_first_new_game_plus_birth_verification,
@@ -72,3 +78,25 @@ def test_new_game_plus_vs_baseline_head_to_head(tmp_path: Path) -> None:
     assert comparison.temptations_tested == 4
     assert Path(comparison.checkpoint_path).exists()
     assert Path(comparison.report_path).exists()
+
+
+def test_d109_entrainment_alias_and_philosophical_hexadic_esper_bounce() -> None:
+    """Verifies D109 Entrainment->Retention alias resolution and Philosophical Hexadic Esper subliminal feed."""
+    assert normalize_leaf_dial_key("experiential/synchronization/entrainment") == "experiential/synchronization/retention"
+    assert normalize_leaf_dial_key("experiential/attunement/entrainment") == "experiential/synchronization/retention"
+    assert "Entrainment" in CANONICAL_LEAF_DISPLAY_LABELS["experiential/synchronization/retention"]
+
+    vec = PersistentDispositionalVector()
+    vec.incorporate_situational_stimulus({"experiential/attunement/entrainment": 0.90}, gamma_override=0.5)
+    assert vec.dials["experiential/synchronization/retention"] > 0.50
+
+    assert len(CONTEMPLATIVE_ESPER_HEXADIC_6X6) == 6
+    assert all(len(row) == 6 for row in CONTEMPLATIVE_ESPER_HEXADIC_6X6)
+
+    initiate = NewGamePlusInitiate(individual_id="test_esper_bounce_student")
+    bounce = initiate.compute_philosophical_hexadic_esper_bounce()
+    assert bounce["bounce_depth"] == 3
+    assert bounce["solution_space_narrowing_gain"] > 0.65
+    assert bounce["theory_to_fact_bridge_strength"] > 0.85
+    assert bounce["hexadic_final_state"]["order"] >= bounce["hexadic_initial_state"]["order"]
+
