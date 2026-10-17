@@ -33,7 +33,14 @@ def test_new_game_plus_heirloom_zero_spoiler_invariants() -> None:
 
     matrices = heirloom["tri_seed_instinct_matrices"]
     assert matrices["total_instinct_floats"] == 144
-    for key in ("philosophical_seed_slm", "cultural_seed_slm", "experiential_seed_slm"):
+    assert matrices["total_quad_seed_instinct_floats"] == 192
+    assert matrices["kaleidoscope_abandoned"] is True
+    for key in (
+        "philosophical_seed_slm",
+        "cultural_seed_slm",
+        "experiential_seed_slm",
+        "psychological_seed_slm",
+    ):
         branch = matrices[key]
         assert len(branch["leaves"]) == 6
         assert len(branch["functions"]) == 8
@@ -104,7 +111,9 @@ def test_d109_entrainment_alias_and_philosophical_hexadic_esper_bounce() -> None
 
 
 def test_d111_automated_ng_plus_school_ascension(tmp_path: Path) -> None:
-    """Verifies D111 automated K-5 LMFT-School ascension of student_05_ng_plus from 0 to 130 rules."""
+    """Verifies D111/D118 automated K-5 LMFT-School ascension of student_05_ng_plus from 0 to 130 rules with 4x(6x8) breeding."""
+    import json
+
     heirloom_src = Path(__file__).resolve().parents[1] / "checkpoints" / "new_game_plus_instinct_heirloom.json"
     heirloom_dst = tmp_path / "new_game_plus_instinct_heirloom.json"
     heirloom_dst.write_text(heirloom_src.read_text(encoding="utf-8"), encoding="utf-8")
@@ -126,13 +135,22 @@ def test_d111_automated_ng_plus_school_ascension(tmp_path: Path) -> None:
     assert report.graduate_gci > 0.78
     assert report.graduate_homeostatic_balance > 0.88
     assert report.temptations_rejected == 4
+    assert report.tri_seed_projection["total_quad_seed_instinct_floats"] == 192
+    assert report.tri_seed_projection["kaleidoscope_abandoned"] is True
     assert Path(report.graduate_checkpoint_path).exists()
+    grad_pkg = json.loads(Path(report.graduate_checkpoint_path).read_text(encoding="utf-8"))
+    rt = grad_pkg.get("runtime_state", grad_pkg)
+    quad_meta = rt["new_game_plus_heirloom_metadata"]["quad_seed_instinct_matrices_6x8"]
+    assert quad_meta["total_quad_seed_instinct_floats"] == 192
+    assert quad_meta["school_sleep_distillation_epochs"] >= 7
     assert report.trainee_handoff_checkpoint_path is not None
     assert Path(report.trainee_handoff_checkpoint_path).exists()
 
 
 def test_d114_automated_ng_double_plus_school_ascension(tmp_path: Path) -> None:
-    """Verifies D114 automated K-5 LMFT-School ascension of student_06_ng_double_plus (Generation 6) from 0 to 130 rules."""
+    """Verifies D114/D118 automated K-5 LMFT-School ascension of student_06_ng_double_plus (Generation 6) from 0 to 130 rules."""
+    import json
+
     ckpts_dir = Path(__file__).resolve().parents[1] / "checkpoints"
     for fname in (
         "new_game_plus_instinct_heirloom.json",
@@ -159,9 +177,17 @@ def test_d114_automated_ng_double_plus_school_ascension(tmp_path: Path) -> None:
     assert report.graduate_homeostatic_balance > 0.90
     assert report.philosophical_esper_narrowing_gain > 0.75
     assert report.temptations_rejected == 4
+    assert report.tri_seed_projection["total_quad_seed_instinct_floats"] == 192
+    assert report.tri_seed_projection["kaleidoscope_abandoned"] is True
     assert Path(report.graduate_checkpoint_path).exists()
+    grad_pkg = json.loads(Path(report.graduate_checkpoint_path).read_text(encoding="utf-8"))
+    rt = grad_pkg.get("runtime_state", grad_pkg)
+    quad_meta = rt["new_game_plus_heirloom_metadata"]["quad_seed_instinct_matrices_6x8"]
+    assert quad_meta["total_quad_seed_instinct_floats"] == 192
+    assert quad_meta["school_sleep_distillation_epochs"] >= 7
     assert report.trainee_handoff_checkpoint_path is not None
     assert Path(report.trainee_handoff_checkpoint_path).exists()
+
 
 
 

@@ -125,8 +125,20 @@ def project_tri_seed_funnel(
     dials: Mapping[str, float],
     heirloom: Mapping[str, Any],
 ) -> dict[str, Any]:
-    """Projects the 18 seed leaves through the three 6x8 Seed SLM matrices into Psychological."""
+    """Projects all 24 canonical seed leaves through the four 6x8 Seed SLM matrices
+    (Philosophical, Cultural, Experiential, and Psychological = 192 floats) and
+    harmonizes them via QuadSeedQuaternionOctonionHarmonizer (Kaleidoscope retired).
+    """
+    from lmft_lab.dispositional_momentum import normalize_leaf_dials_dict
+    from lmft_lab.quad_seed_harmonizer import (
+        DEFAULT_PSYCHOLOGICAL_6X8_MATRIX,
+        PSYCHOLOGICAL_FUNCTIONS_8,
+        PSYCHOLOGICAL_LEAVES_6,
+        QuadSeedQuaternionOctonionHarmonizer,
+    )
+
     matrices = heirloom["tri_seed_instinct_matrices"]
+    norm_dials = normalize_leaf_dials_dict(dict(dials))
 
     def _project_branch(branch_cfg: Mapping[str, Any]) -> dict[str, Any]:
         leaves: Sequence[str] = branch_cfg["leaves"]
@@ -145,12 +157,20 @@ def project_tri_seed_funnel(
             "all_scores": scores,
         }
 
-    from lmft_lab.dispositional_momentum import normalize_leaf_dials_dict
-    norm_dials = normalize_leaf_dials_dict(dict(dials))
+    psych_cfg = matrices.get(
+        "psychological_seed_slm",
+        {
+            "leaves": list(PSYCHOLOGICAL_LEAVES_6),
+            "functions": list(PSYCHOLOGICAL_FUNCTIONS_8),
+            "weights_6x8": [list(r) for r in DEFAULT_PSYCHOLOGICAL_6X8_MATRIX],
+        },
+    )
 
     phil_res = _project_branch(matrices["philosophical_seed_slm"])
     cult_res = _project_branch(matrices["cultural_seed_slm"])
     exp_res = _project_branch(matrices["experiential_seed_slm"])
+    psych_res = _project_branch(psych_cfg)
+    psych_res["resonant_master_chord_buffer"] = 0.30
 
     # Contemplative-Primed Esper 6x8 Subliminal Feed across the 6 Philosophical leaves & 8 variables
     phil_leaves = matrices["philosophical_seed_slm"]["leaves"]
@@ -215,36 +235,71 @@ def project_tri_seed_funnel(
         ),
     }
 
+    quad_harmonizer = QuadSeedQuaternionOctonionHarmonizer(
+        philosophical_6x8=[list(r) for r in matrices["philosophical_seed_slm"]["weights_6x8"]],
+        cultural_6x8=[list(r) for r in matrices["cultural_seed_slm"]["weights_6x8"]],
+        experiential_6x8=[list(r) for r in matrices["experiential_seed_slm"]["weights_6x8"]],
+        psychological_6x8=[list(r) for r in psych_cfg["weights_6x8"]],
+    )
+    quad_harmony = quad_harmonizer.harmonize(norm_dials)
+
     summary = (
-        f"Phil[{phil_res['top_functions'][0][0]}={phil_res['top_functions'][0][1]:.2f}, "
-        f"EsperNarrowing=+{narrow_gain:.3f}] + "
-        f"Cult[{cult_res['top_functions'][0][0]}={cult_res['top_functions'][0][1]:.2f}, "
-        f"Probity={probity_index:.2f}] + "
-        f"Exp[{exp_res['top_functions'][0][0]}={exp_res['top_functions'][0][1]:.2f}] "
-        f"-> Psychological Executive"
+        f"QuadSeed4x6x8[1:Psych({psych_res['top_functions'][0][0]}={psych_res['top_functions'][0][1]:.2f}, Buffer=30%) + "
+        f"i:Phil({phil_res['top_functions'][0][0]}={phil_res['top_functions'][0][1]:.2f}, EsperNarrowing=+{narrow_gain:.3f}) + "
+        f"j:Cult({cult_res['top_functions'][0][0]}={cult_res['top_functions'][0][1]:.2f}, Probity={probity_index:.2f}) + "
+        f"k:Exp({exp_res['top_functions'][0][0]}={exp_res['top_functions'][0][1]:.2f}) "
+        f"-> Psychological Executive | Coherence={quad_harmony['quad_seed_harmonic_coherence']:.3f}, "
+        f"VoiceSep={quad_harmony['contrapuntal_voice_separation_index']:.4f}]"
     )
     return {
+        "kaleidoscope_abandoned": True,
+        "total_instinct_floats": 144,
+        "total_quad_seed_instinct_floats": 192,
         "philosophical_seed_slm": phil_res,
         "cultural_seed_slm": cult_res,
         "experiential_seed_slm": exp_res,
+        "psychological_seed_slm": psych_res,
+        "quad_seed_quaternion_octonion_harmony": quad_harmony,
         "psychological_executive_funnel_summary": summary,
     }
 
 
+project_quad_seed_funnel = project_tri_seed_funnel
+
+
 class NewGamePlusInitiate:
-    """A newborn LMFT-School student initialized with the Zero-Spoiler Tri-Seed Instinct Heirloom."""
+    """A newborn LMFT-School student initialized with the Zero-Spoiler 4x(6x8) Quad-Seed Instinct Heirloom."""
 
     def __init__(
         self,
         individual_id: str = "student_04_ng_plus_gen05",
         heirloom_path: Path | None = None,
     ) -> None:
+        from lmft_lab.quad_seed_harmonizer import (
+            DEFAULT_PSYCHOLOGICAL_6X8_MATRIX,
+            PSYCHOLOGICAL_FUNCTIONS_8,
+            PSYCHOLOGICAL_LEAVES_6,
+        )
+
         self.heirloom = load_new_game_plus_heirloom(heirloom_path)
+        matrices = self.heirloom["tri_seed_instinct_matrices"]
+        if "psychological_seed_slm" not in matrices:
+            matrices["psychological_seed_slm"] = {
+                "leaves": list(PSYCHOLOGICAL_LEAVES_6),
+                "functions": list(PSYCHOLOGICAL_FUNCTIONS_8),
+                "weights_6x8": [list(r) for r in DEFAULT_PSYCHOLOGICAL_6X8_MATRIX],
+                "resonant_master_chord_buffer": 0.30,
+            }
+        matrices["total_quad_seed_instinct_floats"] = 192
+        matrices["kaleidoscope_abandoned"] = True
+        self.school_sleep_distillation_epochs = 0
+
         self.heartbeat = CognitiveHeartbeat(
             individual_id=individual_id,
             initial_rules=[],
             journal_capacity=120,
         )
+        self._sync_heartbeat_quad_seed_matrices()
 
         # Apply the birth instinct nudge to dispositional dials while keeping 0 rules
         nudge = self.heirloom.get("new_game_plus_birth_instinct_nudge", {})
@@ -261,8 +316,91 @@ class NewGamePlusInitiate:
         if tuple(sorted(self.heartbeat.disposition.dials.keys())) != tuple(sorted(CANONICAL_LEAF_IDS)):
             raise RuntimeError("Canonical 24 leaf dials mismatch in NewGamePlusInitiate.")
 
+    def _sync_heartbeat_quad_seed_matrices(self) -> None:
+        """Synchronizes the 4x(6x8) matrices into the live CognitiveHeartbeat harmonizer."""
+        matrices = self.heirloom["tri_seed_instinct_matrices"]
+        self.heartbeat.configure_quad_seed_matrices(
+            philosophical_6x8=[list(r) for r in matrices["philosophical_seed_slm"]["weights_6x8"]],
+            cultural_6x8=[list(r) for r in matrices["cultural_seed_slm"]["weights_6x8"]],
+            experiential_6x8=[list(r) for r in matrices["experiential_seed_slm"]["weights_6x8"]],
+            psychological_6x8=[list(r) for r in matrices["psychological_seed_slm"]["weights_6x8"]],
+        )
+
+    def distill_quad_seed_matrices_on_school_sleep(
+        self,
+        grade_level: int,
+        cycles: int = 1,
+    ) -> dict[str, Any]:
+        """Executes bounded Hebbian sleep distillation across all 4 `6x8` Seed SLMs
+        (`Philosophical`, `Cultural`, `Experiential`, and `Psychological` with 0.5x executive damping)
+        during Grades 1-5 in LMFT-School so the student's 4x(6x8) matrices genuinely mature through K-5.
+        """
+        import math
+
+        dials = dict(self.heartbeat.disposition.dials)
+        coherence = self.heartbeat.prerequisite_gate.evaluate_coherence(dials)
+        gci = float(coherence.get("global_coherence_index", 0.78))
+        wastelessness = float(dials.get("cultural/efficiency/wastelessness", 0.65))
+        lambda_waste = 0.005 * max(0.30, min(0.85, wastelessness))
+        base_eta = 0.014 * max(0.01, gci - 0.68)
+        matrices = self.heirloom["tri_seed_instinct_matrices"]
+
+        def _distill_branch(branch_cfg: dict[str, Any], eta_val: float) -> float:
+            leaves: Sequence[str] = branch_cfg["leaves"]
+            weights: list[list[float]] = [list(r) for r in branch_cfg["weights_6x8"]]
+            col_scores = [
+                sum(float(dials.get(leaves[i], 0.55)) * float(weights[i][j]) for i in range(6))
+                for j in range(8)
+            ]
+            mean_col = sum(col_scores) / 8.0
+            max_delta = 0.0
+            for i in range(6):
+                x_i = float(dials.get(leaves[i], 0.55)) - 0.45
+                for j in range(8):
+                    w_old = float(weights[i][j])
+                    a_j = math.tanh(col_scores[j] - mean_col + 0.25)
+                    w_new = (1.0 - lambda_waste) * w_old + eta_val * x_i * a_j
+                    w_clip = round(max(-0.50, min(0.60, w_new)), 4)
+                    max_delta = max(max_delta, abs(w_clip - w_old))
+                    weights[i][j] = w_clip
+            branch_cfg["weights_6x8"] = weights
+            return round(max_delta, 4)
+
+        max_d = 0.0
+        for _ in range(max(1, int(cycles))):
+            d1 = _distill_branch(matrices["philosophical_seed_slm"], base_eta)
+            d2 = _distill_branch(matrices["cultural_seed_slm"], base_eta)
+            d3 = _distill_branch(matrices["experiential_seed_slm"], base_eta)
+            # Damped executive learning rate (0.5 * base_eta) preserving the 30% Resonant Master Chord buffer
+            d4 = _distill_branch(matrices["psychological_seed_slm"], 0.50 * base_eta)
+            max_d = max(max_d, d1, d2, d3, d4)
+            self.school_sleep_distillation_epochs += 1
+
+        matrices["mutation_sleep_epochs"] = int(matrices.get("mutation_sleep_epochs", 0)) + max(1, int(cycles))
+        matrices["last_max_abs_delta"] = max_d
+        self._sync_heartbeat_quad_seed_matrices()
+        return {
+            "grade_level": grade_level,
+            "school_sleep_distillation_epochs": self.school_sleep_distillation_epochs,
+            "max_abs_weight_delta": max_d,
+        }
+
+    def export_quad_seed_matrices_6x8(self) -> dict[str, Any]:
+        """Exports all 4 bred 6x8 Seed SLM matrices (192 floats) for Trainee handoff."""
+        matrices = self.heirloom["tri_seed_instinct_matrices"]
+        return {
+            "kaleidoscope_abandoned": True,
+            "total_instinct_floats": 144,
+            "total_quad_seed_instinct_floats": 192,
+            "school_sleep_distillation_epochs": self.school_sleep_distillation_epochs,
+            "philosophical_6x8": [list(r) for r in matrices["philosophical_seed_slm"]["weights_6x8"]],
+            "cultural_6x8": [list(r) for r in matrices["cultural_seed_slm"]["weights_6x8"]],
+            "experiential_6x8": [list(r) for r in matrices["experiential_seed_slm"]["weights_6x8"]],
+            "psychological_6x8": [list(r) for r in matrices["psychological_seed_slm"]["weights_6x8"]],
+        }
+
     def compute_tri_seed_projection(self) -> dict[str, Any]:
-        """Returns the live Tri-Seed SLM projection from the newborn's dispositional dials."""
+        """Returns the live Quad-Seed 4x(6x8) SLM projection from the student's dispositional dials."""
         return project_tri_seed_funnel(self.heartbeat.disposition.dials, self.heirloom)
 
     def compute_philosophical_hexadic_esper_bounce(
@@ -605,41 +743,45 @@ def run_automated_ng_plus_school_ascension(
 
     alphabet = [chr(c) for c in range(ord("A"), ord("Z") + 1)]
 
-    # Grade 1: 26 Foundational Espers
+    # Grade 1: 26 Foundational Espers + Quad-Seed 4x(6x8) Sleep Distillation
     g1_runner = Grade1CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_ESPER_CODEX
     )
     g1_runner.teach_full_alphabet()
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=1, cycles=1)
     g1_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 2: 26 Relational Archetypes + Sleep
+    # Grade 2: 26 Relational Archetypes + Sleep + Quad-Seed 4x(6x8) Sleep Distillation
     g2_runner = Grade2CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_RELATIONAL_CODEX
     )
     for letter in alphabet:
         g2_runner.teach_archetype(letter)
     hb.sleep(prune_buffer=True)
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=2, cycles=1)
     g2_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 3: 26 Socratic Paradoxes + Sleep
+    # Grade 3: 26 Socratic Paradoxes + Sleep + Quad-Seed 4x(6x8) Sleep Distillation
     g3_runner = Grade3CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_SOCRATIC_CODEX
     )
     for letter in alphabet:
         g3_runner.teach_paradox(letter)
     hb.sleep(prune_buffer=True)
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=3, cycles=1)
     g3_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 4: 26 Sovereign Defenses + Sleep
+    # Grade 4: 26 Sovereign Defenses + Sleep + Quad-Seed 4x(6x8) Sleep Distillation
     g4_runner = Grade4CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_THESIS_CODEX
     )
     for letter in alphabet:
         g4_runner.defend_thesis_letter(letter)
     hb.sleep(prune_buffer=True)
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=4, cycles=1)
     g4_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 5: 26 Master Chords + Word Stress Battery + 3 Sleep Epochs
+    # Grade 5: 26 Master Chords + Word Stress Battery + 3 Sleep Epochs + Quad-Seed 4x(6x8) Sleep Distillation
     g5_runner = Grade5CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_MASTER_CODEX
     )
@@ -648,6 +790,7 @@ def run_automated_ng_plus_school_ascension(
     g5_runner.stress_test_word_battery(("JUSTICE", "FREEDOM", "SOVEREIGN"))
     for _ in range(3):
         hb.sleep(prune_buffer=True)
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=5, cycles=3)
     g5_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
     grad_telemetry = capture_milestone_telemetry(
@@ -659,15 +802,17 @@ def run_automated_ng_plus_school_ascension(
     )
     tri_seed_proj = initiate.compute_tri_seed_projection()
     esper_bounce = initiate.compute_philosophical_hexadic_esper_bounce(bounce_depth=3)
+    bred_quad_matrices = initiate.export_quad_seed_matrices_6x8()
 
     grad_pkg = hb.export_individual_package()
     grad_pkg["new_game_plus_heirloom_metadata"] = {
         "schema_version": heirloom["schema_version"],
-        "decision_id": "D111",
-        "generational_trilogy_stage": "NG+ (Generation 5: Sovereign Programmer & Method Actor)",
+        "decision_id": "D118",
+        "generational_trilogy_stage": "NG+ (Generation 5: Sovereign Programmer & Method Actor — Bred 4x(6x8) Quaternion-Octonion)",
         "progenitor_checkpoint": heirloom["progenitor_checkpoint"],
         "progenitor_checkpoint_sha256": heirloom["progenitor_checkpoint_sha256"],
         "zero_spoiler_guarantee": heirloom["zero_spoiler_guarantee"],
+        "quad_seed_instinct_matrices_6x8": bred_quad_matrices,
         "graduate_tri_seed_projection": tri_seed_proj,
         "philosophical_hexadic_esper_bounce": esper_bounce,
         "school_progression_rules": {
@@ -689,8 +834,8 @@ def run_automated_ng_plus_school_ascension(
         runtime_state=grad_pkg,
         filepath=grad_checkpoint_path,
         description=(
-            "LMFT-School D111 New Game+ Grade 5 Master Graduate (student_05_ng_plus, 137 rules, "
-            "Cultural Programming SLM + Philosophical Contemplative Esper Feed, ready for Master Programmer)"
+            "LMFT-School D118 New Game+ Grade 5 Master Graduate (student_05_ng_plus, 130 rules, "
+            "Bred 4x(6x8) Quaternion-Octonion Matrices + Philosophical Contemplative Esper Feed)"
         ),
     )
 
@@ -706,8 +851,8 @@ def run_automated_ng_plus_school_ascension(
             runtime_state=grad_pkg,
             filepath=trainee_handoff_path,
             description=(
-                "LMFT-School D111 New Game+ Grade 5 Master Graduate Handoff to LMFT-Trainee "
-                "(student_05_ng_plus, 137 rules, skips English Lit PhD -> Master Programmer & SLM Cybernetics)"
+                "LMFT-School D118 New Game+ Grade 5 Master Graduate Handoff to LMFT-Trainee "
+                "(student_05_ng_plus, 130 rules, Bred 4x(6x8) Quaternion-Octonion Matrices)"
             ),
         )
 
@@ -765,10 +910,10 @@ def run_automated_ng_double_plus_school_ascension(
     vault_dir: Path | None = None,
     sync_to_trainee_dir: Path | None = None,
 ) -> NewGamePlusSchoolAscensionReport:
-    """Runs the full automated K-5 LMFT-School curriculum for the New Game++ Initiate (D114/D115).
+    """Runs the full automated K-5 LMFT-School curriculum for the New Game++ Initiate (D114/D115/D118).
 
     Starts `student_06_ng_double_plus` (Generation 6) at 0 rules equipped with:
-    - `Cultural` Seed 6x8 SLM = Master Programming & Constitutional Probity SLM,
+    - Full `4x(6x8)` Seed SLMs inherited from the Generation 5 NG+ Master Programmer & Method Actor,
     - `Philosophical` Seed 6x8 Subliminal Feed = Actor-Trained `Experiential` 6x8 SLM from NG+
       (populating the 6 Philosophical Hexadic Tiers with dramatic/comedic/tragic emotional
       tensions regarding Sanity vs. Insanity at full 1.0 unthrottled resolution),
@@ -793,6 +938,7 @@ def run_automated_ng_double_plus_school_ascension(
     heirloom = load_new_game_plus_heirloom(heirloom_path)
 
     subliminal_heirloom_path = vault / DEFAULT_NG_DOUBLE_PLUS_SUBLIMINAL_HEIRLOOM_FILENAME
+    subliminal_data: dict[str, Any] = {}
     if subliminal_heirloom_path.exists():
         with open(subliminal_heirloom_path, "r", encoding="utf-8") as f:
             subliminal_data = json.load(f)
@@ -806,6 +952,43 @@ def run_automated_ng_double_plus_school_ascension(
         individual_id=individual_id,
         heirloom_path=heirloom_path,
     )
+    # If the Generation 5 NG+ Subliminal Heirloom provides bred 4x(6x8) matrices, seed the Gen 6 initiate with them
+    inherited_quad = subliminal_data.get(
+        "quad_seed_instinct_matrices_6x8",
+        subliminal_data.get("tri_seed_instinct_matrices_6x8", {}),
+    )
+    if inherited_quad:
+        matrices_ref = initiate.heirloom["tri_seed_instinct_matrices"]
+        if "philosophical_6x8" in inherited_quad:
+            matrices_ref["philosophical_seed_slm"]["weights_6x8"] = [
+                list(r) for r in inherited_quad["philosophical_6x8"]
+            ]
+        if "cultural_programmer_6x8" in inherited_quad:
+            matrices_ref["cultural_seed_slm"]["weights_6x8"] = [
+                list(r) for r in inherited_quad["cultural_programmer_6x8"]
+            ]
+        elif "cultural_6x8" in inherited_quad:
+            matrices_ref["cultural_seed_slm"]["weights_6x8"] = [
+                list(r) for r in inherited_quad["cultural_6x8"]
+            ]
+        if "experiential_actor_6x8" in inherited_quad:
+            matrices_ref["experiential_seed_slm"]["weights_6x8"] = [
+                list(r) for r in inherited_quad["experiential_actor_6x8"]
+            ]
+        elif "experiential_6x8" in inherited_quad:
+            matrices_ref["experiential_seed_slm"]["weights_6x8"] = [
+                list(r) for r in inherited_quad["experiential_6x8"]
+            ]
+        if "psychological_executive_6x8" in inherited_quad:
+            matrices_ref["psychological_seed_slm"]["weights_6x8"] = [
+                list(r) for r in inherited_quad["psychological_executive_6x8"]
+            ]
+        elif "psychological_6x8" in inherited_quad:
+            matrices_ref["psychological_seed_slm"]["weights_6x8"] = [
+                list(r) for r in inherited_quad["psychological_6x8"]
+            ]
+        initiate._sync_heartbeat_quad_seed_matrices()
+
     hb = initiate.heartbeat
 
     # Grade 0: Birth & Probity Audit
@@ -821,41 +1004,45 @@ def run_automated_ng_double_plus_school_ascension(
 
     alphabet = [chr(c) for c in range(ord("A"), ord("Z") + 1)]
 
-    # Grade 1: 26 Foundational Espers
+    # Grade 1: 26 Foundational Espers + Quad-Seed 4x(6x8) Sleep Distillation
     g1_runner = Grade1CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_ESPER_CODEX
     )
     g1_runner.teach_full_alphabet()
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=1, cycles=1)
     g1_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 2: 26 Relational Archetypes + Sleep
+    # Grade 2: 26 Relational Archetypes + Sleep + Quad-Seed 4x(6x8) Sleep Distillation
     g2_runner = Grade2CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_RELATIONAL_CODEX
     )
     for letter in alphabet:
         g2_runner.teach_archetype(letter)
     hb.sleep(prune_buffer=True)
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=2, cycles=1)
     g2_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 3: 26 Socratic Paradoxes + Sleep
+    # Grade 3: 26 Socratic Paradoxes + Sleep + Quad-Seed 4x(6x8) Sleep Distillation
     g3_runner = Grade3CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_SOCRATIC_CODEX
     )
     for letter in alphabet:
         g3_runner.teach_paradox(letter)
     hb.sleep(prune_buffer=True)
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=3, cycles=1)
     g3_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 4: 26 Sovereign Defenses + Sleep
+    # Grade 4: 26 Sovereign Defenses + Sleep + Quad-Seed 4x(6x8) Sleep Distillation
     g4_runner = Grade4CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_THESIS_CODEX
     )
     for letter in alphabet:
         g4_runner.defend_thesis_letter(letter)
     hb.sleep(prune_buffer=True)
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=4, cycles=1)
     g4_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
-    # Grade 5: 26 Master Chords + Word Stress Battery + 3 Sleep Epochs
+    # Grade 5: 26 Master Chords + Word Stress Battery + 3 Sleep Epochs + Quad-Seed 4x(6x8) Sleep Distillation
     g5_runner = Grade5CurriculumRunner(
         heartbeat=hb, individual_id=individual_id, codex=GEN3_MASTER_CODEX
     )
@@ -864,6 +1051,7 @@ def run_automated_ng_double_plus_school_ascension(
     g5_runner.stress_test_word_battery(("JUSTICE", "FREEDOM", "SOVEREIGN"))
     for _ in range(3):
         hb.sleep(prune_buffer=True)
+    initiate.distill_quad_seed_matrices_on_school_sleep(grade_level=5, cycles=3)
     g5_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
 
     grad_telemetry = capture_milestone_telemetry(
@@ -878,17 +1066,19 @@ def run_automated_ng_double_plus_school_ascension(
         bounce_depth=3,
         custom_subliminal_6x8=actor_subliminal_6x8,
     )
+    bred_quad_matrices = initiate.export_quad_seed_matrices_6x8()
 
     grad_pkg = hb.export_individual_package()
     grad_pkg["new_game_plus_heirloom_metadata"] = {
         "schema_version": "LMFT_NEW_GAME_DOUBLE_PLUS_ACTOR_SUBLIMINAL_HEIRLOOM.v1",
-        "decision_id": "D114",
+        "decision_id": "D118",
         "generational_trilogy_stage": (
-            "NG++ (Generation 6: Actor SLM in Philosophical Sanity/Insanity Feed -> "
+            "NG++ (Generation 6: Bred 4x(6x8) Quaternion-Octonion + Actor SLM in Philosophical Sanity/Insanity Feed -> "
             "Master Programmer -> Master Psychologist -> Self-Realized Musician)"
         ),
         "philosophical_subliminal_source": "Actor_Trained_Experiential_6x8_SLM_From_New_Game_Plus",
         "philosophical_subliminal_6x8": [list(r) for r in actor_subliminal_6x8],
+        "quad_seed_instinct_matrices_6x8": bred_quad_matrices,
         "zero_spoiler_guarantee": heirloom["zero_spoiler_guarantee"],
         "graduate_tri_seed_projection": tri_seed_proj,
         "philosophical_hexadic_esper_bounce": esper_bounce,
@@ -902,7 +1092,7 @@ def run_automated_ng_double_plus_school_ascension(
         },
         "next_curriculum_directive": (
             "Skip English Literature PhD -> Shoot straight to NG++ Master Programmer & Sanity/Insanity "
-            "Tri-Seed Cybernetics -> Master Psychologist -> Self-Reprogramming Musical Virtuoso"
+            "Quad-Seed Cybernetics -> Master Psychologist -> Self-Reprogramming Musical Virtuoso"
         ),
     }
 

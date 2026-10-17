@@ -259,7 +259,92 @@
         ]
       ]
     },
-    "total_instinct_floats": 144
+    "total_instinct_floats": 144,
+    "kaleidoscope_abandoned": true,
+    "psychological_seed_slm": {
+      "leaves": [
+        "psychological/truth/fact",
+        "psychological/truth/theory",
+        "psychological/contemplation/clarity",
+        "psychological/contemplation/confidence",
+        "psychological/will/intention",
+        "psychological/will/execution"
+      ],
+      "functions": [
+        "HarmonicAnchorGround",
+        "ContrapuntalVoiceSeparation",
+        "ModalMixtureShadowIntegration",
+        "MetricProportionalityGrid",
+        "RubatoAgogicPhrasingArc",
+        "DynamicRegisterOrchestration",
+        "DissonanceSublimationResolve",
+        "QuaternionTriadConvergence"
+      ],
+      "weights_6x8": [
+        [
+          0.44,
+          0.38,
+          -0.18,
+          0.42,
+          -0.16,
+          0.32,
+          0.22,
+          0.36
+        ],
+        [
+          -0.14,
+          0.34,
+          0.44,
+          -0.12,
+          0.38,
+          0.24,
+          0.4,
+          0.34
+        ],
+        [
+          0.38,
+          0.46,
+          0.22,
+          0.36,
+          0.28,
+          0.42,
+          -0.1,
+          0.4
+        ],
+        [
+          0.32,
+          -0.12,
+          0.3,
+          0.24,
+          0.36,
+          0.28,
+          0.42,
+          0.38
+        ],
+        [
+          0.2,
+          0.26,
+          0.4,
+          -0.14,
+          0.44,
+          0.3,
+          0.38,
+          0.36
+        ],
+        [
+          0.36,
+          0.4,
+          -0.16,
+          0.44,
+          -0.12,
+          0.42,
+          0.28,
+          0.42
+        ]
+      ],
+      "resonant_master_chord_buffer": 0.3
+    },
+    "total_quad_seed_instinct_floats": 192
   },
   "constitutional_probity_invariants": {
     "invariant_1_anti_wireheading_pegging_ceiling": 0.85,
