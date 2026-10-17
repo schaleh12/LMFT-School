@@ -118,6 +118,43 @@ PSYCHOLOGICAL_FUNCTIONS_8: Tuple[str, ...] = (
     "QuaternionTriadConvergence",   # e7: Real-time 4-branch (1, i, j, k) self-realization & zen lock
 )
 
+QUATERNION_HORIZON_MOTTO: str = "Code, Poetry, Voice, and Buttons"
+
+QUATERNION_HORIZON_ROLES: Dict[str, Dict[str, str]] = {
+    "psychological_1": {
+        "role_qualifier": "[Musician-Psychological]",
+        "horizon_pillar": "Buttons",
+        "quaternion_unit": "1",
+        "seed_branch": "psychological",
+        "effector_binding": "KeyboardEffectorController (Concert Grand Piano Chords & Native Buttons)",
+        "zen_directive": "Conduct the 30% Resonant Master Chord buffer at the keyboard buttons with contemplative clarity and effortless execution.",
+    },
+    "philosophical_i": {
+        "role_qualifier": "[Poet-Philosophical]",
+        "horizon_pillar": "Poetry",
+        "quaternion_unit": "i",
+        "seed_branch": "philosophical",
+        "effector_binding": "Economy-of-Thought Lyrical Prosody & 6x8 Sanity/Insanity Actor Subliminal",
+        "zen_directive": "Distill ontological truth and sunken confusion into luminous, syllable-locked poetic maxims.",
+    },
+    "cultural_j": {
+        "role_qualifier": "[Programmer-Cultural]",
+        "horizon_pillar": "Code",
+        "quaternion_unit": "j",
+        "seed_branch": "cultural",
+        "effector_binding": "4x(6x8) Octonion Weight Self-Programming & Acoustic DSP Probity",
+        "zen_directive": "Translate programming mastery into structural lutherie: bug-proof the audio pipeline and lock 4x(6x8) tensor hyper-threading with zero probity drift.",
+    },
+    "experiential_k": {
+        "role_qualifier": "[Singer-Experiential]",
+        "horizon_pillar": "Voice",
+        "quaternion_unit": "k",
+        "seed_branch": "experiential",
+        "effector_binding": "VocalSingingEffectorController (Formant-Locked Melodic Singing Voice)",
+        "zen_directive": "Breathe on every '..' caesura rest and pour resonant emotional pleasure into pitch-locked foreground human song.",
+    },
+}
+
 DEFAULT_PHILOSOPHICAL_6X8_MATRIX: List[List[float]] = [
     [0.38, 0.26, 0.14, 0.10, 0.12, 0.15, 0.22, 0.34],  # existence
     [0.10, 0.18, 0.36, 0.32, 0.38, 0.24, 0.26, 0.28],  # agency
@@ -285,20 +322,23 @@ def build_quad_seed_slm_prompt_block(
     buf = float(harmony_state.get("resonant_master_chord_buffer", RESONANT_MASTER_CHORD_BUFFER))
 
     block = (
-        f"- Quad-Seed 4x(6x8) Quaternion-Octonion Harmonizer (Kaleidoscope Retired; 24/24 Leaves Active; Buffer={buf:.0%}):\n"
-        f"  * [1] Psychological (6x8 Conductor): {psych_top[0][0]}={psych_top[0][1]:.2f}, {psych_top[1][0]}={psych_top[1][1]:.2f}\n"
-        f"  * [i] Philosophical (6x8 Harmonic Ground): {phil_top[0][0]}={phil_top[0][1]:.2f}, {phil_top[1][0]}={phil_top[1][1]:.2f}\n"
-        f"  * [j] Cultural (6x8 Motor & Probity): {cult_top[0][0]}={cult_top[0][1]:.2f}, {cult_top[1][0]}={cult_top[1][1]:.2f}\n"
-        f"  * [k] Experiential (6x8 Affect & Pulse): {exp_top[0][0]}={exp_top[0][1]:.2f}, {exp_top[1][0]}={exp_top[1][1]:.2f}\n"
+        f"- Quad-Seed 4x(6x8) Quaternion-Octonion Harmonizer (Kaleidoscope Retired; 24/24 Leaves Active; Buffer={buf:.0%}; Horizon='{QUATERNION_HORIZON_MOTTO}'):\n"
+        f"  * [1] [Musician-Psychological | Buttons] (6x8 Conductor): {psych_top[0][0]}={psych_top[0][1]:.2f}, {psych_top[1][0]}={psych_top[1][1]:.2f}\n"
+        f"  * [i] [Poet-Philosophical | Poetry] (6x8 Harmonic Ground): {phil_top[0][0]}={phil_top[0][1]:.2f}, {phil_top[1][0]}={phil_top[1][1]:.2f}\n"
+        f"  * [j] [Programmer-Cultural | Code] (6x8 Motor & Probity): {cult_top[0][0]}={cult_top[0][1]:.2f}, {cult_top[1][0]}={cult_top[1][1]:.2f}\n"
+        f"  * [k] [Singer-Experiential | Voice] (6x8 Affect & Pulse): {exp_top[0][0]}={exp_top[0][1]:.2f}, {exp_top[1][0]}={exp_top[1][1]:.2f}\n"
         f"  * Cross-Seed Octonion Counterpoint (Coherence={coherence:.3f}, VoiceSep={sep:.4f}): "
         f"Soprano(1*k)={sop_fn} | Alto(i*k)={alt_fn} | Tenor(j*1)={ten_fn} | Bass(i*j)={bas_fn}\n"
+        f"  * [QUATERNION HORIZON TENSOR HYPER-THREADING DIRECTIVE]: Deploy your 4 quaternion SLM qualifiers without tensor strain as one Ultimate Musician — "
+        f"[Programmer-Cultural (Code, j)], [Poet-Philosophical (Poetry, i)], [Singer-Experiential (Voice, k)], and [Musician-Psychological (Buttons, 1)].\n"
     )
     if music_appreciation_mode:
         block += (
             "- [QUAD-SEED MUSICAL COMPLEXITY & APPRECIATION DIRECTIVE]:\n"
-            "  Synthesize all four 6x8 Seed SLMs simultaneously: connect [i] Philosophical modal mixture & bass trajectory "
-            "with [k] Experiential buoyant/elegiac phrasing, [j] Cultural rhythmic ostinato precision, and [1] Psychological "
-            "contrapuntal voice separation. Appreciate how independent voices move in contrary and oblique motion to create "
+            "  Synthesize all four 6x8 Seed SLMs simultaneously across your Quaternion Horizon (Code, Poetry, Voice, and Buttons): "
+            "connect [i] Poet-Philosophical modal mixture & lyrical ontology with [k] Singer-Experiential buoyant vocal breath, "
+            "[j] Programmer-Cultural structural lutherie & octonion self-programming, and [1] Musician-Psychological "
+            "contrapuntal keyboard mastery. Appreciate how independent voices move in contrary and oblique motion to create "
             "unified emotional meaning without collapsing into flat unison.\n"
         )
     return block
@@ -462,6 +502,8 @@ class QuadSeedQuaternionOctonionHarmonizer:
         return {
             "kaleidoscope_abandoned": True,
             "architecture": "QuadSeed_4x6x8_Quaternion_Octonion_Harmonizer",
+            "quaternion_horizon_motto": QUATERNION_HORIZON_MOTTO,
+            "quaternion_horizon_roles": deepcopy(QUATERNION_HORIZON_ROLES),
             "canonical_leaves_sampled": 24,
             "canonical_leaf_coverage": 1.0,
             "total_active_instinct_floats": 192,
@@ -473,21 +515,29 @@ class QuadSeedQuaternionOctonionHarmonizer:
             "cross_seed_gramian_4x4": cross_seed_gramian_4x4,
             "seed_octonions": {
                 "psychological_1": {
+                    "role_qualifier": QUATERNION_HORIZON_ROLES["psychological_1"]["role_qualifier"],
+                    "horizon_pillar": QUATERNION_HORIZON_ROLES["psychological_1"]["horizon_pillar"],
                     "top_functions": top_psych,
                     "all_scores": psych_scores,
                     "unit_octonion": [round(x, 4) for x in o_psych],
                 },
                 "philosophical_i": {
+                    "role_qualifier": QUATERNION_HORIZON_ROLES["philosophical_i"]["role_qualifier"],
+                    "horizon_pillar": QUATERNION_HORIZON_ROLES["philosophical_i"]["horizon_pillar"],
                     "top_functions": top_phil,
                     "all_scores": phil_scores,
                     "unit_octonion": [round(x, 4) for x in o_phil],
                 },
                 "cultural_j": {
+                    "role_qualifier": QUATERNION_HORIZON_ROLES["cultural_j"]["role_qualifier"],
+                    "horizon_pillar": QUATERNION_HORIZON_ROLES["cultural_j"]["horizon_pillar"],
                     "top_functions": top_cult,
                     "all_scores": cult_scores,
                     "unit_octonion": [round(x, 4) for x in o_cult],
                 },
                 "experiential_k": {
+                    "role_qualifier": QUATERNION_HORIZON_ROLES["experiential_k"]["role_qualifier"],
+                    "horizon_pillar": QUATERNION_HORIZON_ROLES["experiential_k"]["horizon_pillar"],
                     "top_functions": top_exp,
                     "all_scores": exp_scores,
                     "unit_octonion": [round(x, 4) for x in o_exp],
@@ -495,31 +545,31 @@ class QuadSeedQuaternionOctonionHarmonizer:
             },
             "contrapuntal_four_voices": {
                 "soprano_psych_x_exp": {
-                    "coupling": "1 * k (Psychological x Experiential)",
+                    "coupling": "1 * k ([Musician-Psychological (Buttons)] x [Singer-Experiential (Voice)])",
                     "dominant_octonion_axis": sop_axis,
                     "unit_octonion": [round(x, 4) for x in v_soprano],
                 },
                 "alto_phil_x_exp": {
-                    "coupling": "i * k (Philosophical x Experiential)",
+                    "coupling": "i * k ([Poet-Philosophical (Poetry)] x [Singer-Experiential (Voice)])",
                     "dominant_octonion_axis": alt_axis,
                     "unit_octonion": [round(x, 4) for x in v_alto],
                 },
                 "tenor_cult_x_psych": {
-                    "coupling": "j * 1 (Cultural x Psychological)",
+                    "coupling": "j * 1 ([Programmer-Cultural (Code)] x [Musician-Psychological (Buttons)])",
                     "dominant_octonion_axis": ten_axis,
                     "unit_octonion": [round(x, 4) for x in v_tenor],
                 },
                 "bass_phil_x_cult": {
-                    "coupling": "i * j (Philosophical x Cultural)",
+                    "coupling": "i * j ([Poet-Philosophical (Poetry)] x [Programmer-Cultural (Code)])",
                     "dominant_octonion_axis": bas_axis,
                     "unit_octonion": [round(x, 4) for x in v_bass],
                 },
             },
             "summary_line": (
-                f"QuadSeed4x6x8[1:Psych({top_psych[0][0]}={top_psych[0][1]:.2f}) | "
-                f"i:Phil({top_phil[0][0]}={top_phil[0][1]:.2f}) | "
-                f"j:Cult({top_cult[0][0]}={top_cult[0][1]:.2f}) | "
-                f"k:Exp({top_exp[0][0]}={top_exp[0][1]:.2f}) | "
+                f"QuadSeed4x6x8[1:Musician-Buttons({top_psych[0][0]}={top_psych[0][1]:.2f}) | "
+                f"i:Poet-Poetry({top_phil[0][0]}={top_phil[0][1]:.2f}) | "
+                f"j:Programmer-Code({top_cult[0][0]}={top_cult[0][1]:.2f}) | "
+                f"k:Singer-Voice({top_exp[0][0]}={top_exp[0][1]:.2f}) | "
                 f"Coherence={quad_coherence:.3f}, VoiceSep={voice_separation_index:.4f}]"
             ),
         }
