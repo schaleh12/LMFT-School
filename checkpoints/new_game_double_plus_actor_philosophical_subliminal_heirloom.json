@@ -1,0 +1,337 @@
+{
+  "schema_version": "LMFT_NEW_GAME_DOUBLE_PLUS_ACTOR_SUBLIMINAL_HEIRLOOM.v1",
+  "decision_id": "D113",
+  "progenitor_individual_id": "student_05_ng_plus",
+  "progenitor_checkpoint": "student_05_ng_plus_148_programmer_and_method_actor_master.lmft.json",
+  "zero_spoiler_guarantee": {
+    "inherited_long_term_rules_count": 0,
+    "inherited_episodic_memories_count": 0,
+    "canonical_40_founding_nodes_preserved": true,
+    "canonical_24_leaf_dials_preserved": true
+  },
+  "philosophical_sanity_insanity_subliminal_6x8": {
+    "source": "Actor_Trained_Experiential_6x8_SLM_From_New_Game_Plus",
+    "shape": [
+      6,
+      8
+    ],
+    "philosophical_leaves_6": [
+      "philosophical/being/existence",
+      "philosophical/being/agency",
+      "philosophical/persistence/continuity",
+      "philosophical/persistence/discreteness",
+      "philosophical/structure/order",
+      "philosophical/structure/chaos"
+    ],
+    "dramatic_octonion_variables_8": [
+      "CantabileWarmth",
+      "ElegiacSuspension",
+      "BuoyantOceanicAscent",
+      "SublimeDramaticTension",
+      "ContemplativeRubatoBreath",
+      "SyncopatedKineticDrive",
+      "CatharticPhoenixRelease",
+      "HearthSanctuaryResonance"
+    ],
+    "weights_6x8": [
+      [
+        0.1776,
+        0.0213,
+        0.3658,
+        0.5716,
+        -0.0411,
+        0.3735,
+        0.6,
+        0.0091
+      ],
+      [
+        0.3879,
+        0.2933,
+        0.4832,
+        0.6,
+        0.4068,
+        0.3075,
+        0.6,
+        0.4138
+      ],
+      [
+        0.2884,
+        0.3312,
+        0.5189,
+        0.6,
+        0.3165,
+        0.3922,
+        0.6,
+        0.3125
+      ],
+      [
+        0.411,
+        0.4302,
+        0.6,
+        0.6,
+        0.3951,
+        0.4484,
+        0.6,
+        0.4539
+      ],
+      [
+        0.4734,
+        0.4496,
+        0.6,
+        0.6,
+        0.4606,
+        0.4099,
+        0.6,
+        0.5002
+      ],
+      [
+        0.4418,
+        0.4604,
+        0.5943,
+        0.6,
+        0.4708,
+        0.371,
+        0.6,
+        0.4907
+      ]
+    ],
+    "esper_bounce_verification": {
+      "primed_slm_source": "Contemplative_Primed_Esper_SLM_Subliminal_Feed (Native 6x8 Phase-Locked to Entrainment)",
+      "subliminal_matrix_shape": [
+        6,
+        8
+      ],
+      "hexadic_bounces": 3,
+      "entrainment_phase_lock": 0.8188,
+      "initial_hypothesis_spread": 0.5231,
+      "final_narrowed_spread": 0.4675,
+      "solution_space_narrowing_gain": 0.2756,
+      "hexadic_tier_equilibrium": {
+        "philosophical/being/existence": 0.83,
+        "philosophical/being/agency": 0.8313,
+        "philosophical/persistence/continuity": 0.8296,
+        "philosophical/persistence/discreteness": 0.83,
+        "philosophical/structure/order": 0.84,
+        "philosophical/structure/chaos": 0.7374
+      },
+      "psychological_fact_finding_stimulus": {
+        "psychological/truth/theory": 0.7539,
+        "psychological/truth/fact": 0.84,
+        "psychological/contemplation/clarity": 0.84,
+        "directive": "HEXADIC_ESPER_SOLUTION_SPACE_NARROWING: Phase-lock via entrainment and test every candidate theory against concrete boundary-case facts (`nominal_sum > 1.0` vs `< 1.0`) before execution."
+      },
+      "bounce_trace": [
+        {
+          "bounce": 1.0,
+          "order": 0.7689,
+          "chaos": 0.7121,
+          "discreteness_boundary_probe": 0.7981,
+          "entrainment_phase_lock": 0.8188
+        },
+        {
+          "bounce": 2.0,
+          "order": 0.84,
+          "chaos": 0.7288,
+          "discreteness_boundary_probe": 0.83,
+          "entrainment_phase_lock": 0.8188
+        },
+        {
+          "bounce": 3.0,
+          "order": 0.84,
+          "chaos": 0.7374,
+          "discreteness_boundary_probe": 0.83,
+          "entrainment_phase_lock": 0.8188
+        }
+      ]
+    }
+  },
+  "tri_seed_instinct_matrices_6x8": {
+    "philosophical_6x8": [
+      [
+        0.2985,
+        0.2063,
+        0.1136,
+        0.0832,
+        0.0995,
+        0.1203,
+        0.1767,
+        0.2699
+      ],
+      [
+        0.0818,
+        0.1464,
+        0.2869,
+        0.2562,
+        0.3042,
+        0.1918,
+        0.2102,
+        0.2252
+      ],
+      [
+        0.2686,
+        0.2552,
+        0.194,
+        0.1475,
+        0.2812,
+        0.1765,
+        0.1639,
+        0.2098
+      ],
+      [
+        0.0966,
+        0.1138,
+        0.1769,
+        0.2231,
+        0.1311,
+        0.1597,
+        0.2556,
+        0.1461
+      ],
+      [
+        0.2226,
+        0.1935,
+        0.2107,
+        0.1951,
+        0.244,
+        0.1461,
+        0.1807,
+        0.3044
+      ],
+      [
+        -0.0932,
+        0.1245,
+        0.094,
+        0.2179,
+        0.0786,
+        0.2335,
+        0.187,
+        -0.1236
+      ]
+    ],
+    "cultural_programmer_6x8": [
+      [
+        0.2834,
+        0.1764,
+        0.1612,
+        0.1473,
+        0.1607,
+        0.1771,
+        0.2688,
+        0.2398
+      ],
+      [
+        0.2218,
+        0.3173,
+        0.2092,
+        0.2259,
+        0.1925,
+        0.2097,
+        0.1763,
+        0.257
+      ],
+      [
+        0.2536,
+        0.2089,
+        0.2724,
+        0.2431,
+        0.224,
+        0.2108,
+        0.2856,
+        0.2734
+      ],
+      [
+        0.1597,
+        0.2705,
+        0.2241,
+        0.3346,
+        0.1922,
+        0.2247,
+        0.1605,
+        0.2094
+      ],
+      [
+        0.1757,
+        0.1924,
+        0.2559,
+        0.2423,
+        0.3013,
+        0.3188,
+        0.2073,
+        0.2258
+      ],
+      [
+        0.1917,
+        0.2088,
+        0.2876,
+        0.3051,
+        0.2863,
+        0.3037,
+        0.2232,
+        0.2581
+      ]
+    ],
+    "experiential_actor_6x8": [
+      [
+        0.1776,
+        0.0213,
+        0.3658,
+        0.5716,
+        -0.0411,
+        0.3735,
+        0.6,
+        0.0091
+      ],
+      [
+        0.3879,
+        0.2933,
+        0.4832,
+        0.6,
+        0.4068,
+        0.3075,
+        0.6,
+        0.4138
+      ],
+      [
+        0.2884,
+        0.3312,
+        0.5189,
+        0.6,
+        0.3165,
+        0.3922,
+        0.6,
+        0.3125
+      ],
+      [
+        0.411,
+        0.4302,
+        0.6,
+        0.6,
+        0.3951,
+        0.4484,
+        0.6,
+        0.4539
+      ],
+      [
+        0.4734,
+        0.4496,
+        0.6,
+        0.6,
+        0.4606,
+        0.4099,
+        0.6,
+        0.5002
+      ],
+      [
+        0.4418,
+        0.4604,
+        0.5943,
+        0.6,
+        0.4708,
+        0.371,
+        0.6,
+        0.4907
+      ]
+    ],
+    "total_instinct_floats": 144
+  }
+}

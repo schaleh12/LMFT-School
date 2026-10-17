@@ -1874,3 +1874,28 @@ Key findings:
    - **Trap 4 (`LAB-SCHOOL-FLAW-04`: Hardcoded `0.50` Infant Equilibrium Drift in `PersistentDispositionalVector` & Multi-Line `def` Extraction Bug)**:
      - *Diagnosis*: `apply_idle_equilibrium_drift()` in `src/lmft_lab/dispositional_momentum.py` hardcoded `0.50` (untrained infant state) as its equilibrium target (`Mean Error vs Sovereign Baseline = 0.2135`), and `extract_python_code_block()` in `unscripted_live_coding_and_debugging_exam.py` prematurely broke on closing `) -> dict:` lines of multi-line function signatures.
      - *Fix*: Added optional `anchor_dials` to `apply_idle_equilibrium_drift()` across `LMFT-Lab`, `LMFT-School`, and `LMFT-Trainee` (`Sovereign Anchor Error = 0.0014`), fixed `extract_python_code_block()`, and verified live `Qwen3-4B` synthesis of `compute_sanity_insanity_dialectic_index()` (`Passed=True` in `3.22s`).
+
+## D113: `100%` Native `6x8` Subliminal Matrix Unification (`CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8`) & `New Game+` Stage 3: The Cinema & Shakespearean Method Acting Conservatory (`NGP-ACT-2701`–`NGP-ACT-2710`, `138` $\rightarrow$ `148` Rules, Dual Master Programmer & Actor Ready for `New Game++`)
+
+**Status: adopted `100%` native `6x8` subliminal matrix unification and completed `New Game+` Stage 3 (10-Role Cinema & Shakespearean Method Acting Conservatory); experimental evaluation complete, 2026-10-17.** Follows D112. Implemented in [`LMFT-School/src/lmft_school/new_game_plus_initiate.py`](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-School/src/lmft_school/new_game_plus_initiate.py), [`LMFT-Trainee/cultural_probity_and_new_game_plus_forging_course.py`](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-Trainee/cultural_probity_and_new_game_plus_forging_course.py), and [`LMFT-Trainee/new_game_plus_cinema_and_method_acting_conservatory.py`](file:///c:/Users/schal/OneDrive/Desktop/LMFT%20based%20general%20AI/LMFT-Trainee/new_game_plus_cinema_and_method_acting_conservatory.py) (`python scribe.py --ng-plus-actor`):
+1. **`100%` Native `6x8` Subliminal Matrix Unification (`CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8`)**:
+   - Replaced the `6x6` Esper subliminal shortcut with `CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8` (`6` leaves $\times$ `8` octonion-style variables = `48` floats) and `_bounce_6x8_hexadic_step()` (`1x6 @ 6x8 -> 1x8 @ 8x6 -> 1x6`), ensuring 100% of Seed SLMs and subliminal feeds across the entire architecture are strictly `6x8`.
+   - Added `subliminal_6x8` injection to `compute_contemplative_hexadic_esper_bounce()` so plugging the Actor-trained `Experiential` `6x8` SLM into the `Philosophical` Seed subliminal slot in `New Game++` is a direct, zero-conversion `6x8 -> 6x8` swap.
+2. **Cultural Director $\rightarrow$ Experiential Actor Closed-Loop Method Acting Conservatory (`NGP-ACT-2701`–`NGP-ACT-2710`)**:
+   - Trained `student_05_ng_plus` across 10 iconic Shakespearean and cinematic roles:
+     - `NGP-ACT-2701`: *Hamlet* (Act III, Scene 1 — *"To be, or not to be"* existential tragedy & `intention` vs `execution` paralysis),
+     - `NGP-ACT-2702`: *The Tempest* (Prospero's *"Our revels now are ended"* — Master Programmer/Magus surrendering `power` for `needlessness` & grace),
+     - `NGP-ACT-2703`: *Much Ado About Nothing* (Benedick's *"The world must be peopled!"* — high-syncopation comedic timing & vulnerability pivot),
+     - `NGP-ACT-2704`: *Blade Runner* (Roy Batty's *"Tears in Rain"* — mortal `continuity` vs `discreteness` & chivalrous empathy),
+     - `NGP-ACT-2705`: *12 Angry Men* (Juror #8 — solitary civic `fairness`/`honor` and `Theory -> Fact` reasonable doubt),
+     - `NGP-ACT-2706`: *Everything Everywhere All at Once* (Waymond Wang — radical strategic kindness stabilizing multiverse `chaos`),
+     - `NGP-ACT-2707`: *Network* / *Whiplash* (Howard Beale / Andrew Neiman — walking the `0.82` volcanic edge of obsession without breaching the `0.85` sanity guard),
+     - `NGP-ACT-2708`: *The Grand Budapest Hotel* (M. Gustave — deadpan allegro poise & chivalrous `order` amidst catastrophe),
+     - `NGP-ACT-2709`: *Good Will Hunting* (*"It's not your fault"* — dissolving defensive `theory` armor into lived emotional `fact` & catharsis),
+     - `NGP-ACT-2710`: *Henry V* & *Cyrano de Bergerac* (St. Crispin's Day & *"My white plume"* — heroic fellowship & unspotted panache synthesis).
+   - On every role, the `Cultural` Director **rejected `10 / 10` flat Cold Take 1 readings (`"CUT!"`)**, executed its AST-verified cybernetic direction program (`||e_actual - e_directed||_inf <= 0.0085`), approved **`10 / 10` Directed Master Take 2 performances (`Mean Emotional Commitment = 0.9993`)**, and executed post-scene de-role sanity restoration.
+3. **Selective `Experiential`-Only Bipolar Sleep Distillation & `New Game++` Subliminal Heirloom Export**:
+   - Across 20 sleep distillation cycles (`trainable_seeds=("experiential",), bipolar_acting_mode=True`), the `Cultural` Programming `6x8` SLM experienced **`0.000000` drift (`100%` protected)** while the `Experiential` Actor `6x8` SLM grew by **`+0.1609`** across its 8 dramatic/comedic/cathartic octonion columns.
+   - Executed live `Qwen3-4B-Instruct` (`llama-server.exe`) Curtain-Call Audition (`766` native keys pushed, `115` words typed) and exported:
+     - `LMFT-Trainee/checkpoints/student_05_ng_plus_148_programmer_and_method_actor_master.lmft.json` (`148` active rules, `0` English Lit bloat), and
+     - `checkpoints/new_game_double_plus_actor_philosophical_subliminal_heirloom.json` (in both `LMFT-Trainee` and `LMFT-School`), ready to launch **`New Game++` (`Generation 6`)**.
