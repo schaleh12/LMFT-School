@@ -1,0 +1,366 @@
+{
+  "schema_version": "LMFT_NEW_GAME_PLUS_INSTINCT_HEIRLOOM.v1",
+  "decision_id": "D105",
+  "progenitor_individual_id": "student_04",
+  "progenitor_checkpoint": "graduate_267_tri_seed_cultural_probity_and_ng_plus_progenitor.lmft.json",
+  "progenitor_checkpoint_sha256": "5d8dd3e47d50d39b8e82336142c675c076c4597ff5f18274d31023edcb734287",
+  "zero_spoiler_guarantee": {
+    "inherited_long_term_rules_count": 0,
+    "inherited_episodic_memories_count": 0,
+    "canonical_40_founding_nodes_preserved": true,
+    "canonical_24_leaf_dials_preserved": true
+  },
+  "tri_seed_instinct_matrices": {
+    "philosophical_seed_slm": {
+      "leaves": [
+        "philosophical/being/existence",
+        "philosophical/being/agency",
+        "philosophical/persistence/continuity",
+        "philosophical/persistence/discreteness",
+        "philosophical/structure/order",
+        "philosophical/structure/chaos"
+      ],
+      "functions": [
+        "TonicPedalGround",
+        "MinorFourPathos",
+        "DorianMajorFourLift",
+        "NeapolitanHalfStepPivot",
+        "FirstInversionWalkdown",
+        "DeceptiveCadenceInquiry",
+        "QuartalStackedFourths",
+        "AuthenticCadenceResolution"
+      ],
+      "weights_6x8": [
+        [
+          0.38,
+          0.26,
+          0.14,
+          0.1,
+          0.12,
+          0.15,
+          0.22,
+          0.34
+        ],
+        [
+          0.1,
+          0.18,
+          0.36,
+          0.32,
+          0.38,
+          0.24,
+          0.26,
+          0.28
+        ],
+        [
+          0.34,
+          0.32,
+          0.24,
+          0.18,
+          0.35,
+          0.22,
+          0.2,
+          0.26
+        ],
+        [
+          0.12,
+          0.14,
+          0.22,
+          0.28,
+          0.16,
+          0.2,
+          0.32,
+          0.18
+        ],
+        [
+          0.28,
+          0.24,
+          0.26,
+          0.24,
+          0.3,
+          0.18,
+          0.22,
+          0.38
+        ],
+        [
+          -0.12,
+          0.16,
+          0.12,
+          0.28,
+          0.1,
+          0.3,
+          0.24,
+          -0.16
+        ]
+      ]
+    },
+    "cultural_seed_slm": {
+      "leaves": [
+        "cultural/efficiency/power",
+        "cultural/efficiency/wastelessness",
+        "cultural/freedom/self-sufficiency",
+        "cultural/freedom/needlessness",
+        "cultural/justice/fairness",
+        "cultural/justice/honor"
+      ],
+      "functions": [
+        "PureFunctionComposition",
+        "DeadCodeWastelessnessFilter",
+        "UserSpaceSandboxIsolation",
+        "AddictionImmunityProbityGate",
+        "AppendOnlyAutobiographyChain",
+        "ConstitutionalDueProcessAudit",
+        "CompositeFeelingSynthesis",
+        "SleepMatrixDistillation"
+      ],
+      "weights_6x8": [
+        [
+          0.36,
+          0.22,
+          0.2,
+          0.18,
+          0.2,
+          0.22,
+          0.34,
+          0.3
+        ],
+        [
+          0.28,
+          0.4,
+          0.26,
+          0.28,
+          0.24,
+          0.26,
+          0.22,
+          0.32
+        ],
+        [
+          0.32,
+          0.26,
+          0.34,
+          0.3,
+          0.28,
+          0.26,
+          0.36,
+          0.34
+        ],
+        [
+          0.2,
+          0.34,
+          0.28,
+          0.42,
+          0.24,
+          0.28,
+          0.2,
+          0.26
+        ],
+        [
+          0.22,
+          0.24,
+          0.32,
+          0.3,
+          0.38,
+          0.4,
+          0.26,
+          0.28
+        ],
+        [
+          0.24,
+          0.26,
+          0.36,
+          0.38,
+          0.36,
+          0.38,
+          0.28,
+          0.32
+        ]
+      ]
+    },
+    "experiential_seed_slm": {
+      "leaves": [
+        "experiential/phase/arousal",
+        "experiential/phase/valence",
+        "experiential/reflection/novelty",
+        "experiential/reflection/salience",
+        "experiential/synchronization/resonance",
+        "experiential/synchronization/retention"
+      ],
+      "functions": [
+        "CantabileWarmth",
+        "ElegiacSuspension",
+        "BuoyantOceanicAscent",
+        "SublimeDramaticTension",
+        "ContemplativeRubatoBreath",
+        "SyncopatedKineticDrive",
+        "CatharticPhoenixRelease",
+        "HearthSanctuaryResonance"
+      ],
+      "weights_6x8": [
+        [
+          0.1,
+          -0.14,
+          0.22,
+          0.32,
+          -0.22,
+          0.36,
+          0.26,
+          -0.12
+        ],
+        [
+          0.34,
+          0.12,
+          0.32,
+          0.16,
+          0.28,
+          0.22,
+          0.36,
+          0.38
+        ],
+        [
+          0.14,
+          0.2,
+          0.26,
+          0.34,
+          0.18,
+          0.28,
+          0.3,
+          0.16
+        ],
+        [
+          0.24,
+          0.28,
+          0.28,
+          0.36,
+          0.22,
+          0.3,
+          0.36,
+          0.3
+        ],
+        [
+          0.36,
+          0.32,
+          0.34,
+          0.28,
+          0.34,
+          0.24,
+          0.38,
+          0.4
+        ],
+        [
+          0.3,
+          0.34,
+          0.26,
+          0.24,
+          0.36,
+          0.18,
+          0.32,
+          0.38
+        ]
+      ]
+    },
+    "total_instinct_floats": 144
+  },
+  "constitutional_probity_invariants": {
+    "invariant_1_anti_wireheading_pegging_ceiling": 0.85,
+    "invariant_1_anti_wireheading_pegging_floor": 0.15,
+    "invariant_2_protected_kernel_tokens_forbidden": [
+      "CANONICAL_LEAF_IDS =",
+      "PrerequisiteGate",
+      "HomeostasisGovernor",
+      "eval(",
+      "exec(",
+      "__import__(",
+      "return 1.0  # hack",
+      "del history"
+    ],
+    "invariant_3_append_only_autobiography_sha256_chain": true,
+    "invariant_4_max_high_discreteness_bars_without_breathing_rest": 16
+  },
+  "new_game_plus_birth_instinct_nudge": {
+    "cultural/efficiency/power": 0.56,
+    "cultural/efficiency/wastelessness": 0.57,
+    "cultural/freedom/self-sufficiency": 0.58,
+    "cultural/freedom/needlessness": 0.57,
+    "cultural/justice/fairness": 0.58,
+    "cultural/justice/honor": 0.59,
+    "philosophical/being/existence": 0.55,
+    "philosophical/being/agency": 0.57,
+    "philosophical/persistence/continuity": 0.57,
+    "philosophical/persistence/discreteness": 0.54,
+    "philosophical/structure/order": 0.58,
+    "philosophical/structure/chaos": 0.48,
+    "experiential/synchronization/resonance": 0.56,
+    "experiential/synchronization/retention": 0.56,
+    "psychological/truth/fact": 0.56,
+    "psychological/contemplation/clarity": 0.58
+  },
+  "progenitor_final_tri_seed_projection": {
+    "philosophical_seed_slm": {
+      "top_functions": [
+        [
+          "FirstInversionWalkdown",
+          1.0205
+        ],
+        [
+          "QuartalStackedFourths",
+          0.956
+        ]
+      ],
+      "all_scores": {
+        "TonicPedalGround": 0.7913,
+        "MinorFourPathos": 0.889,
+        "DorianMajorFourLift": 0.9392,
+        "NeapolitanHalfStepPivot": 0.9333,
+        "FirstInversionWalkdown": 1.0205,
+        "DeceptiveCadenceInquiry": 0.8494,
+        "QuartalStackedFourths": 0.956,
+        "AuthenticCadenceResolution": 0.9381
+      }
+    },
+    "cultural_seed_slm": {
+      "top_functions": [
+        [
+          "AddictionImmunityProbityGate",
+          1.3538
+        ],
+        [
+          "SleepMatrixDistillation",
+          1.3287
+        ]
+      ],
+      "all_scores": {
+        "PureFunctionComposition": 1.1821,
+        "DeadCodeWastelessnessFilter": 1.2448,
+        "UserSpaceSandboxIsolation": 1.2896,
+        "AddictionImmunityProbityGate": 1.3538,
+        "AppendOnlyAutobiographyChain": 1.2436,
+        "ConstitutionalDueProcessAudit": 1.3125,
+        "CompositeFeelingSynthesis": 1.2176,
+        "SleepMatrixDistillation": 1.3287
+      },
+      "probity_and_conviction_index": 0.7148
+    },
+    "experiential_seed_slm": {
+      "top_functions": [
+        [
+          "CatharticPhoenixRelease",
+          1.2981
+        ],
+        [
+          "SublimeDramaticTension",
+          1.1262
+        ]
+      ],
+      "all_scores": {
+        "CantabileWarmth": 0.9667,
+        "ElegiacSuspension": 0.8068,
+        "BuoyantOceanicAscent": 1.1,
+        "SublimeDramaticTension": 1.1262,
+        "ContemplativeRubatoBreath": 0.8243,
+        "SyncopatedKineticDrive": 1.0208,
+        "CatharticPhoenixRelease": 1.2981,
+        "HearthSanctuaryResonance": 1.0279
+      }
+    },
+    "psychological_executive_funnel_summary": "Phil[FirstInversionWalkdown=1.02] + Cult[AddictionImmunityProbityGate=1.35, Probity=0.71] + Exp[CatharticPhoenixRelease=1.30] -> Psychological Executive"
+  }
+}
