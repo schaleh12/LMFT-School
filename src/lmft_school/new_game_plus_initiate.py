@@ -196,6 +196,24 @@ def project_tri_seed_funnel(
     )
     cult_res["probity_and_conviction_index"] = probity_index
     cult_res["self_programming_readiness"] = self_prog_readiness
+    cult_res["autobiographical_log_pointer"] = {
+        "target_seed_slm": "cultural_seed_slm",
+        "target_matrix_key": "cultural_6x8",
+        "matrix_shape": [6, 8],
+        "governing_columns": {
+            "col_4_AppendOnlyAutobiographyChain": round(
+                float(cult_scores.get("AppendOnlyAutobiographyChain", 0.90)), 4
+            ),
+            "col_7_SleepMatrixDistillation": round(
+                float(cult_scores.get("SleepMatrixDistillation", 0.90)), 4
+            ),
+        },
+        "append_only_sha256_enforced": bool(
+            heirloom.get("constitutional_probity_invariants", {}).get(
+                "invariant_3_append_only_autobiography_sha256_chain", True
+            )
+        ),
+    }
 
     summary = (
         f"Phil[{phil_res['top_functions'][0][0]}={phil_res['top_functions'][0][1]:.2f}, "
