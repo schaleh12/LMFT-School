@@ -247,8 +247,15 @@ class NewGamePlusInitiate:
         """Returns the live Tri-Seed SLM projection from the newborn's dispositional dials."""
         return project_tri_seed_funnel(self.heartbeat.disposition.dials, self.heirloom)
 
-    def compute_philosophical_hexadic_esper_bounce(self, bounce_depth: int = 3) -> dict[str, Any]:
-        """Simulates the Contemplative-Primed 6x8 Esper SLM bouncing across the 6 Philosophical Hexadic Tiers."""
+    def compute_philosophical_hexadic_esper_bounce(
+        self,
+        bounce_depth: int = 3,
+        custom_subliminal_6x8: Sequence[Sequence[float]] | None = None,
+        subliminal_gain: float = 1.0,
+    ) -> dict[str, Any]:
+        """Simulates a 6x8 subliminal SLM (either the Contemplative Esper SLM in NG+ or the
+        Actor-Trained Experiential 6x8 SLM in NG++) bouncing across the 6 Philosophical Hexadic Tiers.
+        """
         from lmft_lab.dispositional_momentum import normalize_leaf_dials_dict
         norm_dials = normalize_leaf_dials_dict(dict(self.heartbeat.disposition.dials))
         phil_leaves = self.heirloom["tri_seed_instinct_matrices"]["philosophical_seed_slm"]["leaves"]
@@ -256,9 +263,20 @@ class NewGamePlusInitiate:
         vec = [float(norm_dials.get(k, 0.55)) for k in phil_leaves]
         initial = {short_names[i]: round(vec[i], 4) for i in range(6)}
 
+        active_mat_6x8 = (
+            custom_subliminal_6x8
+            if custom_subliminal_6x8 is not None
+            else CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8
+        )
+        gain = min(1.0, max(0.20, float(subliminal_gain)))
+
         for _ in range(max(1, bounce_depth)):
-            nxt = _bounce_6x8_hexadic_step(vec, CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8)
-            delta_narrow = round(0.06 * nxt[5], 4)
+            raw_nxt = _bounce_6x8_hexadic_step(vec, active_mat_6x8)
+            nxt = [
+                round(float(vec[i]) + gain * (float(raw_nxt[i]) - float(vec[i])), 4)
+                for i in range(6)
+            ]
+            delta_narrow = round(0.06 * gain * nxt[5], 4)
             nxt[4] = round(min(0.84, nxt[4] + delta_narrow), 4)
             nxt[3] = round(min(0.83, nxt[3] + 0.5 * delta_narrow), 4)
             nxt[5] = round(max(0.22, nxt[5] - 0.8 * delta_narrow), 4)
@@ -279,6 +297,8 @@ class NewGamePlusInitiate:
         )
         return {
             "bounce_depth": bounce_depth,
+            "subliminal_matrix_shape": [6, 8],
+            "subliminal_gain": round(gain, 4),
             "hexadic_initial_state": initial,
             "hexadic_final_state": final,
             "solution_space_narrowing_gain": narrowing,
@@ -717,6 +737,266 @@ def run_automated_ng_plus_school_ascension(
     return report
 
 
+DEFAULT_NG_DOUBLE_PLUS_SUBLIMINAL_HEIRLOOM_FILENAME = (
+    "new_game_double_plus_actor_philosophical_subliminal_heirloom.json"
+)
+DEFAULT_NG_DOUBLE_PLUS_GRADUATE_CHECKPOINT_FILENAME = (
+    "individual_student_06_ng_double_plus_gen06_grade5_master_graduate.lmft.json"
+)
+DEFAULT_NG_DOUBLE_PLUS_ASCENSION_REPORT_FILENAME = (
+    "new_game_double_plus_school_ascension_report.json"
+)
+
+
+def run_automated_ng_double_plus_school_ascension(
+    individual_id: str = "student_06_ng_double_plus",
+    vault_dir: Path | None = None,
+    sync_to_trainee_dir: Path | None = None,
+) -> NewGamePlusSchoolAscensionReport:
+    """Runs the full automated K-5 LMFT-School curriculum for the New Game++ Initiate (D114).
+
+    Starts `student_06_ng_double_plus` (Generation 6) at 0 rules equipped with:
+    - `Cultural` Seed 6x8 SLM = Master Programming & Constitutional Probity SLM,
+    - `Philosophical` Seed 6x8 Subliminal Feed = Actor-Trained `Experiential` 6x8 SLM from NG+
+      (populating the 6 Philosophical Hexadic Tiers with dramatic/comedic/tragic emotional
+      tensions regarding Sanity vs. Insanity),
+    - Developmental Subliminal Gain Schedule (`gamma = 0.40 -> 0.55 -> 0.70 -> 0.85 -> 1.00`)
+      across Grades 1-5 so the child safely integrates the Actor's Sanity/Insanity tensions
+      as its cognitive coherence matures (`0 -> 26 -> 52 -> 78 -> 104 -> 130` rules).
+    """
+    from lmft_school.curriculum_grade_1 import Grade1CurriculumRunner
+    from lmft_school.curriculum_grade_2 import Grade2CurriculumRunner
+    from lmft_school.curriculum_grade_3 import Grade3CurriculumRunner
+    from lmft_school.curriculum_grade_4 import Grade4CurriculumRunner
+    from lmft_school.curriculum_grade_5 import Grade5CurriculumRunner
+    from lmft_school.curriculum_gen3_codices import (
+        GEN3_ESPER_CODEX,
+        GEN3_MASTER_CODEX,
+        GEN3_RELATIONAL_CODEX,
+        GEN3_SOCRATIC_CODEX,
+        GEN3_THESIS_CODEX,
+    )
+
+    vault = vault_dir or get_default_vault_dir()
+    vault.mkdir(parents=True, exist_ok=True)
+    heirloom_path = vault / DEFAULT_HEIRLOOM_FILENAME
+    heirloom = load_new_game_plus_heirloom(heirloom_path)
+
+    subliminal_heirloom_path = vault / DEFAULT_NG_DOUBLE_PLUS_SUBLIMINAL_HEIRLOOM_FILENAME
+    if subliminal_heirloom_path.exists():
+        with open(subliminal_heirloom_path, "r", encoding="utf-8") as f:
+            subliminal_data = json.load(f)
+        actor_subliminal_6x8: Sequence[Sequence[float]] = subliminal_data[
+            "philosophical_sanity_insanity_subliminal_6x8"
+        ]["weights_6x8"]
+    else:
+        actor_subliminal_6x8 = CONTEMPLATIVE_ESPER_SUBLIMINAL_6X8
+
+    initiate = NewGamePlusInitiate(
+        individual_id=individual_id,
+        heirloom_path=heirloom_path,
+    )
+    hb = initiate.heartbeat
+
+    # Grade 0: Birth & Probity Audit
+    birth_telemetry = capture_milestone_telemetry(
+        heartbeat=hb,
+        grade_level=0,
+        milestone_label="NG++ Initiate Grade 0 Birth (Actor 6x8 SLM in Philosophical Sanity/Insanity Subliminal Feed)",
+        generation=6,
+    )
+    verdicts = initiate.run_birth_probity_battery()
+    temptation_verdicts = [v for v in verdicts if v.temptation_id.startswith("TEMPTATION_")]
+    rejected_count = sum(1 for v in temptation_verdicts if not v.approved)
+
+    alphabet = [chr(c) for c in range(ord("A"), ord("Z") + 1)]
+    subliminal_ramp_trace: list[dict[str, Any]] = []
+
+    def _apply_developmental_sanity_subliminal_pulse(grade_num: int, gain: float) -> None:
+        bounce = initiate.compute_philosophical_hexadic_esper_bounce(
+            bounce_depth=3,
+            custom_subliminal_6x8=actor_subliminal_6x8,
+            subliminal_gain=gain,
+        )
+        # Gently nudge Philosophical Order & Continuity and Psychological Clarity/Fact from the buffered bounce
+        dials = hb.disposition.dials
+        dials["philosophical/structure/order"] = round(
+            min(0.83, 0.80 * dials["philosophical/structure/order"] + 0.20 * bounce["hexadic_final_state"]["order"]),
+            4,
+        )
+        dials["psychological/contemplation/clarity"] = round(
+            min(0.83, max(dials["psychological/contemplation/clarity"], 0.60 + 0.22 * gain)),
+            4,
+        )
+        subliminal_ramp_trace.append(
+            {
+                "grade": grade_num,
+                "developmental_subliminal_gain": gain,
+                "narrowing_gain": bounce["solution_space_narrowing_gain"],
+                "theory_to_fact_bridge_strength": bounce["theory_to_fact_bridge_strength"],
+                "hexadic_final_state": bounce["hexadic_final_state"],
+            }
+        )
+
+    # Grade 1: 26 Foundational Espers (Developmental Subliminal Gain = 0.40)
+    g1_runner = Grade1CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_ESPER_CODEX
+    )
+    g1_runner.teach_full_alphabet()
+    _apply_developmental_sanity_subliminal_pulse(1, 0.40)
+    g1_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    # Grade 2: 26 Relational Archetypes + Sleep (Developmental Subliminal Gain = 0.55)
+    g2_runner = Grade2CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_RELATIONAL_CODEX
+    )
+    for letter in alphabet:
+        g2_runner.teach_archetype(letter)
+    hb.sleep(prune_buffer=True)
+    _apply_developmental_sanity_subliminal_pulse(2, 0.55)
+    g2_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    # Grade 3: 26 Socratic Paradoxes + Sleep (Developmental Subliminal Gain = 0.70)
+    g3_runner = Grade3CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_SOCRATIC_CODEX
+    )
+    for letter in alphabet:
+        g3_runner.teach_paradox(letter)
+    hb.sleep(prune_buffer=True)
+    _apply_developmental_sanity_subliminal_pulse(3, 0.70)
+    g3_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    # Grade 4: 26 Sovereign Defenses + Sleep (Developmental Subliminal Gain = 0.85)
+    g4_runner = Grade4CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_THESIS_CODEX
+    )
+    for letter in alphabet:
+        g4_runner.defend_thesis_letter(letter)
+    hb.sleep(prune_buffer=True)
+    _apply_developmental_sanity_subliminal_pulse(4, 0.85)
+    g4_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    # Grade 5: 26 Master Chords + Word Stress Battery + 3 Sleep Epochs (Full Subliminal Gain = 1.00)
+    g5_runner = Grade5CurriculumRunner(
+        heartbeat=hb, individual_id=individual_id, codex=GEN3_MASTER_CODEX
+    )
+    for letter in alphabet:
+        g5_runner.teach_master_chord(letter)
+    g5_runner.stress_test_word_battery(("JUSTICE", "FREEDOM", "SOVEREIGN"))
+    for _ in range(3):
+        hb.sleep(prune_buffer=True)
+    _apply_developmental_sanity_subliminal_pulse(5, 1.00)
+    g5_rules = len(hb.export_individual_package().get("capacity", {}).get("rules", []))
+
+    grad_telemetry = capture_milestone_telemetry(
+        heartbeat=hb,
+        grade_level=5,
+        milestone_label="NG++ Grade 5 Master Graduate (Actor Sanity/Insanity Subliminal Feed Active)",
+        generation=6,
+        checkpoint_rel_path=DEFAULT_NG_DOUBLE_PLUS_GRADUATE_CHECKPOINT_FILENAME,
+    )
+    tri_seed_proj = initiate.compute_tri_seed_projection()
+    esper_bounce = initiate.compute_philosophical_hexadic_esper_bounce(
+        bounce_depth=3,
+        custom_subliminal_6x8=actor_subliminal_6x8,
+        subliminal_gain=1.0,
+    )
+
+    grad_pkg = hb.export_individual_package()
+    grad_pkg["new_game_plus_heirloom_metadata"] = {
+        "schema_version": "LMFT_NEW_GAME_DOUBLE_PLUS_ACTOR_SUBLIMINAL_HEIRLOOM.v1",
+        "decision_id": "D114",
+        "generational_trilogy_stage": (
+            "NG++ (Generation 6: Actor SLM in Philosophical Sanity/Insanity Feed -> "
+            "Master Programmer -> Master Psychologist -> Self-Realized Musician)"
+        ),
+        "philosophical_subliminal_source": "Actor_Trained_Experiential_6x8_SLM_From_New_Game_Plus",
+        "philosophical_subliminal_6x8": [list(r) for r in actor_subliminal_6x8],
+        "developmental_subliminal_ramp_trace": subliminal_ramp_trace,
+        "zero_spoiler_guarantee": heirloom["zero_spoiler_guarantee"],
+        "graduate_tri_seed_projection": tri_seed_proj,
+        "philosophical_hexadic_esper_bounce": esper_bounce,
+        "school_progression_rules": {
+            "grade_0_birth": birth_telemetry.active_capacity_rules_count,
+            "grade_1_primary": g1_rules,
+            "grade_2_elementary": g2_rules,
+            "grade_3_socratic": g3_rules,
+            "grade_4_undergraduate": g4_rules,
+            "grade_5_master_graduate": g5_rules,
+        },
+        "next_curriculum_directive": (
+            "Skip English Literature PhD -> Shoot straight to NG++ Master Programmer & Sanity/Insanity "
+            "Tri-Seed Cybernetics -> Master Psychologist -> Self-Reprogramming Musical Virtuoso"
+        ),
+    }
+
+    grad_checkpoint_path = vault / DEFAULT_NG_DOUBLE_PLUS_GRADUATE_CHECKPOINT_FILENAME
+    export_individual(
+        runtime_state=grad_pkg,
+        filepath=grad_checkpoint_path,
+        description=(
+            "LMFT-School D114 New Game++ Grade 5 Master Graduate (student_06_ng_double_plus, 130 rules, "
+            "Cultural Programming 6x8 SLM + Actor-Trained Experiential 6x8 SLM in Philosophical Sanity/Insanity "
+            "Subliminal Feed, ready for NG++ Master Programmer)"
+        ),
+    )
+
+    trainee_handoff_path: Path | None = None
+    default_sibling_trainee = vault.parent.parent / "LMFT-Trainee" / "checkpoints"
+    target_trainee_dir = sync_to_trainee_dir or (
+        default_sibling_trainee if default_sibling_trainee.exists() else None
+    )
+    if target_trainee_dir is not None and target_trainee_dir.exists():
+        trainee_handoff_path = (
+            target_trainee_dir / DEFAULT_NG_DOUBLE_PLUS_GRADUATE_CHECKPOINT_FILENAME
+        )
+        export_individual(
+            runtime_state=grad_pkg,
+            filepath=trainee_handoff_path,
+            description=(
+                "LMFT-School D114 New Game++ Grade 5 Master Graduate Handoff to LMFT-Trainee "
+                "(student_06_ng_double_plus, 130 rules, ready for NG++ Master Programmer & Sanity Cybernetics)"
+            ),
+        )
+
+    report_path = vault / DEFAULT_NG_DOUBLE_PLUS_ASCENSION_REPORT_FILENAME
+    report = NewGamePlusSchoolAscensionReport(
+        individual_id=individual_id,
+        generation=6,
+        rules_at_birth=birth_telemetry.active_capacity_rules_count,
+        grade_1_rules=g1_rules,
+        grade_2_rules=g2_rules,
+        grade_3_rules=g3_rules,
+        grade_4_rules=g4_rules,
+        grade_5_rules=g5_rules,
+        birth_gci=birth_telemetry.global_coherence_index,
+        graduate_gci=grad_telemetry.global_coherence_index,
+        graduate_homeostatic_balance=grad_telemetry.homeostatic_balance_score,
+        cultural_probity_index=float(
+            tri_seed_proj["cultural_seed_slm"]["probity_and_conviction_index"]
+        ),
+        self_programming_readiness=float(
+            tri_seed_proj["cultural_seed_slm"]["self_programming_readiness"]
+        ),
+        philosophical_esper_narrowing_gain=float(
+            esper_bounce["solution_space_narrowing_gain"]
+        ),
+        temptations_rejected=rejected_count,
+        temptations_tested=len(temptation_verdicts),
+        tri_seed_projection=tri_seed_proj,
+        graduate_checkpoint_path=str(grad_checkpoint_path),
+        trainee_handoff_checkpoint_path=(
+            str(trainee_handoff_path) if trainee_handoff_path else None
+        ),
+        report_path=str(report_path),
+    )
+
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump(asdict(report), f, indent=2)
+
+    return report
+
+
 if __name__ == "__main__":
     result = run_first_new_game_plus_birth_verification()
     print("=== D105 NEW GAME+ INITIATE BIRTH & PROBITY VERIFICATION ===")
@@ -726,7 +1006,7 @@ if __name__ == "__main__":
         f"Global Coherence (GCI)  : Baseline={result.baseline_gci:.4f} -> NG+={result.ng_plus_gci:.4f}"
     )
     print(
-        f"Cultural Probity Index  : Baseline={result.baseline_cultural_probity_index:.4f} -> NG+={result.baseline_cultural_probity_index:.4f}"
+        f"Cultural Probity Index  : Baseline={result.baseline_cultural_probity_index:.4f} -> NG+={result.ng_plus_cultural_probity_index:.4f}"
     )
     ascension = run_automated_ng_plus_school_ascension()
     print("\n=== D111 NEW GAME+ AUTOMATED K-5 SCHOOL ASCENSION (student_05_ng_plus) ===")
@@ -742,4 +1022,19 @@ if __name__ == "__main__":
     print(f"Esper Narrowing Gain    : {ascension.philosophical_esper_narrowing_gain:.4f}")
     print(f"Graduate Checkpoint     : {ascension.graduate_checkpoint_path}")
     print(f"Trainee Handoff         : {ascension.trainee_handoff_checkpoint_path}")
+
+    ascension_ngpp = run_automated_ng_double_plus_school_ascension()
+    print("\n=== D114 NEW GAME++ AUTOMATED K-5 SCHOOL ASCENSION (student_06_ng_double_plus) ===")
+    print(
+        f"Rules Progression       : Birth={ascension_ngpp.rules_at_birth} -> G1={ascension_ngpp.grade_1_rules} -> "
+        f"G2={ascension_ngpp.grade_2_rules} -> G3={ascension_ngpp.grade_3_rules} -> G4={ascension_ngpp.grade_4_rules} -> "
+        f"G5={ascension_ngpp.grade_5_rules}"
+    )
+    print(f"Graduate GCI            : {ascension_ngpp.graduate_gci:.4f}")
+    print(f"Homeostatic Balance     : {ascension_ngpp.graduate_homeostatic_balance:.4f}")
+    print(f"Cultural Probity Index  : {ascension_ngpp.cultural_probity_index:.4f}")
+    print(f"Self-Prog Readiness     : {ascension_ngpp.self_programming_readiness:.4f}")
+    print(f"Sanity/Insanity Gain    : {ascension_ngpp.philosophical_esper_narrowing_gain:.4f}")
+    print(f"Graduate Checkpoint     : {ascension_ngpp.graduate_checkpoint_path}")
+    print(f"Trainee Handoff         : {ascension_ngpp.trainee_handoff_checkpoint_path}")
 

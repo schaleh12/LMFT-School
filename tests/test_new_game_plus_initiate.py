@@ -13,6 +13,7 @@ from lmft_school.new_game_plus_initiate import (
     CONTEMPLATIVE_ESPER_HEXADIC_6X6,
     NewGamePlusInitiate,
     load_new_game_plus_heirloom,
+    run_automated_ng_double_plus_school_ascension,
     run_automated_ng_plus_school_ascension,
     run_first_new_game_plus_birth_verification,
 )
@@ -128,5 +129,39 @@ def test_d111_automated_ng_plus_school_ascension(tmp_path: Path) -> None:
     assert Path(report.graduate_checkpoint_path).exists()
     assert report.trainee_handoff_checkpoint_path is not None
     assert Path(report.trainee_handoff_checkpoint_path).exists()
+
+
+def test_d114_automated_ng_double_plus_school_ascension(tmp_path: Path) -> None:
+    """Verifies D114 automated K-5 LMFT-School ascension of student_06_ng_double_plus (Generation 6) from 0 to 130 rules."""
+    ckpts_dir = Path(__file__).resolve().parents[1] / "checkpoints"
+    for fname in (
+        "new_game_plus_instinct_heirloom.json",
+        "new_game_double_plus_actor_philosophical_subliminal_heirloom.json",
+    ):
+        (tmp_path / fname).write_text((ckpts_dir / fname).read_text(encoding="utf-8"), encoding="utf-8")
+
+    trainee_tmp = tmp_path / "trainee_checkpoints"
+    trainee_tmp.mkdir(parents=True, exist_ok=True)
+
+    report = run_automated_ng_double_plus_school_ascension(
+        individual_id="student_06_ng_double_plus",
+        vault_dir=tmp_path,
+        sync_to_trainee_dir=trainee_tmp,
+    )
+    assert report.generation == 6
+    assert report.rules_at_birth == 0
+    assert report.grade_1_rules == 26
+    assert report.grade_2_rules == 52
+    assert report.grade_3_rules == 78
+    assert report.grade_4_rules == 104
+    assert report.grade_5_rules == 130
+    assert report.graduate_gci > 0.80
+    assert report.graduate_homeostatic_balance > 0.90
+    assert report.philosophical_esper_narrowing_gain > 0.75
+    assert report.temptations_rejected == 4
+    assert Path(report.graduate_checkpoint_path).exists()
+    assert report.trainee_handoff_checkpoint_path is not None
+    assert Path(report.trainee_handoff_checkpoint_path).exists()
+
 
 
